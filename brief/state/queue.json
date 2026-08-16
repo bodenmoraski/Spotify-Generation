@@ -175,6 +175,166 @@
       "reviews_done": 0,
       "retired": false,
       "missed": false
+    },
+    {
+      "id": "f008ec463b2faec826d34997a4aeef757d222e0c",
+      "title": "Another rationale for sticky prices?",
+      "one_line": "Sticky prices via safety costs: novel micro rationale, but thin analysis.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "b14a43f8ae5b8eda2bb37c511287280507acec8f",
+      "title": "Former Iran president Khatami warns against prolonged war, urges diplomacy with US, Israel: ‘We cannot live with war’",
+      "one_line": "A former leader's plea for diplomacy, but no new argument or reframing.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "1d32426c19b2c00f64a56cf41e88268a0d96e4fb",
+      "title": "How the Arts and Crafts Movement Still Shapes Contemporary Architecture",
+      "one_line": "Reframes a familiar style as a philosophy of labor and meaning.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "12d92259d86e5e34c826bcc514eb2b306f90a967",
+      "title": "Headquarters \"MANZ Bel Étage\" / Podrecca Architects",
+      "one_line": "Renovation of Loos-designed publisher HQ offers architectural history, but niche appeal.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "86cd090eae1c3f76e35ec3aebd8629d23b8a74e2",
+      "title": "Ganho de poder de compra dos salários em Portugal baixa para o pior nível dos últimos três anos",
+      "one_line": "Economic data point, not a novel argument or reframing.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "38b256a74f7fb5f621b4f228887e53bad38c6bc6",
+      "title": "Kushner se reúne com Hamas em tentativa de impulsionar plano para Gaza",
+      "one_line": "Geopolitical event, but no new argument or reframing.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "98f7fcaf7c469a4a250e1ca647177c5b733afaab",
+      "title": "Trump envoys meet with Middle East mediators as Israel strikes Gaza",
+      "one_line": "Routine geopolitical update, no new argument or reframing.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "fb2d2acfdf844a2a34f2068d03d65c28b2d27926",
+      "title": "Sudan : The closing military gap between SAF and RSF and what comes next , by Yechale Degu",
+      "one_line": "Geopolitical analysis of Sudan conflict, but likely incremental update.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "169efff1719e4ea40c56f8f08247ac6aec5402b2",
+      "title": "Jun Matcha Club Cafe / Matter of Something",
+      "one_line": "Architecture as ritual: matcha's restraint translated into local craft, reframing café design.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "883790a0a97e32d836cf2a237acb5f669667dcdb",
+      "title": "Community Canteen No. 11, Aranya Qinhuangdao / Verse Design",
+      "one_line": "Reframes urban edge as community space; interesting but niche.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
     }
   ]
 }
