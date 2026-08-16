@@ -106,10 +106,12 @@ def _hint_title(title: str) -> str:
 def _why(item: Item) -> str:
     if item.why_this_matters:
         return item.why_this_matters
-    if item.one_line_reason:
+    if item.one_line_reason and "auto-shortlist" not in item.one_line_reason.lower() and not item.one_line_reason.startswith("Heuristic:"):
         return item.one_line_reason.rstrip(".") + "."
     if item.excerpt:
-        return item.excerpt.split(".")[0][:180].rstrip() + "."
+        first = item.excerpt.split(".")[0].strip()
+        if first:
+            return first[:180].rstrip() + "."
     return "It changes how a careful reader would frame the question."
 
 

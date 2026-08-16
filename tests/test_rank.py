@@ -6,12 +6,19 @@ from datetime import date
 
 from brief.config import load_allowlist
 from brief.models import Item, Spend, item_id_from_url
-from brief.rank import editorial_pass, heuristic_triage, select_shortlist
+from brief.rank import allowlist_match, editorial_pass, heuristic_triage, select_shortlist
 from brief.render import MARKDOWN_SCHEMA
 
 
 def _item(title: str, url: str, **kwargs) -> Item:
     return Item(id=item_id_from_url(url), title=title, url=url, **kwargs)
+
+
+def test_allowlist_does_not_match_ssi_inside_possible() -> None:
+    allow = load_allowlist()
+    assert allowlist_match([], "this is possible in classification and confession", allow) is False
+    assert allowlist_match([], "Researchers at Anthropic published an SAE paper", allow) is True
+    assert allowlist_match(["Nelson Elhage"], "unrelated abstract", allow) is True
 
 
 def test_heuristic_kills_funding_and_shortlists_allowlisted_author() -> None:

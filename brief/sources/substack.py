@@ -24,5 +24,7 @@ def parse(body: str | bytes, feed: dict[str, Any]) -> list[Item]:
             excerpt = strip_html(excerpt)[:1500]
         else:
             excerpt = strip_html(excerpt)[:8000]
+        excerpt = re.sub(r"^\s*Subscribe now\s*", "", excerpt, flags=re.I)
+        excerpt = re.sub(r"\s*Share this post\s*", " ", excerpt, flags=re.I)
         cleaned.append(item.model_copy(update={"title": title, "excerpt": excerpt}))
     return cleaned

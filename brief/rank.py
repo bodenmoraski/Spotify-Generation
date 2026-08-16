@@ -76,6 +76,14 @@ def _last_name(full: str) -> str:
     return parts[-1].lower() if parts else ""
 
 
+def _lab_mentioned(lab: str, blob: str) -> bool:
+    """Whole-token lab match. Short names like SSI/Mila must not hit 'possible'/'similar'."""
+    token = lab.lower().strip()
+    if not token:
+        return False
+    return re.search(rf"(?<!\w){re.escape(token)}(?!\w)", blob) is not None
+
+
 def allowlist_match(authors: list[str], excerpt: str, allowlist: dict[str, Any]) -> bool:
     researchers = [str(n).strip() for n in (allowlist.get("researchers") or []) if n]
     labs = [str(n).strip() for n in (allowlist.get("labs") or []) if n]
@@ -84,7 +92,9 @@ def allowlist_match(authors: list[str], excerpt: str, allowlist: dict[str, Any])
     for n in researchers:
         last = _last_name(n)
         last_counts[last] = last_counts.get(last, 0) + 1
-    distinctive = {last for last, n in last_counts.items() if n == 1 and last not in COMMON_LAST and len(last) > 3}
+    distinctive = {
+        last for last, n in last_counts.items() if n == 1 and last not in COMMON_LAST and len(last) > 3
+    }
     for author in authors:
         al = author.lower().strip()
         if al in lower_full:
@@ -93,10 +103,7 @@ def allowlist_match(authors: list[str], excerpt: str, allowlist: dict[str, Any])
         if last in distinctive:
             return True
     blob = excerpt.lower()
-    for lab in labs:
-        if lab.lower() in blob:
-            return True
-    return False
+    return any(_lab_mentioned(lab, blob) for lab in labs)
 
 
 def heuristic_score(item: Item, allowlist: dict[str, Any]) -> Item:
@@ -134,6 +141,15 @@ def heuristic_score(item: Item, allowlist: dict[str, Any]) -> Item:
             item.one_line_reason = "Heuristic: argument-shaped, not mere news."
         else:
             item.one_line_reason = "Heuristic: below the keep line."
+    if not item.why_this_matters:
+        first = (item.excerpt or "").split(".")[0].strip()
+        first = re.sub(r"^\s*Subscribe now\s*", "", first, flags=re.I).strip()
+        if first and first.lower() not in {"subscribe now", "i", "ii", "iii"}:
+            item.why_this_matters = first[:180].rstrip() + "."
+        elif item.auto_shortlist:
+            item.why_this_matters = "An allowlisted researcher or lab is on the byline — worth a look even before the editorial pass."
+        else:
+            item.why_this_matters = item.one_line_reason.rstrip(".") + "."
     return item
 
 
@@ -263,6 +279,25 @@ def select_shortlist(
     if paper:
         used_ids.add(paper.id)
 
+    def source_key(it: Item) -> str:
+        return (it.source or it.feed_id or it.id).lower()
+
+    source_counts: dict[str, int] = {}
+    for it in list(serendipity) + ([paper] if paper else []):
+        source_counts[source_key(it)] = source_counts.get(source_key(it), 0) + 1
+
+    def can_take(it: Item, *, relax: bool = False) -> bool:
+        if relax:
+            return True
+        cap = 4 if it.is_paper else 1
+        return source_counts.get(source_key(it), 0) < cap
+
+    def take(it: Item) -> None:
+        picks.append(it)
+        used_ids.add(it.id)
+        key = source_key(it)
+        source_counts[key] = source_counts.get(key, 0) + 1
+
     # Diversity pass: take the best remaining per category, then fill.
     by_cat: dict[str, list[Item]] = {}
     for item in ranked:
@@ -275,9 +310,9 @@ def select_shortlist(
     picks: list[Item] = []
     for cat in ("ai", "ai_safety", "econ", "world", "culture", "learning"):
         bucket = by_cat.get(cat) or []
-        if bucket:
-            picks.append(bucket[0])
-            used_ids.add(bucket[0].id)
+        chosen = next((it for it in bucket if can_take(it)), None)
+        if chosen:
+            take(chosen)
         if len(picks) >= n_max:
             break
 
@@ -288,8 +323,9 @@ def select_shortlist(
             continue
         if item.score < min_score and not item.auto_shortlist:
             continue
-        picks.append(item)
-        used_ids.add(item.id)
+        if not can_take(item):
+            continue
+        take(item)
 
     if len(picks) < n_min:
         for item in ranked:
@@ -297,8 +333,7 @@ def select_shortlist(
                 break
             if item.id in used_ids:
                 continue
-            picks.append(item)
-            used_ids.add(item.id)
+            take(item)
 
     return picks[:n_max], paper, serendipity
 
