@@ -14,5 +14,4 @@ build/
 out/
 *.mp3
 .DS_Store
-docs/b/
-!docs/b/.gitkeep
+# Published briefs live in docs/b/<PUBLISH_TOKEN>/ and are committed by the workflow.

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:arxiv="http://arxiv.org/schemas/atom">
+  <title>arXiv Query: cat:cs.AI</title>
+  <id>http://arxiv.org/api/abc</id>
+  <updated>2026-06-16T00:00:00Z</updated>
+  <entry>
+    <id>http://arxiv.org/abs/2606.01234v1</id>
+    <title>Interpretability Hits a Wall</title>
+    <published>2026-06-15T18:00:00Z</published>
+    <updated>2026-06-15T18:00:00Z</updated>
+    <summary>Sparse autoencoders plateau on frontier models, which reframes what safety cases can rely on.</summary>
+    <author><name>Nelson Elhage</name></author>
+    <author><name>Chris Olah</name></author>
+    <link href="http://arxiv.org/abs/2606.01234v1" rel="alternate" type="text/html"/>
+    <link href="http://arxiv.org/pdf/2606.01234v1" rel="related" type="application/pdf"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.05678v1</id>
+    <title>A Causal Account of Retrieval Practice</title>
+    <published>2026-06-14T12:00:00Z</published>
+    <summary>We estimate the effect of retrieval practice on long-horizon retention.</summary>
+    <author><name>Jeffrey Karpicke</name></author>
+    <link href="https://arxiv.org/abs/2606.05678" rel="alternate" type="text/html"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
