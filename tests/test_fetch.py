@@ -125,3 +125,39 @@ def test_arxiv_query_url_contains_cats() -> None:
     assert "export.arxiv.org/api/query" in url
     assert "cat:cs.AI" in decoded
     assert "max_results=10" in decoded
+
+
+def test_lookback_drops_old_news_keeps_recent_papers() -> None:
+    from datetime import datetime, timedelta, timezone
+
+    from brief.fetch import apply_lookback
+    from brief.models import Item, item_id_from_url
+
+    now = datetime(2026, 8, 16, 18, 0, tzinfo=timezone.utc)
+    settings = {
+        "news_lookback_hours": 12,
+        "news_lookback_max_hours": 24,
+        "lookback_hours": 24,
+        "paper_lookback_hours": 72,
+        "culture_lookback_hours": 48,
+    }
+
+    def it(title: str, hours_ago: float | None, **kwargs) -> Item:
+        pub = None if hours_ago is None else now - timedelta(hours=hours_ago)
+        url = f"https://example.com/{title.replace(' ', '-')}"
+        return Item(id=item_id_from_url(url), title=title, url=url, published=pub, **kwargs)
+
+    news_fresh = it("Sahel pact", 6, category="world", feed_id="gdelt_geopolitics")
+    news_stale = it("Old wire", 30, category="world", feed_id="gnews_world_in")
+    news_undated = it("No date", None, category="world", feed_id="gdelt_non_us")
+    paper_ok = it("New SAE paper", 40, category="ai", is_paper=True)
+    paper_old = it("Last week's paper", 100, category="ai", is_paper=True)
+    kept = apply_lookback(
+        [news_fresh, news_stale, news_undated, paper_ok, paper_old], settings, now=now
+    )
+    titles = {i.title for i in kept}
+    assert "Sahel pact" in titles
+    assert "New SAE paper" in titles
+    assert "Old wire" not in titles
+    assert "No date" not in titles
+    assert "Last week's paper" not in titles

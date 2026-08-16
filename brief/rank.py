@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import os
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
 from typing import Any
 
@@ -304,7 +305,7 @@ def generate_llm(
     return _gemini_generate(model_name, system, user, json_mode=json_mode)
 
 
-def _triage_one(item: Item, provider: str, model_name: str, spend: Spend, prices: dict[str, Any]) -> Item:
+def _triage_one(item: Item, provider: str, model_name: str) -> tuple[Item, int, int]:
     authors = ", ".join(item.authors) if item.authors else "unknown"
     user = (
         f"title: {item.title}\n"
@@ -317,7 +318,6 @@ def _triage_one(item: Item, provider: str, model_name: str, spend: Spend, prices
     text, inp, out = generate_llm(
         provider, model_name, TRIAGE_SYSTEM_PROMPT, user, json_mode=True, thinking=False
     )
-    spend.add(model_name, inp, out, prices)
     data = _parse_json_object(text)
     score = float(data.get("score") or 0)
     item.score = max(0.0, min(1.0, score))
@@ -326,7 +326,7 @@ def _triage_one(item: Item, provider: str, model_name: str, spend: Spend, prices
         item.category = cat
         item.is_serendipity = cat == "serendipity" or item.is_serendipity
     item.one_line_reason = str(data.get("one_line_reason") or item.one_line_reason)[:160]
-    return item
+    return item, inp, out
 
 
 def llm_triage(
@@ -345,13 +345,28 @@ def llm_triage(
     provider, model = runtime
     log(event="triage_backend", provider=provider, model=model)
     prices = settings.get("model_prices") or {}
-    scored: list[Item] = []
-    for item in items:
+    workers = max(1, int(settings.get("triage_concurrency") or 6))
+
+    def score_one(item: Item) -> tuple[Item, int, int]:
         try:
-            scored.append(_triage_one(item, provider, model, spend, prices))
+            return _triage_one(item, provider, model)
         except Exception as exc:
             log(event="triage_item_fallback", feed_id=item.feed_id, error=str(exc))
-            scored.append(heuristic_score(item, allowlist))
+            return heuristic_score(item, allowlist), 0, 0
+
+    scored: list[Item] = []
+    if workers == 1 or len(items) < 2:
+        results = [score_one(item) for item in items]
+    else:
+        results = [(items[0], 0, 0)] * len(items)
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            futures = {pool.submit(score_one, item): idx for idx, item in enumerate(items)}
+            for fut in as_completed(futures):
+                results[futures[fut]] = fut.result()
+    for item, inp, out in results:
+        if inp or out:
+            spend.add(model, inp, out, prices)
+        scored.append(item)
     return scored
 
 

@@ -39,7 +39,13 @@ shortlist_min_score: 0.35
 user_agent: "daily-audio-brief/0.1 (personal research aggregator)"
 http_timeout_seconds: 30
 max_items_per_feed: 40
-lookback_hours: 48
+# Recency: news is tight; papers/essays may be a bit older.
+news_lookback_hours: 12
+news_lookback_max_hours: 24
+lookback_hours: 24
+paper_lookback_hours: 72
+culture_lookback_hours: 48
+triage_concurrency: 6
 
 # TTS (optional)
 tts_model: tts-1

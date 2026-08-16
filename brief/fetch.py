@@ -5,6 +5,7 @@ from __future__ import annotations
 import asyncio
 import json
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -26,6 +27,73 @@ from brief.sources import substack as substack_src
 ARXIV_MIN_INTERVAL = 3.0
 S2_MIN_INTERVAL = 1.0
 DEFAULT_MIN_INTERVAL = 0.4
+
+NEWS_CATEGORIES = {"world"}
+CULTURE_CATEGORIES = {"culture", "serendipity", "learning"}
+
+
+def _as_utc(dt: datetime) -> datetime:
+    if dt.tzinfo is None:
+        return dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(timezone.utc)
+
+
+def is_news_item(item: Item) -> bool:
+    if item.category in NEWS_CATEGORIES:
+        return True
+    fid = (item.feed_id or "").lower()
+    return fid.startswith("gdelt") or fid.startswith("gnews") or "google_news" in fid
+
+
+def lookback_hours_for(item: Item, settings: dict[str, Any]) -> int:
+    if item.is_paper:
+        return int(settings.get("paper_lookback_hours") or 72)
+    if is_news_item(item):
+        hours = int(settings.get("news_lookback_hours") or 12)
+        cap = int(settings.get("news_lookback_max_hours") or 24)
+        return min(hours, cap)
+    if item.category in CULTURE_CATEGORIES or item.is_serendipity:
+        return int(settings.get("culture_lookback_hours") or 48)
+    return int(settings.get("lookback_hours") or 24)
+
+
+def apply_lookback(
+    items: list[Item],
+    settings: dict[str, Any],
+    *,
+    now: datetime | None = None,
+) -> list[Item]:
+    """Drop stale items. News: ~12h (hard cap 24h). Papers: a few days. Dateless news is dropped."""
+    now = _as_utc(now or datetime.now(timezone.utc))
+    kept: list[Item] = []
+    dropped = 0
+    dropped_news = 0
+    for item in items:
+        hours = lookback_hours_for(item, settings)
+        if item.published is None:
+            if is_news_item(item):
+                dropped += 1
+                dropped_news += 1
+                continue
+            kept.append(item)
+            continue
+        age_h = (now - _as_utc(item.published)).total_seconds() / 3600.0
+        if age_h <= hours:
+            kept.append(item)
+        else:
+            dropped += 1
+            if is_news_item(item):
+                dropped_news += 1
+    log(
+        event="lookback",
+        n_in=len(items),
+        n_kept=len(kept),
+        n_dropped=dropped,
+        n_dropped_news=dropped_news,
+        news_hours=settings.get("news_lookback_hours"),
+        paper_hours=settings.get("paper_lookback_hours"),
+    )
+    return kept
 
 
 class RateLimitError(Exception):
@@ -302,6 +370,7 @@ async def fetch_all(
             await client.aclose()
 
     failed = sum(1 for h in health if not h.ok)
+    items = apply_lookback(items, settings)
     log(
         event="fetch_complete",
         n_feeds=len(feeds),

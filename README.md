@@ -26,6 +26,30 @@ The research report, build spec, and Studio-side prompt live in [`brief_n_build.
 10. Grant Studio folder access to the synced path (`BRIEF_SYNC_PATH`, e.g. `~/BriefSync`) **or** point it at the Pages URL.
 11. Paste the Part 3 Studio instruction below as a scheduled task.
 
+## Unattended hosting (while you are away)
+
+GitHub Actions **is** the cloud cron. There is no separate server to rent. Studio by Spotify Labs has **no API**, so voicing is a separate Mac-side step.
+
+**What already runs in the cloud**
+
+1. Make the repo **public** (required for free GitHub Pages and free Actions minutes). The brief URL stays unguessable via `PUBLISH_TOKEN`.
+2. Add the same keys from `.env` as **GitHub Actions secrets** (`DEEPSEEK_API_KEY`, `GEMINI_API_KEY`, `PUBLISH_TOKEN`, `NTFY_TOPIC`, `HEALTHCHECK_URL`; optional `OPENAI_API_KEY`, `S2_API_KEY`).
+3. Enable **Pages**: Settings → Pages → Deploy from a branch → `main` / `/docs`.
+4. Subscribe to ntfy (`https://ntfy.sh/<NTFY_TOPIC>`) and set healthchecks.io to expect a daily ping.
+5. Actions → `daily-brief` → **Run workflow** once to confirm. After that, cron is `20 11 * * *` (≈07:20 America/New_York in EDT, best-effort).
+
+Each successful run commits `docs/b/<PUBLISH_TOKEN>/brief-latest.md` + `feed.xml` (and `brief-latest.mp3` if `OPENAI_API_KEY` is set). `--dry-run` is local-only and does not publish.
+
+**Studio vs listen-from-anywhere**
+
+| Path | Needs a Mac on? | What you get |
+|---|---|---|
+| Studio scheduled task (local file or Pages URL) | **Yes** — Studio only runs on that machine | Spotify-library spoken episode |
+| Podcast RSS + optional MP3 | No | Any podcast app, if `OPENAI_API_KEY` is set so Actions writes an enclosure |
+| Open the Pages markdown URL | No | Read the brief; no audio |
+
+Leave a Mac awake with the Studio prompt if you want Studio episodes while traveling. If the Mac is off, Actions still publishes markdown/RSS; subscribe to `…/b/<PUBLISH_TOKEN>/feed.xml` or read `brief-latest.md`. Cursor Cloud Agents are for repo edits, not the daily cron.
+
 ## What you still must supply
 
 These are **not** in the repo. The pipeline is silent-safe without them (heuristic ranker + stub/previous brief), but a real daily brief needs:
