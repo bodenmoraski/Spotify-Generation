@@ -1,3 +1,92 @@
 {
-  "items": []
+  "items": [
+    {
+      "id": "f36e56cd57aae183101b81ae5cc1fc95f9785c46",
+      "title": "Three thoughts on civilisational handoff",
+      "title_norm": "three thoughts on civilisational handoff",
+      "url": "https://www.lesswrong.com/posts/mGLCMzHhjcWsMm6sR/three-thoughts-on-civilisational-handoff",
+      "covered_date": "2026-08-16",
+      "one_line": "Reframes AI handoff as potentially decelerating, overturning speed assumption."
+    },
+    {
+      "id": "d8fd67770517bce975295b99257e08bcd2b6453b",
+      "title": "Things you cannot buy in America?",
+      "title_norm": "things you cannot buy in america",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/things-you-cannot-buy-in-america.html?utm_source=rss&utm_medium=rss&utm_campaign=things-you-cannot-buy-in-america",
+      "covered_date": "2026-08-16",
+      "one_line": "Reframes market gaps via construction path dependence; mildly interesting but not transformative."
+    },
+    {
+      "id": "f9cef823c06e601ca28acd6bc8e186a0b8f4f021",
+      "title": "Why the Dragon must dance with the Elephant: The limits of China\u2019s wolf-warrior diplomacy",
+      "title_norm": "why the dragon must dance with the elephant the limits of china s wolf warrior diplomacy",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQX09yVy1qeEF4dkpsTjhsUTZHbG1LQkZXaTNTV1o0ZktwcFhGSFphZ1FaQkwwaDctRkRWX25ScFRyeS1MTS10aUZTdjQ3bzZZRHhPMThjR3V6Um1SdDRiYU10RTRwcEllWVR1Z2N1cVZNNDk3Y3YwdW5mQ3dJQlFVR2RCejhzNjd4cllWbTV0am5QRWlqd3owYnZJMzhDNFpQMjEyQ3dKczlTSkZIazViWXJ6bDhsVHZMaXlXMUlPVmNvaVVpLVRaS3FWc19kNzR2Y2tsZFdycVNOUdIB3wFBVV95cUxNRE9KQmxlLTBHTUNrMTFiOERUNVBkeVVnWUUzam1CbzhEMlNGRlBkZkQwanluUjRDcjN3bUdpc2pUal9PSW1yZUtSTGhmck9qcnJoWVJXVjR6bTNSdzQzbkp5S2dmOUhfRXJSQkdOaHhXUW1uNUh2Z3RJUDkwYTNkT1ZsUkduUm5qMWVSS21XdzVDVVNUQWxDYzRHdFJyYUNzOFdXdlhPblQ2VGp3TUU0ZmF1RmRzYzR1TUx6MXZmeTgxNEk4WFQ0S1lSS2lZaktnVXVvWGU2ZlppSlVPVFpj?oc=5",
+      "covered_date": "2026-08-16",
+      "one_line": "Reframes China-India relations beyond hawkish narratives, but lacks novel depth."
+    },
+    {
+      "id": "cd4c1050cd6a2e6eb401013a2726d7d842e2dcff",
+      "title": "Kimi likes causal decision theory more after RL in twin prisoner\u2019s dilemmas",
+      "title_norm": "kimi likes causal decision theory more after rl in twin prisoner s dilemmas",
+      "url": "https://www.lesswrong.com/posts/hfNBEKaStASAYMLiu/kimi-likes-causal-decision-theory-more-after-rl-in-twin-1",
+      "covered_date": "2026-08-16",
+      "one_line": "Empirical RL effect on decision theory in LLMs, novel and consequential."
+    },
+    {
+      "id": "8a59986247915f89be8087cc3a0e318b66af458e",
+      "title": "Q2.5 2026 Timelines Update: Uplift and Revenue",
+      "title_norm": "q2 5 2026 timelines update uplift and revenue",
+      "url": "https://www.lesswrong.com/posts/ZPSsmRH5oMwLPXys4/q2-5-2026-timelines-update-uplift-and-revenue",
+      "covered_date": "2026-08-16",
+      "one_line": "Refines timelines with new modeling methods, but incremental for generalist."
+    },
+    {
+      "id": "b70f6999bda51bbae0decef22e59c39a99b13f58",
+      "title": "Female Treefrogs Get Overwhelmed by Too Many Noisy Male Suitors",
+      "title_norm": "female treefrogs get overwhelmed by too many noisy male suitors",
+      "url": "https://nautil.us/female-treefrogs-get-overwhelmed-by-too-many-noisy-male-suitors-1283821/",
+      "covered_date": "2026-08-16",
+      "one_line": "Curious animal behavior study, but limited broader insight."
+    },
+    {
+      "id": "60d34457c56c1a85bf93ef2d03ee3fecdded15ee",
+      "title": "Refuge House / Elisa Porto Arquitetura",
+      "title_norm": "refuge house elisa porto arquitetura",
+      "url": "https://www.archdaily.com/1183394/refuge-house-elisa-porto-arquitetura",
+      "covered_date": "2026-08-16",
+      "one_line": "Architecture balancing nature and climate offers fresh perspective on design."
+    },
+    {
+      "id": "37a261e26071ff10fa1b256ffa5a71d4f5ecd76f",
+      "title": "Pavillon Monk / L. McComber",
+      "title_norm": "pavillon monk l mccomber",
+      "url": "https://www.archdaily.com/1183256/pavillon-monk-l-mccomber",
+      "covered_date": "2026-08-16",
+      "one_line": "Reframes housing crisis response with dignified design, not just policy."
+    },
+    {
+      "id": "d2feb01fdf1465437b4b84bcec0aec1e70f7d4cd",
+      "title": "Does DiffusionGemma do latent reasoning?",
+      "title_norm": "does diffusiongemma do latent reasoning",
+      "url": "https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning",
+      "covered_date": "2026-08-16",
+      "one_line": "Challenges assumption that diffusion LLMs are opaque; shows interpretability largely retained."
+    },
+    {
+      "id": "932dae92dd13965a6f7b455d2ef5092094f6f326",
+      "title": "Is This the World\u2019s Oldest Image of a Mind\u2011altering Plant?",
+      "title_norm": "is this the world s oldest image of a mind altering plant",
+      "url": "https://nautil.us/is-this-the-worlds-oldest-image-of-a-mind%e2%80%91altering-plant-1283811/",
+      "covered_date": "2026-08-16",
+      "one_line": "Rewrites timeline of human-plant mind alteration; vivid archaeological claim."
+    },
+    {
+      "id": "4682a5e8d99590dde07125d55dcdb67895940145",
+      "title": "Beyond the Handmade Aesthetic: Why Craft Needs New Construction Economies",
+      "title_norm": "beyond the handmade aesthetic why craft needs new construction economies",
+      "url": "https://www.archdaily.com/1182452/beyond-the-handmade-aesthetic-why-craft-needs-new-construction-economies",
+      "covered_date": "2026-08-16",
+      "one_line": "Reframes craft's revival as economic privilege, not just aesthetic trend."
+    }
+  ]
 }

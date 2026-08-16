@@ -1,3 +1,180 @@
 {
-  "items": []
+  "items": [
+    {
+      "id": "f36e56cd57aae183101b81ae5cc1fc95f9785c46",
+      "title": "Three thoughts on civilisational handoff",
+      "one_line": "Reframes AI handoff as potentially decelerating, overturning speed assumption.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "d8fd67770517bce975295b99257e08bcd2b6453b",
+      "title": "Things you cannot buy in America?",
+      "one_line": "Reframes market gaps via construction path dependence; mildly interesting but not transformative.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "f9cef823c06e601ca28acd6bc8e186a0b8f4f021",
+      "title": "Why the Dragon must dance with the Elephant: The limits of China’s wolf-warrior diplomacy",
+      "one_line": "Reframes China-India relations beyond hawkish narratives, but lacks novel depth.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "cd4c1050cd6a2e6eb401013a2726d7d842e2dcff",
+      "title": "Kimi likes causal decision theory more after RL in twin prisoner’s dilemmas",
+      "one_line": "Empirical RL effect on decision theory in LLMs, novel and consequential.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "8a59986247915f89be8087cc3a0e318b66af458e",
+      "title": "Q2.5 2026 Timelines Update: Uplift and Revenue",
+      "one_line": "Refines timelines with new modeling methods, but incremental for generalist.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "b70f6999bda51bbae0decef22e59c39a99b13f58",
+      "title": "Female Treefrogs Get Overwhelmed by Too Many Noisy Male Suitors",
+      "one_line": "Curious animal behavior study, but limited broader insight.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "60d34457c56c1a85bf93ef2d03ee3fecdded15ee",
+      "title": "Refuge House / Elisa Porto Arquitetura",
+      "one_line": "Architecture balancing nature and climate offers fresh perspective on design.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "37a261e26071ff10fa1b256ffa5a71d4f5ecd76f",
+      "title": "Pavillon Monk / L. McComber",
+      "one_line": "Reframes housing crisis response with dignified design, not just policy.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "d2feb01fdf1465437b4b84bcec0aec1e70f7d4cd",
+      "title": "Does DiffusionGemma do latent reasoning?",
+      "one_line": "Challenges assumption that diffusion LLMs are opaque; shows interpretability largely retained.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "932dae92dd13965a6f7b455d2ef5092094f6f326",
+      "title": "Is This the World’s Oldest Image of a Mind‑altering Plant?",
+      "one_line": "Rewrites timeline of human-plant mind alteration; vivid archaeological claim.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "4682a5e8d99590dde07125d55dcdb67895940145",
+      "title": "Beyond the Handmade Aesthetic: Why Craft Needs New Construction Economies",
+      "one_line": "Reframes craft's revival as economic privilege, not just aesthetic trend.",
+      "ingested_date": "2026-08-16",
+      "review_dates": [
+        "2026-08-17",
+        "2026-08-19",
+        "2026-08-23",
+        "2026-09-01",
+        "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    }
+  ]
 }
