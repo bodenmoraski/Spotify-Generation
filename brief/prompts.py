@@ -52,5 +52,10 @@ needing a visual.
 
 CLOSER. End with "Read these three today:" and name the three highest-value items with a
 half-sentence each on why. Keep the whole thing to a 15-20 minute read (~2,200-3,000 words).
+
+TITLE. On the line immediately after the H1, include exactly one HTML comment the player
+can use as the episode name:
+<!-- episode_title: <5-9 word magazine-style title> -->
+No date, no "Daily Brief". Example: <!-- episode_title: When the fare is too dangerous to speak -->
 Output only the markdown.
 """

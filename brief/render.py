@@ -90,6 +90,31 @@ def brief_title(day: date) -> str:
     return f"Daily Brief — {day.day} {day.strftime('%B %Y')}"
 
 
+_EPISODE_TITLE_RE = re.compile(r"<!--\s*episode_title:\s*(.+?)\s*-->", re.I)
+_ITEM_HEADING_RE = re.compile(r"^### (?:\d+\.\s*)?(.+)$", re.M)
+
+
+def extract_episode_title(markdown: str, day: date) -> str:
+    """Magazine-style Spotify/RSS title. Falls back to the first item heading, then the dated title."""
+    commented = _EPISODE_TITLE_RE.search(markdown or "")
+    if commented:
+        title = re.sub(r"\s+", " ", commented.group(1)).strip().strip("\"'")
+        if 6 <= len(title) <= 80 and "daily brief" not in title.lower():
+            return title
+    skip = {"paper of the day", "quick reviews", "one stretch pick", "stretch picks"}
+    heads = [
+        re.sub(r"\s+", " ", h).strip()
+        for h in _ITEM_HEADING_RE.findall(markdown or "")
+        if re.sub(r"\s+", " ", h).strip().lower() not in skip
+    ]
+    if heads:
+        first = heads[0]
+        if len(first) > 72:
+            first = first[:69].rsplit(" ", 1)[0] + "…"
+        return first
+    return brief_title(day)
+
+
 def weekday_name(day: date) -> str:
     return day.strftime("%A")
 

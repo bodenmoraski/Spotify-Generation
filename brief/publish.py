@@ -11,7 +11,7 @@ from typing import Any
 from brief.config import DOCS_DIR, OUT_DIR, ROOT
 from brief.logutil import log
 from brief.notify import heartbeat
-from brief.render import STUB_BRIEF, brief_title, maybe_tts, render_rss
+from brief.render import STUB_BRIEF, extract_episode_title, maybe_tts, render_rss
 from brief.spotify import maybe_save_to_spotify
 
 
@@ -109,7 +109,7 @@ def publish(
     success_heartbeat: bool = True,
 ) -> dict[str, Any]:
     body = markdown.strip() or STUB_BRIEF
-    title = brief_title(day)
+    title = extract_episode_title(body, day)
     page = public_url()
     mp3_path: Path | None = None
     if want_tts and not dry_run:

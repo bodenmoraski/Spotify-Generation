@@ -5,7 +5,7 @@ from __future__ import annotations
 from datetime import date
 
 from brief.models import Item, item_id_from_url
-from brief.render import MARKDOWN_SCHEMA, STUB_BRIEF, render_markdown, render_rss
+from brief.render import MARKDOWN_SCHEMA, STUB_BRIEF, extract_episode_title, render_markdown, render_rss
 from brief.srs import QueueItem
 
 DAY = date(2026, 6, 16)
@@ -58,6 +58,21 @@ def test_template_render_never_empty() -> None:
     rss = render_rss(title="Daily Brief — 16 June 2026", markdown=md, day=DAY, page_url="https://example.com/b/x/brief-latest.md")
     assert "<rss" in rss
     assert "Daily Brief" in rss
+
+
+def test_extract_episode_title_prefers_comment_then_heading() -> None:
+    dated = extract_episode_title("# Daily Brief — Sunday, 16 August 2026\n", DAY)
+    assert dated.startswith("Daily Brief")
+    cool = extract_episode_title(
+        "# Daily Brief — Sunday, 16 August 2026\n\n<!-- episode_title: When the fare is too dangerous to speak -->\n",
+        DAY,
+    )
+    assert cool == "When the fare is too dangerous to speak"
+    from_heading = extract_episode_title(
+        "# Daily Brief\n\n### 1. A former Iranian president publicly breaks with war logic\n",
+        DAY,
+    )
+    assert from_heading.startswith("A former Iranian president")
 
 
 def test_empty_inputs_still_produce_a_brief() -> None:

@@ -34,7 +34,7 @@ feeds:
 
   - id: works_in_progress
     type: rss
-    url: https://worksinprogress.co/feed
+    url: https://worksinprogress.co/rss.xml
     category: serendipity
     domain: history_of_science
     weight: 1.2

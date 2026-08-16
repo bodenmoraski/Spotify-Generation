@@ -36,7 +36,7 @@ triage_harsh_floor: 0.4
 shortlist_min_score: 0.35
 
 # Fetch
-user_agent: "daily-audio-brief/0.1 (personal research aggregator)"
+user_agent: "Mozilla/5.0 (compatible; daily-audio-brief/0.1; +https://github.com/bodenmoraski/Spotify-Generation)"
 http_timeout_seconds: 30
 max_items_per_feed: 40
 # Recency: news is tight; papers/essays may be a bit older.

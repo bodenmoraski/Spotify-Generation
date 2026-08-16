@@ -134,6 +134,10 @@ def limiter_for(feed: dict[str, Any], limiters: dict[str, AsyncInterval]) -> Asy
         key, interval = "arxiv", ARXIV_MIN_INTERVAL
     elif kind == "s2":
         key, interval = "s2", S2_MIN_INTERVAL
+    elif kind == "gdelt":
+        key, interval = "gdelt", 2.0
+    elif kind == "graphql":
+        key, interval = "graphql", 1.5
     else:
         key, interval = "default", DEFAULT_MIN_INTERVAL
     if key not in limiters:
@@ -371,6 +375,7 @@ async def fetch_all(
 
     failed = sum(1 for h in health if not h.ok)
     items = apply_lookback(items, settings)
+    failed_health = [h for h in health if not h.ok]
     log(
         event="fetch_complete",
         n_feeds=len(feeds),
@@ -378,5 +383,7 @@ async def fetch_all(
         n_failed=failed,
         n_items=len(items),
         fail_share=round(failed / max(len(health), 1), 3),
+        failed=[h.feed_id for h in failed_health],
+        errors={h.feed_id: (h.error or f"HTTP {h.status}")[:160] for h in failed_health},
     )
     return items, health
