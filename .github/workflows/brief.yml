@@ -15,6 +15,17 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -e ".[tts]"
+      - name: Install save-to-spotify
+        run: |
+          curl -fsSL https://saveto.spotify.com/install.sh | bash -s -- --no-skills
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+      - name: Restore Save to Spotify credentials
+        if: ${{ secrets.STS_TOKEN_B64 != '' && secrets.STS_DPOP_KEY_B64 != '' }}
+        run: |
+          mkdir -p ~/.config/save-to-spotify
+          printf '%s' "${{ secrets.STS_TOKEN_B64 }}" | base64 -d > ~/.config/save-to-spotify/token.json
+          printf '%s' "${{ secrets.STS_DPOP_KEY_B64 }}" | base64 -d > ~/.config/save-to-spotify/dpop_key.json
+          chmod 600 ~/.config/save-to-spotify/token.json ~/.config/save-to-spotify/dpop_key.json
       - name: Build & publish brief
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
@@ -26,6 +37,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           BRIEF_TIMEZONE: America/New_York
           GITHUB_PAGES_HOST: https://bodenmoraski.github.io/Spotify-Generation
+          SAVE_TO_SPOTIFY_SHOW_ID: ${{ secrets.SAVE_TO_SPOTIFY_SHOW_ID }}
         run: python -m brief.run --tts
       - name: Commit state
         run: |

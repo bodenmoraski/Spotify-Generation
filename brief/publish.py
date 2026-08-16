@@ -12,6 +12,7 @@ from brief.config import DOCS_DIR, OUT_DIR, ROOT
 from brief.logutil import log
 from brief.notify import heartbeat
 from brief.render import STUB_BRIEF, brief_title, maybe_tts, render_rss
+from brief.spotify import maybe_save_to_spotify
 
 
 def publish_token() -> str:
@@ -136,10 +137,20 @@ def publish(
     if sync:
         sdir = Path(sync).expanduser()
         write_outputs(markdown=body, rss=rss, day=day, dest_dir=sdir, mp3=mp3_path)
+    spotify = None
+    if mp3_path:
+        spotify = maybe_save_to_spotify(
+            mp3_path, episode_title=title, settings=settings, dry_run=False
+        )
     if success_heartbeat:
         heartbeat(dry_run=False)
     log(event="publish_ok", path=str(written["latest"]), url=page)
-    return {"written": {k: str(v) for k, v in written.items()}, "url": page, "dry_run": False}
+    return {
+        "written": {k: str(v) for k, v in written.items()},
+        "url": page,
+        "dry_run": False,
+        "spotify": spotify,
+    }
 
 
 def ensure_docs_root() -> None:

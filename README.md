@@ -33,7 +33,7 @@ GitHub Actions **is** the cloud cron. There is no separate server to rent. Studi
 **What already runs in the cloud**
 
 1. Make the repo **public** (required for free GitHub Pages and free Actions minutes). The brief URL stays unguessable via `PUBLISH_TOKEN`.
-2. Add the same keys from `.env` as **GitHub Actions secrets** (`DEEPSEEK_API_KEY`, `GEMINI_API_KEY`, `PUBLISH_TOKEN`, `NTFY_TOPIC`, `HEALTHCHECK_URL`; optional `OPENAI_API_KEY`, `S2_API_KEY`).
+2. Add the same keys from `.env` as **GitHub Actions secrets** (`DEEPSEEK_API_KEY`, `GEMINI_API_KEY`, `PUBLISH_TOKEN`, `NTFY_TOPIC`, `HEALTHCHECK_URL`; optional `OPENAI_API_KEY`, `S2_API_KEY`). For Tesla/Spotify playback, also add `STS_TOKEN_B64` + `STS_DPOP_KEY_B64` (see below).
 3. Enable **Pages**: Settings → Pages → Deploy from a branch → `main` / `/docs`.
 4. Subscribe to ntfy (`https://ntfy.sh/<NTFY_TOPIC>`) and set healthchecks.io to expect a daily ping.
 5. Actions → `daily-brief` → **Run workflow** once to confirm. After that, cron is `20 11 * * *` (≈07:20 America/New_York in EDT, best-effort).
@@ -44,11 +44,26 @@ Each successful run commits `docs/b/<PUBLISH_TOKEN>/brief-latest.md` + `feed.xml
 
 | Path | Needs a Mac on? | What you get |
 |---|---|---|
-| Studio scheduled task (local file or Pages URL) | **Yes** — Studio only runs on that machine | Spotify-library spoken episode |
-| Podcast RSS + optional MP3 | No | Any podcast app, if `OPENAI_API_KEY` is set so Actions writes an enclosure |
+| **Save to Spotify CLI + OpenAI TTS** | **No** | Private show **Daily Brief** in Your Library → Tesla / phone |
+| Studio scheduled task (local file or Pages URL) | **Yes** — Studio only runs on that machine | Spotify-library spoken episode (Studio voice) |
+| Podcast RSS + MP3 | No | Any podcast app via `feed.xml` |
 | Open the Pages markdown URL | No | Read the brief; no audio |
 
-Leave a Mac awake with the Studio prompt if you want Studio episodes while traveling. If the Mac is off, Actions still publishes markdown/RSS; subscribe to `…/b/<PUBLISH_TOKEN>/feed.xml` or read `brief-latest.md`. Cursor Cloud Agents are for repo edits, not the daily cron.
+**Tesla / phone (no Mac):** Actions already runs `--tts`. After a one-time `save-to-spotify auth login`, each morning's MP3 is uploaded as today's episode of a private show named **Daily Brief**. In Spotify: **Your Library → Podcasts → Daily Brief**. Play that in the Tesla the same way as any other podcast.
+
+One-time Spotify auth (not a developer API key):
+
+```bash
+curl -fsSL https://saveto.spotify.com/install.sh | bash -s -- --no-skills
+save-to-spotify auth login
+# macOS:
+base64 < ~/.config/save-to-spotify/token.json | tr -d '\n'; echo
+base64 < ~/.config/save-to-spotify/dpop_key.json | tr -d '\n'; echo
+```
+
+Paste those two strings into GitHub Actions secrets `STS_TOKEN_B64` and `STS_DPOP_KEY_B64`. Do not commit the JSON files.
+
+Leave a Mac awake with the Studio prompt only if you want Studio's voice instead of OpenAI TTS. Cursor Cloud Agents are for repo edits, not the daily cron.
 
 ## What you still must supply
 
@@ -63,6 +78,7 @@ These are **not** in the repo. The pipeline is silent-safe without them (heurist
 | `HEALTHCHECK_URL` | Yes for cron watch | Dead-man's-switch; pinged only on a **fresh** brief |
 | `S2_API_KEY` | Optional | Semantic Scholar ~1 req/s instead of the shared pool |
 | `OPENAI_API_KEY` | Optional | Private-podcast MP3 via `tts-1` (~$0.02–0.03/brief) |
+| `STS_TOKEN_B64` + `STS_DPOP_KEY_B64` | Optional, needed for Tesla | Save-to-Spotify login files (not a Spotify API key) |
 | `BRIEF_SYNC_PATH` | Optional | Local/synced folder Studio reads (`brief-latest.md`) |
 | `GITHUB_PAGES_HOST` | Optional | e.g. `https://<user>.github.io/<repo>` so logs print the public URL |
 | `TELEGRAM_BOT_TOKEN` + `TELEGRAM_CHAT_ID` / `WEBHOOK_URL` | Optional | Extra alert channels |
