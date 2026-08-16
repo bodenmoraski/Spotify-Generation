@@ -41,7 +41,7 @@ def test_spotify_reuses_existing_show(tmp_path: Path, monkeypatch) -> None:
     def fake_cli(*args, **kwargs):
         calls.append(args)
         if args[:1] == ("shows",) and "create" not in args:
-            return {"shows": [{"id": "show-1", "title": "Daily Brief"}]}
+            return {"shows": [{"show_uri": "spotify:show:show-1", "title": "Daily Brief"}]}
         if args[:1] == ("upload",):
             return {"episode_id": "ep-9", "episode_uri": "spotify:episode:ep-9"}
         if args[:1] == ("episodes",):
@@ -53,9 +53,9 @@ def test_spotify_reuses_existing_show(tmp_path: Path, monkeypatch) -> None:
         mp3, episode_title="Daily Brief — 16 August 2026", settings={"spotify_show_title": "Daily Brief"}
     )
     assert result is not None
-    assert result["show_id"] == "show-1"
+    assert result["show_id"] == "spotify:show:show-1"
     assert result["episode_id"] == "ep-9"
-    assert any(c[:1] == ("upload",) and "--show-id" in c and "show-1" in c for c in calls)
+    assert any(c[:1] == ("upload",) and "--show-id" in c and "spotify:show:show-1" in c for c in calls)
     assert not any("create" in c for c in calls)
 
 

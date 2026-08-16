@@ -13,5 +13,6 @@ build/
 .cache/
 out/
 *.mp3
+!docs/**/*.mp3
 .DS_Store
 # Published briefs live in docs/b/<PUBLISH_TOKEN>/ and are committed by the workflow.

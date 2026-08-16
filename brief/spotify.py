@@ -63,7 +63,7 @@ def _parse_json(text: str) -> dict[str, Any] | None:
 
 
 def _id_of(obj: dict[str, Any]) -> str:
-    for key in ("id", "show_id", "episode_id", "uri"):
+    for key in ("id", "show_id", "episode_id", "show_uri", "episode_uri", "uri"):
         val = obj.get(key)
         if val:
             return str(val)
