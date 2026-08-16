@@ -1,0 +1,40 @@
+name: daily-brief
+on:
+  schedule:
+    # 05:20 UTC ≈ 07:20 Europe/Zurich in summer. GH cron is best-effort (10–30+ min late).
+    - cron: "20 5 * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e .
+      - name: Build & publish brief
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          S2_API_KEY: ${{ secrets.S2_API_KEY }}
+          PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          HEALTHCHECK_URL: ${{ secrets.HEALTHCHECK_URL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          BRIEF_TIMEZONE: Europe/Zurich
+        run: python -m brief.run
+      - name: Commit state
+        run: |
+          git config user.name "brief-bot"
+          git config user.email "bot@local"
+          git add brief/state/*.json docs/ || true
+          git commit -m "brief $(date -u +%F)" || echo "no changes"
+          git push
+      - name: Heartbeat note
+        if: success()
+        run: |
+          echo "Healthchecks ping is sent in-process by brief.run after a fresh brief only."
+          echo "Silent-safe recover exits 0 but does not ping, so the dead-man's-switch still fires."

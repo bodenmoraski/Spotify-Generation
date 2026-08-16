@@ -1,0 +1,20 @@
+name: keepalive
+on:
+  schedule:
+    - cron: "0 0 * * 1"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Touch keepalive file
+        run: |
+          date -u +%F > .keepalive
+          git config user.name "brief-bot"
+          git config user.email "bot@local"
+          git add .keepalive
+          git commit -m "chore: keepalive $(date -u +%F)" || echo "no changes"
+          git push

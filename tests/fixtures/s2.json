@@ -1,0 +1,13 @@
+{
+  "data": [
+    {
+      "paperId": "s2paper1",
+      "title": "Sparse Autoencoders Plateau",
+      "abstract": "An analysis of SAE methods on frontier models.",
+      "year": 2026,
+      "publicationDate": "2026-06-15",
+      "url": "https://www.semanticscholar.org/paper/s2paper1",
+      "authors": [{"name": "Dario Amodei"}]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "data": {
+    "posts": {
+      "results": [
+        {
+          "_id": "abc123",
+          "title": "Why open-weight models cannot be made safe after release",
+          "pageUrl": "https://forum.effectivealtruism.org/posts/abc123/open-weights",
+          "postedAt": "2026-06-13T09:00:00.000Z",
+          "htmlBody": "<p>Once weights are public, safety fine-tuning can be stripped.</p>",
+          "excerpt": "Once weights are public, any safety fine-tuning can be cheaply stripped or overridden.",
+          "baseScore": 72,
+          "user": {"displayName": "Ajeya Cotra"}
+        },
+        {
+          "_id": "lowkarma",
+          "title": "A low-karma aside",
+          "pageUrl": "https://forum.effectivealtruism.org/posts/low/aside",
+          "postedAt": "2026-06-13T10:00:00.000Z",
+          "excerpt": "Skip me.",
+          "baseScore": 4,
+          "user": {"displayName": "Anon"}
+        }
+      ]
+    }
+  }
+}

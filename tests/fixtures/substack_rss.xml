@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Don't Worry About the Vase</title>
+    <link>https://thezvi.substack.com</link>
+    <description>AI and other topics</description>
+    <item>
+      <title>The Comparative Advantage Debate, Sharpened</title>
+      <link>https://thezvi.substack.com/p/comparative-advantage?utm_source=rss</link>
+      <guid>https://thezvi.substack.com/p/comparative-advantage</guid>
+      <pubDate>Mon, 15 Jun 2026 12:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Zvi argues that the "no such thing as technological unemployment" position proves too much.</p>]]></description>
+      <author>Zvi Mowshowitz</author>
+    </item>
+    <item>
+      <title>Weekly Funding Roundup</title>
+      <link>https://thezvi.substack.com/p/funding</link>
+      <pubDate>Sun, 14 Jun 2026 12:00:00 +0000</pubDate>
+      <description>Series B announcements you can skip.</description>
+    </item>
+  </channel>
+</rss>
