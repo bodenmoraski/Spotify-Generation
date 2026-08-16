@@ -44,9 +44,10 @@ async def test_dry_run_does_not_mutate_state_or_notify(monkeypatch, tmp_path: Pa
 
     monkeypatch.setattr("brief.run.fetch_all", fake_fetch_all)
     monkeypatch.setattr("brief.run.notify", capture_notify)
-    monkeypatch.delenv("GEMINI_API_KEY", raising=False)
-    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
-    monkeypatch.delenv("OPENAI_API_KEY", raising=False)
+    monkeypatch.setenv("DEEPSEEK_API_KEY", "")
+    monkeypatch.setenv("GEMINI_API_KEY", "")
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "")
+    monkeypatch.setenv("OPENAI_API_KEY", "")
     monkeypatch.delenv("NTFY_TOPIC", raising=False)
 
     summary = await pipeline(dry_run=True, want_tts=True)

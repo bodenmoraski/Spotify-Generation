@@ -1,7 +1,7 @@
 # Pipeline knobs. Swap models with a one-line change; prices are USD / 1M tokens.
 # Gemini 2.5 Flash-Lite retires 2026-10-16 — fallback is already listed.
 
-timezone: Europe/Zurich
+timezone: America/New_York
 
 new_items_min: 8
 new_items_max: 12
@@ -10,12 +10,16 @@ serendipity_slots_min: 1
 serendipity_slots_max: 2
 reviews_per_day: 4
 
-# Free-tier-maximizing default: Flash-Lite for BOTH passes.
-# Upgrade editorial_model to claude-haiku-4-5 if you re-edit more than ~twice/week.
-triage_model: gemini-2.5-flash-lite
-editorial_model: gemini-2.5-flash-lite
-triage_model_fallback: gemini-3.1-flash-lite
-editorial_upgrade: claude-haiku-4-5
+# DeepSeek is the default stack (smarter than Flash-Lite, cheaper than Haiku).
+# Cron is 11:20 UTC, which is DeepSeek off-peak (peak = 01:00–04:00 and 06:00–10:00 UTC).
+# Triage: Flash, thinking off, JSON. Editorial: Pro with thinking — this is the audio script.
+# If DEEPSEEK_API_KEY is missing, Gemini Flash-Lite is used instead (see gemini_*_fallback).
+triage_model: deepseek-v4-flash
+editorial_model: deepseek-v4-pro
+gemini_triage_fallback: gemini-2.5-flash-lite
+gemini_editorial_fallback: gemini-2.5-flash-lite
+# Only used when a Gemini model is selected and 2.5 Flash-Lite has retired.
+gemini_eol_fallback: gemini-3.1-flash-lite
 
 # Circuit breaker: skip editorial and publish a triage-only brief if projected spend exceeds this.
 daily_budget_usd: 0.20
@@ -42,11 +46,12 @@ tts_model: tts-1
 tts_voice: alloy
 
 # Model prices used by the circuit breaker (input / output per 1M tokens).
+# DeepSeek figures are off-peak (what the 11:20 UTC run pays). Peak is 2×.
 model_prices:
+  deepseek-v4-flash: {input: 0.22, output: 0.66}
+  deepseek-v4-pro: {input: 0.66, output: 1.98}
   gemini-2.5-flash-lite: {input: 0.10, output: 0.40}
   gemini-3.1-flash-lite: {input: 0.25, output: 1.50}
-  claude-haiku-4-5: {input: 1.00, output: 5.00}
-  claude-haiku-4-5-20251001: {input: 1.00, output: 5.00}
 
 # Calendar reminder: migrate off gemini-2.5-flash-lite before this date.
 gemini_flash_lite_eol: "2026-10-16"

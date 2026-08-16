@@ -13,7 +13,7 @@ from brief.logutil import log
 from brief.models import FeedHealth, Item, Spend
 from brief.notify import notify
 from brief.publish import publish, republish_yesterday
-from brief.rank import rank
+from brief.rank import has_llm_keys, rank
 from brief.render import MARKDOWN_SCHEMA, STUB_BRIEF, render_markdown, weekday_name
 from brief.srs import (
     due_today,
@@ -85,9 +85,7 @@ async def pipeline(*, dry_run: bool, want_tts: bool = False) -> dict:
         spend,
     )
 
-    triage_only = editorial is None and bool(
-        os.environ.get("GEMINI_API_KEY") or os.environ.get("ANTHROPIC_API_KEY")
-    )
+    triage_only = editorial is None and has_llm_keys()
     markdown = render_markdown(
         day=today,
         new_items=shortlist,

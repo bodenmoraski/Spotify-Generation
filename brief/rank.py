@@ -1,4 +1,4 @@
-"""Two-pass ranker: Gemini triage → editorial, with a heuristic fallback."""
+"""Two-pass ranker: DeepSeek (Gemini fallback) with a heuristic last resort."""
 
 from __future__ import annotations
 
@@ -8,9 +8,14 @@ import re
 from datetime import date
 from typing import Any
 
+import httpx
+from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential_jitter
+
 from brief.logutil import log
 from brief.models import Item, Spend
 from brief.prompts import EDITORIAL_SYSTEM_PROMPT, TRIAGE_SYSTEM_PROMPT
+
+DEEPSEEK_URL = "https://api.deepseek.com/chat/completions"
 
 KILL_RE = re.compile(
     r"\b("
@@ -67,8 +72,48 @@ def resolve_model_name(name: str, settings: dict[str, Any], today: date) -> str:
     except ValueError:
         eol_date = date(2026, 10, 16)
     if name == "gemini-2.5-flash-lite" and today >= eol_date:
-        return str(settings.get("triage_model_fallback") or "gemini-3.1-flash-lite")
+        return str(settings.get("gemini_eol_fallback") or "gemini-3.1-flash-lite")
     return name
+
+
+def has_llm_keys() -> bool:
+    return bool(os.environ.get("DEEPSEEK_API_KEY") or os.environ.get("GEMINI_API_KEY"))
+
+
+def is_deepseek_model(name: str) -> bool:
+    return name.startswith("deepseek")
+
+
+def is_gemini_model(name: str) -> bool:
+    return name.startswith("gemini")
+
+
+def resolve_runtime(
+    requested: str,
+    settings: dict[str, Any],
+    today: date,
+    role: str,
+) -> tuple[str, str] | None:
+    """Pick (provider, model). DeepSeek wins when its key is set; Gemini is fallback."""
+    model = resolve_model_name(requested, settings, today)
+    deepseek_key = bool(os.environ.get("DEEPSEEK_API_KEY"))
+    gemini_key = bool(os.environ.get("GEMINI_API_KEY"))
+    if is_deepseek_model(model) and deepseek_key:
+        return "deepseek", model
+    if is_gemini_model(model) and gemini_key:
+        return "gemini", model
+    if is_deepseek_model(model) and gemini_key:
+        key = "gemini_triage_fallback" if role == "triage" else "gemini_editorial_fallback"
+        gem = resolve_model_name(str(settings.get(key) or "gemini-2.5-flash-lite"), settings, today)
+        return "gemini", gem
+    if is_gemini_model(model) and deepseek_key:
+        ds = "deepseek-v4-flash" if role == "triage" else "deepseek-v4-pro"
+        return "deepseek", ds
+    if deepseek_key:
+        return "deepseek", "deepseek-v4-flash" if role == "triage" else "deepseek-v4-pro"
+    if gemini_key:
+        return "gemini", resolve_model_name("gemini-2.5-flash-lite", settings, today)
+    return None
 
 
 def _last_name(full: str) -> str:
@@ -173,6 +218,58 @@ def _parse_json_object(text: str) -> dict[str, Any]:
     return json.loads(text)
 
 
+class LLMHttpError(Exception):
+    pass
+
+
+@retry(
+    retry=retry_if_exception_type((LLMHttpError, httpx.TransportError, httpx.TimeoutException)),
+    wait=wait_exponential_jitter(initial=1, max=20),
+    stop=stop_after_attempt(4),
+    reraise=True,
+)
+def _deepseek_generate(
+    model_name: str,
+    system: str,
+    user: str,
+    *,
+    json_mode: bool,
+    thinking: bool,
+) -> tuple[str, int, int]:
+    api_key = os.environ.get("DEEPSEEK_API_KEY") or ""
+    payload: dict[str, Any] = {
+        "model": model_name,
+        "messages": [
+            {"role": "system", "content": system},
+            {"role": "user", "content": user},
+        ],
+        "temperature": 0.2 if json_mode else 0.3,
+        "max_tokens": 8192 if json_mode else 32768,
+        "thinking": {"type": "enabled" if thinking else "disabled"},
+    }
+    if thinking:
+        payload["thinking"]["reasoning_effort"] = "high"
+    if json_mode:
+        payload["response_format"] = {"type": "json_object"}
+    with httpx.Client(timeout=180.0) as client:
+        response = client.post(
+            DEEPSEEK_URL,
+            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+            json=payload,
+        )
+    if response.status_code in {429, 500, 502, 503, 504}:
+        raise LLMHttpError(f"DeepSeek HTTP {response.status_code}: {response.text[:300]}")
+    response.raise_for_status()
+    data = response.json()
+    choice = (data.get("choices") or [{}])[0]
+    message = choice.get("message") or {}
+    text = (message.get("content") or "").strip()
+    usage = data.get("usage") or {}
+    inp = int(usage.get("prompt_tokens") or 0) or _estimate_tokens(system + user)
+    out = int(usage.get("completion_tokens") or 0) or _estimate_tokens(text)
+    return text, inp, out
+
+
 def _gemini_generate(model_name: str, system: str, user: str, *, json_mode: bool) -> tuple[str, int, int]:
     import google.generativeai as genai
 
@@ -193,24 +290,21 @@ def _gemini_generate(model_name: str, system: str, user: str, *, json_mode: bool
     return text, inp, out
 
 
-def _anthropic_generate(model_name: str, system: str, user: str) -> tuple[str, int, int]:
-    import anthropic
-
-    client = anthropic.Anthropic()
-    message = client.messages.create(
-        model=model_name,
-        max_tokens=8192,
-        temperature=0.3,
-        system=system,
-        messages=[{"role": "user", "content": user}],
-    )
-    text = "".join(getattr(b, "text", "") for b in message.content).strip()
-    inp = int(getattr(message.usage, "input_tokens", 0) or 0) or _estimate_tokens(system + user)
-    out = int(getattr(message.usage, "output_tokens", 0) or 0) or _estimate_tokens(text)
-    return text, inp, out
+def generate_llm(
+    provider: str,
+    model_name: str,
+    system: str,
+    user: str,
+    *,
+    json_mode: bool,
+    thinking: bool = False,
+) -> tuple[str, int, int]:
+    if provider == "deepseek":
+        return _deepseek_generate(model_name, system, user, json_mode=json_mode, thinking=thinking)
+    return _gemini_generate(model_name, system, user, json_mode=json_mode)
 
 
-def _triage_one_gemini(item: Item, model_name: str, spend: Spend, prices: dict[str, Any]) -> Item:
+def _triage_one(item: Item, provider: str, model_name: str, spend: Spend, prices: dict[str, Any]) -> Item:
     authors = ", ".join(item.authors) if item.authors else "unknown"
     user = (
         f"title: {item.title}\n"
@@ -220,7 +314,9 @@ def _triage_one_gemini(item: Item, model_name: str, spend: Spend, prices: dict[s
         f"abstract_or_excerpt: {item.excerpt[:1500]}\n"
         f"serendipity: {str(item.is_serendipity).lower()}\n"
     )
-    text, inp, out = _gemini_generate(model_name, TRIAGE_SYSTEM_PROMPT, user, json_mode=True)
+    text, inp, out = generate_llm(
+        provider, model_name, TRIAGE_SYSTEM_PROMPT, user, json_mode=True, thinking=False
+    )
     spend.add(model_name, inp, out, prices)
     data = _parse_json_object(text)
     score = float(data.get("score") or 0)
@@ -240,15 +336,19 @@ def llm_triage(
     today: date,
     allowlist: dict[str, Any],
 ) -> list[Item]:
-    if not os.environ.get("GEMINI_API_KEY"):
-        log(event="triage_heuristic", reason="no GEMINI_API_KEY")
+    runtime = resolve_runtime(
+        str(settings.get("triage_model") or "deepseek-v4-flash"), settings, today, "triage"
+    )
+    if runtime is None:
+        log(event="triage_heuristic", reason="no DEEPSEEK_API_KEY or GEMINI_API_KEY")
         return heuristic_triage(items, allowlist)
-    model = resolve_model_name(str(settings.get("triage_model") or "gemini-2.5-flash-lite"), settings, today)
+    provider, model = runtime
+    log(event="triage_backend", provider=provider, model=model)
     prices = settings.get("model_prices") or {}
     scored: list[Item] = []
     for item in items:
         try:
-            scored.append(_triage_one_gemini(item, model, spend, prices))
+            scored.append(_triage_one(item, provider, model, spend, prices))
         except Exception as exc:
             log(event="triage_item_fallback", feed_id=item.feed_id, error=str(exc))
             scored.append(heuristic_score(item, allowlist))
@@ -340,7 +440,7 @@ def select_shortlist(
 
 def projected_editorial_cost(settings: dict[str, Any], model: str) -> float:
     prices = (settings.get("model_prices") or {}).get(model) or {"input": 0.0, "output": 0.0}
-    # Spec estimate: ~30K in + 6K out.
+    # Spec estimate: ~30K in + 6K out. Thinking tokens on Pro can exceed this; breaker still has headroom.
     return (30_000 / 1_000_000) * float(prices.get("input") or 0) + (6_000 / 1_000_000) * float(
         prices.get("output") or 0
     )
@@ -358,22 +458,19 @@ def editorial_pass(
     weekday: str,
 ) -> str | None:
     """Return editorial markdown, or None to fall back to the template renderer."""
-    editorial_model = resolve_model_name(
-        str(settings.get("editorial_model") or "gemini-2.5-flash-lite"), settings, today
+    runtime = resolve_runtime(
+        str(settings.get("editorial_model") or "deepseek-v4-pro"), settings, today, "editorial"
     )
+    if runtime is None:
+        log(event="editorial_heuristic", reason="no DEEPSEEK_API_KEY or GEMINI_API_KEY")
+        return None
+    provider, editorial_model = runtime
     budget = float(settings.get("daily_budget_usd") or 0.20)
     projected = spend.cost_usd + projected_editorial_cost(settings, editorial_model)
     if projected > budget:
         log(event="circuit_breaker", projected_usd=round(projected, 4), budget_usd=budget)
         return None
-
-    gemini_key = os.environ.get("GEMINI_API_KEY")
-    anthropic_key = os.environ.get("ANTHROPIC_API_KEY")
-    use_anthropic = editorial_model.startswith("claude") and bool(anthropic_key)
-    use_gemini = (not use_anthropic) and bool(gemini_key)
-    if not use_anthropic and not use_gemini:
-        log(event="editorial_heuristic", reason="no LLM keys")
-        return None
+    log(event="editorial_backend", provider=provider, model=editorial_model)
 
     def pack(it: Item) -> dict[str, Any]:
         return {
@@ -403,10 +500,14 @@ def editorial_pass(
     )
     prices = settings.get("model_prices") or {}
     try:
-        if use_anthropic:
-            text, inp, out = _anthropic_generate(editorial_model, EDITORIAL_SYSTEM_PROMPT, user)
-        else:
-            text, inp, out = _gemini_generate(editorial_model, EDITORIAL_SYSTEM_PROMPT, user, json_mode=False)
+        text, inp, out = generate_llm(
+            provider,
+            editorial_model,
+            EDITORIAL_SYSTEM_PROMPT,
+            user,
+            json_mode=False,
+            thinking=provider == "deepseek",
+        )
         spend.add(editorial_model, inp, out, prices)
         if "# Daily Brief" in text and "Read These Three Today" in text:
             return text.strip()

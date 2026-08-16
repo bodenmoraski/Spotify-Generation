@@ -1,8 +1,8 @@
 name: daily-brief
 on:
   schedule:
-    # 05:20 UTC ≈ 07:20 Europe/Zurich in summer. GH cron is best-effort (10–30+ min late).
-    - cron: "20 5 * * *"
+    # 11:20 UTC ≈ 07:20 America/New_York in EDT (06:20 EST). GH cron is best-effort (10–30+ min late).
+    - cron: "20 11 * * *"
   workflow_dispatch: {}
 permissions:
   contents: write
@@ -17,14 +17,14 @@ jobs:
       - run: pip install -e .
       - name: Build & publish brief
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           S2_API_KEY: ${{ secrets.S2_API_KEY }}
           PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           HEALTHCHECK_URL: ${{ secrets.HEALTHCHECK_URL }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          BRIEF_TIMEZONE: Europe/Zurich
+          BRIEF_TIMEZONE: America/New_York
         run: python -m brief.run
       - name: Commit state
         run: |
