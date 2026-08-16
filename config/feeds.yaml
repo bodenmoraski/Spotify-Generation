@@ -1,0 +1,331 @@
+# Every feed the pipeline may pull. type: arxiv | rss | s2 | graphql | gdelt | google_news
+# full_text: true means the RSS body is the article (typical of free Substack).
+# fetch_html: true means follow the link and strip tags if the RSS is truncated.
+# weight: multiplicative prior on triage score (1.0 = default).
+# Unconfirmed URLs are tagged confirmed: false and the feed-validation test flags 4xx/empty.
+
+feeds:
+  # --- Papers ---
+  - id: arxiv_cs
+    type: arxiv
+    category: ai
+    weight: 1.15
+    is_paper: true
+    cats: [cs.AI, cs.LG, cs.CY, cs.CL]
+    max_results: 80
+    confirmed: true
+
+  - id: s2_ai_safety
+    type: s2
+    category: ai_safety
+    weight: 1.1
+    is_paper: true
+    query: "AI safety OR mechanistic interpretability OR alignment"
+    confirmed: true
+
+  - id: s2_ml
+    type: s2
+    category: ai
+    weight: 1.0
+    is_paper: true
+    query: "large language model reasoning"
+    confirmed: true
+
+  # --- Lab blogs (venue/announcement signal) ---
+  - id: anthropic_news
+    type: rss
+    url: https://www.anthropic.com/rss.xml
+    category: ai
+    weight: 1.25
+    source: Anthropic
+    confirmed: false
+
+  - id: openai_news
+    type: rss
+    url: https://openai.com/news/rss.xml
+    category: ai
+    weight: 1.2
+    source: OpenAI
+    confirmed: false
+
+  - id: deepmind_blog
+    type: rss
+    url: https://deepmind.google/blog/rss.xml
+    category: ai
+    weight: 1.25
+    source: Google DeepMind
+    confirmed: false
+
+  # --- Forums ---
+  - id: lesswrong
+    type: rss
+    url: https://www.lesswrong.com/feed.xml?view=frontpage&karmaThreshold=30
+    category: ai_safety
+    weight: 1.2
+    source: LessWrong
+    confirmed: true
+
+  - id: alignment_forum
+    type: rss
+    url: https://www.alignmentforum.org/feed.xml?view=frontpage&karmaThreshold=15
+    category: ai_safety
+    weight: 1.25
+    source: Alignment Forum
+    confirmed: true
+
+  - id: ea_forum
+    type: graphql
+    url: https://forum.effectivealtruism.org/graphql
+    category: econ
+    weight: 1.05
+    source: EA Forum
+    karma_threshold: 30
+    confirmed: true
+
+  - id: lesswrong_graphql
+    type: graphql
+    url: https://www.lesswrong.com/graphql
+    category: ai_safety
+    weight: 1.15
+    source: LessWrong
+    karma_threshold: 40
+    confirmed: true
+
+  # --- Newsletters (Substack / blogs) ---
+  - id: zvi
+    type: rss
+    url: https://thezvi.substack.com/feed
+    category: ai
+    weight: 1.35
+    source: "Don't Worry About the Vase"
+    full_text: true
+    confirmed: true
+
+  - id: astral_codex_ten
+    type: rss
+    url: https://astralcodexten.substack.com/feed
+    category: culture
+    weight: 1.15
+    source: Astral Codex Ten
+    full_text: true
+    confirmed: false
+
+  - id: import_ai
+    type: rss
+    url: https://importai.substack.com/feed
+    category: ai
+    weight: 1.3
+    source: Import AI
+    full_text: true
+    confirmed: true
+
+  - id: hyperdimensional
+    type: rss
+    url: https://www.hyperdimensional.co/feed
+    category: ai
+    weight: 1.1
+    source: Hyperdimensional
+    full_text: true
+    confirmed: false
+
+  - id: chinatalk
+    type: rss
+    url: https://www.chinatalk.media/feed
+    category: world
+    weight: 1.15
+    source: ChinaTalk
+    full_text: true
+    confirmed: false
+
+  - id: transformer
+    type: rss
+    url: https://www.transformernews.ai/feed
+    category: ai
+    weight: 1.05
+    source: Transformer
+    full_text: false
+    confirmed: false
+
+  - id: marginal_revolution
+    type: rss
+    url: https://marginalrevolution.com/feed
+    category: econ
+    weight: 1.1
+    source: Marginal Revolution
+    full_text: false
+    fetch_html: true
+    confirmed: true
+
+  - id: interconnects
+    type: rss
+    url: https://www.interconnects.ai/feed
+    category: ai
+    weight: 1.1
+    source: Interconnects
+    full_text: true
+    confirmed: false
+
+  # --- Economics ---
+  - id: nber
+    type: rss
+    url: https://www.nber.org/rss/new.xml
+    category: econ
+    weight: 1.2
+    source: NBER
+    is_paper: true
+    confirmed: false
+
+  - id: voxeu
+    type: rss
+    url: https://cepr.org/rss.xml
+    category: econ
+    weight: 1.05
+    source: VoxEU / CEPR
+    confirmed: false
+
+  - id: imf
+    type: rss
+    url: https://www.imf.org/en/News/RSS
+    category: econ
+    weight: 0.9
+    source: IMF
+    confirmed: false
+
+  - id: fed_press
+    type: rss
+    url: https://www.federalreserve.gov/feeds/press_all.xml
+    category: econ
+    weight: 0.85
+    source: Federal Reserve
+    confirmed: false
+
+  - id: bis
+    type: rss
+    url: https://www.bis.org/doclist/all_speeches.rss
+    category: econ
+    weight: 0.9
+    source: BIS
+    confirmed: false
+
+  # --- World / geopolitics (non-US-centric) ---
+  - id: gdelt_geopolitics
+    type: gdelt
+    category: world
+    weight: 1.0
+    query: "(geopolitics OR diplomacy OR ceasefire OR sahel OR brics) -sports"
+    timespan: 24h
+    confirmed: true
+
+  - id: gdelt_non_us
+    type: gdelt
+    category: world
+    weight: 1.05
+    query: "(sourcecountry:IN OR sourcecountry:BR OR sourcecountry:NG OR sourcecountry:JP OR sourcecountry:KE OR sourcecountry:ID) (politics OR economy OR security)"
+    timespan: 24h
+    confirmed: true
+
+  - id: gnews_world_in
+    type: google_news
+    category: world
+    weight: 0.9
+    query: "geopolitics OR diplomacy"
+    hl: en
+    gl: IN
+    ceid: "IN:en"
+    confirmed: true
+
+  - id: gnews_world_br
+    type: google_news
+    category: world
+    weight: 0.9
+    query: "geopolítica OR diplomacia"
+    hl: pt-BR
+    gl: BR
+    ceid: "BR:pt-419"
+    confirmed: true
+
+  - id: gnews_world_ke
+    type: google_news
+    category: world
+    weight: 0.9
+    query: "Africa politics OR Sahel OR ECOWAS"
+    hl: en
+    gl: KE
+    ceid: "KE:en"
+    confirmed: true
+
+  # --- Culture / criticism ---
+  - id: lrb
+    type: rss
+    url: https://www.lrb.co.uk/feeds/rss
+    category: culture
+    weight: 1.2
+    source: London Review of Books
+    confirmed: false
+
+  - id: nplusone
+    type: rss
+    url: https://www.nplusonemag.com/feed/
+    category: culture
+    weight: 1.15
+    source: n+1
+    confirmed: false
+
+  - id: paris_review
+    type: rss
+    url: https://www.theparisreview.org/blog/feed
+    category: culture
+    weight: 1.1
+    source: The Paris Review
+    confirmed: false
+
+  - id: public_books
+    type: rss
+    url: https://www.publicbooks.org/feed/
+    category: culture
+    weight: 1.1
+    source: Public Books
+    confirmed: false
+
+  - id: lithub
+    type: rss
+    url: https://lithub.com/feed/
+    category: culture
+    weight: 0.95
+    source: Literary Hub
+    confirmed: false
+
+  - id: the_point
+    type: rss
+    url: https://thepointmag.com/feed/
+    category: culture
+    weight: 1.15
+    source: The Point
+    confirmed: false
+
+  - id: pitchfork
+    type: rss
+    url: https://pitchfork.com/feed/feed-news/rss
+    category: culture
+    weight: 0.85
+    source: Pitchfork
+    confirmed: false
+
+  # --- Learning science (anti-slop: academic / credible, not productivity-content) ---
+  - id: learning_scientists
+    type: rss
+    url: https://www.learningscientists.org/blog?format=rss
+    category: learning
+    weight: 1.1
+    source: The Learning Scientists
+    confirmed: false
+
+  - id: gnews_learning
+    type: google_news
+    category: learning
+    weight: 0.8
+    query: "\"retrieval practice\" OR \"spaced repetition\" OR \"desirable difficulties\" psychology"
+    hl: en
+    gl: US
+    ceid: "US:en"
+    confirmed: true

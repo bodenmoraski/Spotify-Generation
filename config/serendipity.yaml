@@ -1,0 +1,100 @@
+# Off-profile domains. Triage scores these on intrinsic interestingness to a
+# curious generalist, NOT relevance to AI/econ. 1–2 slots are force-included daily.
+
+domains:
+  - id: architecture
+    label: architecture
+  - id: biology
+    label: biology
+  - id: music_theory
+    label: music theory
+  - id: history_of_science
+    label: history of science
+  - id: poetry
+    label: poetry
+
+feeds:
+  - id: quanta
+    type: rss
+    url: https://www.quantamagazine.org/feed
+    category: serendipity
+    domain: history_of_science
+    weight: 1.2
+    source: Quanta Magazine
+    confirmed: false
+
+  - id: aeon
+    type: rss
+    url: https://aeon.co/feed.rss
+    category: serendipity
+    domain: history_of_science
+    weight: 1.15
+    source: Aeon
+    confirmed: false
+
+  - id: works_in_progress
+    type: rss
+    url: https://worksinprogress.co/feed
+    category: serendipity
+    domain: history_of_science
+    weight: 1.2
+    source: Works in Progress
+    confirmed: false
+
+  - id: nautilus
+    type: rss
+    url: https://nautil.us/feed
+    category: serendipity
+    domain: biology
+    weight: 1.05
+    source: Nautilus
+    confirmed: false
+
+  - id: archdaily
+    type: rss
+    url: https://www.archdaily.com/feed
+    category: serendipity
+    domain: architecture
+    weight: 0.95
+    source: ArchDaily
+    confirmed: false
+
+  - id: public_domain_review
+    type: rss
+    url: https://publicdomainreview.org/rss.xml
+    category: serendipity
+    domain: history_of_science
+    weight: 1.15
+    source: Public Domain Review
+    confirmed: false
+
+  - id: poetry_foundation
+    type: rss
+    url: https://www.poetryfoundation.org/rss/poems
+    category: serendipity
+    domain: poetry
+    weight: 1.0
+    source: Poetry Foundation
+    confirmed: false
+
+  - id: gnews_music_theory
+    type: google_news
+    category: serendipity
+    domain: music_theory
+    weight: 0.9
+    query: "music theory OR counterpoint OR \"just intonation\""
+    hl: en
+    gl: US
+    ceid: "US:en"
+    confirmed: true
+
+  - id: gnews_biology
+    type: google_news
+    category: serendipity
+    domain: biology
+    weight: 0.9
+    query: "evolutionary biology OR microbiome OR \"developmental biology\" -diet -weight"
+    hl: en
+    gl: US
+    ceid: "US:en"
+    confirmed: true

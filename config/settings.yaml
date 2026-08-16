@@ -1,0 +1,52 @@
+# Pipeline knobs. Swap models with a one-line change; prices are USD / 1M tokens.
+# Gemini 2.5 Flash-Lite retires 2026-10-16 — fallback is already listed.
+
+timezone: Europe/Zurich
+
+new_items_min: 8
+new_items_max: 12
+paper_of_day: 1
+serendipity_slots_min: 1
+serendipity_slots_max: 2
+reviews_per_day: 4
+
+# Free-tier-maximizing default: Flash-Lite for BOTH passes.
+# Upgrade editorial_model to claude-haiku-4-5 if you re-edit more than ~twice/week.
+triage_model: gemini-2.5-flash-lite
+editorial_model: gemini-2.5-flash-lite
+triage_model_fallback: gemini-3.1-flash-lite
+editorial_upgrade: claude-haiku-4-5
+
+# Circuit breaker: skip editorial and publish a triage-only brief if projected spend exceeds this.
+daily_budget_usd: 0.20
+
+review_intervals_days: [1, 3, 7, 16, 35]
+
+# Dedup
+title_similarity_threshold: 88
+covered_window_days: 14
+
+# Triage
+triage_batch_size: 12
+triage_harsh_floor: 0.4
+shortlist_min_score: 0.35
+
+# Fetch
+user_agent: "daily-audio-brief/0.1 (personal research aggregator)"
+http_timeout_seconds: 30
+max_items_per_feed: 40
+lookback_hours: 48
+
+# TTS (optional)
+tts_model: tts-1
+tts_voice: alloy
+
+# Model prices used by the circuit breaker (input / output per 1M tokens).
+model_prices:
+  gemini-2.5-flash-lite: {input: 0.10, output: 0.40}
+  gemini-3.1-flash-lite: {input: 0.25, output: 1.50}
+  claude-haiku-4-5: {input: 1.00, output: 5.00}
+  claude-haiku-4-5-20251001: {input: 1.00, output: 5.00}
+
+# Calendar reminder: migrate off gemini-2.5-flash-lite before this date.
+gemini_flash_lite_eol: "2026-10-16"

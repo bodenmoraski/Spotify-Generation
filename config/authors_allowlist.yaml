@@ -1,0 +1,254 @@
+# First-author papers from these researchers/labs auto-shortlist (composite
+# paper-of-the-day signal). Matching is case-insensitive on full name or
+# distinctive last name. ~150 entries as specified.
+
+labs:
+  - Anthropic
+  - Google DeepMind
+  - DeepMind
+  - OpenAI
+  - Meta FAIR
+  - Meta AI
+  - Microsoft Research
+  - Allen Institute for AI
+  - Ai2
+  - EleutherAI
+  - Mistral
+  - Cohere
+  - xAI
+  - NVIDIA Research
+  - Apple Machine Learning
+  - Hugging Face
+  - Mila
+  - BAIR
+  - Stanford HAI
+  - MIT CSAIL
+  - Vector Institute
+  - Far AI
+  - Redwood Research
+  - METR
+  - Apollo Research
+  - UK AISI
+  - US AISI
+  - Safe Superintelligence
+  - Thinking Machines Lab
+  - SSI
+
+researchers:
+  # Turing / foundational
+  - Yoshua Bengio
+  - Geoffrey Hinton
+  - Yann LeCun
+  - Judea Pearl
+  - Jürgen Schmidhuber
+  - Jürgen Schmidhuber
+  - Michael I. Jordan
+  - Bernhard Schölkopf
+  - Vladimir Vapnik
+  - Leslie Valiant
+  - Judea Pearl
+  # Deep learning / LLMs
+  - Ilya Sutskever
+  - Andrej Karpathy
+  - Alec Radford
+  - Noam Shazeer
+  - Ashish Vaswani
+  - Jakob Uszkoreit
+  - Illia Polosukhin
+  - Lukasz Kaiser
+  - Aidan Gomez
+  - Niki Parmar
+  - Llion Jones
+  - Oriol Vinyals
+  - Jeff Dean
+  - Quoc Le
+  - Samy Bengio
+  - Hugo Touvron
+  - Guillaume Lample
+  - Timothée Lacroix
+  - Albert Gu
+  - Tri Dao
+  - Saining Xie
+  - Kaiming He
+  - Ross Girshick
+  - Piotr Dollár
+  - Ming-Wei Chang
+  - Kenton Lee
+  - Kristina Toutanova
+  - Jacob Devlin
+  - Mike Lewis
+  - Luke Zettlemoyer
+  - Hannaneh Hajishirzi
+  - Yejin Choi
+  - Noah Smith
+  - Christopher Manning
+  - Percy Liang
+  - Tatsunori Hashimoto
+  - Stanford CRFM
+  - Dan Jurafsky
+  - Christopher Potts
+  - Siva Reddy
+  - Douwe Kiela
+  - Sebastian Ruder
+  - Colin Raffel
+  - Noam Shazeer
+  - Daniel Jurafsky
+  - Kyunghyun Cho
+  - Aaron Courville
+  - Ian Goodfellow
+  - Durk Kingma
+  - Diederik Kingma
+  - Max Welling
+  - Shakir Mohamed
+  - Danilo Rezende
+  - David Silver
+  - Satinder Singh
+  - Richard Sutton
+  - Andrew Barto
+  - Pieter Abbeel
+  - Sergey Levine
+  - Chelsea Finn
+  - Anca Dragan
+  - Dorsa Sadigh
+  - Fei-Fei Li
+  - Jiajun Wu
+  - Jitendra Malik
+  - Alexei Efros
+  - Trevor Darrell
+  - Dawn Song
+  - Boaz Barak
+  - Sanjeev Arora
+  - Sham Kakade
+  - Aleksander Madry
+  - Zico Kolter
+  - Zachary Lipton
+  - Emma Brunskill
+  - Ruslan Salakhutdinov
+  - Rich Caruana
+  - Cynthia Rudin
+  - Finale Doshi-Velez
+  - Been Kim
+  - Himabindu Lakkaraju
+  - Julius Adebayo
+  # Labs / frontier
+  - Demis Hassabis
+  - Shane Legg
+  - Koray Kavukcuoglu
+  - Pushmeet Kohli
+  - Raia Hadsell
+  - Doina Precup
+  - Joelle Pineau
+  - Aäron van den Oord
+  - Nando de Freitas
+  - Dario Amodei
+  - Daniela Amodei
+  - Chris Olah
+  - Catherine Olsson
+  - Nelson Elhage
+  - Neel Nanda
+  - Arthur Conmy
+  - Jack Clark
+  - Jared Kaplan
+  - Sam Bowman
+  - Amanda Askell
+  - Deep Ganguli
+  - Liane Lovitt
+  - Ethan Perez
+  - Nicholas Carlini
+  - Florian Tramèr
+  - Dan Hendrycks
+  - Mantas Mazeika
+  - Jacob Steinhardt
+  - Peter Henderson
+  - Thomas Dietterich
+  - Stuart Russell
+  - Max Tegmark
+  - Nick Bostrom
+  - Toby Ord
+  - Eliezer Yudkowsky
+  - Nate Soares
+  - Paul Christiano
+  - Ajeya Cotra
+  - Joe Carlsmith
+  - Evan Hubinger
+  - Richard Ngo
+  - Rohin Shah
+  - Jan Leike
+  - John Schulman
+  - Wojciech Zaremba
+  - Geoffrey Irving
+  - Buck Shlegeris
+  - Ryan Greenblatt
+  - Beth Barnes
+  - Owain Evans
+  - Leo Gao
+  - Collin Burns
+  - Lawrence Chan
+  - Holden Karnofsky
+  - Helen Toner
+  - Miles Brundage
+  - Jade Leung
+  - Allan Dafoe
+  - Toby Shevlane
+  - Girish Sastry
+  - Markus Anderljung
+  - Jess Whittlestone
+  - David Krueger
+  - Dylan Hadfield-Menell
+  - Anca Dragan
+  - Andrew Critch
+  - Victoria Krakovna
+  - Ramana Kumar
+  - Tom Everitt
+  - Pedro Ortega
+  - Laurent Orseau
+  - Marcus Hutter
+  - Shane Legg
+  - Jaan Tallinn
+  - Vitalik Buterin
+  # Econ / AI-labor (for NBER + cross-list)
+  - Daron Acemoglu
+  - Pascual Restrepo
+  - Anton Korinek
+  - Erik Brynjolfsson
+  - Andrew McAfee
+  - Sendhil Mullainathan
+  - Susan Athey
+  - Joshua Angrist
+  - Guido Imbens
+  - Esther Duflo
+  - Abhijit Banerjee
+  - Michael Kremer
+  - John List
+  - Raj Chetty
+  - Emmanuel Saez
+  - Gabriel Zucman
+  - Thomas Piketty
+  - Dani Rodrik
+  - Chad Jones
+  - Philippe Aghion
+  - Paul Romer
+  - Robert Barro
+  - Olivier Blanchard
+  - Gita Gopinath
+  - Carmen Reinhart
+  - Kenneth Rogoff
+  - Tyler Cowen
+  - Alex Tabarrok
+  - Noah Smith
+  # Learning science (paper-of-day adjacent)
+  - Robert Bjork
+  - Elizabeth Bjork
+  - Henry Roediger
+  - Jeffrey Karpicke
+  - Nicholas Cepeda
+  - Harold Pashler
+  - John Dunlosky
+  - Katherine Rawson
+  - Daniel Willingham
+  - Anders Ericsson
+  - Michelene Chi
+  - John Sweller
+  - Richard Mayer
+  - Paul Kirschner
+  - Dylan Wiliam
