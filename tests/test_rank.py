@@ -66,6 +66,60 @@ def test_serendipity_force_included(settings: dict) -> None:
     assert len(shortlist) >= settings["new_items_min"]
 
 
+def test_lab_news_tagged_ai_news() -> None:
+    from brief.rank import tag_ai_news
+
+    item = _item(
+        "White House export controls on frontier compute",
+        "https://openai.com/news/export",
+        category="ai",
+        feed_id="openai_news",
+        excerpt="The administration tightened export controls on AI chips.",
+    )
+    tagged = tag_ai_news(item)
+    assert tagged.category == "ai_news"
+
+
+def test_shortlist_fills_ai_before_architecture(settings: dict) -> None:
+    items = [
+        _item(
+            f"Alignment argument {i}",
+            f"https://www.lesswrong.com/posts/{i}",
+            category="ai_safety",
+            score=0.8,
+            excerpt="A new argument about monitoring.",
+            source="LessWrong",
+        )
+        for i in range(5)
+    ]
+    items.append(
+        _item(
+            "Export controls as industrial policy",
+            "https://example.com/chips",
+            category="ai_news",
+            score=0.7,
+            excerpt="Chip bans as industrial policy.",
+            source="Firstpost",
+        )
+    )
+    for i in range(6):
+        items.append(
+            _item(
+                f"Nice building {i}",
+                f"https://www.archdaily.com/{i}",
+                category="serendipity",
+                is_serendipity=True,
+                score=0.85,
+                source="ArchDaily",
+                excerpt="A pavilion.",
+            )
+        )
+    shortlist, _paper, serendipity = select_shortlist(items, settings)
+    assert sum(1 for i in shortlist if i.category in {"ai", "ai_safety"}) >= 3
+    assert sum(1 for i in shortlist if "ArchDaily" in (i.source or "")) == 0
+    assert len(serendipity) <= settings["serendipity_slots_max"]
+
+
 def test_resolve_runtime_prefers_deepseek(settings: dict, monkeypatch) -> None:
     monkeypatch.setenv("DEEPSEEK_API_KEY", "sk-test")
     monkeypatch.delenv("GEMINI_API_KEY", raising=False)
@@ -103,7 +157,7 @@ def test_resolve_runtime_heuristic_without_keys(settings: dict, monkeypatch) -> 
 def test_circuit_breaker_skips_editorial(settings: dict, monkeypatch) -> None:
     monkeypatch.setenv("DEEPSEEK_API_KEY", "sk-test")
     monkeypatch.setenv("GEMINI_API_KEY", "fake")
-    spend = Spend(cost_usd=0.21)
+    spend = Spend(cost_usd=0.29)
     md = editorial_pass(
         [],
         None,

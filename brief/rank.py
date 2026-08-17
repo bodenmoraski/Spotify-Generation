@@ -63,7 +63,17 @@ COMMON_LAST = {
     "taylor",
 }
 
-CATEGORIES = ("ai", "ai_safety", "econ", "world", "culture", "learning", "serendipity")
+CATEGORIES = ("ai", "ai_safety", "ai_news", "econ", "world", "culture", "learning", "serendipity")
+
+LAB_NEWS_FEEDS = {"openai_news", "anthropic_news", "deepmind_blog", "transformer"}
+AI_NEWS_RE = re.compile(
+    r"\b("
+    r"export control|chip ban|ai act|white house|regulation|"
+    r"safety institute|compute cluster|open.?weight|frontier lab|"
+    r"deployment|national security.+model|model.+national security"
+    r")\b",
+    re.I,
+)
 
 
 def resolve_model_name(name: str, settings: dict[str, Any], today: date) -> str:
@@ -196,6 +206,24 @@ def heuristic_score(item: Item, allowlist: dict[str, Any]) -> Item:
             item.why_this_matters = "An allowlisted researcher or lab is on the byline — worth a look even before the editorial pass."
         else:
             item.why_this_matters = item.one_line_reason.rstrip(".") + "."
+    return tag_ai_news(item)
+
+
+def tag_ai_news(item: Item) -> Item:
+    """Move lab-news / policy-shaped AI items out of the research bucket."""
+    if item.is_paper or item.category == "ai_news":
+        return item
+    fid = (item.feed_id or "").lower()
+    blob = f"{item.title} {item.excerpt}"
+    if fid in LAB_NEWS_FEEDS:
+        item.category = "ai_news"
+        return item
+    if item.category in {"ai", "ai_safety", "world"} and AI_NEWS_RE.search(blob):
+        if item.category == "world" and not re.search(
+            r"\b(AI|A\.I\.|artificial intelligence|LLM|language model)\b", blob, re.I
+        ):
+            return item
+        item.category = "ai_news"
     return item
 
 
@@ -326,7 +354,7 @@ def _triage_one(item: Item, provider: str, model_name: str) -> tuple[Item, int, 
         item.category = cat
         item.is_serendipity = cat == "serendipity" or item.is_serendipity
     item.one_line_reason = str(data.get("one_line_reason") or item.one_line_reason)[:160]
-    return item, inp, out
+    return tag_ai_news(item), inp, out
 
 
 def llm_triage(
@@ -370,87 +398,100 @@ def llm_triage(
     return scored
 
 
+def _bucket(item: Item) -> str:
+    if item.is_paper:
+        return "paper"
+    if item.category == "ai_news":
+        return "ai_news"
+    if item.category in {"ai", "ai_safety"}:
+        return "ai_research"
+    if item.category in {"world", "econ", "culture"}:
+        return "world"
+    return "potpourri"
+
+
 def select_shortlist(
     items: list[Item],
     settings: dict[str, Any],
 ) -> tuple[list[Item], Item | None, list[Item]]:
-    """Return (new items, paper of the day, serendipity picks)."""
+    """Fill AI research, AI news, world, then potpourri. Paper is separate."""
     min_score = float(settings.get("shortlist_min_score") or 0.35)
-    n_min = int(settings.get("new_items_min") or 8)
     n_max = int(settings.get("new_items_max") or 12)
+    ai_n = int(settings.get("ai_research_slots") or 4)
+    news_n = int(settings.get("ai_news_slots") or 3)
+    world_n = int(settings.get("world_slots") or 3)
     s_min = int(settings.get("serendipity_slots_min") or 1)
-    s_max = int(settings.get("serendipity_slots_max") or 2)
+    s_max = int(settings.get("serendipity_slots_max") or 1)
 
     ranked = sorted(items, key=lambda i: (i.score, i.weight), reverse=True)
-    papers = [i for i in ranked if i.is_paper or i.auto_shortlist]
-    paper = papers[0] if papers else next((i for i in ranked if i.category in {"ai", "ai_safety"}), None)
+    papers = [i for i in ranked if i.is_paper]
+    paper = papers[0] if papers else next((i for i in ranked if i.auto_shortlist and i.category in {"ai", "ai_safety"}), None)
 
-    serendipity_pool = [i for i in ranked if i.is_serendipity or i.category == "serendipity"]
-    serendipity = serendipity_pool[:s_max]
-    if len(serendipity) < s_min and serendipity_pool:
-        serendipity = serendipity_pool[:s_min]
-
-    used_ids = {p.id for p in serendipity}
-    if paper:
-        used_ids.add(paper.id)
+    used_ids = {paper.id} if paper else set()
 
     def source_key(it: Item) -> str:
         return (it.source or it.feed_id or it.id).lower()
 
     source_counts: dict[str, int] = {}
-    for it in list(serendipity) + ([paper] if paper else []):
-        source_counts[source_key(it)] = source_counts.get(source_key(it), 0) + 1
+    if paper:
+        source_counts[source_key(paper)] = 1
 
-    def can_take(it: Item, *, relax: bool = False) -> bool:
-        if relax:
-            return True
-        cap = 4 if it.is_paper else 1
+    def eligible(it: Item, *, relax: bool = False) -> bool:
+        if it.id in used_ids:
+            return False
+        if not relax and it.score < min_score and not it.auto_shortlist:
+            return False
+        cap = 4 if it.is_paper else 3 if _bucket(it) == "ai_research" else 1
         return source_counts.get(source_key(it), 0) < cap
 
-    def take(it: Item) -> None:
-        picks.append(it)
+    def take(it: Item, dest: list[Item]) -> None:
+        dest.append(it)
         used_ids.add(it.id)
         key = source_key(it)
         source_counts[key] = source_counts.get(key, 0) + 1
 
-    # Diversity pass: take the best remaining per category, then fill.
-    by_cat: dict[str, list[Item]] = {}
-    for item in ranked:
-        if item.id in used_ids:
-            continue
-        if item.score < min_score and not item.auto_shortlist:
-            continue
-        by_cat.setdefault(item.category, []).append(item)
+    def fill(bucket: str, n: int) -> list[Item]:
+        out: list[Item] = []
+        for it in ranked:
+            if len(out) >= n:
+                break
+            if _bucket(it) != bucket or not eligible(it):
+                continue
+            take(it, out)
+        if len(out) < n:
+            for it in ranked:
+                if len(out) >= n:
+                    break
+                if _bucket(it) != bucket or not eligible(it, relax=True):
+                    continue
+                take(it, out)
+        return out
 
-    picks: list[Item] = []
-    for cat in ("ai", "ai_safety", "econ", "world", "culture", "learning"):
-        bucket = by_cat.get(cat) or []
-        chosen = next((it for it in bucket if can_take(it)), None)
-        if chosen:
-            take(chosen)
-        if len(picks) >= n_max:
-            break
+    ai_research = fill("ai_research", ai_n)
+    ai_news = fill("ai_news", news_n)
+    if len(ai_news) < news_n:
+        # Prefer extra AI research over architecture filler.
+        extra = fill("ai_research", news_n - len(ai_news))
+        ai_research.extend(extra)
+    world = fill("world", world_n)
+    potpourri = fill("potpourri", s_max)
+    if len(potpourri) < s_min:
+        potpourri = fill("potpourri", s_min)
 
-    for item in ranked:
-        if len(picks) >= n_max:
-            break
-        if item.id in used_ids:
-            continue
-        if item.score < min_score and not item.auto_shortlist:
-            continue
-        if not can_take(item):
-            continue
-        take(item)
-
+    picks = ai_research + ai_news + world
+    potpourri_ids = {s.id for s in potpourri}
+    picks = [p for p in picks if p.id not in potpourri_ids]
+    n_min = int(settings.get("new_items_min") or 8)
     if len(picks) < n_min:
-        for item in ranked:
+        for it in ranked:
             if len(picks) >= n_min:
                 break
-            if item.id in used_ids:
+            if _bucket(it) in {"paper", "potpourri"}:
                 continue
-            take(item)
-
-    return picks[:n_max], paper, serendipity
+            if not eligible(it, relax=True):
+                continue
+            take(it, picks)
+    return picks[:n_max], paper, potpourri
 
 
 def projected_editorial_cost(settings: dict[str, Any], model: str) -> float:
@@ -508,9 +549,12 @@ def editorial_pass(
     user = (
         f"Today is {weekday}, {today.isoformat()}.\n\n"
         f"Follow this markdown schema exactly:\n\n{schema_markdown}\n\n"
-        f"SHORTLIST:\n{json.dumps([pack(i) for i in shortlist], ensure_ascii=False, indent=2)}\n\n"
+        f"AI_RESEARCH:\n{json.dumps([pack(i) for i in shortlist if _bucket(i) == 'ai_research'], ensure_ascii=False, indent=2)}\n\n"
+        f"AI_NEWS:\n{json.dumps([pack(i) for i in shortlist if _bucket(i) == 'ai_news'], ensure_ascii=False, indent=2)}\n\n"
+        f"THE_WORLD:\n{json.dumps([pack(i) for i in shortlist if _bucket(i) == 'world'], ensure_ascii=False, indent=2)}\n\n"
         f"PAPER_OF_THE_DAY:\n{json.dumps(pack(paper), ensure_ascii=False, indent=2) if paper else 'null'}\n\n"
-        f"SERENDIPITY:\n{json.dumps([pack(i) for i in serendipity], ensure_ascii=False, indent=2)}\n\n"
+        f"ODDS_AND_ENDS:\n{json.dumps([pack(i) for i in serendipity], ensure_ascii=False, indent=2)}\n\n"
+        f"TODAY_REVIEW_ITEMS:\n{json.dumps([pack(i) for i in (shortlist[:2] + ([paper] if paper else []))[:2]], ensure_ascii=False, indent=2)}\n\n"
         f"DUE_REVIEWS:\n{json.dumps(reviews_blob, ensure_ascii=False, indent=2)}\n"
     )
     prices = settings.get("model_prices") or {}

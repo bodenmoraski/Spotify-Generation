@@ -15,8 +15,10 @@ def test_schema_contains_worked_example_headings() -> None:
     for heading in (
         "# Daily Brief — Tuesday, 16 June 2026",
         "## AI & AI Safety",
+        "## AI in the News",
+        "## The World",
         "## Paper of the Day",
-        "## One Stretch Pick",
+        "## Odds & Ends",
         "## Quick Reviews",
         "## Read These Three Today",
         "_End of brief._",
@@ -52,7 +54,10 @@ def test_template_render_never_empty() -> None:
     assert md.startswith("# Daily Brief")
     assert "## AI & AI Safety" in md
     assert "## Paper of the Day" in md
+    assert "## Odds & Ends" in md
     assert "## Quick Reviews" in md
+    assert "**Today.**" in md
+    assert "**Assigned.**" in md
     assert "## Read These Three Today" in md
     assert "_End of brief._" in md
     rss = render_rss(title="Daily Brief — 16 June 2026", markdown=md, day=DAY, page_url="https://example.com/b/x/brief-latest.md")

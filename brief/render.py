@@ -15,31 +15,31 @@ from brief.srs import QueueItem
 
 MARKDOWN_SCHEMA = """# Daily Brief — Tuesday, 16 June 2026
 
-_Good morning. Here's your brief: five threads worth your attention, one paper, a stretch pick, and three quick reviews. About seventeen minutes._
+<!-- episode_title: Interpretability hits a wall -->
+
+_Good morning. About eighteen minutes: AI in depth, AI in the news, the rest of the world, one paper, a little potpourri, and reviews._
 
 ## AI & AI Safety
 
 ### 1. A new argument that interpretability is hitting a wall
-Researchers at Anthropic [an-THROP-ic] published an analysis arguing that current sparse-autoencoder methods plateau on frontier models.
+Researchers at Anthropic [an-THROP-ic] published an analysis arguing that current sparse-autoencoder methods plateau on frontier models. Walk the claim, the evidence, and the objection — this section is the spine of the brief, not a teaser.
 **Why this matters:** If the argument holds, the field's main bet for "reading a model's mind" needs a rethink — this reframes what safety cases can rely on.
 
 ### 2. The comparative-advantage debate about AI and jobs, sharpened
 Zvi [zuh-VEE] Mowshowitz responds to the claim that AI can only raise the value of human labor, and finds the "no such thing as technological unemployment" position proves too much.
 **Why this matters:** It's the cleanest statement yet of where the economists' standard model and the AI-capabilities view actually disagree.
 
-## Economics
+## AI in the News
 
-### 3. A new NBER [N-B-E-R] working paper on behavioral policy
-List and coauthors estimate the welfare value of "nudge" interventions across a large field sample.
-**Why this matters:** It puts a number on something usually argued qualitatively, and the number is smaller than advocates assume.
+### 3. Export controls as industrial policy, not just national security
+Non-US coverage of a compute-control change that US wires treated as a Pentagon story.
+**Why this matters:** The local frame is about who gets to train the next wave of models, not about a press conference.
 
-## World & Geopolitics
+## The World
 
 ### 4. Non-Anglophone coverage of Sahel [sah-HEL] realignment
 Via GDELT [GEE-delt] machine-translated sources, several West African outlets frame a security pact shift very differently from the wire services.
 **Why this matters:** The local framing inverts the standard Western read — a reminder of how much the "who benefits" story depends on the desk.
-
-## Culture & Criticism
 
 ### 5. An essay on the exhaustion of the autofiction novel
 The London Review of Books [L-R-B] runs a long piece arguing the mode has calcified into mannerism.
@@ -48,28 +48,25 @@ The London Review of Books [L-R-B] runs a long piece arguing the mode has calcif
 ## Paper of the Day
 
 ### Spacing effects, revisited for the AI-tutoring era
-A replication extends Cepeda [seh-PEH-dah] et al.'s optimal-spacing findings to app-based review.
+A replication extends Cepeda [seh-PEH-dah] et al.'s optimal-spacing findings to app-based review. This is the long item: method, result, and how to use it.
 **Why this matters:** The optimal gap scales with how long you want to remember — a directly usable rule, not folklore.
 
-## One Stretch Pick
+## Odds & Ends
 
-Here's something from outside your usual orbit: a piece on how medieval cathedral builders encoded structural knowledge in geometry, with no written engineering. Worth it for the analogy to tacit knowledge in modern ML teams.
+Here's a small one from outside the news: a line from a learning-science note, or a stretch pick, or a quote — not a third architecture slideshow.
 
 ## Quick Reviews
 
-**1.** Three days ago we covered an argument about why open-weight models can't be made safe after release. _…take a second… what was the core reason?_
-Because once weights are public, any safety fine-tuning can be cheaply stripped or overridden — the release is irreversible.
+**Today.** We just covered the interpretability plateau. _…take a second…_ what was the core claim?
+That sparse autoencoders stop buying you more of the model's internals as the model gets larger.
 
-**2.** A week ago: what did the NBER paper on remote work find about productivity? _…think…_
-Hybrid schedules showed no measurable productivity loss and a large retention gain.
-
-**3.** Two weeks ago: what's the "desirable difficulties" idea? _…_
-That making retrieval slightly harder — spacing, testing — improves long-term retention even though it feels worse in the moment.
+**Assigned.** Three days ago we covered an argument about why open-weight models can't be made safe after release. _…take a second…_ what was the core reason?
+Because once weights are public, any safety fine-tuning can be cheaply stripped — the release is irreversible.
 
 ## Read These Three Today
 1. The Anthropic interpretability analysis — it may move the whole safety agenda.
 2. Zvi on comparative advantage — the sharpest framing of the jobs debate.
-3. The LRB autofiction essay — the one most likely to change a conversation.
+3. The Sahel coverage — the one most likely to change a conversation.
 
 _End of brief._
 """
@@ -101,7 +98,14 @@ def extract_episode_title(markdown: str, day: date) -> str:
         title = re.sub(r"\s+", " ", commented.group(1)).strip().strip("\"'")
         if 6 <= len(title) <= 80 and "daily brief" not in title.lower():
             return title
-    skip = {"paper of the day", "quick reviews", "one stretch pick", "stretch picks"}
+    skip = {
+        "paper of the day",
+        "quick reviews",
+        "one stretch pick",
+        "stretch picks",
+        "odds & ends",
+        "odds and ends",
+    }
     heads = [
         re.sub(r"\s+", " ", h).strip()
         for h in _ITEM_HEADING_RE.findall(markdown or "")
@@ -180,21 +184,12 @@ def render_markdown(
             )
         return text + ("\n" if not text.endswith("\n") else "")
 
-    weekday = weekday_name(day)
     title = brief_title(day)
-    n_reviews = len(reviews)
-    n_stretch = len(serendipity)
-    intro_bits = [
-        f"{len(new_items)} thread{'s' if len(new_items) != 1 else ''} worth your attention",
-        "one paper" if paper else None,
-        f"{n_stretch} stretch pick{'s' if n_stretch != 1 else ''}" if n_stretch else None,
-        f"{n_reviews} quick review{'s' if n_reviews != 1 else ''}" if n_reviews else None,
-    ]
-    intro = ", ".join(b for b in intro_bits if b) or "a quiet day"
+    intro = "about eighteen minutes — AI in depth, AI in the news, the rest of the world, one paper, potpourri, and reviews"
     lines: list[str] = [
         f"# {title}",
         "",
-        f"_Good morning. Here's your brief: {intro}. About fifteen to twenty minutes._",
+        f"_Good morning. {intro}._",
         "",
     ]
     if note:
@@ -223,16 +218,12 @@ def render_markdown(
             numbered += 1
 
     emit_group("AI & AI Safety", _section_items(new_items, {"ai", "ai_safety"}))
-    emit_group("Economics", _section_items(new_items, {"econ"}))
-    emit_group("World & Geopolitics", _section_items(new_items, {"world"}))
-    emit_group("Culture & Criticism", _section_items(new_items, {"culture"}))
-    learning = _section_items(new_items, {"learning"})
-    if learning:
-        emit_group("Learning", learning)
+    emit_group("AI in the News", _section_items(new_items, {"ai_news"}))
+    emit_group("The World", _section_items(new_items, {"econ", "world", "culture"}))
     leftover = [
         i
         for i in new_items
-        if i.category not in {"ai", "ai_safety", "econ", "world", "culture", "learning", "serendipity"}
+        if i.category not in {"ai", "ai_safety", "ai_news", "econ", "world", "culture", "learning", "serendipity"}
     ]
     emit_group("Also", leftover)
 
@@ -248,13 +239,13 @@ def render_markdown(
         lines.append("No paper cleared the bar today. The queue will try again tomorrow.")
     lines.append("")
 
-    heading = "One Stretch Pick" if len(serendipity) <= 1 else "Stretch Picks"
-    lines.append(f"## {heading}")
+    lines.append("## Odds & Ends")
     lines.append("")
-    if serendipity:
-        for item in serendipity:
+    odds = list(serendipity) + _section_items(new_items, {"learning"})
+    if odds:
+        for item in odds:
             lines.append(
-                f"Here's something from outside your usual orbit: **{item.title}**"
+                f"Here's a small one from outside the news: **{item.title}**"
                 + (f" ({item.source})" if item.source else "")
                 + "."
             )
@@ -264,12 +255,37 @@ def render_markdown(
                 lines.append(f"Link: {item.url}")
             lines.append("")
     else:
-        lines.append("No stretch pick survived triage today.")
+        lines.append("No potpourri survived triage today.")
         lines.append("")
 
     lines.append("## Quick Reviews")
     lines.append("")
+    today_cards = [
+        i
+        for i in (list(new_items[:2]) + ([paper] if paper else []))
+        if i is not None
+    ]
+    seen_today: set[str] = set()
+    fresh: list[Item] = []
+    for item in today_cards:
+        if item.id in seen_today:
+            continue
+        seen_today.add(item.id)
+        fresh.append(item)
+        if len(fresh) >= 2:
+            break
+    if fresh:
+        lines.append("**Today.**")
+        lines.append("")
+        for item in fresh:
+            lines.append(
+                f"We just covered: {item.title}. _…take a second…_ what was the core idea?"
+            )
+            lines.append(_why(item))
+            lines.append("")
     if reviews:
+        lines.append("**Assigned.**")
+        lines.append("")
         for idx, rev in enumerate(reviews, start=1):
             ingested = rev.ingested_date
             lines.append(
@@ -278,7 +294,7 @@ def render_markdown(
             )
             lines.append(rev.one_line or "See the original item.")
             lines.append("")
-    else:
+    if not fresh and not reviews:
         lines.append("No reviews due today.")
         lines.append("")
 
