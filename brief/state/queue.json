@@ -124,7 +124,7 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false
     },
@@ -220,7 +220,7 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false
     },
@@ -236,7 +236,7 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false
     },
@@ -316,7 +316,7 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false
     },
@@ -331,6 +331,118 @@
         "2026-08-23",
         "2026-09-01",
         "2026-09-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "4cc9b6870b07bfd240e0206c5642b77ca3886b9e",
+      "title": "The Rise of China’s Electric Vehicle Industry",
+      "one_line": "Reframes China's EV rise as local-private alliance, overturning central-planning narrative.",
+      "ingested_date": "2026-08-17",
+      "review_dates": [
+        "2026-08-18",
+        "2026-08-20",
+        "2026-08-24",
+        "2026-09-02",
+        "2026-09-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "d3e43d4c6c8e2b2a921d12b16c1ff2792dfdd63a",
+      "title": "Somalia facts of the day",
+      "one_line": "Reframes security gains via prosaic measures, overturning assumptions about conflict zones.",
+      "ingested_date": "2026-08-17",
+      "review_dates": [
+        "2026-08-18",
+        "2026-08-20",
+        "2026-08-24",
+        "2026-09-02",
+        "2026-09-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "a48a957db27ea7ac2bd9b528bf7159d6ff5c0da1",
+      "title": "Why Thoreau and Walden Resonate With Chinese Youth",
+      "one_line": "Reframes Thoreau's relevance as resistance to modern Chinese involution, offering cross-cultural insight.",
+      "ingested_date": "2026-08-17",
+      "review_dates": [
+        "2026-08-18",
+        "2026-08-20",
+        "2026-08-24",
+        "2026-09-02",
+        "2026-09-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "c4452e2fa87d1ce0bb0cd34c133404120dd7a779",
+      "title": "Five Years Later , Biden Was Proven Right in Withdrawing From Afghanistan",
+      "one_line": "Retrospective analysis challenges prevailing narrative, but lacks novel argument.",
+      "ingested_date": "2026-08-17",
+      "review_dates": [
+        "2026-08-18",
+        "2026-08-20",
+        "2026-08-24",
+        "2026-09-02",
+        "2026-09-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "8ea09ad18a1033e594956cf2a59094716eda9dd2",
+      "title": "How Geopolitics Has Rewired Brazil's Business Risks",
+      "one_line": "Reframes Brazil's business risk through geopolitical lens, useful for generalist.",
+      "ingested_date": "2026-08-17",
+      "review_dates": [
+        "2026-08-18",
+        "2026-08-20",
+        "2026-08-24",
+        "2026-09-02",
+        "2026-09-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "9771c52aaeb35936b04d60a095646537bb5a6c0e",
+      "title": "The Dynamics of Intelligence Explosions",
+      "one_line": "Reframes intelligence explosion dynamics, challenging prior models with new math.",
+      "ingested_date": "2026-08-17",
+      "review_dates": [
+        "2026-08-18",
+        "2026-08-20",
+        "2026-08-24",
+        "2026-09-02",
+        "2026-09-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false
+    },
+    {
+      "id": "a4aac1590a47294643ce1964bf43930dd5c4841d",
+      "title": "Worm munch matters",
+      "one_line": "Listening to soil life reframes ecology via sound, a novel sensory lens.",
+      "ingested_date": "2026-08-17",
+      "review_dates": [
+        "2026-08-18",
+        "2026-08-20",
+        "2026-08-24",
+        "2026-09-02",
+        "2026-09-21"
       ],
       "reviews_done": 0,
       "retired": false,
