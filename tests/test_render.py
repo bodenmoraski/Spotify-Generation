@@ -14,16 +14,16 @@ DAY = date(2026, 6, 16)
 def test_schema_contains_worked_example_headings() -> None:
     for heading in (
         "# Daily Brief — Tuesday, 16 June 2026",
-        "## AI & AI Safety",
-        "## AI in the News",
         "## The World",
         "## Paper of the Day",
-        "## Odds & Ends",
+        "## One Idea",
         "## Quick Reviews",
-        "## Read These Three Today",
         "_End of brief._",
     ):
         assert heading in MARKDOWN_SCHEMA
+    assert "## AI & AI Safety" not in MARKDOWN_SCHEMA
+    assert "## Odds & Ends" not in MARKDOWN_SCHEMA
+    assert "## Read These Three Today" not in MARKDOWN_SCHEMA
 
 
 def test_template_render_never_empty() -> None:
@@ -31,10 +31,19 @@ def test_template_render_never_empty() -> None:
         id=item_id_from_url("https://arxiv.org/abs/1"),
         title="A new argument",
         url="https://arxiv.org/abs/1",
-        category="ai",
+        category="world",
         excerpt="It reframes the question.",
         one_line_reason="Reframes the safety case.",
-        source="arXiv",
+        source="FT",
+    )
+    idea = item.model_copy(
+        update={
+            "id": item_id_from_url("https://aeon.co/cathedral"),
+            "title": "Cathedral geometry",
+            "url": "https://aeon.co/cathedral",
+            "category": "serendipity",
+            "source": "Aeon",
+        }
     )
     review = QueueItem(
         id="r1",
@@ -47,18 +56,19 @@ def test_template_render_never_empty() -> None:
         day=DAY,
         new_items=[item],
         paper=item,
-        serendipity=[item.model_copy(update={"title": "Cathedral geometry", "category": "serendipity"})],
+        serendipity=[idea],
         reviews=[review],
     )
     assert md.strip()
     assert md.startswith("# Daily Brief")
-    assert "## AI & AI Safety" in md
+    assert "## The World" in md
     assert "## Paper of the Day" in md
-    assert "## Odds & Ends" in md
+    assert "## One Idea" in md
     assert "## Quick Reviews" in md
-    assert "**Today.**" in md
     assert "**Assigned.**" in md
-    assert "## Read These Three Today" in md
+    assert "**Today.**" not in md
+    assert "## Odds & Ends" not in md
+    assert "## Read These Three Today" not in md
     assert "_End of brief._" in md
     rss = render_rss(title="Daily Brief — 16 June 2026", markdown=md, day=DAY, page_url="https://example.com/b/x/brief-latest.md")
     assert "<rss" in rss
@@ -83,5 +93,37 @@ def test_extract_episode_title_prefers_comment_then_heading() -> None:
 def test_empty_inputs_still_produce_a_brief() -> None:
     md = render_markdown(day=DAY, new_items=[], paper=None, serendipity=[], reviews=[], note="Sources were thin today.")
     assert "Daily Brief" in md
-    assert "Read These Three Today" in md
+    assert "## One Idea" in md
+    assert "## Quick Reviews" in md
+    assert "Read These Three Today" not in md
     assert STUB_BRIEF.strip().startswith("# Daily Brief")
+    assert "Read These Three Today" not in STUB_BRIEF
+
+
+def test_editorial_markdown_drops_read_later() -> None:
+    sneaky = """# Daily Brief — Tuesday, 16 June 2026
+
+## The World
+
+### 1. A development
+
+## Quick Reviews
+
+No reviews due today.
+
+## Read These Three Today
+1. A thing to read later.
+
+_End of brief._
+"""
+    md = render_markdown(
+        day=DAY,
+        new_items=[],
+        paper=None,
+        serendipity=[],
+        reviews=[],
+        editorial_markdown=sneaky,
+    )
+    assert "Read These Three Today" not in md
+    assert "_End of brief._" in md
+    assert "## The World" in md

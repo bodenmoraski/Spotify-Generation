@@ -398,34 +398,51 @@ def llm_triage(
     return scored
 
 
+NEWS_CATEGORIES = {"ai_news", "world", "econ", "culture"}
+FILLER_SOURCE_MARKERS = ("archdaily",)
+
+
 def _bucket(item: Item) -> str:
+    """News is the commute spine. Papers and portable ideas are separate slots."""
     if item.is_paper:
         return "paper"
-    if item.category == "ai_news":
-        return "ai_news"
-    if item.category in {"ai", "ai_safety"}:
-        return "ai_research"
-    if item.category in {"world", "econ", "culture"}:
-        return "world"
-    return "potpourri"
+    if item.category in NEWS_CATEGORIES:
+        return "news"
+    return "idea"
+
+
+def _is_filler_source(item: Item) -> bool:
+    blob = f"{item.source or ''} {item.feed_id or ''} {item.url or ''}".lower()
+    return any(marker in blob for marker in FILLER_SOURCE_MARKERS)
+
+
+def _idea_sort_key(item: Item) -> tuple:
+    """Prefer portable ideas over dumping leftover research posts."""
+    if item.category == "learning":
+        pri = 0
+    elif item.is_serendipity or item.category == "serendipity":
+        pri = 1
+    else:
+        pri = 2
+    return (pri, -float(item.score or 0), -float(item.weight or 0))
 
 
 def select_shortlist(
     items: list[Item],
     settings: dict[str, Any],
 ) -> tuple[list[Item], Item | None, list[Item]]:
-    """Fill AI research, AI news, world, then potpourri. Paper is separate."""
+    """Fill news first, then one paper and 1-2 idea slots. No architecture filler."""
     min_score = float(settings.get("shortlist_min_score") or 0.35)
-    n_max = int(settings.get("new_items_max") or 12)
-    ai_n = int(settings.get("ai_research_slots") or 4)
-    news_n = int(settings.get("ai_news_slots") or 3)
-    world_n = int(settings.get("world_slots") or 3)
-    s_min = int(settings.get("serendipity_slots_min") or 1)
-    s_max = int(settings.get("serendipity_slots_max") or 1)
+    n_max = int(settings.get("new_items_max") or 8)
+    news_n = int(settings.get("news_slots") or 6)
+    idea_n = int(settings.get("idea_slots") or settings.get("serendipity_slots_max") or 2)
 
     ranked = sorted(items, key=lambda i: (i.score, i.weight), reverse=True)
     papers = [i for i in ranked if i.is_paper]
-    paper = papers[0] if papers else next((i for i in ranked if i.auto_shortlist and i.category in {"ai", "ai_safety"}), None)
+    paper = papers[0] if papers else next(
+        (i for i in ranked if i.auto_shortlist and i.category in {"ai", "ai_safety"}),
+        None,
+    )
 
     used_ids = {paper.id} if paper else set()
 
@@ -439,9 +456,11 @@ def select_shortlist(
     def eligible(it: Item, *, relax: bool = False) -> bool:
         if it.id in used_ids:
             return False
+        if _is_filler_source(it):
+            return False
         if not relax and it.score < min_score and not it.auto_shortlist:
             return False
-        cap = 4 if it.is_paper else 3 if _bucket(it) == "ai_research" else 1
+        cap = 4 if it.is_paper else 1
         return source_counts.get(source_key(it), 0) < cap
 
     def take(it: Item, dest: list[Item]) -> None:
@@ -450,48 +469,53 @@ def select_shortlist(
         key = source_key(it)
         source_counts[key] = source_counts.get(key, 0) + 1
 
-    def fill(bucket: str, n: int) -> list[Item]:
+    def fill_news(n: int) -> list[Item]:
         out: list[Item] = []
         for it in ranked:
             if len(out) >= n:
                 break
-            if _bucket(it) != bucket or not eligible(it):
+            if _bucket(it) != "news" or not eligible(it):
                 continue
             take(it, out)
         if len(out) < n:
             for it in ranked:
                 if len(out) >= n:
                     break
-                if _bucket(it) != bucket or not eligible(it, relax=True):
+                if _bucket(it) != "news" or not eligible(it, relax=True):
                     continue
                 take(it, out)
         return out
 
-    ai_research = fill("ai_research", ai_n)
-    ai_news = fill("ai_news", news_n)
-    if len(ai_news) < news_n:
-        # Prefer extra AI research over architecture filler.
-        extra = fill("ai_research", news_n - len(ai_news))
-        ai_research.extend(extra)
-    world = fill("world", world_n)
-    potpourri = fill("potpourri", s_max)
-    if len(potpourri) < s_min:
-        potpourri = fill("potpourri", s_min)
-
-    picks = ai_research + ai_news + world
-    potpourri_ids = {s.id for s in potpourri}
-    picks = [p for p in picks if p.id not in potpourri_ids]
-    n_min = int(settings.get("new_items_min") or 8)
-    if len(picks) < n_min:
-        for it in ranked:
-            if len(picks) >= n_min:
+    def fill_idea(n: int) -> list[Item]:
+        out: list[Item] = []
+        pool = [i for i in ranked if _bucket(i) == "idea"]
+        pool.sort(key=_idea_sort_key)
+        for it in pool:
+            if len(out) >= n:
                 break
-            if _bucket(it) in {"paper", "potpourri"}:
+            if not eligible(it):
                 continue
-            if not eligible(it, relax=True):
+            take(it, out)
+        if len(out) < n:
+            for it in pool:
+                if len(out) >= n:
+                    break
+                if not eligible(it, relax=True):
+                    continue
+                take(it, out)
+        return out
+
+    news = fill_news(news_n)
+    ideas = fill_idea(idea_n)
+    n_min = int(settings.get("new_items_min") or 4)
+    if len(news) < n_min:
+        for it in ranked:
+            if len(news) >= n_min:
+                break
+            if _bucket(it) != "news" or not eligible(it, relax=True):
                 continue
-            take(it, picks)
-    return picks[:n_max], paper, potpourri
+            take(it, news)
+    return news[:n_max], paper, ideas
 
 
 def projected_editorial_cost(settings: dict[str, Any], model: str) -> float:
@@ -549,13 +573,11 @@ def editorial_pass(
     user = (
         f"Today is {weekday}, {today.isoformat()}.\n\n"
         f"Follow this markdown schema exactly:\n\n{schema_markdown}\n\n"
-        f"AI_RESEARCH:\n{json.dumps([pack(i) for i in shortlist if _bucket(i) == 'ai_research'], ensure_ascii=False, indent=2)}\n\n"
-        f"AI_NEWS:\n{json.dumps([pack(i) for i in shortlist if _bucket(i) == 'ai_news'], ensure_ascii=False, indent=2)}\n\n"
-        f"THE_WORLD:\n{json.dumps([pack(i) for i in shortlist if _bucket(i) == 'world'], ensure_ascii=False, indent=2)}\n\n"
-        f"PAPER_OF_THE_DAY:\n{json.dumps(pack(paper), ensure_ascii=False, indent=2) if paper else 'null'}\n\n"
-        f"ODDS_AND_ENDS:\n{json.dumps([pack(i) for i in serendipity], ensure_ascii=False, indent=2)}\n\n"
-        f"TODAY_REVIEW_ITEMS:\n{json.dumps([pack(i) for i in (shortlist[:2] + ([paper] if paper else []))[:2]], ensure_ascii=False, indent=2)}\n\n"
+        f"THE_NEWS:\n{json.dumps([pack(i) for i in shortlist], ensure_ascii=False, indent=2)}\n\n"
+        f"PAPER:\n{json.dumps(pack(paper), ensure_ascii=False, indent=2) if paper else 'null'}\n\n"
+        f"ONE_IDEA:\n{json.dumps([pack(i) for i in serendipity], ensure_ascii=False, indent=2)}\n\n"
         f"DUE_REVIEWS:\n{json.dumps(reviews_blob, ensure_ascii=False, indent=2)}\n"
+        "Do not quiz today's episode. Do not add a read-later / 'Read these three today' list.\n"
     )
     prices = settings.get("model_prices") or {}
     try:
@@ -568,7 +590,7 @@ def editorial_pass(
             thinking=provider == "deepseek",
         )
         spend.add(editorial_model, inp, out, prices)
-        if "# Daily Brief" in text and "Read These Three Today" in text:
+        if "# Daily Brief" in text and "## Quick Reviews" in text and "_End of brief._" in text:
             return text.strip()
         log(event="editorial_schema_mismatch")
         return text.strip() or None

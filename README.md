@@ -151,7 +151,7 @@ State committed back by Actions: `brief/state/queue.json` (SRS), `brief/state/co
 ## Choices made (where the spec left room)
 
 - **DeepSeek is the default stack.** Triage: `deepseek-v4-flash` (JSON, thinking off). Editorial: `deepseek-v4-pro` with thinking on — this is the 15–20 minute script you listen to. Haiku is not used. Gemini Flash-Lite is the fallback when `DEEPSEEK_API_KEY` is missing. Add `DEEPSEEK_API_KEY` as a GitHub Actions secret (and in `.env` locally).
-- **Heuristic ranker** when neither DeepSeek nor Gemini keys are set, so dry-run and pytest work without keys or network. It kills funding/launch/PR patterns, boosts allowlisted authors (auto-shortlist), and force-includes 1–2 serendipity slots.
+- **Heuristic ranker** when neither DeepSeek nor Gemini keys are set, so dry-run and pytest work without keys or network. It kills funding/launch/PR patterns, boosts allowlisted authors (auto-shortlist), fills news first, and keeps 1–2 idea slots (learning / stretch theories — not architecture slideshows).
 - **Triage is one item per LLM call** (faithful to the literal prompt). Editorial is one call over the shortlist. If a call fails, that item/pass falls back to the heuristic / template renderer.
 - **Gemini 2.5 Flash-Lite EOL 2026-10-16** only matters on the Gemini fallback path; the runner then swaps in `gemini_eol_fallback` (`gemini-3.1-flash-lite`).
 - **Circuit breaker** `daily_budget_usd: 0.20`: skip editorial and publish a triage-only brief with a note.

@@ -15,58 +15,40 @@ from brief.srs import QueueItem
 
 MARKDOWN_SCHEMA = """# Daily Brief — Tuesday, 16 June 2026
 
-<!-- episode_title: Interpretability hits a wall -->
+<!-- episode_title: When the map stops matching the territory -->
 
-_Good morning. About eighteen minutes: AI in depth, AI in the news, the rest of the world, one paper, a little potpourri, and reviews._
-
-## AI & AI Safety
-
-### 1. A new argument that interpretability is hitting a wall
-Researchers at Anthropic [an-THROP-ic] published an analysis arguing that current sparse-autoencoder methods plateau on frontier models. Walk the claim, the evidence, and the objection — this section is the spine of the brief, not a teaser.
-**Why this matters:** If the argument holds, the field's main bet for "reading a model's mind" needs a rethink — this reframes what safety cases can rely on.
-
-### 2. The comparative-advantage debate about AI and jobs, sharpened
-Zvi [zuh-VEE] Mowshowitz responds to the claim that AI can only raise the value of human labor, and finds the "no such thing as technological unemployment" position proves too much.
-**Why this matters:** It's the cleanest statement yet of where the economists' standard model and the AI-capabilities view actually disagree.
-
-## AI in the News
-
-### 3. Export controls as industrial policy, not just national security
-Non-US coverage of a compute-control change that US wires treated as a Pentagon story.
-**Why this matters:** The local frame is about who gets to train the next wave of models, not about a press conference.
+_Good morning. About eighteen minutes: the news you would miss, one paper as a story, one idea you can use, and reviews._
 
 ## The World
 
-### 4. Non-Anglophone coverage of Sahel [sah-HEL] realignment
-Via GDELT [GEE-delt] machine-translated sources, several West African outlets frame a security pact shift very differently from the wire services.
-**Why this matters:** The local framing inverts the standard Western read — a reminder of how much the "who benefits" story depends on the desk.
+### 1. Non-Anglophone coverage of Sahel [sah-HEL] realignment
+Via GDELT [GEE-delt] machine-translated sources, several West African outlets frame a security pact shift very differently from the wire services. Spend time on the local "who benefits" story, not the wire lede.
+**Why this matters:** The local framing inverts the standard Western read — a reminder of how much the story depends on the desk.
 
-### 5. An essay on the exhaustion of the autofiction novel
+### 2. Export controls as industrial policy, not just national security
+Non-US coverage of a compute-control change that US wires treated as a Pentagon story.
+**Why this matters:** The local frame is about who gets to train the next wave of models, not about a press conference.
+
+### 3. An essay on the exhaustion of the autofiction novel
 The London Review of Books [L-R-B] runs a long piece arguing the mode has calcified into mannerism.
 **Why this matters:** A useful lens on why so much acclaimed new fiction feels the same — and what might come next.
 
 ## Paper of the Day
 
 ### Spacing effects, revisited for the AI-tutoring era
-A replication extends Cepeda [seh-PEH-dah] et al.'s optimal-spacing findings to app-based review. This is the long item: method, result, and how to use it.
+A replication extends Cepeda [seh-PEH-dah] et al.'s optimal-spacing findings to app-based review. Tell it as a story: the question they asked, the result, and the so-what. Not a methods dump.
 **Why this matters:** The optimal gap scales with how long you want to remember — a directly usable rule, not folklore.
 
-## Odds & Ends
+## One Idea
 
-Here's a small one from outside the news: a line from a learning-science note, or a stretch pick, or a quote — not a third architecture slideshow.
+### Desirable difficulties, applied
+A learning-science note on why slightly harder retrieval beats fluent rereading. Walk the mechanism, then how to use it: in a conversation, in your own research, or in how you study. Give this section real airtime — about four minutes — not a one-liner.
+**Why this matters:** The feeling of ease is a trap: the work that feels worse in the moment is often the work that sticks.
 
 ## Quick Reviews
 
-**Today.** We just covered the interpretability plateau. _…take a second…_ what was the core claim?
-That sparse autoencoders stop buying you more of the model's internals as the model gets larger.
-
 **Assigned.** Three days ago we covered an argument about why open-weight models can't be made safe after release. _…take a second…_ what was the core reason?
 Because once weights are public, any safety fine-tuning can be cheaply stripped — the release is irreversible.
-
-## Read These Three Today
-1. The Anthropic interpretability analysis — it may move the whole safety agenda.
-2. Zvi on comparative advantage — the sharpest framing of the jobs debate.
-3. The Sahel coverage — the one most likely to change a conversation.
 
 _End of brief._
 """
@@ -89,6 +71,16 @@ def brief_title(day: date) -> str:
 
 _EPISODE_TITLE_RE = re.compile(r"<!--\s*episode_title:\s*(.+?)\s*-->", re.I)
 _ITEM_HEADING_RE = re.compile(r"^### (?:\d+\.\s*)?(.+)$", re.M)
+_READ_LATER_RE = re.compile(
+    r"\n## Read These Three Today\b.*?(?=\n_End of brief\._|\Z)",
+    re.I | re.S,
+)
+
+
+def strip_read_later(markdown: str) -> str:
+    """Drop a 'read these later' closer if the editorial model sneaks one in."""
+    text = _READ_LATER_RE.sub("\n", markdown or "")
+    return re.sub(r"\n{3,}", "\n\n", text)
 
 
 def extract_episode_title(markdown: str, day: date) -> str:
@@ -105,6 +97,8 @@ def extract_episode_title(markdown: str, day: date) -> str:
         "stretch picks",
         "odds & ends",
         "odds and ends",
+        "one idea",
+        "the world",
     }
     heads = [
         re.sub(r"\s+", " ", h).strip()
@@ -144,7 +138,7 @@ def _why(item: Item) -> str:
     return "It changes how a careful reader would frame the question."
 
 
-def _body(item: Item) -> str:
+def _body(item: Item, *, chars: int = 400) -> str:
     authors = ""
     if item.authors:
         authors = f"{item.authors[0]}"
@@ -152,7 +146,7 @@ def _body(item: Item) -> str:
             authors += " and coauthors"
         authors += " — "
     src = f"Via {item.source}. " if item.source else ""
-    excerpt = item.excerpt[:400].rstrip()
+    excerpt = item.excerpt[:chars].rstrip()
     if excerpt and not excerpt.endswith("."):
         excerpt += "."
     return f"{authors}{src}{excerpt}".strip() or item.title
@@ -175,7 +169,7 @@ def render_markdown(
 ) -> str:
     """Never returns empty. Prefer the editorial model output when it looks like a brief."""
     if editorial_markdown and "# Daily Brief" in editorial_markdown:
-        text = editorial_markdown.strip()
+        text = strip_read_later(editorial_markdown.strip())
         if note:
             text = text.replace(
                 "_Good morning.",
@@ -185,7 +179,7 @@ def render_markdown(
         return text + ("\n" if not text.endswith("\n") else "")
 
     title = brief_title(day)
-    intro = "about eighteen minutes — AI in depth, AI in the news, the rest of the world, one paper, potpourri, and reviews"
+    intro = "about eighteen minutes — the news you would miss, one paper as a story, one idea you can use, and reviews"
     lines: list[str] = [
         f"# {title}",
         "",
@@ -201,37 +195,47 @@ def render_markdown(
         ]
 
     numbered = 1
+    news_cats = {"ai_news", "world", "econ", "culture"}
+    idea_cats = {"learning", "serendipity", "ai", "ai_safety"}
+    news = _section_items(new_items, news_cats)
+    leftover = [i for i in new_items if i.category not in news_cats | idea_cats]
+    news = news + leftover
+    seen_idea = {i.id for i in serendipity}
+    ideas = list(serendipity)
+    for item in _section_items(new_items, idea_cats):
+        if item.id in seen_idea:
+            continue
+        ideas.append(item)
+        seen_idea.add(item.id)
 
-    def emit_group(heading: str, group: list[Item]) -> None:
+    def emit_group(heading: str, group: list[Item], *, chars: int = 400) -> None:
         nonlocal numbered
-        if not group:
-            return
         lines.append(f"## {heading}")
         lines.append("")
+        if not group:
+            thin = (
+                "No timely news cleared the bar today."
+                if heading == "The World"
+                else "No portable idea cleared the bar today."
+            )
+            lines.append(thin)
+            lines.append("")
+            return
         for item in group:
             lines.append(f"### {numbered}. {_hint_title(item.title)}")
-            lines.append(_body(item))
+            lines.append(_body(item, chars=chars))
             lines.append(f"**Why this matters:** {_why(item)}")
             if item.url:
                 lines.append(f"Link: {item.url}")
             lines.append("")
             numbered += 1
 
-    emit_group("AI & AI Safety", _section_items(new_items, {"ai", "ai_safety"}))
-    emit_group("AI in the News", _section_items(new_items, {"ai_news"}))
-    emit_group("The World", _section_items(new_items, {"econ", "world", "culture"}))
-    leftover = [
-        i
-        for i in new_items
-        if i.category not in {"ai", "ai_safety", "ai_news", "econ", "world", "culture", "learning", "serendipity"}
-    ]
-    emit_group("Also", leftover)
-
+    emit_group("The World", news)
     lines.append("## Paper of the Day")
     lines.append("")
     if paper:
         lines.append(f"### {paper.title}")
-        lines.append(_body(paper))
+        lines.append(_body(paper, chars=600))
         lines.append(f"**Why this matters:** {_why(paper)}")
         if paper.url:
             lines.append(f"Link: {paper.url}")
@@ -239,50 +243,10 @@ def render_markdown(
         lines.append("No paper cleared the bar today. The queue will try again tomorrow.")
     lines.append("")
 
-    lines.append("## Odds & Ends")
-    lines.append("")
-    odds = list(serendipity) + _section_items(new_items, {"learning"})
-    if odds:
-        for item in odds:
-            lines.append(
-                f"Here's a small one from outside the news: **{item.title}**"
-                + (f" ({item.source})" if item.source else "")
-                + "."
-            )
-            lines.append(_body(item))
-            lines.append(f"**Why this matters:** {_why(item)}")
-            if item.url:
-                lines.append(f"Link: {item.url}")
-            lines.append("")
-    else:
-        lines.append("No potpourri survived triage today.")
-        lines.append("")
+    emit_group("One Idea", ideas, chars=800)
 
     lines.append("## Quick Reviews")
     lines.append("")
-    today_cards = [
-        i
-        for i in (list(new_items[:2]) + ([paper] if paper else []))
-        if i is not None
-    ]
-    seen_today: set[str] = set()
-    fresh: list[Item] = []
-    for item in today_cards:
-        if item.id in seen_today:
-            continue
-        seen_today.add(item.id)
-        fresh.append(item)
-        if len(fresh) >= 2:
-            break
-    if fresh:
-        lines.append("**Today.**")
-        lines.append("")
-        for item in fresh:
-            lines.append(
-                f"We just covered: {item.title}. _…take a second…_ what was the core idea?"
-            )
-            lines.append(_why(item))
-            lines.append("")
     if reviews:
         lines.append("**Assigned.**")
         lines.append("")
@@ -294,23 +258,10 @@ def render_markdown(
             )
             lines.append(rev.one_line or "See the original item.")
             lines.append("")
-    if not fresh and not reviews:
+    else:
         lines.append("No reviews due today.")
         lines.append("")
 
-    lines.append("## Read These Three Today")
-    top = list(new_items[:3])
-    if paper and paper.id not in {t.id for t in top}:
-        top = [paper] + top
-        top = top[:3]
-    if not top and paper:
-        top = [paper]
-    if not top:
-        lines.append("1. Nothing cleared the keep line — treat this as a rest day.")
-    else:
-        for i, item in enumerate(top, start=1):
-            lines.append(f"{i}. {item.title} — {_why(item)}")
-    lines.append("")
     lines.append("_End of brief._")
     lines.append("")
     return "\n".join(lines)
@@ -414,9 +365,6 @@ _Good morning. Today's pipeline could not assemble a new brief. This stub exists
 ## Quick Reviews
 
 No reviews available.
-
-## Read These Three Today
-1. Wait for the next successful run.
 
 _End of brief._
 """

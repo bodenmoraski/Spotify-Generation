@@ -3,17 +3,15 @@
 
 timezone: America/New_York
 
-new_items_min: 8
-new_items_max: 12
+new_items_min: 4
+new_items_max: 8
 paper_of_day: 1
-# Time-budgeted shortlist (scaled to ~18 min). AI research + AI news ≈ The World.
-ai_research_slots: 4
-ai_news_slots: 3
-world_slots: 3
-serendipity_slots_min: 1
-serendipity_slots_max: 1
-reviews_per_day: 3
-today_review_count: 2
+# Time-budgeted shortlist (~18 min). News is the spine; one paper; one usable idea.
+news_slots: 6
+idea_slots: 2
+serendipity_slots_min: 0
+serendipity_slots_max: 2
+reviews_per_day: 4
 
 # DeepSeek is the default stack (smarter than Flash-Lite, cheaper than Haiku).
 # Cron is 11:20 UTC, which is DeepSeek off-peak (peak = 01:00–04:00 and 06:00–10:00 UTC).

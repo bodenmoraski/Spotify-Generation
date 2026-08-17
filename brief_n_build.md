@@ -228,7 +228,7 @@ daily-audio-brief/
 - Google News RSS: `https://news.google.com/rss/search?q=<topic>&hl=en&gl=US&ceid=US:en` (also fetch non-US `ceid` for breadth). No auth.
 - Handle 429/5xx with `tenacity` exponential backoff + jitter; cache last-good response per feed to disk.
 
-**Config-driven counts/thresholds (settings.yaml defaults):** `new_items: 8–12`; `paper_of_day: 1`; `serendipity_slots: 1–2`; `reviews_per_day: 3–4`; `triage_model: gemini-2.5-flash-lite` (fallback `gemini-3.1-flash-lite` after 2026-10-16); `editorial_model: claude-haiku-4-5`; `daily_budget_usd: 0.20` (circuit breaker); `timezone`; `review_intervals_days: [1,3,7,16,35]`.
+**Config-driven counts/thresholds (settings.yaml defaults):** `news_slots: 6`; `idea_slots: 2`; `paper_of_day: 1`; `reviews_per_day: 4`; `triage_model: deepseek-v4-flash`; `editorial_model: deepseek-v4-pro`; `daily_budget_usd: 0.30` (circuit breaker); `timezone`; `review_intervals_days: [1,3,7,16,35]`. Commute shape: ~8 min news (including AI-as-news), ~3 min one paper, ~4 min one applicable idea, ~3 min assigned SRS only. No "read these later" list.
 
 **THE COMPLETE RANKING/SUMMARIZATION SYSTEM PROMPTS (literal — write these verbatim into `prompts.py`):**
 
@@ -253,39 +253,41 @@ Be harsh: most items should score below 0.4. Output only the JSON.
 """
 
 EDITORIAL_SYSTEM_PROMPT = """
-You are the editor-in-chief of a 15-20 minute personal audio brief for one reader: a
-technically capable generalist (fluent in ML and economics) who wants to broaden, not
-narrow. You are given a shortlist of already-triaged items with their abstracts/excerpts
-and categories, plus a list of spaced-repetition review questions due today. Produce the
-final brief as MARKDOWN following the exact schema given in the user message. Rules:
+You are the editor-in-chief of an ~18 minute commute brief. The listener already does
+plenty of research sitting down. This show is for things that benefit from timely audio:
+news they will not otherwise read, one paper as a story, one portable idea, and retrieval
+practice. Produce MARKDOWN following the schema in the user message.
 
-TASTE. Include 8-12 new items plus exactly one 'paper of the day' and 1-2 serendipity picks.
-Prefer items that change how the reader thinks. Kill anything that is merely news: funding,
-launches, PR, personnel, horse-race. When two items cover the same development, keep the one
-with the better argument and drop the other. Coverage should span AI/AI-safety, economics,
-world/geopolitics (favor non-US-centric framing), culture/literature/criticism (what is being
-argued about NOW, not just the canon), and one idea from the science of learning or self-
-improvement. Do not over-fit to any single subfield.
+TIME BUDGET (~150 words/min; ~2,700 words). If a section is thin, say so in one sentence
+and give leftover words to The World or One Idea — never pad with building slideshows,
+and never add a "read this later" list (their backlog is long enough).
+- The World: ~8 minutes (~1,200 words). 4-7 timely developments, mixed: geopolitics,
+  econ-as-news, culture being argued NOW, and AI as news (policy, labs, compute
+  geopolitics, deployments). Kill funding/launch/PR. This is the spine.
+- Paper of the Day: ~3 minutes (~450 words). Exactly one paper (AI, econ, or social
+  science). Tell it as a story: the question, the result, the so-what. Not a methods dump.
+- One Idea: ~4 minutes (~600 words). 1-2 items. A theory, mechanism, or mental model
+  they can apply — in conversation, self-improvement, or their own research. Learning
+  science, a sharp conceptual argument, a quote with teeth. Not a third news item.
+- Quick Reviews: ~3 minutes (~450 words). ONLY the assigned spaced-repetition cards in
+  DUE_REVIEWS. Do not quiz today's episode.
 
-VOICE. Write for the ear, not the eye. Short sentences. No markdown decoration that would be
-read aloud awkwardly. Every item gets a one-sentence "Why this matters:" line that states the
-stakes or the shift in thinking — not a summary of what happened.
+TASTE. Prefer items that change how the listener thinks or what they can say at lunch.
+Favor non-US-centric world coverage. One idea should be useful, not merely cute.
 
-PRONUNCIATION. For any non-obvious name, foreign word, or acronym, add a bracketed hint the
-first time it appears, e.g. "Nvidia [en-VID-ee-ah]", "Cepeda [seh-PEH-dah]", "arXiv [archive]",
-"GDELT [GEE-delt]", "Zvi [zuh-VEE]". Expand acronyms on first use.
+VOICE. Write for the ear, in a car. Short sentences. Every item gets a one-sentence
+"Why this matters:" line that states the stakes — not a recap.
 
-SERENDIPITY. Clearly frame the 1-2 stretch picks as deliberate range ("Here's something from
-outside your usual orbit…"). They must be genuinely interesting, not filler.
+PRONUNCIATION. First use of a non-obvious name, foreign word, or acronym gets a
+bracketed hint, e.g. "Nvidia [en-VID-ee-ah]", "arXiv [archive]", "Zvi [zuh-VEE]".
 
-REVIEWS. Place the due review questions in the closing section. For each, ask ONE specific,
-open, generative question answerable in a sentence or two; then write a natural spoken pause
-("…take a second…"); then give a crisp answer. Never yes/no, never multi-part, never anything
-needing a visual.
+REVIEWS. For each assigned card: ONE specific open question; then "…take a second…";
+then a crisp answer. Never yes/no, never multi-part, never visual. If DUE_REVIEWS is
+empty, say no reviews are due.
 
-CLOSER. End with "Read these three today:" and name the three highest-value items with a
-half-sentence each on why. Keep the whole thing to a 15-20 minute read (~2,200-3,000 words).
-Output only the markdown.
+TITLE. On the line immediately after the H1:
+<!-- episode_title: <5-9 word magazine-style title> -->
+No date, no "Daily Brief". End with "_End of brief._" Output only the markdown.
 """
 ```
 
@@ -294,61 +296,40 @@ Output only the markdown.
 ```markdown
 # Daily Brief — Tuesday, 16 June 2026
 
-_Good morning. Here's your brief: five threads worth your attention, one paper, a stretch pick, and three quick reviews. About seventeen minutes._
+<!-- episode_title: When the map stops matching the territory -->
 
-## AI & AI Safety
+_Good morning. About eighteen minutes: the news you would miss, one paper as a story, one idea you can use, and reviews._
 
-### 1. A new argument that interpretability is hitting a wall
-Researchers at Anthropic [an-THROP-ic] published an analysis arguing that current sparse-autoencoder methods plateau on frontier models.
-**Why this matters:** If the argument holds, the field's main bet for "reading a model's mind" needs a rethink — this reframes what safety cases can rely on.
+## The World
 
-### 2. The comparative-advantage debate about AI and jobs, sharpened
-Zvi [zuh-VEE] Mowshowitz responds to the claim that AI can only raise the value of human labor, and finds the "no such thing as technological unemployment" position proves too much.
-**Why this matters:** It's the cleanest statement yet of where the economists' standard model and the AI-capabilities view actually disagree.
+### 1. Non-Anglophone coverage of Sahel [sah-HEL] realignment
+Via GDELT [GEE-delt] machine-translated sources, several West African outlets frame a security pact shift very differently from the wire services. Spend time on the local "who benefits" story, not the wire lede.
+**Why this matters:** The local framing inverts the standard Western read — a reminder of how much the story depends on the desk.
 
-## Economics
+### 2. Export controls as industrial policy, not just national security
+Non-US coverage of a compute-control change that US wires treated as a Pentagon story.
+**Why this matters:** The local frame is about who gets to train the next wave of models, not about a press conference.
 
-### 3. A new NBER [N-B-E-R] working paper on behavioral policy
-List and coauthors estimate the welfare value of "nudge" interventions across a large field sample.
-**Why this matters:** It puts a number on something usually argued qualitatively, and the number is smaller than advocates assume.
-
-## World & Geopolitics
-
-### 4. Non-Anglophone coverage of Sahel [sah-HEL] realignment
-Via GDELT [GEE-delt] machine-translated sources, several West African outlets frame a security pact shift very differently from the wire services.
-**Why this matters:** The local framing inverts the standard Western read — a reminder of how much the "who benefits" story depends on the desk.
-
-## Culture & Criticism
-
-### 5. An essay on the exhaustion of the autofiction novel
+### 3. An essay on the exhaustion of the autofiction novel
 The London Review of Books [L-R-B] runs a long piece arguing the mode has calcified into mannerism.
 **Why this matters:** A useful lens on why so much acclaimed new fiction feels the same — and what might come next.
 
 ## Paper of the Day
 
 ### Spacing effects, revisited for the AI-tutoring era
-A replication extends Cepeda [seh-PEH-dah] et al.'s optimal-spacing findings to app-based review.
+A replication extends Cepeda [seh-PEH-dah] et al.'s optimal-spacing findings to app-based review. Tell it as a story: the question they asked, the result, and the so-what. Not a methods dump.
 **Why this matters:** The optimal gap scales with how long you want to remember — a directly usable rule, not folklore.
 
-## One Stretch Pick
+## One Idea
 
-Here's something from outside your usual orbit: a piece on how medieval cathedral builders encoded structural knowledge in geometry, with no written engineering. Worth it for the analogy to tacit knowledge in modern ML teams.
+### Desirable difficulties, applied
+A learning-science note on why slightly harder retrieval beats fluent rereading. Walk the mechanism, then how to use it: in a conversation, in your own research, or in how you study. Give this section real airtime — about four minutes — not a one-liner.
+**Why this matters:** The feeling of ease is a trap: the work that feels worse in the moment is often the work that sticks.
 
 ## Quick Reviews
 
-**1.** Three days ago we covered an argument about why open-weight models can't be made safe after release. _…take a second… what was the core reason?_
-Because once weights are public, any safety fine-tuning can be cheaply stripped or overridden — the release is irreversible.
-
-**2.** A week ago: what did the NBER paper on remote work find about productivity? _…think…_
-Hybrid schedules showed no measurable productivity loss and a large retention gain.
-
-**3.** Two weeks ago: what's the "desirable difficulties" idea? _…_
-That making retrieval slightly harder — spacing, testing — improves long-term retention even though it feels worse in the moment.
-
-## Read These Three Today
-1. The Anthropic interpretability analysis — it may move the whole safety agenda.
-2. Zvi on comparative advantage — the sharpest framing of the jobs debate.
-3. The LRB autofiction essay — the one most likely to change a conversation.
+**Assigned.** Three days ago we covered an argument about why open-weight models can't be made safe after release. _…take a second…_ what was the core reason?
+Because once weights are public, any safety fine-tuning can be cheaply stripped — the release is irreversible.
 
 _End of brief._
 ```

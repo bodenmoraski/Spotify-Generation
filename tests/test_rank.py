@@ -48,8 +48,19 @@ def test_heuristic_kills_funding_and_shortlists_allowlisted_author() -> None:
 
 def test_serendipity_force_included(settings: dict) -> None:
     items = [
+        _item(
+            f"World news {i}",
+            f"https://news.example.com/{i}",
+            category="world",
+            score=0.8,
+            excerpt="argument " * 20,
+            source=f"Desk {i}",
+        )
+        for i in range(6)
+    ]
+    items += [
         _item(f"AI paper {i}", f"https://arxiv.org/abs/{i}", category="ai", score=0.9, excerpt="argument " * 20)
-        for i in range(12)
+        for i in range(4)
     ]
     stretch = _item(
         "Cathedral geometry",
@@ -64,6 +75,7 @@ def test_serendipity_force_included(settings: dict) -> None:
     shortlist, paper, serendipity = select_shortlist(items, settings)
     assert stretch.id in {s.id for s in serendipity}
     assert len(shortlist) >= settings["new_items_min"]
+    assert all(i.category in {"ai_news", "world", "econ", "culture"} for i in shortlist)
 
 
 def test_lab_news_tagged_ai_news() -> None:
@@ -80,7 +92,7 @@ def test_lab_news_tagged_ai_news() -> None:
     assert tagged.category == "ai_news"
 
 
-def test_shortlist_fills_ai_before_architecture(settings: dict) -> None:
+def test_shortlist_fills_news_not_architecture(settings: dict) -> None:
     items = [
         _item(
             f"Alignment argument {i}",
@@ -102,6 +114,17 @@ def test_shortlist_fills_ai_before_architecture(settings: dict) -> None:
             source="Firstpost",
         )
     )
+    for i in range(5):
+        items.append(
+            _item(
+                f"Sahel coverage {i}",
+                f"https://news.example.com/sahel/{i}",
+                category="world",
+                score=0.75,
+                excerpt="A security pact shift.",
+                source=f"Desk {i}",
+            )
+        )
     for i in range(6):
         items.append(
             _item(
@@ -115,9 +138,11 @@ def test_shortlist_fills_ai_before_architecture(settings: dict) -> None:
             )
         )
     shortlist, _paper, serendipity = select_shortlist(items, settings)
-    assert sum(1 for i in shortlist if i.category in {"ai", "ai_safety"}) >= 3
+    assert sum(1 for i in shortlist if i.category in {"ai_news", "world", "econ", "culture"}) >= 4
+    assert sum(1 for i in shortlist if i.category in {"ai", "ai_safety"}) == 0
     assert sum(1 for i in shortlist if "ArchDaily" in (i.source or "")) == 0
-    assert len(serendipity) <= settings["serendipity_slots_max"]
+    assert sum(1 for i in serendipity if "ArchDaily" in (i.source or "")) == 0
+    assert len(serendipity) <= settings["idea_slots"]
 
 
 def test_resolve_runtime_prefers_deepseek(settings: dict, monkeypatch) -> None:
@@ -230,7 +255,7 @@ def test_deepseek_editorial_enables_thinking(monkeypatch) -> None:
 
         def json(self) -> dict:
             return {
-                "choices": [{"message": {"content": "# Daily Brief\n\nRead These Three Today"}}],
+                "choices": [{"message": {"content": "# Daily Brief\n\n## Quick Reviews\n\n_End of brief._"}}],
                 "usage": {"prompt_tokens": 100, "completion_tokens": 200},
             }
 
