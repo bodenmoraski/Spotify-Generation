@@ -9,6 +9,7 @@ from brief.models import Item, Spend, item_id_from_url
 from brief.rank import (
     allowlist_match,
     editorial_pass,
+    editorial_word_count,
     heuristic_triage,
     resolve_runtime,
     select_shortlist,
@@ -183,6 +184,7 @@ def test_circuit_breaker_skips_editorial(settings: dict, monkeypatch) -> None:
     monkeypatch.setenv("DEEPSEEK_API_KEY", "sk-test")
     monkeypatch.setenv("GEMINI_API_KEY", "fake")
     spend = Spend(cost_usd=0.29)
+    settings = {**settings, "daily_budget_usd": 0.30}
     md = editorial_pass(
         [],
         None,
@@ -282,3 +284,33 @@ def test_deepseek_editorial_enables_thinking(monkeypatch) -> None:
     assert captured["json"]["thinking"]["type"] == "enabled"
     assert captured["json"]["thinking"]["reasoning_effort"] == "high"
     assert "response_format" not in captured["json"]
+
+
+def test_editorial_retries_when_too_short(settings: dict, monkeypatch) -> None:
+    calls: list[str] = []
+    short = "# Daily Brief\n\n## The World\n\nx\n\n## Quick Reviews\n\nnone\n\n_End of brief._\n"
+    long = short + " extra " * 2300
+
+    def fake_generate(provider, model, system, user, *, json_mode, thinking=False):
+        calls.append(user)
+        text = short if len(calls) == 1 else long
+        return text, 10, 20
+
+    monkeypatch.setenv("DEEPSEEK_API_KEY", "sk-test")
+    monkeypatch.setattr("brief.rank.generate_llm", fake_generate)
+    settings = {**settings, "editorial_min_words": 2200, "daily_budget_usd": 5.0}
+    md = editorial_pass(
+        [],
+        None,
+        [],
+        [],
+        settings,
+        Spend(),
+        date(2026, 8, 17),
+        MARKDOWN_SCHEMA,
+        "Monday",
+    )
+    assert len(calls) == 2
+    assert "too short" in calls[1]
+    assert md is not None
+    assert editorial_word_count(md) >= 2200

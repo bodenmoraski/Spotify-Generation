@@ -17,7 +17,7 @@ MARKDOWN_SCHEMA = """# Daily Brief — Tuesday, 16 June 2026
 
 <!-- episode_title: When the map stops matching the territory -->
 
-_Good morning. About eighteen minutes: the news you would miss, one paper as a story, one idea you can use, and reviews._
+_Good morning. About eighteen minutes: the news you would miss, one paper as a story, one idea you can use, and reviews. The skeleton below shows headings and voice — write the full radio length, not this brevity._
 
 ## The World
 

@@ -68,6 +68,27 @@ def test_reviews_per_day_cap_oldest_first() -> None:
     assert [d.id for d in due] == ["id-0", "id-1", "id-2", "id-3"]
 
 
+def test_due_today_skips_architecture_filler() -> None:
+    keep = QueueItem(
+        id="keep",
+        title="Civilisational handoff",
+        one_line="fact",
+        ingested_date=D0.isoformat(),
+        review_dates=[D0.isoformat()],
+        source="LessWrong",
+    )
+    skip = QueueItem(
+        id="skip",
+        title="Pavillon Monk / L. McComber",
+        one_line="a pavilion",
+        ingested_date=D0.isoformat(),
+        review_dates=[D0.isoformat()],
+        source="ArchDaily",
+    )
+    due = due_today(Queue(items=[skip, keep]), D0, cap=4)
+    assert [d.id for d in due] == ["keep"]
+
+
 def test_retire_after_last_interval() -> None:
     item = ingest_item(_paper(), D0, INTERVALS)
     queue = Queue(items=[item])

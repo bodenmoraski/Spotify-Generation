@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+import re
 from typing import Any
 
 from pydantic import BaseModel, Field
@@ -23,6 +24,7 @@ class QueueItem(BaseModel):
     reviews_done: int = 0
     retired: bool = False
     missed: bool = False
+    source: str = ""
 
 
 class Queue(BaseModel):
@@ -66,7 +68,18 @@ def ingest_item(
         review_dates=compute_review_dates(ingested, intervals),
         reviews_done=0,
         retired=False,
+        source=item.source or "",
     )
+
+
+ARCHDAILY_TITLE_RE = re.compile(r" / [A-Z0-9]")
+
+
+def is_filler_review(item: QueueItem) -> bool:
+    """Architecture slideshows should not occupy the SRS slots."""
+    if "archdaily" in (item.source or "").lower():
+        return True
+    return bool(ARCHDAILY_TITLE_RE.search(item.title or ""))
 
 
 def due_today(
@@ -78,7 +91,7 @@ def due_today(
     today_s = today.isoformat()
     due: list[QueueItem] = []
     for item in queue.items:
-        if item.retired:
+        if item.retired or is_filler_review(item):
             continue
         if today_s in item.review_dates:
             due.append(item)

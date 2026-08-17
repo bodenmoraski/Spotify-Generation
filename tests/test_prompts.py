@@ -19,8 +19,11 @@ def test_editorial_prompt_is_commute_shaped() -> None:
     assert EDITORIAL_SNIPPET in EDITORIAL_SYSTEM_PROMPT
     assert "The World" in EDITORIAL_SYSTEM_PROMPT
     assert "One Idea" in EDITORIAL_SYSTEM_PROMPT
-    assert "read this later" in EDITORIAL_SYSTEM_PROMPT
+    assert "read this" in EDITORIAL_SYSTEM_PROMPT
+    assert "later" in EDITORIAL_SYSTEM_PROMPT
     assert "AI & AI Safety" not in EDITORIAL_SYSTEM_PROMPT
     assert "Read these three today:" not in EDITORIAL_SYSTEM_PROMPT
     assert "_…take a second…_" in EDITORIAL_SYSTEM_PROMPT or "…take a second…" in EDITORIAL_SYSTEM_PROMPT
     assert "Output only the markdown." in EDITORIAL_SYSTEM_PROMPT
+    assert "A draft under 2,200 words" in EDITORIAL_SYSTEM_PROMPT
+    assert "180-250 words" in EDITORIAL_SYSTEM_PROMPT

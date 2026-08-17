@@ -13,7 +13,7 @@ from brief.logutil import log
 from brief.models import FeedHealth, Item, Spend
 from brief.notify import notify
 from brief.publish import publish, republish_yesterday
-from brief.rank import has_llm_keys, rank
+from brief.rank import has_llm_keys, rank, _is_filler_source
 from brief.render import MARKDOWN_SCHEMA, STUB_BRIEF, render_markdown, weekday_name
 from brief.srs import (
     due_today,
@@ -118,6 +118,8 @@ async def pipeline(*, dry_run: bool, want_tts: bool = False) -> dict:
         uniq: list[Item] = []
         for it in selected:
             if it.id in seen:
+                continue
+            if _is_filler_source(it):
                 continue
             seen.add(it.id)
             uniq.append(it)

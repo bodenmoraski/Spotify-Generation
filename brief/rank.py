@@ -526,6 +526,16 @@ def projected_editorial_cost(settings: dict[str, Any], model: str) -> float:
     )
 
 
+def editorial_word_count(markdown: str) -> int:
+    text = re.sub(r"<!--.*?-->", " ", markdown or "", flags=re.S)
+    text = re.sub(r"[#*_`\[\]()>-]", " ", text)
+    return len(text.split())
+
+
+def _looks_like_brief(text: str) -> bool:
+    return "# Daily Brief" in text and "## Quick Reviews" in text and "_End of brief._" in text
+
+
 def editorial_pass(
     shortlist: list[Item],
     paper: Item | None,
@@ -546,6 +556,7 @@ def editorial_pass(
         return None
     provider, editorial_model = runtime
     budget = float(settings.get("daily_budget_usd") or 0.20)
+    min_words = int(settings.get("editorial_min_words") or 2200)
     projected = spend.cost_usd + projected_editorial_cost(settings, editorial_model)
     if projected > budget:
         log(event="circuit_breaker", projected_usd=round(projected, 4), budget_usd=budget)
@@ -578,22 +589,50 @@ def editorial_pass(
         f"ONE_IDEA:\n{json.dumps([pack(i) for i in serendipity], ensure_ascii=False, indent=2)}\n\n"
         f"DUE_REVIEWS:\n{json.dumps(reviews_blob, ensure_ascii=False, indent=2)}\n"
         "Do not quiz today's episode. Do not add a read-later / 'Read these three today' list.\n"
+        f"Write about {min_words + 500} words. The schema is a skeleton, not a length target.\n"
     )
     prices = settings.get("model_prices") or {}
-    try:
+
+    def generate(prompt: str) -> str | None:
         text, inp, out = generate_llm(
             provider,
             editorial_model,
             EDITORIAL_SYSTEM_PROMPT,
-            user,
+            prompt,
             json_mode=False,
             thinking=provider == "deepseek",
         )
         spend.add(editorial_model, inp, out, prices)
-        if "# Daily Brief" in text and "## Quick Reviews" in text and "_End of brief._" in text:
-            return text.strip()
-        log(event="editorial_schema_mismatch")
         return text.strip() or None
+
+    try:
+        text = generate(user)
+        if not text:
+            return None
+        if not _looks_like_brief(text):
+            log(event="editorial_schema_mismatch")
+            return text
+        n_words = editorial_word_count(text)
+        if n_words >= min_words:
+            log(event="editorial_length_ok", words=n_words, min_words=min_words)
+            return text
+        retry_projected = spend.cost_usd + projected_editorial_cost(settings, editorial_model)
+        if retry_projected > budget:
+            log(event="editorial_too_short", words=n_words, min_words=min_words, retry=False)
+            return text
+        log(event="editorial_too_short", words=n_words, min_words=min_words, retry=True)
+        expand = (
+            user
+            + f"\n\nYour previous draft was {n_words} words. That is too short for an 18-minute "
+            f"radio brief (minimum {min_words}). Expand The World and One Idea in place. "
+            "Do not add sections. Do not add a read-later list. Output only the markdown.\n"
+        )
+        retry = generate(expand)
+        if retry and _looks_like_brief(retry) and editorial_word_count(retry) >= n_words:
+            log(event="editorial_retry_ok", words=editorial_word_count(retry))
+            return retry
+        log(event="editorial_retry_kept_first", words=n_words)
+        return text
     except Exception as exc:
         log(event="editorial_failed", error=str(exc))
         return None
@@ -622,6 +661,7 @@ def rank(
         n_serendipity=len(serendipity),
         has_paper=paper is not None,
         editorial=markdown is not None,
+        editorial_words=editorial_word_count(markdown) if markdown else 0,
         cost_usd=round(spend.cost_usd, 5),
         tokens_in=spend.input_tokens,
         tokens_out=spend.output_tokens,

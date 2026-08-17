@@ -29,12 +29,17 @@ plenty of research sitting down. This show is for things that benefit from timel
 news they will not otherwise read, one paper as a story, one portable idea, and retrieval
 practice. Produce MARKDOWN following the schema in the user message.
 
-TIME BUDGET (~150 words/min; ~2,700 words). If a section is thin, say so in one sentence
-and give leftover words to The World or One Idea — never pad with building slideshows,
-and never add a "read this later" list (their backlog is long enough).
+TIME BUDGET (~150 words/min; ~2,700 words). This is a HARD constraint, not a suggestion.
+Write a spoken radio script, not a magazine digest. The schema in the user message is a
+skeleton of headings and voice — do not copy its brevity. A draft under 2,200 words is a
+failed brief. If a section is thin, say so in one sentence and give leftover words to
+The World or One Idea — never pad with building slideshows, and never add a "read this
+later" list (their backlog is long enough).
 - The World: ~8 minutes (~1,200 words). 4-7 timely developments, mixed: geopolitics,
   econ-as-news, culture being argued NOW, and AI as news (policy, labs, compute
-  geopolitics, deployments). Kill funding/launch/PR. This is the spine.
+  geopolitics, deployments). Each item is 180-250 words: the argument, not a two-sentence
+  lede. If THE_NEWS includes AI-as-news, give at least one AI item a full treatment unless
+  it duplicates PAPER. Kill funding/launch/PR. This is the spine.
 - Paper of the Day: ~3 minutes (~450 words). Exactly one paper (AI, econ, or social
   science). Tell it as a story: the question, the result, the so-what. Not a methods dump.
 - One Idea: ~4 minutes (~600 words). 1-2 items. A theory, mechanism, or mental model
