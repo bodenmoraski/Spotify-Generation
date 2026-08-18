@@ -14,7 +14,8 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "d8fd67770517bce975295b99257e08bcd2b6453b",
@@ -30,7 +31,8 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "f9cef823c06e601ca28acd6bc8e186a0b8f4f021",
@@ -46,7 +48,8 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "cd4c1050cd6a2e6eb401013a2726d7d842e2dcff",
@@ -62,7 +65,8 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "8a59986247915f89be8087cc3a0e318b66af458e",
@@ -78,7 +82,8 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "b70f6999bda51bbae0decef22e59c39a99b13f58",
@@ -94,7 +99,8 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "60d34457c56c1a85bf93ef2d03ee3fecdded15ee",
@@ -110,7 +116,8 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "37a261e26071ff10fa1b256ffa5a71d4f5ecd76f",
@@ -126,7 +133,8 @@
       ],
       "reviews_done": 1,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "d2feb01fdf1465437b4b84bcec0aec1e70f7d4cd",
@@ -142,7 +150,8 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "932dae92dd13965a6f7b455d2ef5092094f6f326",
@@ -158,7 +167,8 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "4682a5e8d99590dde07125d55dcdb67895940145",
@@ -174,7 +184,8 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "f008ec463b2faec826d34997a4aeef757d222e0c",
@@ -190,7 +201,8 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "b14a43f8ae5b8eda2bb37c511287280507acec8f",
@@ -206,7 +218,8 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "1d32426c19b2c00f64a56cf41e88268a0d96e4fb",
@@ -222,7 +235,8 @@
       ],
       "reviews_done": 1,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "12d92259d86e5e34c826bcc514eb2b306f90a967",
@@ -238,7 +252,8 @@
       ],
       "reviews_done": 1,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "86cd090eae1c3f76e35ec3aebd8629d23b8a74e2",
@@ -254,7 +269,8 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "38b256a74f7fb5f621b4f228887e53bad38c6bc6",
@@ -270,7 +286,8 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "98f7fcaf7c469a4a250e1ca647177c5b733afaab",
@@ -286,7 +303,8 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "fb2d2acfdf844a2a34f2068d03d65c28b2d27926",
@@ -302,7 +320,8 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "169efff1719e4ea40c56f8f08247ac6aec5402b2",
@@ -318,7 +337,8 @@
       ],
       "reviews_done": 1,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "883790a0a97e32d836cf2a237acb5f669667dcdb",
@@ -334,7 +354,8 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "4cc9b6870b07bfd240e0206c5642b77ca3886b9e",
@@ -348,9 +369,10 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "d3e43d4c6c8e2b2a921d12b16c1ff2792dfdd63a",
@@ -366,7 +388,8 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "a48a957db27ea7ac2bd9b528bf7159d6ff5c0da1",
@@ -380,9 +403,10 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "c4452e2fa87d1ce0bb0cd34c133404120dd7a779",
@@ -398,7 +422,8 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "8ea09ad18a1033e594956cf2a59094716eda9dd2",
@@ -412,9 +437,10 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "9771c52aaeb35936b04d60a095646537bb5a6c0e",
@@ -428,9 +454,10 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
     },
     {
       "id": "a4aac1590a47294643ce1964bf43930dd5c4841d",
@@ -446,7 +473,161 @@
       ],
       "reviews_done": 0,
       "retired": false,
-      "missed": false
+      "missed": false,
+      "source": ""
+    },
+    {
+      "id": "03726af2f5860f96cbc62a0c13ba52e8e080005f",
+      "title": "Why China’s AI Bubble Is Also Industrial Policy",
+      "one_line": "Reframes China's AI bubble as deliberate industrial policy, overturning simple bubble narrative.",
+      "ingested_date": "2026-08-18",
+      "review_dates": [
+        "2026-08-19",
+        "2026-08-21",
+        "2026-08-25",
+        "2026-09-03",
+        "2026-09-22"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "83db90cf1d2f1f5d766a7a7f78f0d16465d509b7",
+      "title": "How economics is changing",
+      "one_line": "Reframes economics' evolution with causal claims data, overturning assumptions.",
+      "ingested_date": "2026-08-18",
+      "review_dates": [
+        "2026-08-19",
+        "2026-08-21",
+        "2026-08-25",
+        "2026-09-03",
+        "2026-09-22"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "5528278c0ae10bc87299eae3f577aac73d5dbd55",
+      "title": "On That Disgraceful, Disreputable, (Wonderful) Form of Punctuation: The Parenthesis",
+      "one_line": "Reframes punctuation as a lens on history, technology, and inner worlds.",
+      "ingested_date": "2026-08-18",
+      "review_dates": [
+        "2026-08-19",
+        "2026-08-21",
+        "2026-08-25",
+        "2026-09-03",
+        "2026-09-22"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "9281ee7ce82e1245ad33dfbd41d68b1246ff801a",
+      "title": "Teaching Everyone to Fish for Tokens",
+      "one_line": "Reframes open-source AI debate via Linux analogy, distinguishing weights from recipes.",
+      "ingested_date": "2026-08-18",
+      "review_dates": [
+        "2026-08-19",
+        "2026-08-21",
+        "2026-08-25",
+        "2026-09-03",
+        "2026-09-22"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Interconnects"
+    },
+    {
+      "id": "c118af9167a2da0025dc7b78720d469b2376f82d",
+      "title": "The Invisible Crisis: How Four Wars Built One Food Emergency",
+      "one_line": "Reframes four wars as one systemic food crisis, offering a new causal lens.",
+      "ingested_date": "2026-08-18",
+      "review_dates": [
+        "2026-08-19",
+        "2026-08-21",
+        "2026-08-25",
+        "2026-09-03",
+        "2026-09-22"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "1ec92fd0d75d3a20a192ce617e86d70e0a84c814",
+      "title": "Το Ιράν απειλεί να περάσει σε πλήρη επίθεση – Οι ΗΠΑ αποκλείουν παράταση της συμφωνίας κατάπαυσης του πυρός - PatrisNews",
+      "one_line": "Geopolitical escalation with US-Iran tension, but no new argument or reframing.",
+      "ingested_date": "2026-08-18",
+      "review_dates": [
+        "2026-08-19",
+        "2026-08-21",
+        "2026-08-25",
+        "2026-09-03",
+        "2026-09-22"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gdelt_geopolitics"
+    },
+    {
+      "id": "fc9f452012acbf7e2a4e436ade0c3c6becd761fd",
+      "title": "Model Hypnosis: Strong control of AI via additive subliminal effects",
+      "one_line": "Novel, transferable control via subtle cues reframes AI safety and interpretability.",
+      "ingested_date": "2026-08-18",
+      "review_dates": [
+        "2026-08-19",
+        "2026-08-21",
+        "2026-08-25",
+        "2026-09-03",
+        "2026-09-22"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "34765f1376ccc3e3757e95bf4838fe2186a8f38d",
+      "title": "Theory of Fluids Enters the 21st Century",
+      "one_line": "Reframes fluid dynamics with modern physics, overturning classical assumptions.",
+      "ingested_date": "2026-08-18",
+      "review_dates": [
+        "2026-08-19",
+        "2026-08-21",
+        "2026-08-25",
+        "2026-09-03",
+        "2026-09-22"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
+    },
+    {
+      "id": "be832986a2e557c5d80b5702822f7430263d53a3",
+      "title": "Everything You Believe About Taking a Full Course of Antibiotics and Bacterial Resistance Is Wrong",
+      "one_line": "Overturns a core medical belief with counterintuitive argument; high curiosity value.",
+      "ingested_date": "2026-08-18",
+      "review_dates": [
+        "2026-08-19",
+        "2026-08-21",
+        "2026-08-25",
+        "2026-09-03",
+        "2026-09-22"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
     }
   ]
 }
