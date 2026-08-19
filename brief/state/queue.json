@@ -182,7 +182,7 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": ""
@@ -233,7 +233,7 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": ""
@@ -267,7 +267,7 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": ""
@@ -284,7 +284,7 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": ""
@@ -623,6 +623,142 @@
         "2026-08-25",
         "2026-09-03",
         "2026-09-22"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
+    },
+    {
+      "id": "5f102190bfb2a89019b47ca52bb1de4ae882aefb",
+      "title": "Capitalizing untethered AI agents",
+      "one_line": "Reframes AI accountability through legal personhood and untethered agents.",
+      "ingested_date": "2026-08-19",
+      "review_dates": [
+        "2026-08-20",
+        "2026-08-22",
+        "2026-08-26",
+        "2026-09-04",
+        "2026-09-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "7ff417f17198d881d114accc86de75085c34df0a",
+      "title": "North Korean Messiah",
+      "one_line": "Reframes North Korea's ideology via American Protestantism, overturning conventional frames.",
+      "ingested_date": "2026-08-19",
+      "review_dates": [
+        "2026-08-20",
+        "2026-08-22",
+        "2026-08-26",
+        "2026-09-04",
+        "2026-09-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "791a7856863c3118820748ca8703aaa13b3bb157",
+      "title": "Will bets on the price of computing power help or harm the AI economy?",
+      "one_line": "Reframes AI capex as a pricing problem; compute futures could reshape economy.",
+      "ingested_date": "2026-08-19",
+      "review_dates": [
+        "2026-08-20",
+        "2026-08-22",
+        "2026-08-26",
+        "2026-09-04",
+        "2026-09-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "d48088d8d42b59e8c61b6614d0618ac4dc8ffa16",
+      "title": "Usa - Iran , finisce la tregua e tornano le tensioni su Hormuz . Trump : « Lo stretto è territorio nostro ». E a Dubai scatta lallarme missili",
+      "one_line": "Escalation in Strait of Hormuz reframes regional power dynamics.",
+      "ingested_date": "2026-08-19",
+      "review_dates": [
+        "2026-08-20",
+        "2026-08-22",
+        "2026-08-26",
+        "2026-09-04",
+        "2026-09-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gdelt_geopolitics"
+    },
+    {
+      "id": "167008e09d13a921dd80f6fe0e4fbde9f92ce82e",
+      "title": "Now Amazon is destroying rare books to train its AI.",
+      "one_line": "Reveals systemic destructive scanning by tech giants, reframing AI training ethics.",
+      "ingested_date": "2026-08-19",
+      "review_dates": [
+        "2026-08-20",
+        "2026-08-22",
+        "2026-08-26",
+        "2026-09-04",
+        "2026-09-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "2536e3dd9812f70f22584ee69c41598d65bf0011",
+      "title": "From Trade Giant to Strategic Actor: Rebuilding Europe’s Economic Statecraft",
+      "one_line": "Reframes EU economic power as strategic statecraft, challenging passive trade-giant narrative.",
+      "ingested_date": "2026-08-19",
+      "review_dates": [
+        "2026-08-20",
+        "2026-08-22",
+        "2026-08-26",
+        "2026-09-04",
+        "2026-09-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "a6d886f6d416cc4125dcb2aa5a8da65264076f2f",
+      "title": "In praise of zealotry",
+      "one_line": "Reframes civility as a tool of power, not virtue.",
+      "ingested_date": "2026-08-19",
+      "review_dates": [
+        "2026-08-20",
+        "2026-08-22",
+        "2026-08-26",
+        "2026-09-04",
+        "2026-09-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
+    },
+    {
+      "id": "676b572b0c41686969bdf2e63633fc93116f2346",
+      "title": "Why You Move Factors in to Whether It Protects You From Dementia",
+      "one_line": "Challenges assumption that all movement prevents dementia; reframes exercise nuance.",
+      "ingested_date": "2026-08-19",
+      "review_dates": [
+        "2026-08-20",
+        "2026-08-22",
+        "2026-08-26",
+        "2026-09-04",
+        "2026-09-23"
       ],
       "reviews_done": 0,
       "retired": false,
