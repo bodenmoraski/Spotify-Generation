@@ -369,7 +369,7 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": ""
@@ -403,7 +403,7 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": ""
@@ -437,7 +437,7 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": ""
@@ -454,7 +454,7 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": ""
@@ -764,6 +764,159 @@
       "retired": false,
       "missed": false,
       "source": "Nautilus"
+    },
+    {
+      "id": "68287dc9809693a49e0b8c80ed571d2e3da96430",
+      "title": "How much can you consistently care about animal welfare?",
+      "one_line": "Reframes animal welfare with total utilitarian calculus, overturning intuitive moral weights.",
+      "ingested_date": "2026-08-20",
+      "review_dates": [
+        "2026-08-21",
+        "2026-08-23",
+        "2026-08-27",
+        "2026-09-05",
+        "2026-09-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "aee55ea1e45df27a8d987dba5e3a6797392b7c31",
+      "title": "How Orchids Inspired the Groundbreaking Work of Charles Darwin",
+      "one_line": "Vividly reframes Darwin's life and work through orchids, offering fresh perspective on his scientific mind.",
+      "ingested_date": "2026-08-20",
+      "review_dates": [
+        "2026-08-21",
+        "2026-08-23",
+        "2026-08-27",
+        "2026-09-05",
+        "2026-09-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "190c5ddde1d086867b0fd39f584e5bcf3b33e170",
+      "title": "Literature in the Time of Suicide",
+      "one_line": "Reframes suicide as a decision about living, offering a fresh cultural lens.",
+      "ingested_date": "2026-08-20",
+      "review_dates": [
+        "2026-08-21",
+        "2026-08-23",
+        "2026-08-27",
+        "2026-09-05",
+        "2026-09-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "403e68a3574a10a7d434415b8a0f9075916aee5d",
+      "title": "Reviving Regionalism through Gender Diplomacy: SAARC and the Care Economy",
+      "one_line": "Reframes regionalism via gender lens, but niche and speculative.",
+      "ingested_date": "2026-08-20",
+      "review_dates": [
+        "2026-08-21",
+        "2026-08-23",
+        "2026-08-27",
+        "2026-09-05",
+        "2026-09-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "fda6a099aebc69df7d06899fcd21f99a5cc628e4",
+      "title": "A Geopolítica do Petróleo, o Dilema da Margem Equatorial e a Ilusão do Passaporte para o Futuro: Uma Análise da Economia Política do Pré-Sal e da Soberania Energética Nacional",
+      "one_line": "Reframes Brazil's oil policy as geopolitical sovereignty, but dense and niche.",
+      "ingested_date": "2026-08-20",
+      "review_dates": [
+        "2026-08-21",
+        "2026-08-23",
+        "2026-08-27",
+        "2026-09-05",
+        "2026-09-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "2cf34a088e688bfb2f3b3cad5c2cb9c7119d9d60",
+      "title": "Ground Zero Plus 25",
+      "one_line": "Anniversary event, likely retrospective, low novelty for generalist.",
+      "ingested_date": "2026-08-20",
+      "review_dates": [
+        "2026-08-21",
+        "2026-08-23",
+        "2026-08-27",
+        "2026-09-05",
+        "2026-09-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "n+1"
+    },
+    {
+      "id": "0aec5bc3de124704a9b510633a4842ff5410842a",
+      "title": "Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems",
+      "one_line": "Reframes AI evaluation from capability to precision, offering measurable, decision-guiding metric.",
+      "ingested_date": "2026-08-20",
+      "review_dates": [
+        "2026-08-21",
+        "2026-08-23",
+        "2026-08-27",
+        "2026-09-05",
+        "2026-09-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "ec7334d62695dbcba09532b8713ab4cdbc702eb3",
+      "title": "Dolphins and other lovers",
+      "one_line": "Reframes human-animal relations via Amazonian worldview, overturning Western assumptions.",
+      "ingested_date": "2026-08-20",
+      "review_dates": [
+        "2026-08-21",
+        "2026-08-23",
+        "2026-08-27",
+        "2026-09-05",
+        "2026-09-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
+    },
+    {
+      "id": "374822b299d03f2ecd21454f14b9f0504ae4abc8",
+      "title": "How Thailand resisted colonization",
+      "one_line": "Reframes colonial history via soft power, a counterintuitive survival strategy.",
+      "ingested_date": "2026-08-20",
+      "review_dates": [
+        "2026-08-21",
+        "2026-08-23",
+        "2026-08-27",
+        "2026-09-05",
+        "2026-09-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Works in Progress"
     }
   ]
 }
