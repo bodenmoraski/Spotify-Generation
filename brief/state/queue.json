@@ -488,7 +488,7 @@
         "2026-09-03",
         "2026-09-22"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "ChinaTalk"
@@ -522,7 +522,7 @@
         "2026-09-03",
         "2026-09-22"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -573,7 +573,7 @@
         "2026-09-03",
         "2026-09-22"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "gdelt_geopolitics"
@@ -607,7 +607,7 @@
         "2026-09-03",
         "2026-09-22"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
@@ -917,6 +917,159 @@
       "retired": false,
       "missed": false,
       "source": "Works in Progress"
+    },
+    {
+      "id": "4608cbdef015af81d2e54cdb04d06ee239772c66",
+      "title": "More evidence on the effects of recent tariffs",
+      "one_line": "Tariffs didn't collapse imports due to AI boom; reframes tariff effects.",
+      "ingested_date": "2026-08-21",
+      "review_dates": [
+        "2026-08-22",
+        "2026-08-24",
+        "2026-08-28",
+        "2026-09-06",
+        "2026-09-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "257c132b7cfd6ccd844e22625e546a385c27356d",
+      "title": "Overcaffeinated in Indonesia",
+      "one_line": "Firsthand Indonesia notes challenge assumptions about democracy and scale.",
+      "ingested_date": "2026-08-21",
+      "review_dates": [
+        "2026-08-22",
+        "2026-08-24",
+        "2026-08-28",
+        "2026-09-06",
+        "2026-09-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "7181d39f52c5d6d6bb68b6cefaaeb181531b8a26",
+      "title": "“Our Guns Make the Violence That People Are Fleeing”: Ieva Jusionyte on Guns & Violence in Mexico",
+      "one_line": "Reframes gun violence as US export, linking policy to migration.",
+      "ingested_date": "2026-08-21",
+      "review_dates": [
+        "2026-08-22",
+        "2026-08-24",
+        "2026-08-28",
+        "2026-09-06",
+        "2026-09-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "481b163116f88997733b944d55518a288510d371",
+      "title": "Why AI won’t cure cancer anytime soon",
+      "one_line": "Reframes AI hype vs. reality in biomedicine with concrete numbers and skepticism.",
+      "ingested_date": "2026-08-21",
+      "review_dates": [
+        "2026-08-22",
+        "2026-08-24",
+        "2026-08-28",
+        "2026-09-06",
+        "2026-09-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "a7f21df72998034a9e32d25c97fa6a012ca9e92f",
+      "title": "Jeff Jarvis on Mark Twain, America’s First Celebrity Author and Publisher",
+      "one_line": "Reframes media history via subscription publishing, overturning assumptions about book distribution.",
+      "ingested_date": "2026-08-21",
+      "review_dates": [
+        "2026-08-22",
+        "2026-08-24",
+        "2026-08-28",
+        "2026-09-06",
+        "2026-09-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "82875d5db648f9dc644778b934c8d8cad2baef2b",
+      "title": "As Trump courts Kim , Pyongyang ups price while Seoul fears being sidelined",
+      "one_line": "Geopolitical shift with strategic implications, but lacks novel analysis.",
+      "ingested_date": "2026-08-21",
+      "review_dates": [
+        "2026-08-22",
+        "2026-08-24",
+        "2026-08-28",
+        "2026-09-06",
+        "2026-09-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gdelt_geopolitics"
+    },
+    {
+      "id": "905e2e25d23079f4395ee3dc09f4a483ea521c25",
+      "title": "Growth Without Us: Machine Consumers, Corporate Circularity, and the Decoupling of GDP from Humanity after AGI",
+      "one_line": "Reframes post-AGI economics: GDP decouples from humanity, ownership share is key.",
+      "ingested_date": "2026-08-21",
+      "review_dates": [
+        "2026-08-22",
+        "2026-08-24",
+        "2026-08-28",
+        "2026-09-06",
+        "2026-09-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "7c0d219e91243f6c0fa11f7ef98bd4cc9a004b97",
+      "title": "The fog of hunger",
+      "one_line": "Reframes hunger as cognitive tax, overturns assumptions about appetite.",
+      "ingested_date": "2026-08-21",
+      "review_dates": [
+        "2026-08-22",
+        "2026-08-24",
+        "2026-08-28",
+        "2026-09-06",
+        "2026-09-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
+    },
+    {
+      "id": "b73f995da6747bba1cfdd732696556d6c50026f9",
+      "title": "Are We Thinking Correctly About AI Intelligence?",
+      "one_line": "Reframes AI trust via measurement gap, not just capability.",
+      "ingested_date": "2026-08-21",
+      "review_dates": [
+        "2026-08-22",
+        "2026-08-24",
+        "2026-08-28",
+        "2026-09-06",
+        "2026-09-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
     }
   ]
 }
