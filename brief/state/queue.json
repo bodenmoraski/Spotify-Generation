@@ -641,7 +641,7 @@
         "2026-09-04",
         "2026-09-23"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Marginal Revolution"
@@ -709,7 +709,7 @@
         "2026-09-04",
         "2026-09-23"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -726,7 +726,7 @@
         "2026-09-04",
         "2026-09-23"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "gnews_world_in"
@@ -760,7 +760,7 @@
         "2026-09-04",
         "2026-09-23"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Nautilus"
@@ -1065,6 +1065,159 @@
         "2026-08-28",
         "2026-09-06",
         "2026-09-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
+    },
+    {
+      "id": "2149124d4c26f6f3e794144389692fed30c1d943",
+      "title": "The data center is a symbol",
+      "one_line": "Reframes data center backlash as emotional signal, not factual debate.",
+      "ingested_date": "2026-08-22",
+      "review_dates": [
+        "2026-08-23",
+        "2026-08-25",
+        "2026-08-29",
+        "2026-09-07",
+        "2026-09-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "8ebc8e2d144e1b764dd6723f89f22c0d06ed15b5",
+      "title": "Birds Beyond Birding",
+      "one_line": "Reframes birding as a lens for social imagination and solidarity.",
+      "ingested_date": "2026-08-22",
+      "review_dates": [
+        "2026-08-23",
+        "2026-08-25",
+        "2026-08-29",
+        "2026-09-07",
+        "2026-09-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "0e002c66e586a14b2b7a97c0a1f5df63abe7e610",
+      "title": "How Talking About Death Helps Us Live a Fuller Life",
+      "one_line": "Reframes death acceptance through personal narrative, offering a fresh perspective on mortality.",
+      "ingested_date": "2026-08-22",
+      "review_dates": [
+        "2026-08-23",
+        "2026-08-25",
+        "2026-08-29",
+        "2026-09-07",
+        "2026-09-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "23288dce8c9d1d571909f130d400bd211351a265",
+      "title": "Mineração Taboca: China põe terras raras do Amazonas no centro da disputa geopolítica mundial",
+      "one_line": "Rare earths in Amazon become geopolitical flashpoint, but headline-driven without new analysis.",
+      "ingested_date": "2026-08-22",
+      "review_dates": [
+        "2026-08-23",
+        "2026-08-25",
+        "2026-08-29",
+        "2026-09-07",
+        "2026-09-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "e42b7af4138c252fa082a7edb74440c920506e92",
+      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "one_line": "Announcement of partnership, not a new idea or result.",
+      "ingested_date": "2026-08-22",
+      "review_dates": [
+        "2026-08-23",
+        "2026-08-25",
+        "2026-08-29",
+        "2026-09-07",
+        "2026-09-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Google DeepMind"
+    },
+    {
+      "id": "ab9b58539d977902ec2df06d9328af77e8f2a891",
+      "title": "After sweeping new powers for Munir, Pakistan deploys more troops in Rawalpindi amid backlash fears",
+      "one_line": "Regional political tension, but lacks novel analysis or broad reframing.",
+      "ingested_date": "2026-08-22",
+      "review_dates": [
+        "2026-08-23",
+        "2026-08-25",
+        "2026-08-29",
+        "2026-09-07",
+        "2026-09-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "fdb52c398cc4891fda32d500b580c68e1035b65e",
+      "title": "Phantom Gains: Auditing Self-Improvement Against a Measured Null",
+      "one_line": "Exposes measurement artifacts that invert self-improvement findings; rigorous audit reframes evaluation.",
+      "ingested_date": "2026-08-22",
+      "review_dates": [
+        "2026-08-23",
+        "2026-08-25",
+        "2026-08-29",
+        "2026-09-07",
+        "2026-09-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "bf35a5958ea68e85f3104e1a2a7141430e8d80bd",
+      "title": "Unwanted Ease",
+      "one_line": "Reframes AI's ease as a learning trap with empirical backing.",
+      "ingested_date": "2026-08-22",
+      "review_dates": [
+        "2026-08-23",
+        "2026-08-25",
+        "2026-08-29",
+        "2026-09-07",
+        "2026-09-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "The Learning Scientists"
+    },
+    {
+      "id": "35207097a8603a7b9b2bc7c709a5a96c6658afa7",
+      "title": "‘Huge Breakthrough’ in the Math of Imbalance",
+      "one_line": "Reframes a common problem with deep math, surprising and broadly applicable.",
+      "ingested_date": "2026-08-22",
+      "review_dates": [
+        "2026-08-23",
+        "2026-08-25",
+        "2026-08-29",
+        "2026-09-07",
+        "2026-09-26"
       ],
       "reviews_done": 0,
       "retired": false,

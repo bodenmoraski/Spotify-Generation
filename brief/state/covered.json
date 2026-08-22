@@ -519,6 +519,78 @@
       "url": "https://www.quantamagazine.org/are-we-thinking-correctly-about-ai-intelligence-20260820/",
       "covered_date": "2026-08-21",
       "one_line": "Reframes AI trust via measurement gap, not just capability."
+    },
+    {
+      "id": "2149124d4c26f6f3e794144389692fed30c1d943",
+      "title": "The data center is a symbol",
+      "title_norm": "the data center is a symbol",
+      "url": "https://www.transformernews.ai/p/the-data-center-is-a-symbol",
+      "covered_date": "2026-08-22",
+      "one_line": "Reframes data center backlash as emotional signal, not factual debate."
+    },
+    {
+      "id": "8ebc8e2d144e1b764dd6723f89f22c0d06ed15b5",
+      "title": "Birds Beyond Birding",
+      "title_norm": "birds beyond birding",
+      "url": "https://www.publicbooks.org/birds-beyond-birding/",
+      "covered_date": "2026-08-22",
+      "one_line": "Reframes birding as a lens for social imagination and solidarity."
+    },
+    {
+      "id": "0e002c66e586a14b2b7a97c0a1f5df63abe7e610",
+      "title": "How Talking About Death Helps Us Live a Fuller Life",
+      "title_norm": "how talking about death helps us live a fuller life",
+      "url": "https://lithub.com/how-talking-about-death-helps-us-live-a-fuller-life/",
+      "covered_date": "2026-08-22",
+      "one_line": "Reframes death acceptance through personal narrative, offering a fresh perspective on mortality."
+    },
+    {
+      "id": "23288dce8c9d1d571909f130d400bd211351a265",
+      "title": "Minera\u00e7\u00e3o Taboca: China p\u00f5e terras raras do Amazonas no centro da disputa geopol\u00edtica mundial",
+      "title_norm": "minera\u00e7\u00e3o taboca china p\u00f5e terras raras do amazonas no centro da disputa geopol\u00edtica mundial",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcTBiakEwLVlWYk1zNUVIN3VtNW1KVm1LYkczOFRNWGRzTGprd3EyYlFDakpOWEFobUlCV1RhTEstV1lxYmNDSnpBbGxac193eTEyMGxPQVROdjZ1Q3VTZEx6Z2s0VUlaeE10T0ttMXRFekR5aHgxQjdUZGUtcXFKTmozZ2ZIYWlWOXA3dXJSWWVSRmdaMlI4S2I1V0NPMVRrdThHZTdUMFpjd3k2ZFNnVWRxTEM1TjA?oc=5",
+      "covered_date": "2026-08-22",
+      "one_line": "Rare earths in Amazon become geopolitical flashpoint, but headline-driven without new analysis."
+    },
+    {
+      "id": "e42b7af4138c252fa082a7edb74440c920506e92",
+      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "title_norm": "from atari to eve online building on 15 years of ai research in games",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "covered_date": "2026-08-22",
+      "one_line": "Announcement of partnership, not a new idea or result."
+    },
+    {
+      "id": "ab9b58539d977902ec2df06d9328af77e8f2a891",
+      "title": "After sweeping new powers for Munir, Pakistan deploys more troops in Rawalpindi amid backlash fears",
+      "title_norm": "after sweeping new powers for munir pakistan deploys more troops in rawalpindi amid backlash fears",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPV29DYTFkWFItdUpMZVJNVTBSOExBWnRvRktBYkp2UDl1dFA2VjVrMlNxd2ZOSXRVX1hhYVZkR19NVk05NVNLa3Y2bkxHWkUtQmo2eUlRWmVfV0lQQ1pYODBDM1hVQlZPM0hnWFk2SmZPU1A1dEh6c3JwaVIzUXJ3REpheTBod0RmYjBWNmpsSXhBbTlfMm0xNXpVeVhuNy03U2VIRmJfbWRPU1VDdlV1aEczV0E1NUhxUGs5Wk51enBkbEFqdERIeThlUmRId3NTSUJz0gHYAUFVX3lxTE5Ld0lxcmlBeTN4YzJjRGNwYzU2b1BhUE1weHhxckFzZ0dDMXNqVld6UG03QTFoTWE1TG5SYUh4cmVOaHQwbmZmSlU0c0RsS1NJc0pPY3JQM3hmOWc0T1prSVgxdnBLZ1ozZldHTFJtXzBvTzFRbHUxRExPbHNkWG5KMldob3U1Z2tPRmhjQlNUa240X1k2Y1h1cWRac1ZQZkpQLXAzZFlKeEU2ZFNReVMzV0NLU0xFcUsxalBjODdpS1g4eFJ0MDFWZmZ3blR3LXlfUWd2TUg5Ng?oc=5",
+      "covered_date": "2026-08-22",
+      "one_line": "Regional political tension, but lacks novel analysis or broad reframing."
+    },
+    {
+      "id": "fdb52c398cc4891fda32d500b580c68e1035b65e",
+      "title": "Phantom Gains: Auditing Self-Improvement Against a Measured Null",
+      "title_norm": "phantom gains auditing self improvement against a measured null",
+      "url": "https://arxiv.org/abs/2608.20290v1",
+      "covered_date": "2026-08-22",
+      "one_line": "Exposes measurement artifacts that invert self-improvement findings; rigorous audit reframes evaluation."
+    },
+    {
+      "id": "bf35a5958ea68e85f3104e1a2a7141430e8d80bd",
+      "title": "Unwanted Ease",
+      "title_norm": "unwanted ease",
+      "url": "https://www.learningscientists.org/blog/2026/8/21",
+      "covered_date": "2026-08-22",
+      "one_line": "Reframes AI's ease as a learning trap with empirical backing."
+    },
+    {
+      "id": "35207097a8603a7b9b2bc7c709a5a96c6658afa7",
+      "title": "\u2018Huge Breakthrough\u2019 in the Math of Imbalance",
+      "title_norm": "huge breakthrough in the math of imbalance",
+      "url": "https://www.quantamagazine.org/huge-breakthrough-in-the-math-of-imbalance-20260821/",
+      "covered_date": "2026-08-22",
+      "one_line": "Reframes a common problem with deep math, surprising and broadly applicable."
     }
   ]
 }
