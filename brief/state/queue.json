@@ -182,7 +182,7 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": ""
@@ -233,7 +233,7 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": ""
@@ -267,7 +267,7 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": ""
@@ -284,7 +284,7 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": ""
@@ -1223,6 +1223,159 @@
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
+    },
+    {
+      "id": "ae5bd5606ea68206ac61e30a8d2041e18b0fd227",
+      "title": "Democracy and Caeserism",
+      "one_line": "Reframes democratic dysfunction as driver of Caesarism, a prescient and provocative argument.",
+      "ingested_date": "2026-08-23",
+      "review_dates": [
+        "2026-08-24",
+        "2026-08-26",
+        "2026-08-30",
+        "2026-09-08",
+        "2026-09-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "f837c2a3a11ccf64485b2edd5a284259c46e9978",
+      "title": "US weakness is reshaping Middle East alliances",
+      "one_line": "Geopolitical shift with strategic implications, but lacks novel analysis.",
+      "ingested_date": "2026-08-23",
+      "review_dates": [
+        "2026-08-24",
+        "2026-08-26",
+        "2026-08-30",
+        "2026-09-08",
+        "2026-09-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gdelt_geopolitics"
+    },
+    {
+      "id": "5b165e4b4fa81ca6fdb362e578004840778b9315",
+      "title": "Lit Hub Weekly: August 17 – 21, 2026",
+      "one_line": "A rich miscellany with a few genuinely reframing pieces, but mostly digest.",
+      "ingested_date": "2026-08-23",
+      "review_dates": [
+        "2026-08-24",
+        "2026-08-26",
+        "2026-08-30",
+        "2026-09-08",
+        "2026-09-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "07d5956e2a1784e63a985df49e38ab669fa39674",
+      "title": "Syria foreign minister says door open for diplomacy with Israel",
+      "one_line": "Diplomatic shift in Syria-Israel relations, but lacks deep analysis or novel argument.",
+      "ingested_date": "2026-08-23",
+      "review_dates": [
+        "2026-08-24",
+        "2026-08-26",
+        "2026-08-30",
+        "2026-09-08",
+        "2026-09-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "8f54f9d685f6046ab1b4d6da8102955adaf658e8",
+      "title": "Agro brasileiro e geopolítica: chega de saudade",
+      "one_line": "Brazilian agribusiness geopolitics piece, likely familiar to informed readers.",
+      "ingested_date": "2026-08-23",
+      "review_dates": [
+        "2026-08-24",
+        "2026-08-26",
+        "2026-08-30",
+        "2026-09-08",
+        "2026-09-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "9a36d1f3a7336e132e6f477c9876dc8e9333c8ee",
+      "title": "Octo Octa and Eris Drew Ready Collaborative Album as Alchemical Sisters",
+      "one_line": "Music release news, no new argument or reframing.",
+      "ingested_date": "2026-08-23",
+      "review_dates": [
+        "2026-08-24",
+        "2026-08-26",
+        "2026-08-30",
+        "2026-09-08",
+        "2026-09-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Pitchfork"
+    },
+    {
+      "id": "09dd5b61ff92a4cbcf54952e86390664ffb3de08",
+      "title": "Information on trajectories: martingales and random times",
+      "one_line": "Unifies concentration inequalities via exact variational identities, reframing known bounds.",
+      "ingested_date": "2026-08-23",
+      "review_dates": [
+        "2026-08-24",
+        "2026-08-26",
+        "2026-08-30",
+        "2026-09-08",
+        "2026-09-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "86721087394ce766d0caaf3b17b76fbff184501d",
+      "title": "\"Farm strength\" vs \"breath awareness\"",
+      "one_line": "Reframes skill-building as contextual practice vs. isolated training, a portable insight.",
+      "ingested_date": "2026-08-23",
+      "review_dates": [
+        "2026-08-24",
+        "2026-08-26",
+        "2026-08-30",
+        "2026-09-08",
+        "2026-09-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "f03b54a85f2e67e733aebc16abbf355dad571125",
+      "title": "The Remarkable Lives of 5-Year-Old Brain Organoids",
+      "one_line": "Aging organoids challenge assumptions about brain development and longevity.",
+      "ingested_date": "2026-08-23",
+      "review_dates": [
+        "2026-08-24",
+        "2026-08-26",
+        "2026-08-30",
+        "2026-09-08",
+        "2026-09-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
     }
   ]
 }
