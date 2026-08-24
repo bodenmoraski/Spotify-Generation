@@ -369,7 +369,7 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": ""
@@ -403,7 +403,7 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": ""
@@ -437,7 +437,7 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": ""
@@ -454,7 +454,7 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": ""
@@ -1376,6 +1376,142 @@
       "retired": false,
       "missed": false,
       "source": "Nautilus"
+    },
+    {
+      "id": "13a218b74628420c2f42696869a848db5de10df8",
+      "title": "How AI Becomes a Political Crisis",
+      "one_line": "Reframes AI's political economy with concrete policy ideas and novel angles.",
+      "ingested_date": "2026-08-24",
+      "review_dates": [
+        "2026-08-25",
+        "2026-08-27",
+        "2026-08-31",
+        "2026-09-09",
+        "2026-09-28"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "e7ab78a8a68e2cba4fdaed218d6c99e3252fc06e",
+      "title": "Steven Thrasher on the Killing of Jason Arday",
+      "one_line": "Reframes academic tragedy as systemic exploitation, challenging assumptions about higher ed.",
+      "ingested_date": "2026-08-24",
+      "review_dates": [
+        "2026-08-25",
+        "2026-08-27",
+        "2026-08-31",
+        "2026-09-09",
+        "2026-09-28"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "2f22ea7036dea3a8957c0cbc46d745703bbd2301",
+      "title": "Childhood Exposure to Joint Custody Reforms and Adult Family Formation",
+      "one_line": "Childhood custody reforms shift adult fertility preferences, reframing family formation drivers.",
+      "ingested_date": "2026-08-24",
+      "review_dates": [
+        "2026-08-25",
+        "2026-08-27",
+        "2026-08-31",
+        "2026-09-09",
+        "2026-09-28"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "a9b38d98b1d708078fb4e99af1ed0ce6a87512e3",
+      "title": "When AI Agents Cross Borders: Rogue Automation Is the New Test of Digital Sovereignty",
+      "one_line": "Reframes digital sovereignty through rogue AI agents, a novel geopolitical angle.",
+      "ingested_date": "2026-08-24",
+      "review_dates": [
+        "2026-08-25",
+        "2026-08-27",
+        "2026-08-31",
+        "2026-09-09",
+        "2026-09-28"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "176930afe9c85f679b4805fda07b07dbabffd77e",
+      "title": "COP sobre desertificação chega à rodada ministerial contaminada pela geopolítica",
+      "one_line": "Geopolitical contamination of desertification COP, a niche but relevant global issue.",
+      "ingested_date": "2026-08-24",
+      "review_dates": [
+        "2026-08-25",
+        "2026-08-27",
+        "2026-08-31",
+        "2026-09-09",
+        "2026-09-28"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "d0c04d3753eaa19e7c925b236cb15776678d5fb8",
+      "title": "ECOWAS sub-region remains Africa’s most stable amid existential threat: Commissioner",
+      "one_line": "Regional stability claim lacks novel analysis or argument.",
+      "ingested_date": "2026-08-24",
+      "review_dates": [
+        "2026-08-25",
+        "2026-08-27",
+        "2026-08-31",
+        "2026-09-09",
+        "2026-09-28"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_ke"
+    },
+    {
+      "id": "cf21a93e67d1017a8c645d78fb7d30d9bdf121c5",
+      "title": "AI with Authority, from Application to Silicon",
+      "one_line": "Inverts verification cost assumption; AI makes formal proof economical and essential.",
+      "ingested_date": "2026-08-24",
+      "review_dates": [
+        "2026-08-25",
+        "2026-08-27",
+        "2026-08-31",
+        "2026-09-09",
+        "2026-09-28"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "a643dd8805d900ddceaf42ae8f317f6e915e0574",
+      "title": "Twenty Years from RSI to Takeoff: Slow Learning, Scaling Slowdown, Industrial Explosion",
+      "one_line": "Reframes AGI timelines with slow learning and industrial explosion, overturning fast-takeoff priors.",
+      "ingested_date": "2026-08-24",
+      "review_dates": [
+        "2026-08-25",
+        "2026-08-27",
+        "2026-08-31",
+        "2026-09-09",
+        "2026-09-28"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
     }
   ]
 }
