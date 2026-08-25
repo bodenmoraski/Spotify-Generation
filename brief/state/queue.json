@@ -488,7 +488,7 @@
         "2026-09-03",
         "2026-09-22"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "ChinaTalk"
@@ -522,7 +522,7 @@
         "2026-09-03",
         "2026-09-22"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -573,7 +573,7 @@
         "2026-09-03",
         "2026-09-22"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "gdelt_geopolitics"
@@ -607,7 +607,7 @@
         "2026-09-03",
         "2026-09-22"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
@@ -1512,6 +1512,159 @@
       "retired": false,
       "missed": false,
       "source": "LessWrong"
+    },
+    {
+      "id": "eb4840479a414ee8bf2f02c28e56ec9b6a355e9b",
+      "title": "Do Minimum Wages Help Worker in Poor and Low-Income Families?",
+      "one_line": "Direct evidence overturns assumption minimum wage helps poor workers.",
+      "ingested_date": "2026-08-25",
+      "review_dates": [
+        "2026-08-26",
+        "2026-08-28",
+        "2026-09-01",
+        "2026-09-10",
+        "2026-09-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "36c9de00725350e67c7be9129c958004d2cd37c6",
+      "title": "Data Centers: The Latest Thing to Destroy Beautiful West Virginia",
+      "one_line": "Reframes data centers as cultural erasure, linking tech to Appalachian history.",
+      "ingested_date": "2026-08-25",
+      "review_dates": [
+        "2026-08-26",
+        "2026-08-28",
+        "2026-09-01",
+        "2026-09-10",
+        "2026-09-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "1df80c053bb7e742ab6035c6f1003176f611adc6",
+      "title": "کارزار تحریمی آمریکا علیه ایران در بوتهٔ آزمون ؛ اگر چین همکاری نکند ، چه ؟",
+      "one_line": "Sanctions pressure on Iran hinges on China cooperation, a fresh geopolitical angle.",
+      "ingested_date": "2026-08-25",
+      "review_dates": [
+        "2026-08-26",
+        "2026-08-28",
+        "2026-09-01",
+        "2026-09-10",
+        "2026-09-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gdelt_geopolitics"
+    },
+    {
+      "id": "4275dfd1ea0c56ebc17031de4d157d1281a17bdf",
+      "title": "Vatican diplomacy returns to Moscow: Leo XIV sends his “foreign minister” to engage in dialogue with Russia and intercede on behalf of Ukraine - ZENIT",
+      "one_line": "Vatican diplomatic move signals rare religious-state mediation in Ukraine conflict.",
+      "ingested_date": "2026-08-25",
+      "review_dates": [
+        "2026-08-26",
+        "2026-08-28",
+        "2026-09-01",
+        "2026-09-10",
+        "2026-09-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "da55f7d7bd9decaab106ee015dff29c37cee5a81",
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "one_line": "AI-enabled covert influence campaign, but newsy not novel.",
+      "ingested_date": "2026-08-25",
+      "review_dates": [
+        "2026-08-26",
+        "2026-08-28",
+        "2026-09-01",
+        "2026-09-10",
+        "2026-09-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "OpenAI"
+    },
+    {
+      "id": "593c2010b636a8d16ebe55de54c7a43debaa1c17",
+      "title": "Big Thief Debut New Triple Album, Horsepower, Live in Nashville",
+      "one_line": "Album release news, not a new argument; low reframing value.",
+      "ingested_date": "2026-08-25",
+      "review_dates": [
+        "2026-08-26",
+        "2026-08-28",
+        "2026-09-01",
+        "2026-09-10",
+        "2026-09-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Pitchfork"
+    },
+    {
+      "id": "a6fb065ebcc7a10d622a5bc73a1835b9a0d5e249",
+      "title": "How AI Assistance Affects Human Skill Development: A Study of Learning with Logic Puzzles",
+      "one_line": "Controlled experiment shows AI assistance can undermine skill development, reframing AI's long-term impact.",
+      "ingested_date": "2026-08-25",
+      "review_dates": [
+        "2026-08-26",
+        "2026-08-28",
+        "2026-09-01",
+        "2026-09-10",
+        "2026-09-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "b71f58b4cf3b22a324a7a0cb17f28e6dd89a40e4",
+      "title": "The Forkmakers",
+      "one_line": "Reframes civilization's legacy through durable cutlery, a fresh archaeological lens.",
+      "ingested_date": "2026-08-25",
+      "review_dates": [
+        "2026-08-26",
+        "2026-08-28",
+        "2026-09-01",
+        "2026-09-10",
+        "2026-09-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "2be521b3db1accd65bceab826459b80789dcdfe5",
+      "title": "Babies Born Under Sugar Rationing Grew Into Adults with Lower Cancer Risk",
+      "one_line": "Natural experiment links early sugar exposure to lifelong health, reframing developmental origins.",
+      "ingested_date": "2026-08-25",
+      "review_dates": [
+        "2026-08-26",
+        "2026-08-28",
+        "2026-09-01",
+        "2026-09-10",
+        "2026-09-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
     }
   ]
 }
