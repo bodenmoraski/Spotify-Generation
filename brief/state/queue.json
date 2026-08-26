@@ -641,7 +641,7 @@
         "2026-09-04",
         "2026-09-23"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Marginal Revolution"
@@ -709,7 +709,7 @@
         "2026-09-04",
         "2026-09-23"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -726,7 +726,7 @@
         "2026-09-04",
         "2026-09-23"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "gnews_world_in"
@@ -760,7 +760,7 @@
         "2026-09-04",
         "2026-09-23"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Nautilus"
@@ -1665,6 +1665,159 @@
       "retired": false,
       "missed": false,
       "source": "Nautilus"
+    },
+    {
+      "id": "ee59d6ebb2f6a3762c5fd04bdc18fdf030a94f7c",
+      "title": "Data Centers and the Open Access Order",
+      "one_line": "Reframes datacenter debate via open vs limited access orders, a fresh lens.",
+      "ingested_date": "2026-08-26",
+      "review_dates": [
+        "2026-08-27",
+        "2026-08-29",
+        "2026-09-02",
+        "2026-09-11",
+        "2026-09-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "326c5b3e1fa9a378c858d9192326cdfdb8c0f18d",
+      "title": "We’re sleepwalking into an AI surveillance dystopia",
+      "one_line": "Concrete, plausible scenario reframes AI surveillance as imminent, not hypothetical.",
+      "ingested_date": "2026-08-26",
+      "review_dates": [
+        "2026-08-27",
+        "2026-08-29",
+        "2026-09-02",
+        "2026-09-11",
+        "2026-09-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "727fc0b0cb812c0689eec786fe21bf16a5a36ce2",
+      "title": "How American Bureaucracy (Literally) Steals Years From Your Life",
+      "one_line": "Reframes bureaucracy as a hidden tax on time, quantifying its staggering cost.",
+      "ingested_date": "2026-08-26",
+      "review_dates": [
+        "2026-08-27",
+        "2026-08-29",
+        "2026-09-02",
+        "2026-09-11",
+        "2026-09-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "dc0fb27c7d8034a15d084564d97248bd5038b1ca",
+      "title": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
+      "one_line": "Exposes covert state influence on AI propaganda, reframing thinktank credibility.",
+      "ingested_date": "2026-08-26",
+      "review_dates": [
+        "2026-08-27",
+        "2026-08-29",
+        "2026-09-02",
+        "2026-09-11",
+        "2026-09-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gdelt_geopolitics"
+    },
+    {
+      "id": "87f0a7822de2e8b461f6adedee49023cf87b5894",
+      "title": "My Lavender Marriage",
+      "one_line": "Personal essay reframes identity and marriage norms, but niche and not broadly transformative.",
+      "ingested_date": "2026-08-26",
+      "review_dates": [
+        "2026-08-27",
+        "2026-08-29",
+        "2026-09-02",
+        "2026-09-11",
+        "2026-09-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "The Point"
+    },
+    {
+      "id": "9efcd19778f1c64144382df60437376c416aac40",
+      "title": "Huawei AI Data Center Bid in Egypt Spurs US to Mull Counter",
+      "one_line": "Geopolitical tech rivalry reframed via infrastructure, but newsy not novel.",
+      "ingested_date": "2026-08-26",
+      "review_dates": [
+        "2026-08-27",
+        "2026-08-29",
+        "2026-09-02",
+        "2026-09-11",
+        "2026-09-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "dbde5cbbf8fd7f5dfbd0067acdb2a48ead9f96d0",
+      "title": "Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows",
+      "one_line": "Shows retrieval ≠ judgment in LLMs, reframing AI evaluation.",
+      "ingested_date": "2026-08-26",
+      "review_dates": [
+        "2026-08-27",
+        "2026-08-29",
+        "2026-09-02",
+        "2026-09-11",
+        "2026-09-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "f80daa6f591339fb0a080c276a80cb018601bb1a",
+      "title": "On Writing #3",
+      "one_line": "Practical writing craft insights from a respected blogger, useful but not paradigm-shifting.",
+      "ingested_date": "2026-08-26",
+      "review_dates": [
+        "2026-08-27",
+        "2026-08-29",
+        "2026-09-02",
+        "2026-09-11",
+        "2026-09-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "8e4850ff6fe490c24f0fa27ba9c48b02f0e39c99",
+      "title": "A New Framework for How the Brain Compresses Our Noisy World",
+      "one_line": "Reframes perception as compression, bridging neuroscience and information theory.",
+      "ingested_date": "2026-08-26",
+      "review_dates": [
+        "2026-08-27",
+        "2026-08-29",
+        "2026-09-02",
+        "2026-09-11",
+        "2026-09-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
     }
   ]
 }
