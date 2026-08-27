@@ -811,7 +811,7 @@
         "2026-09-05",
         "2026-09-24"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Public Books"
@@ -862,7 +862,7 @@
         "2026-09-05",
         "2026-09-24"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "n+1"
@@ -879,7 +879,7 @@
         "2026-09-05",
         "2026-09-24"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "arxiv_cs"
@@ -913,7 +913,7 @@
         "2026-09-05",
         "2026-09-24"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Works in Progress"
@@ -1813,6 +1813,159 @@
         "2026-09-02",
         "2026-09-11",
         "2026-09-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
+    },
+    {
+      "id": "ea0af4bcf2a0832a167f4a50321fb143dd983836",
+      "title": "Important results on economic mobility",
+      "one_line": "Reframes urban mobility via workplace mixing, overturns simple city-level explanations.",
+      "ingested_date": "2026-08-27",
+      "review_dates": [
+        "2026-08-28",
+        "2026-08-30",
+        "2026-09-03",
+        "2026-09-12",
+        "2026-10-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "59dfbc57b248053ec56cf352947918768d16f78e",
+      "title": "The report into OpenAI’s escaping models reveals a deeper problem",
+      "one_line": "Reveals systemic unpreparedness for frontier AI escapes, reframing safety debate.",
+      "ingested_date": "2026-08-27",
+      "review_dates": [
+        "2026-08-28",
+        "2026-08-30",
+        "2026-09-03",
+        "2026-09-12",
+        "2026-10-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "3af7384509213a2847b01a28b91b49edf5011326",
+      "title": "The Letter Doula: How to Help a Life Arrive on the Page",
+      "one_line": "Reframes writing as permanence, challenging performance culture with a fresh metaphor.",
+      "ingested_date": "2026-08-27",
+      "review_dates": [
+        "2026-08-28",
+        "2026-08-30",
+        "2026-09-03",
+        "2026-09-12",
+        "2026-10-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "78a22f2029893365af2a405a23e7560bfcdce0da",
+      "title": "Drone Diplomacy: How Türkiye is Rewriting Africa’s New Security Order",
+      "one_line": "Reframes African security via Turkish drones, a novel geopolitical shift.",
+      "ingested_date": "2026-08-27",
+      "review_dates": [
+        "2026-08-28",
+        "2026-08-30",
+        "2026-09-03",
+        "2026-09-12",
+        "2026-10-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "213e95424861a758fb5dff596fcf41d7548e7662",
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "one_line": "Novel methodology for AI evaluation, but lacks detail to reframe thinking.",
+      "ingested_date": "2026-08-27",
+      "review_dates": [
+        "2026-08-28",
+        "2026-08-30",
+        "2026-09-03",
+        "2026-09-12",
+        "2026-10-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Google DeepMind"
+    },
+    {
+      "id": "3062d8cdad5fdcd904c8ee54664b2aa34880672b",
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "one_line": "Randomized study on ChatGPT's effect on thinking, but OpenAI source limits novelty.",
+      "ingested_date": "2026-08-27",
+      "review_dates": [
+        "2026-08-28",
+        "2026-08-30",
+        "2026-09-03",
+        "2026-09-12",
+        "2026-10-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "OpenAI"
+    },
+    {
+      "id": "f3b586f59eba8b81735a1249581772c332aa7ca3",
+      "title": "FRAME: separating sampling variation from representational cause in medical imaging fairness",
+      "one_line": "Overturns fairness-bias assumptions with rigorous causal decomposition; reframes medical imaging audits.",
+      "ingested_date": "2026-08-27",
+      "review_dates": [
+        "2026-08-28",
+        "2026-08-30",
+        "2026-09-03",
+        "2026-09-12",
+        "2026-10-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "8190e4e443206e9bd1463bf6568a9059091a004d",
+      "title": "Being Neurotic about Fertility: Notes from the 2026 Reproductive Frontiers Conference",
+      "one_line": "Personal fertility planning with embryo selection details, useful but niche.",
+      "ingested_date": "2026-08-27",
+      "review_dates": [
+        "2026-08-28",
+        "2026-08-30",
+        "2026-09-03",
+        "2026-09-12",
+        "2026-10-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "6b093dadda3aaa238fa13fc9499f2ec906f8459d",
+      "title": "In Hilbert Space, All Things Are Quantumly Possible",
+      "one_line": "Reframes quantum mechanics as geometry in Hilbert space, offering a fresh conceptual lens.",
+      "ingested_date": "2026-08-27",
+      "review_dates": [
+        "2026-08-28",
+        "2026-08-30",
+        "2026-09-03",
+        "2026-09-12",
+        "2026-10-01"
       ],
       "reviews_done": 0,
       "retired": false,
