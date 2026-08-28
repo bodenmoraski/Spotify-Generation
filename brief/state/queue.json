@@ -930,7 +930,7 @@
         "2026-09-06",
         "2026-09-25"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Marginal Revolution"
@@ -947,7 +947,7 @@
         "2026-09-06",
         "2026-09-25"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "ChinaTalk"
@@ -964,7 +964,7 @@
         "2026-09-06",
         "2026-09-25"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Public Books"
@@ -981,7 +981,7 @@
         "2026-09-06",
         "2026-09-25"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Transformer"
@@ -1971,6 +1971,159 @@
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
+    },
+    {
+      "id": "89ddf6f1226fcbc9de51c954b62817a247084013",
+      "title": "Luke Burgis interviews Patrick Collison on aesthetics",
+      "one_line": "Reframes aesthetics as a driver of cultural and technological stagnation.",
+      "ingested_date": "2026-08-28",
+      "review_dates": [
+        "2026-08-29",
+        "2026-08-31",
+        "2026-09-04",
+        "2026-09-13",
+        "2026-10-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "0f4d150785e6d3d3f769211b18bbdc1cd5b9c2c8",
+      "title": "How the U.S. and China Are Meme-ifying Modern War",
+      "one_line": "Reframes military competition as meme warfare, a novel lens on soft power.",
+      "ingested_date": "2026-08-28",
+      "review_dates": [
+        "2026-08-29",
+        "2026-08-31",
+        "2026-09-04",
+        "2026-09-13",
+        "2026-10-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "49c04933b9b7728f1b23d6329576c22b7d33e124",
+      "title": "Long Before Toy Story, It-Narratives Imagined the Inner Lives of Objects",
+      "one_line": "Reframes Toy Story's novelty as rooted in a forgotten literary genre, expanding cultural perspective.",
+      "ingested_date": "2026-08-28",
+      "review_dates": [
+        "2026-08-29",
+        "2026-08-31",
+        "2026-09-04",
+        "2026-09-13",
+        "2026-10-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "ed3d2ecefdb80da2a196842cf4b7646527210992",
+      "title": "Think people hate AI now? Wait until it takes their jobs",
+      "one_line": "Reframes AI backlash as job displacement, not just data centers.",
+      "ingested_date": "2026-08-28",
+      "review_dates": [
+        "2026-08-29",
+        "2026-08-31",
+        "2026-09-04",
+        "2026-09-13",
+        "2026-10-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "f752ce1783bf14ed64a7be1ef4f18171381be766",
+      "title": "Why Is Nepal Rejecting Foreign Rescue Teams After the Flood?",
+      "one_line": "Reframes disaster response politics, but lacks deep argument or novelty.",
+      "ingested_date": "2026-08-28",
+      "review_dates": [
+        "2026-08-29",
+        "2026-08-31",
+        "2026-09-04",
+        "2026-09-13",
+        "2026-10-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "fe024a7f0edb1021a25dd97a5dd580791dc64834",
+      "title": "Irã diz que diplomacia com EUA ainda é possível, mas ameaça ações ofensivas em Ormuz",
+      "one_line": "Iran-US diplomacy and Strait threat, but headline-driven news.",
+      "ingested_date": "2026-08-28",
+      "review_dates": [
+        "2026-08-29",
+        "2026-08-31",
+        "2026-09-04",
+        "2026-09-13",
+        "2026-10-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "0046334709a45a31446be3c13ab72deddea473b6",
+      "title": "LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics",
+      "one_line": "Overturns video pretraining heuristics with simpler, faster, collapse-free method.",
+      "ingested_date": "2026-08-28",
+      "review_dates": [
+        "2026-08-29",
+        "2026-08-31",
+        "2026-09-04",
+        "2026-09-13",
+        "2026-10-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "1d6193163311ce5090ad11680bb247db8930393e",
+      "title": "Does Computer Science Need Computers?",
+      "one_line": "Reframes CS education as theory-first, challenging hands-on assumptions.",
+      "ingested_date": "2026-08-28",
+      "review_dates": [
+        "2026-08-29",
+        "2026-08-31",
+        "2026-09-04",
+        "2026-09-13",
+        "2026-10-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
+    },
+    {
+      "id": "7d3f20eebdf7e0a1517864033c8e5d30d7c5d95c",
+      "title": "A cop’s case for Flock",
+      "one_line": "Reframes surveillance debate: precision over intrusion, counterintuitive cop perspective.",
+      "ingested_date": "2026-08-28",
+      "review_dates": [
+        "2026-08-29",
+        "2026-08-31",
+        "2026-09-04",
+        "2026-09-13",
+        "2026-10-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Works in Progress"
     }
   ]
 }

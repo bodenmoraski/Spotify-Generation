@@ -943,6 +943,78 @@
       "url": "https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/",
       "covered_date": "2026-08-27",
       "one_line": "Reframes quantum mechanics as geometry in Hilbert space, offering a fresh conceptual lens."
+    },
+    {
+      "id": "89ddf6f1226fcbc9de51c954b62817a247084013",
+      "title": "Luke Burgis interviews Patrick Collison on aesthetics",
+      "title_norm": "luke burgis interviews patrick collison on aesthetics",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/luke-burgis-interviews-patrick-collison-on-aesthetics.html?utm_source=rss&utm_medium=rss&utm_campaign=luke-burgis-interviews-patrick-collison-on-aesthetics",
+      "covered_date": "2026-08-28",
+      "one_line": "Reframes aesthetics as a driver of cultural and technological stagnation."
+    },
+    {
+      "id": "0f4d150785e6d3d3f769211b18bbdc1cd5b9c2c8",
+      "title": "How the U.S. and China Are Meme-ifying Modern War",
+      "title_norm": "how the u s and china are meme ifying modern war",
+      "url": "https://www.chinatalk.media/p/how-the-us-and-china-are-meme-ifying",
+      "covered_date": "2026-08-28",
+      "one_line": "Reframes military competition as meme warfare, a novel lens on soft power."
+    },
+    {
+      "id": "49c04933b9b7728f1b23d6329576c22b7d33e124",
+      "title": "Long Before Toy Story, It-Narratives Imagined the Inner Lives of Objects",
+      "title_norm": "long before toy story it narratives imagined the inner lives of objects",
+      "url": "https://lithub.com/long-before-toy-story-it-narratives-imagined-the-inner-lives-of-objects/",
+      "covered_date": "2026-08-28",
+      "one_line": "Reframes Toy Story's novelty as rooted in a forgotten literary genre, expanding cultural perspective."
+    },
+    {
+      "id": "ed3d2ecefdb80da2a196842cf4b7646527210992",
+      "title": "Think people hate AI now? Wait until it takes their jobs",
+      "title_norm": "think people hate ai now wait until it takes their jobs",
+      "url": "https://www.transformernews.ai/p/think-people-hate-ai-now-wait-until-it-takes-their-jobs",
+      "covered_date": "2026-08-28",
+      "one_line": "Reframes AI backlash as job displacement, not just data centers."
+    },
+    {
+      "id": "f752ce1783bf14ed64a7be1ef4f18171381be766",
+      "title": "Why Is Nepal Rejecting Foreign Rescue Teams After the Flood?",
+      "title_norm": "why is nepal rejecting foreign rescue teams after the flood",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRHh4eWhWWVY5enk0MDZBWTBwNnZYc1BDXzBrcmt4NGVId0JoZUhUTW5NQWI0d2pjRWlWbURPRXVDMHpranFldDI5Nmg2bDZfVlJFdkpCc1RrYTRXVGFfRGhXWHhzRy1TcVRyWG5NUFQwcTBxSkV5TE1kc1djVER4dlVhTnRaaHJaOVJQa29YdzdSUEpvaHBIclVrMEN5SEk?oc=5",
+      "covered_date": "2026-08-28",
+      "one_line": "Reframes disaster response politics, but lacks deep argument or novelty."
+    },
+    {
+      "id": "fe024a7f0edb1021a25dd97a5dd580791dc64834",
+      "title": "Ir\u00e3 diz que diplomacia com EUA ainda \u00e9 poss\u00edvel, mas amea\u00e7a a\u00e7\u00f5es ofensivas em Ormuz",
+      "title_norm": "ir\u00e3 diz que diplomacia com eua ainda \u00e9 poss\u00edvel mas amea\u00e7a a\u00e7\u00f5es ofensivas em ormuz",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNVA4dE1FQzlNUzVaN0Z5LWQtYUZsbmlVN3dWbHVoeWUyTDloTDhuSTRPaHMzdW5pN0xJeDVrdGxJdmJlQW02cUhodHBJd1d4b3FaYVhBQXZhVjF3MEk5eGE2LWpvNkR3c0J3bk1UZjd1RlRjYjlQaWt6MXF0MWNzTXpqMG1uOFU1MFprMi1SUEdFNXVLZk04UWZ5b1ZOQzY1NEIwY2NIQ2NEdnFaR29QOUt1MlF0NDNNMlV4djdNMFFFNWp1R1lydHMwbmJTVHJTYVdtZThxWDQtNkE?oc=5",
+      "covered_date": "2026-08-28",
+      "one_line": "Iran-US diplomacy and Strait threat, but headline-driven news."
+    },
+    {
+      "id": "0046334709a45a31446be3c13ab72deddea473b6",
+      "title": "LeVJEPA: Efficient & Scalable Video Pretraining without the Heuristics",
+      "title_norm": "levjepa efficient scalable video pretraining without the heuristics",
+      "url": "https://arxiv.org/abs/2608.27395v1",
+      "covered_date": "2026-08-28",
+      "one_line": "Overturns video pretraining heuristics with simpler, faster, collapse-free method."
+    },
+    {
+      "id": "1d6193163311ce5090ad11680bb247db8930393e",
+      "title": "Does Computer Science Need Computers?",
+      "title_norm": "does computer science need computers",
+      "url": "https://www.quantamagazine.org/does-computer-science-need-computers-20260828/",
+      "covered_date": "2026-08-28",
+      "one_line": "Reframes CS education as theory-first, challenging hands-on assumptions."
+    },
+    {
+      "id": "7d3f20eebdf7e0a1517864033c8e5d30d7c5d95c",
+      "title": "A cop\u2019s case for Flock",
+      "title_norm": "a cop s case for flock",
+      "url": "https://worksinprogress.co/issue/a-cops-case-for-flock/",
+      "covered_date": "2026-08-28",
+      "one_line": "Reframes surveillance debate: precision over intrusion, counterintuitive cop perspective."
     }
   ]
 }
