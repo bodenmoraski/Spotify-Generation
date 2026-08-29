@@ -1083,7 +1083,7 @@
         "2026-09-07",
         "2026-09-26"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Transformer"
@@ -1117,7 +1117,7 @@
         "2026-09-07",
         "2026-09-26"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -1134,7 +1134,7 @@
         "2026-09-07",
         "2026-09-26"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "gnews_world_br"
@@ -1219,7 +1219,7 @@
         "2026-09-07",
         "2026-09-26"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
@@ -2124,6 +2124,159 @@
       "retired": false,
       "missed": false,
       "source": "Works in Progress"
+    },
+    {
+      "id": "54fe8ad962b8db0d5fee54dd3a44b3d62cd44c14",
+      "title": "Scholar Data",
+      "one_line": "Reframes NSF funding via public goods theory; introduces new metric for data sharing.",
+      "ingested_date": "2026-08-29",
+      "review_dates": [
+        "2026-08-30",
+        "2026-09-01",
+        "2026-09-05",
+        "2026-09-14",
+        "2026-10-03"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "7b6aaf8b1c6e0d9dfe3d7c2b52ffc4714605c4af",
+      "title": "The People Who Die Quietly: Geopolitics, Fertiliser and the Coming Hunger Crisis",
+      "one_line": "Reframes fertilizer geopolitics as a silent hunger crisis, widening reader's perspective.",
+      "ingested_date": "2026-08-29",
+      "review_dates": [
+        "2026-08-30",
+        "2026-09-01",
+        "2026-09-05",
+        "2026-09-14",
+        "2026-10-03"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "844f074ae3ded3c2574a1dc1f9b462895ab83100",
+      "title": "Behind the AI revolution : The data centers devouring electricity , water and billions",
+      "one_line": "Reframes AI's environmental cost as geopolitical resource strain.",
+      "ingested_date": "2026-08-29",
+      "review_dates": [
+        "2026-08-30",
+        "2026-09-01",
+        "2026-09-05",
+        "2026-09-14",
+        "2026-10-03"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gdelt_geopolitics"
+    },
+    {
+      "id": "cd95d5067ba9c91f72f99038e161e65254ef65cf",
+      "title": "Eight Simple Rules for Dating Your Historical Fiction",
+      "one_line": "Craft rules for historical fiction, useful but not paradigm-shifting.",
+      "ingested_date": "2026-08-29",
+      "review_dates": [
+        "2026-08-30",
+        "2026-09-01",
+        "2026-09-05",
+        "2026-09-14",
+        "2026-10-03"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "cdf3ee3e3c25f44aaa73c1371c9b38b8a66f45b8",
+      "title": "Ibovespa em queda com tensão geopolítica e pressão inflacionária nos EUA",
+      "one_line": "Routine market update, no new argument or reframe.",
+      "ingested_date": "2026-08-29",
+      "review_dates": [
+        "2026-08-30",
+        "2026-09-01",
+        "2026-09-05",
+        "2026-09-14",
+        "2026-10-03"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "f7e79638a8078252fe56a1c31df1aabe25dff37e",
+      "title": "Listen to Floating Points’ New Album, a Ballet Score About Pandora’s Box",
+      "one_line": "Ballet score concept intriguing but niche; not transformative for generalist.",
+      "ingested_date": "2026-08-29",
+      "review_dates": [
+        "2026-08-30",
+        "2026-09-01",
+        "2026-09-05",
+        "2026-09-14",
+        "2026-10-03"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Pitchfork"
+    },
+    {
+      "id": "14225438014223594f5d7ca521a0a060743f6680",
+      "title": "Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090",
+      "one_line": "Overturns cost barrier for pretraining; scaling law reframes economics of AI research.",
+      "ingested_date": "2026-08-29",
+      "review_dates": [
+        "2026-08-30",
+        "2026-09-01",
+        "2026-09-05",
+        "2026-09-14",
+        "2026-10-03"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "fae697b124d4d7542b2d4648214b16522b986f16",
+      "title": "The Curious Case of France's Untouchable Castes",
+      "one_line": "Overturns assumption that untouchability is non-Western; deep historical analysis.",
+      "ingested_date": "2026-08-29",
+      "review_dates": [
+        "2026-08-30",
+        "2026-09-01",
+        "2026-09-05",
+        "2026-09-14",
+        "2026-10-03"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "12d551470b5ba6c1aba7f2e570246662ba17d54d",
+      "title": "I’m Part of the Team Writing the Next Bible of Psychiatry—For the First Time, the DSM Will Use Biology to Understand Mental Disorders",
+      "one_line": "DSM shift to biology reframes mental illness, overturns purely behavioral paradigm.",
+      "ingested_date": "2026-08-29",
+      "review_dates": [
+        "2026-08-30",
+        "2026-09-01",
+        "2026-09-05",
+        "2026-09-14",
+        "2026-10-03"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
     }
   ]
 }
