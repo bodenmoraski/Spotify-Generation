@@ -1270,7 +1270,7 @@
         "2026-09-08",
         "2026-09-27"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -1287,7 +1287,7 @@
         "2026-09-08",
         "2026-09-27"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "gnews_world_in"
@@ -1338,7 +1338,7 @@
         "2026-09-08",
         "2026-09-27"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "arxiv_cs"
@@ -1355,7 +1355,7 @@
         "2026-09-08",
         "2026-09-27"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "LessWrong"
@@ -2272,6 +2272,142 @@
         "2026-09-05",
         "2026-09-14",
         "2026-10-03"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
+    },
+    {
+      "id": "54fbcbcfdb17d3b52c73c279db612b8712b49be4",
+      "title": "Why I think polyamory is net negative for most people who try it",
+      "one_line": "Reframes polyamory with evidence-based skepticism, challenging mainstream narrative.",
+      "ingested_date": "2026-08-30",
+      "review_dates": [
+        "2026-08-31",
+        "2026-09-02",
+        "2026-09-06",
+        "2026-09-15",
+        "2026-10-04"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "0b1aa239623b01780c4ced49d35ce4a7796ccc60",
+      "title": "China fact of the day",
+      "one_line": "Concrete evidence of AI displacing creative gig workers, reframing automation debate.",
+      "ingested_date": "2026-08-30",
+      "review_dates": [
+        "2026-08-31",
+        "2026-09-02",
+        "2026-09-06",
+        "2026-09-15",
+        "2026-10-04"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "54b9988fb5c535ab889f41d0cb2fc72d345c6e20",
+      "title": "US Treasury's Bessent faces G20 diplomacy test amid tariffs, Iran war, bond turmoil",
+      "one_line": "Tariffs, war, bond turmoil converge in one diplomatic test; reframes global finance.",
+      "ingested_date": "2026-08-30",
+      "review_dates": [
+        "2026-08-31",
+        "2026-09-02",
+        "2026-09-06",
+        "2026-09-15",
+        "2026-10-04"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "ee776a933ed15b114dd8d5132902a47972280d82",
+      "title": "O Brasil no centro da nova geopolítica dos alimentos",
+      "one_line": "Geopolitical shift in food power, but vague without specifics.",
+      "ingested_date": "2026-08-30",
+      "review_dates": [
+        "2026-08-31",
+        "2026-09-02",
+        "2026-09-06",
+        "2026-09-15",
+        "2026-10-04"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "6c1b96c4b8d7b396475c3aa4beccb55944c680ab",
+      "title": "Helen Mirren is playing Patricia Highsmith?! Watch the trailer for A Talent for Murder.",
+      "one_line": "Film adaptation news; interesting but not a new argument or reframe.",
+      "ingested_date": "2026-08-30",
+      "review_dates": [
+        "2026-08-31",
+        "2026-09-02",
+        "2026-09-06",
+        "2026-09-15",
+        "2026-10-04"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "03001ffe9847abb1ce258c3aec6c4da947c8dfb9",
+      "title": "Mac DeMarco Releases Four New Albums",
+      "one_line": "Music release news, low thought-change value for generalist.",
+      "ingested_date": "2026-08-30",
+      "review_dates": [
+        "2026-08-31",
+        "2026-09-02",
+        "2026-09-06",
+        "2026-09-15",
+        "2026-10-04"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Pitchfork"
+    },
+    {
+      "id": "611272a31ef7ba4a9be4ee4fe5b3759ab759dd86",
+      "title": "How Language Models Organize and Structure Moral Knowledge",
+      "one_line": "Reveals LLMs organize moral knowledge geometrically, challenging MFT predictions.",
+      "ingested_date": "2026-08-30",
+      "review_dates": [
+        "2026-08-31",
+        "2026-09-02",
+        "2026-09-06",
+        "2026-09-15",
+        "2026-10-04"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "c4eacdb3e8540036c6bcff2ddff2e6091c6758aa",
+      "title": "Watch This Shrimp-Like Fish Walk Backwards",
+      "one_line": "Curious deep-sea creature behavior, but lacks deep insight or reframing.",
+      "ingested_date": "2026-08-30",
+      "review_dates": [
+        "2026-08-31",
+        "2026-09-02",
+        "2026-09-06",
+        "2026-09-15",
+        "2026-10-04"
       ],
       "reviews_done": 0,
       "retired": false,
