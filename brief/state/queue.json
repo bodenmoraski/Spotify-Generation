@@ -1389,7 +1389,7 @@
         "2026-09-09",
         "2026-09-28"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "ChinaTalk"
@@ -1423,7 +1423,7 @@
         "2026-09-09",
         "2026-09-28"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Marginal Revolution"
@@ -1457,7 +1457,7 @@
         "2026-09-09",
         "2026-09-28"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "gnews_world_br"
@@ -1508,7 +1508,7 @@
         "2026-09-09",
         "2026-09-28"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "LessWrong"
@@ -2413,6 +2413,142 @@
       "retired": false,
       "missed": false,
       "source": "Nautilus"
+    },
+    {
+      "id": "7bb65c3f6cf1e0da35f80db0f49da5acfc1ce264",
+      "title": "Russia markets in everything",
+      "one_line": "Sanctions create black markets; shows unintended consequences of trade policy.",
+      "ingested_date": "2026-08-31",
+      "review_dates": [
+        "2026-09-01",
+        "2026-09-03",
+        "2026-09-07",
+        "2026-09-16",
+        "2026-10-05"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "2bda23e426867e2bdfb28c43b035cac1992c9ffb",
+      "title": "On the Fact and Fiction of Kurt Vonnegut’s Dresden",
+      "one_line": "Reframes Dresden myth, connecting Vonnegut's fiction to historical complicity.",
+      "ingested_date": "2026-08-31",
+      "review_dates": [
+        "2026-09-01",
+        "2026-09-03",
+        "2026-09-07",
+        "2026-09-16",
+        "2026-10-05"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "7ed873bd04d1b200696b11159559c4c2844bac25",
+      "title": "From diplomacy to deterrence: How war reshaped Iran's nuclear debate",
+      "one_line": "Reframes Iran nuclear debate from diplomacy to deterrence, a strategic shift.",
+      "ingested_date": "2026-08-31",
+      "review_dates": [
+        "2026-09-01",
+        "2026-09-03",
+        "2026-09-07",
+        "2026-09-16",
+        "2026-10-05"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "4e31619b23f3f0d4f87e34a8464205eaff329dc4",
+      "title": "張忠謀預言 「 全球化已死 」 成真 ！ 李淳 ： 3年後浮現供應鏈分散效益 | 政治",
+      "one_line": "Morris Chang's globalization-death prediction validated; supply chain dispersion effects emerge in 3 years.",
+      "ingested_date": "2026-08-31",
+      "review_dates": [
+        "2026-09-01",
+        "2026-09-03",
+        "2026-09-07",
+        "2026-09-16",
+        "2026-10-05"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gdelt_geopolitics"
+    },
+    {
+      "id": "f8999ab07472c39385dc2abab2db59de8641841b",
+      "title": "Russia cements its role as Africa junta protector after helping quell Niger's mutiny",
+      "one_line": "Confirms Russia's expanding African influence, but lacks novel analysis.",
+      "ingested_date": "2026-08-31",
+      "review_dates": [
+        "2026-09-01",
+        "2026-09-03",
+        "2026-09-07",
+        "2026-09-16",
+        "2026-10-05"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_ke"
+    },
+    {
+      "id": "9553e8b0fc204a1994b19908800b20ef3ef0207d",
+      "title": "Debate em BH discute papel da China e do socialismo na disputa geopolítica global",
+      "one_line": "Local debate on China's role, but generic and low novelty.",
+      "ingested_date": "2026-08-31",
+      "review_dates": [
+        "2026-09-01",
+        "2026-09-03",
+        "2026-09-07",
+        "2026-09-16",
+        "2026-10-05"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "895f29cc75112a49776d45037e2fec4553e72975",
+      "title": "How a “Psychic” Horse Named Clever Hans Changed the Way We Do Science",
+      "one_line": "Classic case study reframes scientific method; fresh angle on bias.",
+      "ingested_date": "2026-08-31",
+      "review_dates": [
+        "2026-09-01",
+        "2026-09-03",
+        "2026-09-07",
+        "2026-09-16",
+        "2026-10-05"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
+    },
+    {
+      "id": "69d5d08bef23372eeb4c265c1fef7c24582b3721",
+      "title": "good books so far this year",
+      "one_line": "Reframes ancient tactics with fresh insight, but listicle-like and niche.",
+      "ingested_date": "2026-08-31",
+      "review_dates": [
+        "2026-09-01",
+        "2026-09-03",
+        "2026-09-07",
+        "2026-09-16",
+        "2026-10-05"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
     }
   ]
 }

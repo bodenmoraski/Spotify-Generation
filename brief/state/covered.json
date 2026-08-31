@@ -1,182 +1,6 @@
 {
   "items": [
     {
-      "id": "f36e56cd57aae183101b81ae5cc1fc95f9785c46",
-      "title": "Three thoughts on civilisational handoff",
-      "title_norm": "three thoughts on civilisational handoff",
-      "url": "https://www.lesswrong.com/posts/mGLCMzHhjcWsMm6sR/three-thoughts-on-civilisational-handoff",
-      "covered_date": "2026-08-16",
-      "one_line": "Reframes AI handoff as potentially decelerating, overturning speed assumption."
-    },
-    {
-      "id": "d8fd67770517bce975295b99257e08bcd2b6453b",
-      "title": "Things you cannot buy in America?",
-      "title_norm": "things you cannot buy in america",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/things-you-cannot-buy-in-america.html?utm_source=rss&utm_medium=rss&utm_campaign=things-you-cannot-buy-in-america",
-      "covered_date": "2026-08-16",
-      "one_line": "Reframes market gaps via construction path dependence; mildly interesting but not transformative."
-    },
-    {
-      "id": "f9cef823c06e601ca28acd6bc8e186a0b8f4f021",
-      "title": "Why the Dragon must dance with the Elephant: The limits of China\u2019s wolf-warrior diplomacy",
-      "title_norm": "why the dragon must dance with the elephant the limits of china s wolf warrior diplomacy",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQX09yVy1qeEF4dkpsTjhsUTZHbG1LQkZXaTNTV1o0ZktwcFhGSFphZ1FaQkwwaDctRkRWX25ScFRyeS1MTS10aUZTdjQ3bzZZRHhPMThjR3V6Um1SdDRiYU10RTRwcEllWVR1Z2N1cVZNNDk3Y3YwdW5mQ3dJQlFVR2RCejhzNjd4cllWbTV0am5QRWlqd3owYnZJMzhDNFpQMjEyQ3dKczlTSkZIazViWXJ6bDhsVHZMaXlXMUlPVmNvaVVpLVRaS3FWc19kNzR2Y2tsZFdycVNOUdIB3wFBVV95cUxNRE9KQmxlLTBHTUNrMTFiOERUNVBkeVVnWUUzam1CbzhEMlNGRlBkZkQwanluUjRDcjN3bUdpc2pUal9PSW1yZUtSTGhmck9qcnJoWVJXVjR6bTNSdzQzbkp5S2dmOUhfRXJSQkdOaHhXUW1uNUh2Z3RJUDkwYTNkT1ZsUkduUm5qMWVSS21XdzVDVVNUQWxDYzRHdFJyYUNzOFdXdlhPblQ2VGp3TUU0ZmF1RmRzYzR1TUx6MXZmeTgxNEk4WFQ0S1lSS2lZaktnVXVvWGU2ZlppSlVPVFpj?oc=5",
-      "covered_date": "2026-08-16",
-      "one_line": "Reframes China-India relations beyond hawkish narratives, but lacks novel depth."
-    },
-    {
-      "id": "cd4c1050cd6a2e6eb401013a2726d7d842e2dcff",
-      "title": "Kimi likes causal decision theory more after RL in twin prisoner\u2019s dilemmas",
-      "title_norm": "kimi likes causal decision theory more after rl in twin prisoner s dilemmas",
-      "url": "https://www.lesswrong.com/posts/hfNBEKaStASAYMLiu/kimi-likes-causal-decision-theory-more-after-rl-in-twin-1",
-      "covered_date": "2026-08-16",
-      "one_line": "Empirical RL effect on decision theory in LLMs, novel and consequential."
-    },
-    {
-      "id": "8a59986247915f89be8087cc3a0e318b66af458e",
-      "title": "Q2.5 2026 Timelines Update: Uplift and Revenue",
-      "title_norm": "q2 5 2026 timelines update uplift and revenue",
-      "url": "https://www.lesswrong.com/posts/ZPSsmRH5oMwLPXys4/q2-5-2026-timelines-update-uplift-and-revenue",
-      "covered_date": "2026-08-16",
-      "one_line": "Refines timelines with new modeling methods, but incremental for generalist."
-    },
-    {
-      "id": "b70f6999bda51bbae0decef22e59c39a99b13f58",
-      "title": "Female Treefrogs Get Overwhelmed by Too Many Noisy Male Suitors",
-      "title_norm": "female treefrogs get overwhelmed by too many noisy male suitors",
-      "url": "https://nautil.us/female-treefrogs-get-overwhelmed-by-too-many-noisy-male-suitors-1283821/",
-      "covered_date": "2026-08-16",
-      "one_line": "Curious animal behavior study, but limited broader insight."
-    },
-    {
-      "id": "60d34457c56c1a85bf93ef2d03ee3fecdded15ee",
-      "title": "Refuge House / Elisa Porto Arquitetura",
-      "title_norm": "refuge house elisa porto arquitetura",
-      "url": "https://www.archdaily.com/1183394/refuge-house-elisa-porto-arquitetura",
-      "covered_date": "2026-08-16",
-      "one_line": "Architecture balancing nature and climate offers fresh perspective on design."
-    },
-    {
-      "id": "37a261e26071ff10fa1b256ffa5a71d4f5ecd76f",
-      "title": "Pavillon Monk / L. McComber",
-      "title_norm": "pavillon monk l mccomber",
-      "url": "https://www.archdaily.com/1183256/pavillon-monk-l-mccomber",
-      "covered_date": "2026-08-16",
-      "one_line": "Reframes housing crisis response with dignified design, not just policy."
-    },
-    {
-      "id": "d2feb01fdf1465437b4b84bcec0aec1e70f7d4cd",
-      "title": "Does DiffusionGemma do latent reasoning?",
-      "title_norm": "does diffusiongemma do latent reasoning",
-      "url": "https://www.alignmentforum.org/posts/QBuJ3suRZxrrxSTtv/does-diffusiongemma-do-latent-reasoning",
-      "covered_date": "2026-08-16",
-      "one_line": "Challenges assumption that diffusion LLMs are opaque; shows interpretability largely retained."
-    },
-    {
-      "id": "932dae92dd13965a6f7b455d2ef5092094f6f326",
-      "title": "Is This the World\u2019s Oldest Image of a Mind\u2011altering Plant?",
-      "title_norm": "is this the world s oldest image of a mind altering plant",
-      "url": "https://nautil.us/is-this-the-worlds-oldest-image-of-a-mind%e2%80%91altering-plant-1283811/",
-      "covered_date": "2026-08-16",
-      "one_line": "Rewrites timeline of human-plant mind alteration; vivid archaeological claim."
-    },
-    {
-      "id": "4682a5e8d99590dde07125d55dcdb67895940145",
-      "title": "Beyond the Handmade Aesthetic: Why Craft Needs New Construction Economies",
-      "title_norm": "beyond the handmade aesthetic why craft needs new construction economies",
-      "url": "https://www.archdaily.com/1182452/beyond-the-handmade-aesthetic-why-craft-needs-new-construction-economies",
-      "covered_date": "2026-08-16",
-      "one_line": "Reframes craft's revival as economic privilege, not just aesthetic trend."
-    },
-    {
-      "id": "f008ec463b2faec826d34997a4aeef757d222e0c",
-      "title": "Another rationale for sticky prices?",
-      "title_norm": "another rationale for sticky prices",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/another-rationale-for-sticky-prices.html?utm_source=rss&utm_medium=rss&utm_campaign=another-rationale-for-sticky-prices",
-      "covered_date": "2026-08-16",
-      "one_line": "Sticky prices via safety costs: novel micro rationale, but thin analysis."
-    },
-    {
-      "id": "b14a43f8ae5b8eda2bb37c511287280507acec8f",
-      "title": "Former Iran president Khatami warns against prolonged war, urges diplomacy with US, Israel: \u2018We cannot live with war\u2019",
-      "title_norm": "former iran president khatami warns against prolonged war urges diplomacy with us israel we cannot live with war",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOWmwyeTZwTDYwZk04Slp2V0F0b2NKdmFfak9NekM3R2pING9vLTVWVTN1eGt2cUo3THIxRWNHOWE2Y2J1QTdwdERKN2x1NGs0RVJocV80cUROb0hQQ0NfdWRLOTZaVlZGM2xRZFFxbTRCRVcwUjhKQ1VBc0x4ZTdVSGx5UHZDeFpuTU5KSGhDS1AwcEY4QTZLaU96NkRLbmVWbU1ROWxIdVp5aXg1UG9Demg0dmY5QzRUNVlWUmJtbEtqUGY3Q3BSOC1RNVp1cVAxSThNNVJ2d2EyazFyMzhGSnBjTDh1RXNJWWJQUTFsRHR3dXhaVmRidUh6Ym9qWkXSAYQCQVVfeXFMT1BnYWxCRHpxd3BDaHI2ZjR5TVpNSmpGMzNJSEhEU3FTT3kxTTA4cmlpeF9FeU5YTXN3Ym00T3FVbjRFNS1TTkZUQVpGVm5hZmloejYzdkYzZ2xpN0FLeXZ1OU5KODhEajNkMlJqY2JqbzkxVXU5amlTMFNoRm9LLVJVWDNYN2JLdUxiNGJGVGdZaXV2SHpZdks5ZGNPRHVBb05sNmhJdmxGczcwTXFtWTZyVm9BZFF0SGpkdGk1VVFNRmlQRENDa0NpTU5GOXIxWUVSVTRqb0I4WGtnUnpJb2lTaGNwWnRGUzZOTVFoZExvRWxwZzJSeXJNWUhmcmVJWW5sVEo?oc=5",
-      "covered_date": "2026-08-16",
-      "one_line": "A former leader's plea for diplomacy, but no new argument or reframing."
-    },
-    {
-      "id": "1d32426c19b2c00f64a56cf41e88268a0d96e4fb",
-      "title": "How the Arts and Crafts Movement Still Shapes Contemporary Architecture",
-      "title_norm": "how the arts and crafts movement still shapes contemporary architecture",
-      "url": "https://www.archdaily.com/1181917/how-the-arts-and-crafts-movement-still-shapes-contemporary-architecture",
-      "covered_date": "2026-08-16",
-      "one_line": "Reframes a familiar style as a philosophy of labor and meaning."
-    },
-    {
-      "id": "12d92259d86e5e34c826bcc514eb2b306f90a967",
-      "title": "Headquarters \"MANZ Bel \u00c9tage\" / Podrecca Architects",
-      "title_norm": "headquarters manz bel \u00e9tage podrecca architects",
-      "url": "https://www.archdaily.com/1183235/headquarters-manz-bel-etage-podrecca-architects",
-      "covered_date": "2026-08-16",
-      "one_line": "Renovation of Loos-designed publisher HQ offers architectural history, but niche appeal."
-    },
-    {
-      "id": "86cd090eae1c3f76e35ec3aebd8629d23b8a74e2",
-      "title": "Ganho de poder de compra dos sal\u00e1rios em Portugal baixa para o pior n\u00edvel dos \u00faltimos tr\u00eas anos",
-      "title_norm": "ganho de poder de compra dos sal\u00e1rios em portugal baixa para o pior n\u00edvel dos \u00faltimos tr\u00eas anos",
-      "url": "https://sapo.pt/artigo/ganho-de-poder-de-compra-dos-salarios-em-portugal-baixa-para-o-pior-nivel-dos-ultimos-tres-anos-6a822fab7b96e18390b477fb",
-      "covered_date": "2026-08-16",
-      "one_line": "Economic data point, not a novel argument or reframing."
-    },
-    {
-      "id": "38b256a74f7fb5f621b4f228887e53bad38c6bc6",
-      "title": "Kushner se re\u00fane com Hamas em tentativa de impulsionar plano para Gaza",
-      "title_norm": "kushner se re\u00fane com hamas em tentativa de impulsionar plano para gaza",
-      "url": "http://www.em.com.br/internacional/2026/08/7481065-kushner-se-reune-com-hamas-em-tentativa-de-impulsionar-plano-para-gaza.html",
-      "covered_date": "2026-08-16",
-      "one_line": "Geopolitical event, but no new argument or reframing."
-    },
-    {
-      "id": "98f7fcaf7c469a4a250e1ca647177c5b733afaab",
-      "title": "Trump envoys meet with Middle East mediators as Israel strikes Gaza",
-      "title_norm": "trump envoys meet with middle east mediators as israel strikes gaza",
-      "url": "https://www.cnbc.com/2026/08/16/trumps-envoys-meet-mediators-israel-strikes-gaza.html",
-      "covered_date": "2026-08-16",
-      "one_line": "Routine geopolitical update, no new argument or reframing."
-    },
-    {
-      "id": "fb2d2acfdf844a2a34f2068d03d65c28b2d27926",
-      "title": "Sudan : The closing military gap between SAF and RSF and what comes next , by Yechale Degu",
-      "title_norm": "sudan the closing military gap between saf and rsf and what comes next by yechale degu",
-      "url": "https://theeagleonline.com.ng/sudan-the-closing-military-gap-between-saf-and-rsf-and-what-comes-next-by-yechale-degu/",
-      "covered_date": "2026-08-16",
-      "one_line": "Geopolitical analysis of Sudan conflict, but likely incremental update."
-    },
-    {
-      "id": "8a59986247915f89be8087cc3a0e318b66af458e",
-      "title": "Q2.5 2026 Timelines Update: Uplift and Revenue",
-      "title_norm": "q2 5 2026 timelines update uplift and revenue",
-      "url": "https://www.lesswrong.com/posts/ZPSsmRH5oMwLPXys4/q2-5-2026-timelines-update-uplift-and-revenue",
-      "covered_date": "2026-08-16",
-      "one_line": "Refines timelines with new modeling methods, but niche update for specialists."
-    },
-    {
-      "id": "169efff1719e4ea40c56f8f08247ac6aec5402b2",
-      "title": "Jun Matcha Club Cafe / Matter of Something",
-      "title_norm": "jun matcha club cafe matter of something",
-      "url": "https://www.archdaily.com/1183148/jun-matcha-club-cafe-matter-of-something",
-      "covered_date": "2026-08-16",
-      "one_line": "Architecture as ritual: matcha's restraint translated into local craft, reframing caf\u00e9 design."
-    },
-    {
-      "id": "883790a0a97e32d836cf2a237acb5f669667dcdb",
-      "title": "Community Canteen No. 11, Aranya Qinhuangdao / Verse Design",
-      "title_norm": "community canteen no 11 aranya qinhuangdao verse design",
-      "url": "https://www.archdaily.com/1183159/community-canteen-no-11-aranya-qinhuangdao-verse-design",
-      "covered_date": "2026-08-16",
-      "one_line": "Reframes urban edge as community space; interesting but niche."
-    },
-    {
       "id": "4cc9b6870b07bfd240e0206c5642b77ca3886b9e",
       "title": "The Rise of China\u2019s Electric Vehicle Industry",
       "title_norm": "the rise of china s electric vehicle industry",
@@ -1151,6 +975,70 @@
       "url": "https://nautil.us/watch-this-shrimp-like-fish-walk-backwards-1284607/",
       "covered_date": "2026-08-30",
       "one_line": "Curious deep-sea creature behavior, but lacks deep insight or reframing."
+    },
+    {
+      "id": "7bb65c3f6cf1e0da35f80db0f49da5acfc1ce264",
+      "title": "Russia markets in everything",
+      "title_norm": "russia markets in everything",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/russia-markets-in-everything.html?utm_source=rss&utm_medium=rss&utm_campaign=russia-markets-in-everything",
+      "covered_date": "2026-08-31",
+      "one_line": "Sanctions create black markets; shows unintended consequences of trade policy."
+    },
+    {
+      "id": "2bda23e426867e2bdfb28c43b035cac1992c9ffb",
+      "title": "On the Fact and Fiction of Kurt Vonnegut\u2019s Dresden",
+      "title_norm": "on the fact and fiction of kurt vonnegut s dresden",
+      "url": "https://lithub.com/on-the-fact-and-fiction-of-kurt-vonneguts-dresden/",
+      "covered_date": "2026-08-31",
+      "one_line": "Reframes Dresden myth, connecting Vonnegut's fiction to historical complicity."
+    },
+    {
+      "id": "7ed873bd04d1b200696b11159559c4c2844bac25",
+      "title": "From diplomacy to deterrence: How war reshaped Iran's nuclear debate",
+      "title_norm": "from diplomacy to deterrence how war reshaped iran s nuclear debate",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdkFhNlg1ZXUwX1B2ZHZ1ZmRnbnc0czF6YXVxZEJxQzVtQXU1MjI0ZWdaNGRMNkJkd3NwX2d5YjZLbGJBTUVZbzJlcnozYUMzT3BMSjAxQXBDaWRIejlMMlA2R1daV0YxczR4c3dsT1M3am05dFFWM1lBQUhSRkhEN0ZmTFgxbDl5c0plVmhJcGZmQ2FUYVBBWHQ5VWNHaDA?oc=5",
+      "covered_date": "2026-08-31",
+      "one_line": "Reframes Iran nuclear debate from diplomacy to deterrence, a strategic shift."
+    },
+    {
+      "id": "4e31619b23f3f0d4f87e34a8464205eaff329dc4",
+      "title": "\u5f35\u5fe0\u8b00\u9810\u8a00 \u300c \u5168\u7403\u5316\u5df2\u6b7b \u300d \u6210\u771f \uff01 \u674e\u6df3 \uff1a 3\u5e74\u5f8c\u6d6e\u73fe\u4f9b\u61c9\u93c8\u5206\u6563\u6548\u76ca | \u653f\u6cbb",
+      "title_norm": "\u5f35\u5fe0\u8b00\u9810\u8a00 \u5168\u7403\u5316\u5df2\u6b7b \u6210\u771f \u674e\u6df3 3\u5e74\u5f8c\u6d6e\u73fe\u4f9b\u61c9\u93c8\u5206\u6563\u6548\u76ca \u653f\u6cbb",
+      "url": "https://newtalk.tw/news/view/2026-08-31/1056950",
+      "covered_date": "2026-08-31",
+      "one_line": "Morris Chang's globalization-death prediction validated; supply chain dispersion effects emerge in 3 years."
+    },
+    {
+      "id": "f8999ab07472c39385dc2abab2db59de8641841b",
+      "title": "Russia cements its role as Africa junta protector after helping quell Niger's mutiny",
+      "title_norm": "russia cements its role as africa junta protector after helping quell niger s mutiny",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPc2JOTjloNVdpdTNncloyMUViQmR5cy1BZ1JiVjl0RE1UVlRxS1p3amNFZHY4cGk1bmQxVGczcVE3b0w1UFhKdUVONU9raUtrcUhsSGVxTXg0SmdoQ1JhMmkyX1FwNklmYld6MTdmSllyN29PU2htT0d1RUdUYUFYRGZuRlpnV01HRkYweVRjRFI?oc=5",
+      "covered_date": "2026-08-31",
+      "one_line": "Confirms Russia's expanding African influence, but lacks novel analysis."
+    },
+    {
+      "id": "9553e8b0fc204a1994b19908800b20ef3ef0207d",
+      "title": "Debate em BH discute papel da China e do socialismo na disputa geopol\u00edtica global",
+      "title_norm": "debate em bh discute papel da china e do socialismo na disputa geopol\u00edtica global",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdDlucmVySGZDZXB1eldKZ1BNOUZqZy1ia0ZXbUxSMXZIVUxLZlRpRUdvTVgxaUNXU2RJMjNTTXg1OWIwMUV4bEo5Qmc4YlMwWkotcWM4eFNsVEpvVHppN0FQelBQQThoVHdCUHk0LTJKbGs3czRSZ2kxNm5KaEJXR2UxRS16X1ZDVUNpSGpPbE10dlVNMUpDNkpSMzl5YW5JbVpGZk1pVEt1b2sybDl0emJRdXJWS2NKejZueGhHdFZ5c0k?oc=5",
+      "covered_date": "2026-08-31",
+      "one_line": "Local debate on China's role, but generic and low novelty."
+    },
+    {
+      "id": "895f29cc75112a49776d45037e2fec4553e72975",
+      "title": "How a \u201cPsychic\u201d Horse Named Clever Hans Changed the Way We Do Science",
+      "title_norm": "how a psychic horse named clever hans changed the way we do science",
+      "url": "https://nautil.us/how-a-psychic-horse-named-clever-hans-changed-the-way-we-do-science-1284622/",
+      "covered_date": "2026-08-31",
+      "one_line": "Classic case study reframes scientific method; fresh angle on bias."
+    },
+    {
+      "id": "69d5d08bef23372eeb4c265c1fef7c24582b3721",
+      "title": "good books so far this year",
+      "title_norm": "good books so far this year",
+      "url": "https://www.chinatalk.media/p/good-books-so-far-this-year",
+      "covered_date": "2026-08-31",
+      "one_line": "Reframes ancient tactics with fresh insight, but listicle-like and niche."
     }
   ]
 }
