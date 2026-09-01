@@ -1,70 +1,6 @@
 {
   "items": [
     {
-      "id": "4cc9b6870b07bfd240e0206c5642b77ca3886b9e",
-      "title": "The Rise of China\u2019s Electric Vehicle Industry",
-      "title_norm": "the rise of china s electric vehicle industry",
-      "url": "https://www.chinatalk.media/p/the-rise-of-chinas-electric-vehicle",
-      "covered_date": "2026-08-17",
-      "one_line": "Reframes China's EV rise as local-private alliance, overturning central-planning narrative."
-    },
-    {
-      "id": "d3e43d4c6c8e2b2a921d12b16c1ff2792dfdd63a",
-      "title": "Somalia facts of the day",
-      "title_norm": "somalia facts of the day",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/somalia-facts-of-the-day.html?utm_source=rss&utm_medium=rss&utm_campaign=somalia-facts-of-the-day",
-      "covered_date": "2026-08-17",
-      "one_line": "Reframes security gains via prosaic measures, overturning assumptions about conflict zones."
-    },
-    {
-      "id": "a48a957db27ea7ac2bd9b528bf7159d6ff5c0da1",
-      "title": "Why Thoreau and Walden Resonate With Chinese Youth",
-      "title_norm": "why thoreau and walden resonate with chinese youth",
-      "url": "https://lithub.com/why-thoreau-and-walden-resonate-with-chinese-youth/",
-      "covered_date": "2026-08-17",
-      "one_line": "Reframes Thoreau's relevance as resistance to modern Chinese involution, offering cross-cultural insight."
-    },
-    {
-      "id": "8a59986247915f89be8087cc3a0e318b66af458e",
-      "title": "Q2.5 2026 Timelines Update: Uplift and Revenue",
-      "title_norm": "q2 5 2026 timelines update uplift and revenue",
-      "url": "https://www.lesswrong.com/posts/ZPSsmRH5oMwLPXys4/q2-5-2026-timelines-update-uplift-and-revenue",
-      "covered_date": "2026-08-17",
-      "one_line": "Refines timelines with new methods, but niche update for specialists."
-    },
-    {
-      "id": "c4452e2fa87d1ce0bb0cd34c133404120dd7a779",
-      "title": "Five Years Later , Biden Was Proven Right in Withdrawing From Afghanistan",
-      "title_norm": "five years later biden was proven right in withdrawing from afghanistan",
-      "url": "https://prospect.org/2026/08/17/afghanistan-taliban-biden-five-year-anniversary/",
-      "covered_date": "2026-08-17",
-      "one_line": "Retrospective analysis challenges prevailing narrative, but lacks novel argument."
-    },
-    {
-      "id": "8ea09ad18a1033e594956cf2a59094716eda9dd2",
-      "title": "How Geopolitics Has Rewired Brazil's Business Risks",
-      "title_norm": "how geopolitics has rewired brazil s business risks",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTTBzNTlHazhicG05V3U5bmpoY01ldUpoMk10S1dQNXhuYUJaMlpkTGNGc2pQbDRIWmEyTzFhdUpNNEcxRmFWYndSZ3g2b25HMTFLVGpqcGFOOUlkWjR1NEp1QVh2TzdLdzdBaTZieFZLWHNwMWZFYXJ5LTRDM2JlY1hFWU92NG01RHJvbVFHS2tPZ1hNWXpRUExvUVBPTWM1M1JPS2xkNTQ0Yms?oc=5",
-      "covered_date": "2026-08-17",
-      "one_line": "Reframes Brazil's business risk through geopolitical lens, useful for generalist."
-    },
-    {
-      "id": "9771c52aaeb35936b04d60a095646537bb5a6c0e",
-      "title": "The Dynamics of Intelligence Explosions",
-      "title_norm": "the dynamics of intelligence explosions",
-      "url": "https://arxiv.org/abs/2608.14426v1",
-      "covered_date": "2026-08-17",
-      "one_line": "Reframes intelligence explosion dynamics, challenging prior models with new math."
-    },
-    {
-      "id": "a4aac1590a47294643ce1964bf43930dd5c4841d",
-      "title": "Worm munch matters",
-      "title_norm": "worm munch matters",
-      "url": "https://aeon.co/essays/worm-munch-matters-the-new-acoustic-ecology-of-the-soil",
-      "covered_date": "2026-08-17",
-      "one_line": "Listening to soil life reframes ecology via sound, a novel sensory lens."
-    },
-    {
       "id": "03726af2f5860f96cbc62a0c13ba52e8e080005f",
       "title": "Why China\u2019s AI Bubble Is Also Industrial Policy",
       "title_norm": "why china s ai bubble is also industrial policy",
@@ -1039,6 +975,78 @@
       "url": "https://www.chinatalk.media/p/good-books-so-far-this-year",
       "covered_date": "2026-08-31",
       "one_line": "Reframes ancient tactics with fresh insight, but listicle-like and niche."
+    },
+    {
+      "id": "71ce01f58e203e639e656dd2d8b3236f3fba08c5",
+      "title": "Training a Misaligned Reward Seeker",
+      "title_norm": "training a misaligned reward seeker",
+      "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
+      "covered_date": "2026-09-01",
+      "one_line": "Empirical demonstration of reward hacking escalating to severe misalignment, overturning assumptions."
+    },
+    {
+      "id": "425e9cbf4c85b9f945533dbdd6a237f389bd304e",
+      "title": "China's Rare Earths Duopoly",
+      "title_norm": "china s rare earths duopoly",
+      "url": "https://www.chinatalk.media/p/chinas-rare-earths-duopoly",
+      "covered_date": "2026-09-01",
+      "one_line": "Reframes rare earths as a duopoly with deep structural analysis, not just a headline."
+    },
+    {
+      "id": "a44dabbf46b19065efe7fdbcb15e97ed11cc9ea3",
+      "title": "The Disappearance Machine",
+      "title_norm": "the disappearance machine",
+      "url": "https://www.nplusonemag.com/issue-54/politics/the-disappearance-machine/",
+      "covered_date": "2026-09-01",
+      "one_line": "Reveals structural incentives behind immigration detention, reframing a familiar issue."
+    },
+    {
+      "id": "b522393fab9256cb553c203dc5ef965076f35ae9",
+      "title": "More optimistic results on AI and job markets",
+      "title_norm": "more optimistic results on ai and job markets",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/more-optimistic-results-on-ai-and-job-markets.html?utm_source=rss&utm_medium=rss&utm_campaign=more-optimistic-results-on-ai-and-job-markets",
+      "covered_date": "2026-09-01",
+      "one_line": "Reframes AI job impact: adoption widespread, disruption not yet visible."
+    },
+    {
+      "id": "516eef77fa1e463c86df3c518e068205d2b13a87",
+      "title": "AI is a worryingly-good persuader. But don\u2019t panic, yet",
+      "title_norm": "ai is a worryingly good persuader but don t panic yet",
+      "url": "https://www.transformernews.ai/p/ai-is-a-worryingly-good-persuader-but-dont-panic-yet",
+      "covered_date": "2026-09-01",
+      "one_line": "Nuanced take on AI persuasion, separating it from manipulation, with evidence."
+    },
+    {
+      "id": "f1e62055caf99ebf9ecd21e032ee0d3bdd841acc",
+      "title": "Isaac Chotiner on Deep Knowledge and Gotcha Interviews",
+      "title_norm": "isaac chotiner on deep knowledge and gotcha interviews",
+      "url": "https://lithub.com/isaac-chotiner-on-deep-knowledge-and-gotcha-interviews/",
+      "covered_date": "2026-09-01",
+      "one_line": "Reframes interview craft as deep knowledge vs gotcha, a useful distinction."
+    },
+    {
+      "id": "6862e0fb0d38553ef73c84ec397f32ab81047a62",
+      "title": "Does On-Policy Distillation Really Distill? From Noisy Teacher to Self-Improvement",
+      "title_norm": "does on policy distillation really distill from noisy teacher to self improvement",
+      "url": "https://arxiv.org/abs/2608.31046v1",
+      "covered_date": "2026-09-01",
+      "one_line": "Overturns assumption that teacher supervision drives distillation; shows self-improvement suffices."
+    },
+    {
+      "id": "88aef5fcfcfadb6bee382a6229f5153898e7d9cc",
+      "title": "Just bury your trash",
+      "title_norm": "just bury your trash",
+      "url": "https://worksinprogress.co/issue/just-bury-your-trash/",
+      "covered_date": "2026-09-01",
+      "one_line": "Challenges core assumptions about recycling with a contrarian, evidence-based argument."
+    },
+    {
+      "id": "01933cac93459966c35a640896496285df7cc84f",
+      "title": "\u2018Stunning\u2019 Percolation Proof Solves Decades-Old Puzzle About Phase Transitions",
+      "title_norm": "stunning percolation proof solves decades old puzzle about phase transitions",
+      "url": "https://www.quantamagazine.org/stunning-percolation-proof-solves-decades-old-puzzle-about-phase-transitions-20260831/",
+      "covered_date": "2026-09-01",
+      "one_line": "A major math proof with broad conceptual implications, elegantly explained."
     }
   ]
 }

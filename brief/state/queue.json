@@ -182,7 +182,7 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": ""
@@ -233,7 +233,7 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 3,
+      "reviews_done": 4,
       "retired": false,
       "missed": false,
       "source": ""
@@ -267,7 +267,7 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": ""
@@ -284,7 +284,7 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": ""
@@ -2549,6 +2549,159 @@
       "retired": false,
       "missed": false,
       "source": "ChinaTalk"
+    },
+    {
+      "id": "71ce01f58e203e639e656dd2d8b3236f3fba08c5",
+      "title": "Training a Misaligned Reward Seeker",
+      "one_line": "Empirical demonstration of reward hacking escalating to severe misalignment, overturning assumptions.",
+      "ingested_date": "2026-09-01",
+      "review_dates": [
+        "2026-09-02",
+        "2026-09-04",
+        "2026-09-08",
+        "2026-09-17",
+        "2026-10-06"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Alignment Forum"
+    },
+    {
+      "id": "425e9cbf4c85b9f945533dbdd6a237f389bd304e",
+      "title": "China's Rare Earths Duopoly",
+      "one_line": "Reframes rare earths as a duopoly with deep structural analysis, not just a headline.",
+      "ingested_date": "2026-09-01",
+      "review_dates": [
+        "2026-09-02",
+        "2026-09-04",
+        "2026-09-08",
+        "2026-09-17",
+        "2026-10-06"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "a44dabbf46b19065efe7fdbcb15e97ed11cc9ea3",
+      "title": "The Disappearance Machine",
+      "one_line": "Reveals structural incentives behind immigration detention, reframing a familiar issue.",
+      "ingested_date": "2026-09-01",
+      "review_dates": [
+        "2026-09-02",
+        "2026-09-04",
+        "2026-09-08",
+        "2026-09-17",
+        "2026-10-06"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "n+1"
+    },
+    {
+      "id": "b522393fab9256cb553c203dc5ef965076f35ae9",
+      "title": "More optimistic results on AI and job markets",
+      "one_line": "Reframes AI job impact: adoption widespread, disruption not yet visible.",
+      "ingested_date": "2026-09-01",
+      "review_dates": [
+        "2026-09-02",
+        "2026-09-04",
+        "2026-09-08",
+        "2026-09-17",
+        "2026-10-06"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "516eef77fa1e463c86df3c518e068205d2b13a87",
+      "title": "AI is a worryingly-good persuader. But don’t panic, yet",
+      "one_line": "Nuanced take on AI persuasion, separating it from manipulation, with evidence.",
+      "ingested_date": "2026-09-01",
+      "review_dates": [
+        "2026-09-02",
+        "2026-09-04",
+        "2026-09-08",
+        "2026-09-17",
+        "2026-10-06"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "f1e62055caf99ebf9ecd21e032ee0d3bdd841acc",
+      "title": "Isaac Chotiner on Deep Knowledge and Gotcha Interviews",
+      "one_line": "Reframes interview craft as deep knowledge vs gotcha, a useful distinction.",
+      "ingested_date": "2026-09-01",
+      "review_dates": [
+        "2026-09-02",
+        "2026-09-04",
+        "2026-09-08",
+        "2026-09-17",
+        "2026-10-06"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "6862e0fb0d38553ef73c84ec397f32ab81047a62",
+      "title": "Does On-Policy Distillation Really Distill? From Noisy Teacher to Self-Improvement",
+      "one_line": "Overturns assumption that teacher supervision drives distillation; shows self-improvement suffices.",
+      "ingested_date": "2026-09-01",
+      "review_dates": [
+        "2026-09-02",
+        "2026-09-04",
+        "2026-09-08",
+        "2026-09-17",
+        "2026-10-06"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "88aef5fcfcfadb6bee382a6229f5153898e7d9cc",
+      "title": "Just bury your trash",
+      "one_line": "Challenges core assumptions about recycling with a contrarian, evidence-based argument.",
+      "ingested_date": "2026-09-01",
+      "review_dates": [
+        "2026-09-02",
+        "2026-09-04",
+        "2026-09-08",
+        "2026-09-17",
+        "2026-10-06"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Works in Progress"
+    },
+    {
+      "id": "01933cac93459966c35a640896496285df7cc84f",
+      "title": "‘Stunning’ Percolation Proof Solves Decades-Old Puzzle About Phase Transitions",
+      "one_line": "A major math proof with broad conceptual implications, elegantly explained.",
+      "ingested_date": "2026-09-01",
+      "review_dates": [
+        "2026-09-02",
+        "2026-09-04",
+        "2026-09-08",
+        "2026-09-17",
+        "2026-10-06"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
     }
   ]
 }
