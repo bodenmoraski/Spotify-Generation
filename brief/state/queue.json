@@ -369,7 +369,7 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 3,
+      "reviews_done": 4,
       "retired": false,
       "missed": false,
       "source": ""
@@ -403,7 +403,7 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 3,
+      "reviews_done": 4,
       "retired": false,
       "missed": false,
       "source": ""
@@ -437,7 +437,7 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 3,
+      "reviews_done": 4,
       "retired": false,
       "missed": false,
       "source": ""
@@ -454,7 +454,7 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 3,
+      "reviews_done": 4,
       "retired": false,
       "missed": false,
       "source": ""
@@ -2702,6 +2702,159 @@
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
+    },
+    {
+      "id": "77ff0c6aee5df89b79ffa8e95044cb1ae2ba34e8",
+      "title": "The College Wage Premium in the Generative AI Era",
+      "one_line": "First sustained drop in college wage premium since 1914, linked to AI exposure.",
+      "ingested_date": "2026-09-02",
+      "review_dates": [
+        "2026-09-03",
+        "2026-09-05",
+        "2026-09-09",
+        "2026-09-18",
+        "2026-10-07"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "011e4e92c39296420c01e53f6ee19f122229d1eb",
+      "title": "We should prepare a playbook for the day after a warning shot",
+      "one_line": "Reframes AI safety as actionable policy prep for post-disaster window.",
+      "ingested_date": "2026-09-02",
+      "review_dates": [
+        "2026-09-03",
+        "2026-09-05",
+        "2026-09-09",
+        "2026-09-18",
+        "2026-10-07"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "358ba56d798e9f23f8da0fea5bf1766ba66d9588",
+      "title": "Cyber Apocalypse, Now?",
+      "one_line": "First headline-grade AI breakout reframes cyber risk debate with insider detail.",
+      "ingested_date": "2026-09-02",
+      "review_dates": [
+        "2026-09-03",
+        "2026-09-05",
+        "2026-09-09",
+        "2026-09-18",
+        "2026-10-07"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "06b6d7a6a67107c9ae4f6140f7af13a32ec0a817",
+      "title": "Orange Era",
+      "one_line": "Reframes climate maps as permanent orange, shifting temporal perspective.",
+      "ingested_date": "2026-09-02",
+      "review_dates": [
+        "2026-09-03",
+        "2026-09-05",
+        "2026-09-09",
+        "2026-09-18",
+        "2026-10-07"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "n+1"
+    },
+    {
+      "id": "113adee3ce75905e72c5dbd4bd092be18e730abb",
+      "title": "Visiting Helen Keller’s Birthplace While Deaf: What it Means to Navigate Accessibility",
+      "one_line": "Reframes disability iconography and accessibility through personal, critical travel narrative.",
+      "ingested_date": "2026-09-02",
+      "review_dates": [
+        "2026-09-03",
+        "2026-09-05",
+        "2026-09-09",
+        "2026-09-18",
+        "2026-10-07"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "8d90193a41b7718ec9a5e1edf1cb2f5c7cb54bc9",
+      "title": "Tehran strikes back at US bases in biggest exchange since July",
+      "one_line": "Geopolitical escalation, but no new analytical angle for generalist.",
+      "ingested_date": "2026-09-02",
+      "review_dates": [
+        "2026-09-03",
+        "2026-09-05",
+        "2026-09-09",
+        "2026-09-18",
+        "2026-10-07"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gdelt_geopolitics"
+    },
+    {
+      "id": "1c945c2558d9fdcbe2e3c9bb9596b62002575ca1",
+      "title": "When Guardrails Look Effective: Construct Validity Failures in LLM Agent Commerce Evaluation",
+      "one_line": "Exposes how LLM agent simulations can produce misleading welfare results due to construct validity failures.",
+      "ingested_date": "2026-09-02",
+      "review_dates": [
+        "2026-09-03",
+        "2026-09-05",
+        "2026-09-09",
+        "2026-09-18",
+        "2026-10-07"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "db85eb031b743341e3212d5d85e5538b0f5112b7",
+      "title": "Genome Duplication Is a Radical Evolutionary Gamble",
+      "one_line": "Genome duplication as evolutionary gamble reframes adaptation, surprising and thought-provoking.",
+      "ingested_date": "2026-09-02",
+      "review_dates": [
+        "2026-09-03",
+        "2026-09-05",
+        "2026-09-09",
+        "2026-09-18",
+        "2026-10-07"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
+    },
+    {
+      "id": "53a39213f0412ad6dc09f309602dddb5f9ed8e71",
+      "title": "More nothing now",
+      "one_line": "Reframes play as core humanity, warns gamification atrophies it.",
+      "ingested_date": "2026-09-02",
+      "review_dates": [
+        "2026-09-03",
+        "2026-09-05",
+        "2026-09-09",
+        "2026-09-18",
+        "2026-10-07"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
     }
   ]
 }
