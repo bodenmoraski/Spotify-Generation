@@ -488,7 +488,7 @@
         "2026-09-03",
         "2026-09-22"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": "ChinaTalk"
@@ -522,7 +522,7 @@
         "2026-09-03",
         "2026-09-22"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -573,7 +573,7 @@
         "2026-09-03",
         "2026-09-22"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": "gdelt_geopolitics"
@@ -607,7 +607,7 @@
         "2026-09-03",
         "2026-09-22"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
@@ -2850,6 +2850,159 @@
         "2026-09-09",
         "2026-09-18",
         "2026-10-07"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
+    },
+    {
+      "id": "ea87923feb8cfc4b4bb5b18e54dffa6e7e0f48e6",
+      "title": "How Much Redistribution Will AI Require?",
+      "one_line": "Reframes AI redistribution debate with simple arithmetic showing labor can gain despite falling share.",
+      "ingested_date": "2026-09-03",
+      "review_dates": [
+        "2026-09-04",
+        "2026-09-06",
+        "2026-09-10",
+        "2026-09-19",
+        "2026-10-08"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "e615dd9ddb249fa6e777bfee23f00a8309e630f8",
+      "title": "The Latest Literary Scam: Emailing the Long-Dead Legends of 20th-Century Literature",
+      "one_line": "Reframes AI-era scams as literary critique, exposing writerly vanity and new fraud vectors.",
+      "ingested_date": "2026-09-03",
+      "review_dates": [
+        "2026-09-04",
+        "2026-09-06",
+        "2026-09-10",
+        "2026-09-19",
+        "2026-10-08"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "2e55aa4514673f16d8d5ddbca5520c42d474f622",
+      "title": "India offers any help for Russia-Ukraine peace during Jaishankar's Kyiv talks",
+      "one_line": "India's diplomatic shift on Ukraine peace, but no new argument.",
+      "ingested_date": "2026-09-03",
+      "review_dates": [
+        "2026-09-04",
+        "2026-09-06",
+        "2026-09-10",
+        "2026-09-19",
+        "2026-10-08"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "9ecaba49ba48c19b94eda14165ebb23fac2aa117",
+      "title": "Andy Stott Returns With First Album in Five Years",
+      "one_line": "Unusual production constraints offer insight into creative process, but niche music news.",
+      "ingested_date": "2026-09-03",
+      "review_dates": [
+        "2026-09-04",
+        "2026-09-06",
+        "2026-09-10",
+        "2026-09-19",
+        "2026-10-08"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Pitchfork"
+    },
+    {
+      "id": "7a65496a74d006d480b9362ad0916d8dea2c7c3b",
+      "title": "El Ejército de Israel mata a dos palestinos en otro ataque en Gaza pese al alto el fuego",
+      "one_line": "Ongoing conflict detail, no new analytical angle.",
+      "ingested_date": "2026-09-03",
+      "review_dates": [
+        "2026-09-04",
+        "2026-09-06",
+        "2026-09-10",
+        "2026-09-19",
+        "2026-10-08"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gdelt_geopolitics"
+    },
+    {
+      "id": "d75554c78e0fe54a871a452ed74377e3e4786640",
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "one_line": "Product launch of a weather model; incremental, not thought-changing.",
+      "ingested_date": "2026-09-03",
+      "review_dates": [
+        "2026-09-04",
+        "2026-09-06",
+        "2026-09-10",
+        "2026-09-19",
+        "2026-10-08"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Google DeepMind"
+    },
+    {
+      "id": "0a74bfbc6b6ac51a5175985eb75b046a04b0acc8",
+      "title": "Post-Training Language Models for Gold-Medal Performance in Coding Competitions",
+      "one_line": "First AI to beat top human at IOI; reframes coding competition frontier.",
+      "ingested_date": "2026-09-03",
+      "review_dates": [
+        "2026-09-04",
+        "2026-09-06",
+        "2026-09-10",
+        "2026-09-19",
+        "2026-10-08"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "436e70873e15408a65b0d5bbb9f783aa29e3a5cf",
+      "title": "Live from ICM 2026: What Is Math For in the Age of AI?",
+      "one_line": "Reframes math's purpose amid AI, challenging core assumptions.",
+      "ingested_date": "2026-09-03",
+      "review_dates": [
+        "2026-09-04",
+        "2026-09-06",
+        "2026-09-10",
+        "2026-09-19",
+        "2026-10-08"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
+    },
+    {
+      "id": "7d19db33d220422493dab70298692f908768212c",
+      "title": "Neuroqueering on the lawn",
+      "one_line": "Reframes neurodivergence through historical anecdote, offering fresh perspective on emotional excess.",
+      "ingested_date": "2026-09-03",
+      "review_dates": [
+        "2026-09-04",
+        "2026-09-06",
+        "2026-09-10",
+        "2026-09-19",
+        "2026-10-08"
       ],
       "reviews_done": 0,
       "retired": false,
