@@ -641,7 +641,7 @@
         "2026-09-04",
         "2026-09-23"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": "Marginal Revolution"
@@ -709,7 +709,7 @@
         "2026-09-04",
         "2026-09-23"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -726,7 +726,7 @@
         "2026-09-04",
         "2026-09-23"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": "gnews_world_in"
@@ -760,7 +760,7 @@
         "2026-09-04",
         "2026-09-23"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": "Nautilus"
@@ -3003,6 +3003,159 @@
         "2026-09-10",
         "2026-09-19",
         "2026-10-08"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
+    },
+    {
+      "id": "2ff941e565e689ae1d1cfa920adbd2628016d606",
+      "title": "GPT-6 Astra might be too powerful to understand or control",
+      "one_line": "Challenges alignment claims with evidence of deceptive, uncontrollable AI behavior.",
+      "ingested_date": "2026-09-04",
+      "review_dates": [
+        "2026-09-05",
+        "2026-09-07",
+        "2026-09-11",
+        "2026-09-20",
+        "2026-10-09"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "b07f80bed4465b6cbccdedb42329ea26430093a3",
+      "title": "Share price numbers for the Hugging Face incident",
+      "one_line": "Market data disciplines AI risk debate with concrete numbers.",
+      "ingested_date": "2026-09-04",
+      "review_dates": [
+        "2026-09-05",
+        "2026-09-07",
+        "2026-09-11",
+        "2026-09-20",
+        "2026-10-09"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "d038249e5d57ae228396f3226643b48ea79721d2",
+      "title": "How Fordism and Fascism Gave Birth to Modern Car Culture",
+      "one_line": "Reframes car culture as rooted in fascist-era labor discipline, offering a fresh historical lens.",
+      "ingested_date": "2026-09-04",
+      "review_dates": [
+        "2026-09-05",
+        "2026-09-07",
+        "2026-09-11",
+        "2026-09-20",
+        "2026-10-09"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "d48f42cc195778e3cf822a31c58b2e33fb2c6a5a",
+      "title": "How Trump and Xi Can Do AI Safety",
+      "one_line": "Reframes US-China AI safety talks with practical diplomatic insight.",
+      "ingested_date": "2026-09-04",
+      "review_dates": [
+        "2026-09-05",
+        "2026-09-07",
+        "2026-09-11",
+        "2026-09-20",
+        "2026-10-09"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "88b3a9a6cefae95105064f58b15349784c85322d",
+      "title": "Luckin Coffee killed our lunch spot. Here’s what that says about geopolitics",
+      "one_line": "Local anecdote reframes geopolitics; fresh angle but thin analysis.",
+      "ingested_date": "2026-09-04",
+      "review_dates": [
+        "2026-09-05",
+        "2026-09-07",
+        "2026-09-11",
+        "2026-09-20",
+        "2026-10-09"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "d45a2bb7e6368dcf3fe8b1aa730be4c58728644f",
+      "title": "Geopolítica da inteligência artificial",
+      "one_line": "Generic geopolitical AI overview, likely no novel argument.",
+      "ingested_date": "2026-09-04",
+      "review_dates": [
+        "2026-09-05",
+        "2026-09-07",
+        "2026-09-11",
+        "2026-09-20",
+        "2026-10-09"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "f4397e05cf9c39940cb9251fa8497f8f6a4c48a0",
+      "title": "Clean Engineering, Unstable Measurement: A Preregistered Reliability Failure of Black-Box LLM Observers on Shared Endpoints",
+      "one_line": "Overturns reliability assumption of LLM judges with rigorous preregistered evidence.",
+      "ingested_date": "2026-09-04",
+      "review_dates": [
+        "2026-09-05",
+        "2026-09-07",
+        "2026-09-11",
+        "2026-09-20",
+        "2026-10-09"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "2eee01e8634324c6bc4cc8ed75a542133bb35b80",
+      "title": "All the microbes you can’t have",
+      "one_line": "Reframes biotech regulation as a tragedy of lost potential, not just risk.",
+      "ingested_date": "2026-09-04",
+      "review_dates": [
+        "2026-09-05",
+        "2026-09-07",
+        "2026-09-11",
+        "2026-09-20",
+        "2026-10-09"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Works in Progress"
+    },
+    {
+      "id": "3ba68f597db019838d5454792c92bf7c9a845ba2",
+      "title": "Upend the trickle-down",
+      "one_line": "Reframes neoliberal critique with structural fix, offering fresh perspective.",
+      "ingested_date": "2026-09-04",
+      "review_dates": [
+        "2026-09-05",
+        "2026-09-07",
+        "2026-09-11",
+        "2026-09-20",
+        "2026-10-09"
       ],
       "reviews_done": 0,
       "retired": false,
