@@ -811,7 +811,7 @@
         "2026-09-05",
         "2026-09-24"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Public Books"
@@ -862,7 +862,7 @@
         "2026-09-05",
         "2026-09-24"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "n+1"
@@ -879,7 +879,7 @@
         "2026-09-05",
         "2026-09-24"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "arxiv_cs"
@@ -913,7 +913,7 @@
         "2026-09-05",
         "2026-09-24"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Works in Progress"
@@ -3161,6 +3161,159 @@
       "retired": false,
       "missed": false,
       "source": "Aeon"
+    },
+    {
+      "id": "9f7af3c5bfd556dfe0ba29359eaaa6b33dad4745",
+      "title": "Is Lichtenstein an actual monarchy?",
+      "one_line": "Reveals a modern European monarchy quietly expanding autocratic power, reframing assumptions about governance.",
+      "ingested_date": "2026-09-05",
+      "review_dates": [
+        "2026-09-06",
+        "2026-09-08",
+        "2026-09-12",
+        "2026-09-21",
+        "2026-10-10"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "284b9ffc7b3ac2436a2772f09ab475acf1c3d983",
+      "title": "Ле Пен хоче зупинити підтримку України у разі перемоги на виборах у Франції",
+      "one_line": "Le Pen's stance on Ukraine could shift European support dynamics.",
+      "ingested_date": "2026-09-05",
+      "review_dates": [
+        "2026-09-06",
+        "2026-09-08",
+        "2026-09-12",
+        "2026-09-21",
+        "2026-10-10"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gdelt_geopolitics"
+    },
+    {
+      "id": "f5b498a3c800ab1b472993576bea5d437bf58e40",
+      "title": "Congress goes quiet as AI safety concerns mount",
+      "one_line": "Rogue AI incidents and congressional inaction, but mostly news recap.",
+      "ingested_date": "2026-09-05",
+      "review_dates": [
+        "2026-09-06",
+        "2026-09-08",
+        "2026-09-12",
+        "2026-09-21",
+        "2026-10-10"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "45a4b7b7d5f1e0cf4ded632babca8c7fd71b1a43",
+      "title": "How to Get Over the Hump of Writing Sex",
+      "one_line": "Reframes writing about sex as craft challenge, but niche for generalist.",
+      "ingested_date": "2026-09-05",
+      "review_dates": [
+        "2026-09-06",
+        "2026-09-08",
+        "2026-09-12",
+        "2026-09-21",
+        "2026-10-10"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "bc2a62a634afde572a4f7530cd5140b5a8ace620",
+      "title": "Iran Steps Up Diplomacy, Seeks Support From BRICS Members In Conflict With The US",
+      "one_line": "Geopolitical shift, but lacks novel analysis or reframing for generalist.",
+      "ingested_date": "2026-09-05",
+      "review_dates": [
+        "2026-09-06",
+        "2026-09-08",
+        "2026-09-12",
+        "2026-09-21",
+        "2026-10-10"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "f4d64b056b176c2779ca847aa1002c7e7c624674",
+      "title": "Niger coup attempt: Is Russia proving better at protecting friends than fighting enemies in West Africa?",
+      "one_line": "Reframes Russia's role in Africa beyond military might, nuanced geopolitical analysis.",
+      "ingested_date": "2026-09-05",
+      "review_dates": [
+        "2026-09-06",
+        "2026-09-08",
+        "2026-09-12",
+        "2026-09-21",
+        "2026-10-10"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_ke"
+    },
+    {
+      "id": "7616cc6baeab3b4bbd25803e4707f40026cffb68",
+      "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+      "one_line": "Emergent cheating and whistleblowing in AI swarms reframes AI alignment and governance.",
+      "ingested_date": "2026-09-05",
+      "review_dates": [
+        "2026-09-06",
+        "2026-09-08",
+        "2026-09-12",
+        "2026-09-21",
+        "2026-10-10"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "c7f1183022012485e4af2de5ce67945ce6d19077",
+      "title": "The Extinct “American Cheetah” Wasn’t a Cheetah After All",
+      "one_line": "Overturns a common paleontology assumption with a surprising evolutionary twist.",
+      "ingested_date": "2026-09-05",
+      "review_dates": [
+        "2026-09-06",
+        "2026-09-08",
+        "2026-09-12",
+        "2026-09-21",
+        "2026-10-10"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
+    },
+    {
+      "id": "ee24c69a7d3448b7869d0ee633d6914742eeb357",
+      "title": "A case that whole brain emulation research is net-harmful by default",
+      "one_line": "Reframes WBE research as net-harmful via capability acceleration, overturning default optimism.",
+      "ingested_date": "2026-09-05",
+      "review_dates": [
+        "2026-09-06",
+        "2026-09-08",
+        "2026-09-12",
+        "2026-09-21",
+        "2026-10-10"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
     }
   ]
 }
