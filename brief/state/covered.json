@@ -1,78 +1,6 @@
 {
   "items": [
     {
-      "id": "2149124d4c26f6f3e794144389692fed30c1d943",
-      "title": "The data center is a symbol",
-      "title_norm": "the data center is a symbol",
-      "url": "https://www.transformernews.ai/p/the-data-center-is-a-symbol",
-      "covered_date": "2026-08-22",
-      "one_line": "Reframes data center backlash as emotional signal, not factual debate."
-    },
-    {
-      "id": "8ebc8e2d144e1b764dd6723f89f22c0d06ed15b5",
-      "title": "Birds Beyond Birding",
-      "title_norm": "birds beyond birding",
-      "url": "https://www.publicbooks.org/birds-beyond-birding/",
-      "covered_date": "2026-08-22",
-      "one_line": "Reframes birding as a lens for social imagination and solidarity."
-    },
-    {
-      "id": "0e002c66e586a14b2b7a97c0a1f5df63abe7e610",
-      "title": "How Talking About Death Helps Us Live a Fuller Life",
-      "title_norm": "how talking about death helps us live a fuller life",
-      "url": "https://lithub.com/how-talking-about-death-helps-us-live-a-fuller-life/",
-      "covered_date": "2026-08-22",
-      "one_line": "Reframes death acceptance through personal narrative, offering a fresh perspective on mortality."
-    },
-    {
-      "id": "23288dce8c9d1d571909f130d400bd211351a265",
-      "title": "Minera\u00e7\u00e3o Taboca: China p\u00f5e terras raras do Amazonas no centro da disputa geopol\u00edtica mundial",
-      "title_norm": "minera\u00e7\u00e3o taboca china p\u00f5e terras raras do amazonas no centro da disputa geopol\u00edtica mundial",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcTBiakEwLVlWYk1zNUVIN3VtNW1KVm1LYkczOFRNWGRzTGprd3EyYlFDakpOWEFobUlCV1RhTEstV1lxYmNDSnpBbGxac193eTEyMGxPQVROdjZ1Q3VTZEx6Z2s0VUlaeE10T0ttMXRFekR5aHgxQjdUZGUtcXFKTmozZ2ZIYWlWOXA3dXJSWWVSRmdaMlI4S2I1V0NPMVRrdThHZTdUMFpjd3k2ZFNnVWRxTEM1TjA?oc=5",
-      "covered_date": "2026-08-22",
-      "one_line": "Rare earths in Amazon become geopolitical flashpoint, but headline-driven without new analysis."
-    },
-    {
-      "id": "e42b7af4138c252fa082a7edb74440c920506e92",
-      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
-      "title_norm": "from atari to eve online building on 15 years of ai research in games",
-      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-      "covered_date": "2026-08-22",
-      "one_line": "Announcement of partnership, not a new idea or result."
-    },
-    {
-      "id": "ab9b58539d977902ec2df06d9328af77e8f2a891",
-      "title": "After sweeping new powers for Munir, Pakistan deploys more troops in Rawalpindi amid backlash fears",
-      "title_norm": "after sweeping new powers for munir pakistan deploys more troops in rawalpindi amid backlash fears",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPV29DYTFkWFItdUpMZVJNVTBSOExBWnRvRktBYkp2UDl1dFA2VjVrMlNxd2ZOSXRVX1hhYVZkR19NVk05NVNLa3Y2bkxHWkUtQmo2eUlRWmVfV0lQQ1pYODBDM1hVQlZPM0hnWFk2SmZPU1A1dEh6c3JwaVIzUXJ3REpheTBod0RmYjBWNmpsSXhBbTlfMm0xNXpVeVhuNy03U2VIRmJfbWRPU1VDdlV1aEczV0E1NUhxUGs5Wk51enBkbEFqdERIeThlUmRId3NTSUJz0gHYAUFVX3lxTE5Ld0lxcmlBeTN4YzJjRGNwYzU2b1BhUE1weHhxckFzZ0dDMXNqVld6UG03QTFoTWE1TG5SYUh4cmVOaHQwbmZmSlU0c0RsS1NJc0pPY3JQM3hmOWc0T1prSVgxdnBLZ1ozZldHTFJtXzBvTzFRbHUxRExPbHNkWG5KMldob3U1Z2tPRmhjQlNUa240X1k2Y1h1cWRac1ZQZkpQLXAzZFlKeEU2ZFNReVMzV0NLU0xFcUsxalBjODdpS1g4eFJ0MDFWZmZ3blR3LXlfUWd2TUg5Ng?oc=5",
-      "covered_date": "2026-08-22",
-      "one_line": "Regional political tension, but lacks novel analysis or broad reframing."
-    },
-    {
-      "id": "fdb52c398cc4891fda32d500b580c68e1035b65e",
-      "title": "Phantom Gains: Auditing Self-Improvement Against a Measured Null",
-      "title_norm": "phantom gains auditing self improvement against a measured null",
-      "url": "https://arxiv.org/abs/2608.20290v1",
-      "covered_date": "2026-08-22",
-      "one_line": "Exposes measurement artifacts that invert self-improvement findings; rigorous audit reframes evaluation."
-    },
-    {
-      "id": "bf35a5958ea68e85f3104e1a2a7141430e8d80bd",
-      "title": "Unwanted Ease",
-      "title_norm": "unwanted ease",
-      "url": "https://www.learningscientists.org/blog/2026/8/21",
-      "covered_date": "2026-08-22",
-      "one_line": "Reframes AI's ease as a learning trap with empirical backing."
-    },
-    {
-      "id": "35207097a8603a7b9b2bc7c709a5a96c6658afa7",
-      "title": "\u2018Huge Breakthrough\u2019 in the Math of Imbalance",
-      "title_norm": "huge breakthrough in the math of imbalance",
-      "url": "https://www.quantamagazine.org/huge-breakthrough-in-the-math-of-imbalance-20260821/",
-      "covered_date": "2026-08-22",
-      "one_line": "Reframes a common problem with deep math, surprising and broadly applicable."
-    },
-    {
       "id": "ae5bd5606ea68206ac61e30a8d2041e18b0fd227",
       "title": "Democracy and Caeserism",
       "title_norm": "democracy and caeserism",
@@ -1055,6 +983,70 @@
       "url": "https://www.lesswrong.com/posts/MnroTdcCCZoFSXEHy/a-case-that-whole-brain-emulation-research-is-net-harmful-by",
       "covered_date": "2026-09-05",
       "one_line": "Reframes WBE research as net-harmful via capability acceleration, overturning default optimism."
+    },
+    {
+      "id": "68e4bb10f8b0c33810ca437d3fa225cb6615f001",
+      "title": "Short Videos, Big Self-Control Problems",
+      "title_norm": "short videos big self control problems",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/short-videos-big-self-control-problems.html?utm_source=rss&utm_medium=rss&utm_campaign=short-videos-big-self-control-problems",
+      "covered_date": "2026-09-06",
+      "one_line": "Reframes self-control as unit-size problem; structural estimates and welfare fixes are novel."
+    },
+    {
+      "id": "23e86bc3c54ed3f705d544292b582f26a21faa7e",
+      "title": "Assessing the impact of safety work needs equilibrium analysis (now more than ever)",
+      "title_norm": "assessing the impact of safety work needs equilibrium analysis now more than ever",
+      "url": "https://www.lesswrong.com/posts/kxHiSsNh4MH82nhXD/assessing-the-impact-of-safety-work-needs-equilibrium",
+      "covered_date": "2026-09-06",
+      "one_line": "Equilibrium framing reframes safety work impact; timely after HF incident."
+    },
+    {
+      "id": "7ed7693cc9c68db761e417d1f445fc1bd03e5844",
+      "title": "Open Models are the United Front of AI",
+      "title_norm": "open models are the united front of ai",
+      "url": "https://www.chinatalk.media/p/open-models-are-the-united-front",
+      "covered_date": "2026-09-06",
+      "one_line": "Reframes open-source AI race with Chinese perspective, challenging Western narrative."
+    },
+    {
+      "id": "9218fb05d29ab69270c7d2ed693fcab2a8ce9db1",
+      "title": "The Billboards of Silicon Valley",
+      "title_norm": "the billboards of silicon valley",
+      "url": "https://www.nplusonemag.com/online-only/online-only/the-billboards-of-silicon-valley/",
+      "covered_date": "2026-09-06",
+      "one_line": "Reframes tech hype as cyclical ruin, offering cultural critique beyond news."
+    },
+    {
+      "id": "c14125884e341545e82e99e286f28c7faadd1aab",
+      "title": "Is the U . S . losing its safe - haven status ? Why global central banks are pulling gold out of New York .",
+      "title_norm": "is the u s losing its safe haven status why global central banks are pulling gold out of new york",
+      "url": "https://www.morningstar.com/news/marketwatch/202609064/is-the-us-losing-its-safe-haven-status-why-global-central-banks-are-pulling-gold-out-of-new-york",
+      "covered_date": "2026-09-06",
+      "one_line": "Reframes dollar hegemony via central bank gold repatriation, a concrete shift."
+    },
+    {
+      "id": "0745102a894b484a346654490d7454dc77068702",
+      "title": "Critical Assets: AI, geopolitics and renewables reshape the global subsea cables space",
+      "title_norm": "critical assets ai geopolitics and renewables reshape the global subsea cables space",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcWtYMEdsY2FuaVpoZEdSX3l6SXFKVEVmVmRtTE5zTlJ2ZmtrLVdWamlHYjJyalltTFYyLVVxa3ByZWVjYlg3U0theHFtMVVUUHg1cWFDaDR4LXVkaWUyU1JkbzZmSGFmMzJVSGdLSzZWMlM3NnFUZG8zU2dndE1tN0RyQ3ZMeWRYUFM1T1dPYlA3MWtMcUdlcUpSRlRYTURSVkdBZFpWSWJEelZnSDhPQ1ZhRTdHWkJkcTN3M0d1Mm4?oc=5",
+      "covered_date": "2026-09-06",
+      "one_line": "Reframes subsea cables as geopolitical and AI-driven strategic assets."
+    },
+    {
+      "id": "f4397e05cf9c39940cb9251fa8497f8f6a4c48a0",
+      "title": "Clean Engineering, Unstable Measurement: A Preregistered Reliability Failure of Black-Box LLM Observers on Shared Endpoints",
+      "title_norm": "clean engineering unstable measurement a preregistered reliability failure of black box llm observers on shared endpoints",
+      "url": "https://arxiv.org/abs/2609.04198v1",
+      "covered_date": "2026-09-06",
+      "one_line": "Empirical audit overturns reliability assumption of LLM judges; reframes measurement validity."
+    },
+    {
+      "id": "28177ed84e00d11ae33f18024c49396db0f91472",
+      "title": "Your Boss Is Watching You",
+      "title_norm": "your boss is watching you",
+      "url": "https://nautil.us/your-boss-is-watching-you-1284806/",
+      "covered_date": "2026-09-06",
+      "one_line": "Reframes workplace surveillance debate with evidence on effectiveness."
     }
   ]
 }

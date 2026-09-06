@@ -930,7 +930,7 @@
         "2026-09-06",
         "2026-09-25"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Marginal Revolution"
@@ -947,7 +947,7 @@
         "2026-09-06",
         "2026-09-25"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "ChinaTalk"
@@ -964,7 +964,7 @@
         "2026-09-06",
         "2026-09-25"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Public Books"
@@ -981,7 +981,7 @@
         "2026-09-06",
         "2026-09-25"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Transformer"
@@ -3314,6 +3314,125 @@
       "retired": false,
       "missed": false,
       "source": "LessWrong"
+    },
+    {
+      "id": "68e4bb10f8b0c33810ca437d3fa225cb6615f001",
+      "title": "Short Videos, Big Self-Control Problems",
+      "one_line": "Reframes self-control as unit-size problem; structural estimates and welfare fixes are novel.",
+      "ingested_date": "2026-09-06",
+      "review_dates": [
+        "2026-09-07",
+        "2026-09-09",
+        "2026-09-13",
+        "2026-09-22",
+        "2026-10-11"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "23e86bc3c54ed3f705d544292b582f26a21faa7e",
+      "title": "Assessing the impact of safety work needs equilibrium analysis (now more than ever)",
+      "one_line": "Equilibrium framing reframes safety work impact; timely after HF incident.",
+      "ingested_date": "2026-09-06",
+      "review_dates": [
+        "2026-09-07",
+        "2026-09-09",
+        "2026-09-13",
+        "2026-09-22",
+        "2026-10-11"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "7ed7693cc9c68db761e417d1f445fc1bd03e5844",
+      "title": "Open Models are the United Front of AI",
+      "one_line": "Reframes open-source AI race with Chinese perspective, challenging Western narrative.",
+      "ingested_date": "2026-09-06",
+      "review_dates": [
+        "2026-09-07",
+        "2026-09-09",
+        "2026-09-13",
+        "2026-09-22",
+        "2026-10-11"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "9218fb05d29ab69270c7d2ed693fcab2a8ce9db1",
+      "title": "The Billboards of Silicon Valley",
+      "one_line": "Reframes tech hype as cyclical ruin, offering cultural critique beyond news.",
+      "ingested_date": "2026-09-06",
+      "review_dates": [
+        "2026-09-07",
+        "2026-09-09",
+        "2026-09-13",
+        "2026-09-22",
+        "2026-10-11"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "n+1"
+    },
+    {
+      "id": "c14125884e341545e82e99e286f28c7faadd1aab",
+      "title": "Is the U . S . losing its safe - haven status ? Why global central banks are pulling gold out of New York .",
+      "one_line": "Reframes dollar hegemony via central bank gold repatriation, a concrete shift.",
+      "ingested_date": "2026-09-06",
+      "review_dates": [
+        "2026-09-07",
+        "2026-09-09",
+        "2026-09-13",
+        "2026-09-22",
+        "2026-10-11"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gdelt_geopolitics"
+    },
+    {
+      "id": "0745102a894b484a346654490d7454dc77068702",
+      "title": "Critical Assets: AI, geopolitics and renewables reshape the global subsea cables space",
+      "one_line": "Reframes subsea cables as geopolitical and AI-driven strategic assets.",
+      "ingested_date": "2026-09-06",
+      "review_dates": [
+        "2026-09-07",
+        "2026-09-09",
+        "2026-09-13",
+        "2026-09-22",
+        "2026-10-11"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "28177ed84e00d11ae33f18024c49396db0f91472",
+      "title": "Your Boss Is Watching You",
+      "one_line": "Reframes workplace surveillance debate with evidence on effectiveness.",
+      "ingested_date": "2026-09-06",
+      "review_dates": [
+        "2026-09-07",
+        "2026-09-09",
+        "2026-09-13",
+        "2026-09-22",
+        "2026-10-11"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
     }
   ]
 }
