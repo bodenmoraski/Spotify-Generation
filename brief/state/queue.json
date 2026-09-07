@@ -1083,7 +1083,7 @@
         "2026-09-07",
         "2026-09-26"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Transformer"
@@ -1117,7 +1117,7 @@
         "2026-09-07",
         "2026-09-26"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -1134,7 +1134,7 @@
         "2026-09-07",
         "2026-09-26"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "gnews_world_br"
@@ -1219,7 +1219,7 @@
         "2026-09-07",
         "2026-09-26"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
@@ -3433,6 +3433,159 @@
       "retired": false,
       "missed": false,
       "source": "Nautilus"
+    },
+    {
+      "id": "8db5ba7ef4732e98cc948dc0ee5504246941555c",
+      "title": "Capital gains vs. wealth taxes",
+      "one_line": "Reframes capital gains vs wealth tax debate with asset pricing theory.",
+      "ingested_date": "2026-09-07",
+      "review_dates": [
+        "2026-09-08",
+        "2026-09-10",
+        "2026-09-14",
+        "2026-09-23",
+        "2026-10-12"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "b43abbe8eff10beeb58648fbbcfe99fa580db752",
+      "title": "Will Latin America embrace guerrilla geopolitics?",
+      "one_line": "Reframes regional strategy but lacks concrete argument or data.",
+      "ingested_date": "2026-09-07",
+      "review_dates": [
+        "2026-09-08",
+        "2026-09-10",
+        "2026-09-14",
+        "2026-09-23",
+        "2026-10-12"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "997b6f0404fae056c5b90ed814349392e08ac873",
+      "title": "Fechamento do Espaço Aéreo Está Prolongando Voos e Transformando a Geopolítica em Problema Climático",
+      "one_line": "Airspace closures link geopolitics to climate, reframing flight delays as systemic issue.",
+      "ingested_date": "2026-09-07",
+      "review_dates": [
+        "2026-09-08",
+        "2026-09-10",
+        "2026-09-14",
+        "2026-09-23",
+        "2026-10-12"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "e0aad6b0bf127fe2155ad876c8b0028a211d42ec",
+      "title": "Africa, Mercator and the politics of how we see the world",
+      "one_line": "Familiar cartography critique, no new argument or data.",
+      "ingested_date": "2026-09-07",
+      "review_dates": [
+        "2026-09-08",
+        "2026-09-10",
+        "2026-09-14",
+        "2026-09-23",
+        "2026-10-12"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_ke"
+    },
+    {
+      "id": "762b5a0ac4979fed953c51a98f836f8dd56630b4",
+      "title": "Mouse on Mars’ Jan St. Werner Taps Justin Vernon and Sufjan Stevens for New Album",
+      "one_line": "Album announcement with notable collaborators, but no new argument or insight.",
+      "ingested_date": "2026-09-07",
+      "review_dates": [
+        "2026-09-08",
+        "2026-09-10",
+        "2026-09-14",
+        "2026-09-23",
+        "2026-10-12"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Pitchfork"
+    },
+    {
+      "id": "e02ae19def6b6f7c4df88746637a074f37e339ba",
+      "title": "Supporting independent journalism in Ukraine",
+      "one_line": "Press release about an AI program; no new argument or insight.",
+      "ingested_date": "2026-09-07",
+      "review_dates": [
+        "2026-09-08",
+        "2026-09-10",
+        "2026-09-14",
+        "2026-09-23",
+        "2026-10-12"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "OpenAI"
+    },
+    {
+      "id": "445265ab1b46dc6d55abdc1bb1e131bbe8d191ad",
+      "title": "Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models",
+      "one_line": "Reveals a critical fragility in VLM reward models, reframing reliability requirements.",
+      "ingested_date": "2026-09-07",
+      "review_dates": [
+        "2026-09-08",
+        "2026-09-10",
+        "2026-09-14",
+        "2026-09-23",
+        "2026-10-12"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "4570f88245c29a352080cc4b33812e28084dbd84",
+      "title": "What Archaeology Reveals About the Rise of All-Powerful Rulers",
+      "one_line": "Challenges inevitability of autocracy with archaeological evidence, reframes political origins.",
+      "ingested_date": "2026-09-07",
+      "review_dates": [
+        "2026-09-08",
+        "2026-09-10",
+        "2026-09-14",
+        "2026-09-23",
+        "2026-10-12"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
+    },
+    {
+      "id": "950e0e2ec4a6d7e2a09f74d416c341e17e7dd6da",
+      "title": "Praise our Lord and Savior, Glycine: How Opus 4.6 gifted me The Vitamin",
+      "one_line": "Personal glycine experiment offers quirky, transferable self-experimentation insight.",
+      "ingested_date": "2026-09-07",
+      "review_dates": [
+        "2026-09-08",
+        "2026-09-10",
+        "2026-09-14",
+        "2026-09-23",
+        "2026-10-12"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
     }
   ]
 }
