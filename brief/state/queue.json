@@ -1270,7 +1270,7 @@
         "2026-09-08",
         "2026-09-27"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -1287,7 +1287,7 @@
         "2026-09-08",
         "2026-09-27"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "gnews_world_in"
@@ -1338,7 +1338,7 @@
         "2026-09-08",
         "2026-09-27"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "arxiv_cs"
@@ -1355,7 +1355,7 @@
         "2026-09-08",
         "2026-09-27"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "LessWrong"
@@ -3586,6 +3586,142 @@
       "retired": false,
       "missed": false,
       "source": "LessWrong"
+    },
+    {
+      "id": "9b2d095586772788248b79e907f8ad6bcb9d6f30",
+      "title": "No Doing, No Learning",
+      "one_line": "Reframes regulation's hidden costs with nuclear power counterfactual and millions of deaths.",
+      "ingested_date": "2026-09-08",
+      "review_dates": [
+        "2026-09-09",
+        "2026-09-11",
+        "2026-09-15",
+        "2026-09-24",
+        "2026-10-13"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "26ef01f74afac7cbef6864ec400d6d1678812105",
+      "title": "The Scramble: getting in position to pace the frontier",
+      "one_line": "Reframes AI governance as crisis management, not treaty negotiation.",
+      "ingested_date": "2026-09-08",
+      "review_dates": [
+        "2026-09-09",
+        "2026-09-11",
+        "2026-09-15",
+        "2026-09-24",
+        "2026-10-13"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "70616b0643724d8f20383259f3b1110e0f27bf74",
+      "title": "My Job Is to Fulfill Your Infantile Desire",
+      "one_line": "Reframes consumer labor relations via Chinese couriers' experiences, challenging Western assumptions.",
+      "ingested_date": "2026-09-08",
+      "review_dates": [
+        "2026-09-09",
+        "2026-09-11",
+        "2026-09-15",
+        "2026-09-24",
+        "2026-10-13"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "083d4736108c8a6f19ed8d861a600f46d181d888",
+      "title": "How—and Why—We Find Ourselves Trapped By Our Jobs",
+      "one_line": "Reframes career identity through Tolstoy's crisis, challenging assumptions about success.",
+      "ingested_date": "2026-09-08",
+      "review_dates": [
+        "2026-09-09",
+        "2026-09-11",
+        "2026-09-15",
+        "2026-09-24",
+        "2026-10-13"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "030f3565662b0b1f27c45cb84192341c5f414dda",
+      "title": "US-China Biorisk Cooperation: Yes, It’s Possible",
+      "one_line": "Argues for a concrete, bipartisan chokepoint to reduce AI-bio risk, reframing cooperation.",
+      "ingested_date": "2026-09-08",
+      "review_dates": [
+        "2026-09-09",
+        "2026-09-11",
+        "2026-09-15",
+        "2026-09-24",
+        "2026-10-13"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "0b82f3a3b822f138437c8e95be2a304779577162",
+      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
+      "one_line": "License shift signals strategic divergence in open model ecosystem.",
+      "ingested_date": "2026-09-08",
+      "review_dates": [
+        "2026-09-09",
+        "2026-09-11",
+        "2026-09-15",
+        "2026-09-24",
+        "2026-10-13"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Interconnects"
+    },
+    {
+      "id": "9e8083dab480e2ad92eb21f0d4c182bffff24b6d",
+      "title": "The Elegance of a Stupid Question",
+      "one_line": "Reframes mathematical inquiry and AI's role in defining intelligence.",
+      "ingested_date": "2026-09-08",
+      "review_dates": [
+        "2026-09-09",
+        "2026-09-11",
+        "2026-09-15",
+        "2026-09-24",
+        "2026-10-13"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
+    },
+    {
+      "id": "8daec57205f24ac236fad77612aa879121a120d1",
+      "title": "Our eloquent hands",
+      "one_line": "Reframes medical diagnosis as a form of palmistry, challenging scientific certainty.",
+      "ingested_date": "2026-09-08",
+      "review_dates": [
+        "2026-09-09",
+        "2026-09-11",
+        "2026-09-15",
+        "2026-09-24",
+        "2026-10-13"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
     }
   ]
 }
