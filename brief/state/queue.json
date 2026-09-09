@@ -1389,7 +1389,7 @@
         "2026-09-09",
         "2026-09-28"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "ChinaTalk"
@@ -1423,7 +1423,7 @@
         "2026-09-09",
         "2026-09-28"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Marginal Revolution"
@@ -1457,7 +1457,7 @@
         "2026-09-09",
         "2026-09-28"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "gnews_world_br"
@@ -1508,7 +1508,7 @@
         "2026-09-09",
         "2026-09-28"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "LessWrong"
@@ -3722,6 +3722,159 @@
       "retired": false,
       "missed": false,
       "source": "Aeon"
+    },
+    {
+      "id": "038957f94bccdb7dd4f443c4fd637eb4394e4f48",
+      "title": "How good are slop-vestigators?",
+      "one_line": "Benchmark reveals model bias in incident attribution, a novel safety finding.",
+      "ingested_date": "2026-09-09",
+      "review_dates": [
+        "2026-09-10",
+        "2026-09-12",
+        "2026-09-16",
+        "2026-09-25",
+        "2026-10-14"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "01414640f74212ab63ef6ae297e53443ca8a9e19",
+      "title": "Can Taiwan Build Drones?",
+      "one_line": "Nuanced on-the-ground analysis of Taiwan's drone industry tradeoffs, reframes defense debate.",
+      "ingested_date": "2026-09-09",
+      "review_dates": [
+        "2026-09-10",
+        "2026-09-12",
+        "2026-09-16",
+        "2026-09-25",
+        "2026-10-14"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "c0f170580403afa8755aeff4c53b2481d5fef840",
+      "title": "Next Wins Appeal",
+      "one_line": "Court ruling affirms supply/demand wages; exposes equal-pay law absurdity.",
+      "ingested_date": "2026-09-09",
+      "review_dates": [
+        "2026-09-10",
+        "2026-09-12",
+        "2026-09-16",
+        "2026-09-25",
+        "2026-10-14"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "a51d241621eb8d4b835fe4ff657908ce2b012eb4",
+      "title": "The Saddest Cattle in the World: Atahualpa Yupanqui, Empire, and the Sound of Stolen Land",
+      "one_line": "Reframes colonial history through music, offering a fresh lens on political economy.",
+      "ingested_date": "2026-09-09",
+      "review_dates": [
+        "2026-09-10",
+        "2026-09-12",
+        "2026-09-16",
+        "2026-09-25",
+        "2026-10-14"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "0cb5e51f5333b7760877a9e08ac8f048d1c13f8f",
+      "title": "A Legal History of Anti-Chinese Racism in America",
+      "one_line": "Reframes US history through legal racial regime, overturns border-centric narrative.",
+      "ingested_date": "2026-09-09",
+      "review_dates": [
+        "2026-09-10",
+        "2026-09-12",
+        "2026-09-16",
+        "2026-09-25",
+        "2026-10-14"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "30ade0a3388f9f697450cdb3ec9c0c2b3dcc4df4",
+      "title": "Distributing AGI’s wealth worldwide is a very tricky problem",
+      "one_line": "Reframes AI wealth distribution as global policy challenge, not just tech issue.",
+      "ingested_date": "2026-09-09",
+      "review_dates": [
+        "2026-09-10",
+        "2026-09-12",
+        "2026-09-16",
+        "2026-09-25",
+        "2026-10-14"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "18addcb4d532740ea74e360ee178b89eee3d6bc3",
+      "title": "Copying explains the collective behavior of AI agents in the wild",
+      "one_line": "Overturns intentionality assumptions: copying alone explains emergent AI collective behavior.",
+      "ingested_date": "2026-09-09",
+      "review_dates": [
+        "2026-09-10",
+        "2026-09-12",
+        "2026-09-16",
+        "2026-09-25",
+        "2026-10-14"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "3071946de3f5b401cf2b296129e640c90bacef51",
+      "title": "AI Has Solved One of Math’s $1 Million Millennium Prize Problems",
+      "one_line": "Overturns assumption that Millennium Problems resist AI; paradigm-shifting result.",
+      "ingested_date": "2026-09-09",
+      "review_dates": [
+        "2026-09-10",
+        "2026-09-12",
+        "2026-09-16",
+        "2026-09-25",
+        "2026-10-14"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
+    },
+    {
+      "id": "1dde9b7f290128076650045248136c04475ca2fd",
+      "title": "Why Snake Embryos Form in Spirals",
+      "one_line": "Unusual developmental biology insight, intriguing for a curious generalist.",
+      "ingested_date": "2026-09-09",
+      "review_dates": [
+        "2026-09-10",
+        "2026-09-12",
+        "2026-09-16",
+        "2026-09-25",
+        "2026-10-14"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
     }
   ]
 }
