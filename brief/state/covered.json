@@ -1,78 +1,6 @@
 {
   "items": [
     {
-      "id": "ee59d6ebb2f6a3762c5fd04bdc18fdf030a94f7c",
-      "title": "Data Centers and the Open Access Order",
-      "title_norm": "data centers and the open access order",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/data-centers-and-the-open-access-order.html?utm_source=rss&utm_medium=rss&utm_campaign=data-centers-and-the-open-access-order",
-      "covered_date": "2026-08-26",
-      "one_line": "Reframes datacenter debate via open vs limited access orders, a fresh lens."
-    },
-    {
-      "id": "326c5b3e1fa9a378c858d9192326cdfdb8c0f18d",
-      "title": "We\u2019re sleepwalking into an AI surveillance dystopia",
-      "title_norm": "we re sleepwalking into an ai surveillance dystopia",
-      "url": "https://www.transformernews.ai/p/ai-surveillance-dystopian-nightmare",
-      "covered_date": "2026-08-26",
-      "one_line": "Concrete, plausible scenario reframes AI surveillance as imminent, not hypothetical."
-    },
-    {
-      "id": "727fc0b0cb812c0689eec786fe21bf16a5a36ce2",
-      "title": "How American Bureaucracy (Literally) Steals Years From Your Life",
-      "title_norm": "how american bureaucracy literally steals years from your life",
-      "url": "https://lithub.com/how-american-bureaucracy-literally-steals-years-from-your-life/",
-      "covered_date": "2026-08-26",
-      "one_line": "Reframes bureaucracy as a hidden tax on time, quantifying its staggering cost."
-    },
-    {
-      "id": "dc0fb27c7d8034a15d084564d97248bd5038b1ca",
-      "title": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
-      "title_norm": "fake us thinktank set up and funded by israel sought to game ai for propaganda",
-      "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
-      "covered_date": "2026-08-26",
-      "one_line": "Exposes covert state influence on AI propaganda, reframing thinktank credibility."
-    },
-    {
-      "id": "87f0a7822de2e8b461f6adedee49023cf87b5894",
-      "title": "My Lavender Marriage",
-      "title_norm": "my lavender marriage",
-      "url": "https://thepointmag.com/examined-life/my-lavender-marriage/",
-      "covered_date": "2026-08-26",
-      "one_line": "Personal essay reframes identity and marriage norms, but niche and not broadly transformative."
-    },
-    {
-      "id": "9efcd19778f1c64144382df60437376c416aac40",
-      "title": "Huawei AI Data Center Bid in Egypt Spurs US to Mull Counter",
-      "title_norm": "huawei ai data center bid in egypt spurs us to mull counter",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTnZYQXZpU09rSmdjc2FfWFBGRzgtcVYxSWduWURJOGhRQUhaYUpCdUlLVW5STFJ1Y0VVbmFaQ2FST2o0VWEzS21tdUs2YkpjNXEtbXI1VDJnTVhRTkQ4VmVaWm44eXdyYmF3ampwQ2wyWnRhYTFrMnFuOUl3SDY4UlFYYUs0dVdjeTE0MTFlaGZXeVNNZ0JZdjNzZk9aR2p5VFMzd1hDbGV4RHFRdWJkQWpNaGozR2xhNUhXSE5tTy0?oc=5",
-      "covered_date": "2026-08-26",
-      "one_line": "Geopolitical tech rivalry reframed via infrastructure, but newsy not novel."
-    },
-    {
-      "id": "dbde5cbbf8fd7f5dfbd0067acdb2a48ead9f96d0",
-      "title": "Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows",
-      "title_norm": "reading is not using retrieval judgment and the design of ai financial research workflows",
-      "url": "https://arxiv.org/abs/2608.24842v1",
-      "covered_date": "2026-08-26",
-      "one_line": "Shows retrieval \u2260 judgment in LLMs, reframing AI evaluation."
-    },
-    {
-      "id": "f80daa6f591339fb0a080c276a80cb018601bb1a",
-      "title": "On Writing #3",
-      "title_norm": "on writing 3",
-      "url": "https://www.lesswrong.com/posts/rA6pqn6kz8NvHyznT/on-writing-3",
-      "covered_date": "2026-08-26",
-      "one_line": "Practical writing craft insights from a respected blogger, useful but not paradigm-shifting."
-    },
-    {
-      "id": "8e4850ff6fe490c24f0fa27ba9c48b02f0e39c99",
-      "title": "A New Framework for How the Brain Compresses Our Noisy World",
-      "title_norm": "a new framework for how the brain compresses our noisy world",
-      "url": "https://www.quantamagazine.org/a-new-framework-for-how-the-brain-compresses-our-noisy-world-20260824/",
-      "covered_date": "2026-08-26",
-      "one_line": "Reframes perception as compression, bridging neuroscience and information theory."
-    },
-    {
       "id": "ea0af4bcf2a0832a167f4a50321fb143dd983836",
       "title": "Important results on economic mobility",
       "title_norm": "important results on economic mobility",
@@ -1047,6 +975,78 @@
       "url": "https://nautil.us/why-snake-embryos-form-in-spirals-1284889/",
       "covered_date": "2026-09-09",
       "one_line": "Unusual developmental biology insight, intriguing for a curious generalist."
+    },
+    {
+      "id": "09322798aa75684b492afd2a349f4ffce6ee4f88",
+      "title": "Economic Scenarios for Transformative AI",
+      "title_norm": "economic scenarios for transformative ai",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/economic-scenarios-for-transformative-ai.html?utm_source=rss&utm_medium=rss&utm_campaign=economic-scenarios-for-transformative-ai",
+      "covered_date": "2026-09-10",
+      "one_line": "Quantifies AI's economic impact across scenarios, reframing labor and growth debates."
+    },
+    {
+      "id": "d24b9a2f99cabf45797f0c3772db84f65e7f20fd",
+      "title": "Neither Bone Nor Stone: Why the US Constitution Was Meant to be Amended",
+      "title_norm": "neither bone nor stone why the us constitution was meant to be amended",
+      "url": "https://lithub.com/neither-bone-nor-stone-why-the-us-constitution-was-meant-to-be-amended/",
+      "covered_date": "2026-09-10",
+      "one_line": "Lepore reframes the Constitution as living, amendable matter against originalist stone."
+    },
+    {
+      "id": "b295ca7676aea38acc9181a4cd185b63d7c834ef",
+      "title": "Internal Goods",
+      "title_norm": "internal goods",
+      "url": "https://thepointmag.com/politics/internal-goods/",
+      "covered_date": "2026-09-10",
+      "one_line": "Essay on academic responsibility and shared value; clear thinking as ethical practice."
+    },
+    {
+      "id": "0e5919bc1bff0c1f3a5fa89d336862fbc33f945b",
+      "title": "The King of Unitree",
+      "title_norm": "the king of unitree",
+      "url": "https://www.chinatalk.media/p/the-king-of-unitree",
+      "covered_date": "2026-09-10",
+      "one_line": "Inside look at Unitree's cost-obsessed culture, but mostly company profile."
+    },
+    {
+      "id": "62961ed1e624245fd60c39de9c457660118d0c95",
+      "title": "If on a Winter\u2019s Night a Reader\u2026",
+      "title_norm": "if on a winter s night a reader",
+      "url": "https://www.publicbooks.org/if-on-a-winters-night-a-reader/",
+      "covered_date": "2026-09-10",
+      "one_line": "Literary essay on blurring life and reading; pleasant but not argument-shifting."
+    },
+    {
+      "id": "b93da90dc3986dcecf82fb7092a3883dd65ae121",
+      "title": "When Official Channels Close, Track IIs Keeps Diplomacy Moving",
+      "title_norm": "when official channels close track iis keeps diplomacy moving",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc2NYN3A3bGpfdldMWXdZYy1CUExoSW1FSjNuMW1uVEt1WDVBV2wyOTJaNG95NG9uMXVQeFY3YlRCMGtoWV9YblkxcFhlaFF6c3NHTGotTklBNUttclRHSXJ0YkpPYUJETl8yUlRRN216MnJUQU5oNnQ3amFnb0dDSUhWZy12ZUNLMU5GeUxmZS10NndScTRFbXUyWWc4QQ?oc=5",
+      "covered_date": "2026-09-10",
+      "one_line": "Track II diplomacy concept is useful but excerpt offers no new argument."
+    },
+    {
+      "id": "24560d30710ea042e14f61b41d6afdc0eee30e71",
+      "title": "A positive resolution of the gap-entropy conjecture",
+      "title_norm": "a positive resolution of the gap entropy conjecture",
+      "url": "https://arxiv.org/abs/2609.10529v1",
+      "covered_date": "2026-09-10",
+      "one_line": "Resolves a known open conjecture in bandit theory, sharpening sample-complexity bounds."
+    },
+    {
+      "id": "eb9d7aad0a5570966489fbe5a8fa429733684fcf",
+      "title": "The Four-Color Theorem Gets a Rare New Proof",
+      "title_norm": "the four color theorem gets a rare new proof",
+      "url": "https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/",
+      "covered_date": "2026-09-10",
+      "one_line": "New proof of a classic theorem; reframes what counts as a satisfying proof."
+    },
+    {
+      "id": "8b6d5449dbf8136e98ea7083dbf31fda498126e7",
+      "title": "Medieval mental health",
+      "title_norm": "medieval mental health",
+      "url": "https://aeon.co/essays/the-curio-cabinet-of-medieval-mental-health",
+      "covered_date": "2026-09-10",
+      "one_line": "Medieval mental-health care was holistic, not just bizarre remedies; reframes historical assumptions."
     }
   ]
 }

@@ -1542,7 +1542,7 @@
         "2026-09-10",
         "2026-09-29"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -1559,7 +1559,7 @@
         "2026-09-10",
         "2026-09-29"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "gdelt_geopolitics"
@@ -1576,7 +1576,7 @@
         "2026-09-10",
         "2026-09-29"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "gnews_world_in"
@@ -1661,7 +1661,7 @@
         "2026-09-10",
         "2026-09-29"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Nautilus"
@@ -3875,6 +3875,159 @@
       "retired": false,
       "missed": false,
       "source": "Nautilus"
+    },
+    {
+      "id": "09322798aa75684b492afd2a349f4ffce6ee4f88",
+      "title": "Economic Scenarios for Transformative AI",
+      "one_line": "Quantifies AI's economic impact across scenarios, reframing labor and growth debates.",
+      "ingested_date": "2026-09-10",
+      "review_dates": [
+        "2026-09-11",
+        "2026-09-13",
+        "2026-09-17",
+        "2026-09-26",
+        "2026-10-15"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "d24b9a2f99cabf45797f0c3772db84f65e7f20fd",
+      "title": "Neither Bone Nor Stone: Why the US Constitution Was Meant to be Amended",
+      "one_line": "Lepore reframes the Constitution as living, amendable matter against originalist stone.",
+      "ingested_date": "2026-09-10",
+      "review_dates": [
+        "2026-09-11",
+        "2026-09-13",
+        "2026-09-17",
+        "2026-09-26",
+        "2026-10-15"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "b295ca7676aea38acc9181a4cd185b63d7c834ef",
+      "title": "Internal Goods",
+      "one_line": "Essay on academic responsibility and shared value; clear thinking as ethical practice.",
+      "ingested_date": "2026-09-10",
+      "review_dates": [
+        "2026-09-11",
+        "2026-09-13",
+        "2026-09-17",
+        "2026-09-26",
+        "2026-10-15"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "The Point"
+    },
+    {
+      "id": "0e5919bc1bff0c1f3a5fa89d336862fbc33f945b",
+      "title": "The King of Unitree",
+      "one_line": "Inside look at Unitree's cost-obsessed culture, but mostly company profile.",
+      "ingested_date": "2026-09-10",
+      "review_dates": [
+        "2026-09-11",
+        "2026-09-13",
+        "2026-09-17",
+        "2026-09-26",
+        "2026-10-15"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "62961ed1e624245fd60c39de9c457660118d0c95",
+      "title": "If on a Winter’s Night a Reader…",
+      "one_line": "Literary essay on blurring life and reading; pleasant but not argument-shifting.",
+      "ingested_date": "2026-09-10",
+      "review_dates": [
+        "2026-09-11",
+        "2026-09-13",
+        "2026-09-17",
+        "2026-09-26",
+        "2026-10-15"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "b93da90dc3986dcecf82fb7092a3883dd65ae121",
+      "title": "When Official Channels Close, Track IIs Keeps Diplomacy Moving",
+      "one_line": "Track II diplomacy concept is useful but excerpt offers no new argument.",
+      "ingested_date": "2026-09-10",
+      "review_dates": [
+        "2026-09-11",
+        "2026-09-13",
+        "2026-09-17",
+        "2026-09-26",
+        "2026-10-15"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "24560d30710ea042e14f61b41d6afdc0eee30e71",
+      "title": "A positive resolution of the gap-entropy conjecture",
+      "one_line": "Resolves a known open conjecture in bandit theory, sharpening sample-complexity bounds.",
+      "ingested_date": "2026-09-10",
+      "review_dates": [
+        "2026-09-11",
+        "2026-09-13",
+        "2026-09-17",
+        "2026-09-26",
+        "2026-10-15"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "eb9d7aad0a5570966489fbe5a8fa429733684fcf",
+      "title": "The Four-Color Theorem Gets a Rare New Proof",
+      "one_line": "New proof of a classic theorem; reframes what counts as a satisfying proof.",
+      "ingested_date": "2026-09-10",
+      "review_dates": [
+        "2026-09-11",
+        "2026-09-13",
+        "2026-09-17",
+        "2026-09-26",
+        "2026-10-15"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
+    },
+    {
+      "id": "8b6d5449dbf8136e98ea7083dbf31fda498126e7",
+      "title": "Medieval mental health",
+      "one_line": "Medieval mental-health care was holistic, not just bizarre remedies; reframes historical assumptions.",
+      "ingested_date": "2026-09-10",
+      "review_dates": [
+        "2026-09-11",
+        "2026-09-13",
+        "2026-09-17",
+        "2026-09-26",
+        "2026-10-15"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
     }
   ]
 }
