@@ -1695,7 +1695,7 @@
         "2026-09-11",
         "2026-09-30"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Transformer"
@@ -1712,7 +1712,7 @@
         "2026-09-11",
         "2026-09-30"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -1746,7 +1746,7 @@
         "2026-09-11",
         "2026-09-30"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "The Point"
@@ -1814,7 +1814,7 @@
         "2026-09-11",
         "2026-09-30"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
@@ -4028,6 +4028,142 @@
       "retired": false,
       "missed": false,
       "source": "Aeon"
+    },
+    {
+      "id": "958f575653e17b703b74a7977ba40e2feaa9e83b",
+      "title": "GWOT at 25 with Wesley Morgan",
+      "one_line": "Reframes Afghanistan war via ground-level history and institutional failure analysis.",
+      "ingested_date": "2026-09-11",
+      "review_dates": [
+        "2026-09-12",
+        "2026-09-14",
+        "2026-09-18",
+        "2026-09-27",
+        "2026-10-16"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "f42b07b3f93832223c7ecfbe828e083a89709570",
+      "title": "One resignation turned the embers of AI fear into a wildfire",
+      "one_line": "Reframes why extreme AI-risk views suddenly reached the mainstream.",
+      "ingested_date": "2026-09-11",
+      "review_dates": [
+        "2026-09-12",
+        "2026-09-14",
+        "2026-09-18",
+        "2026-09-27",
+        "2026-10-16"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Interconnects"
+    },
+    {
+      "id": "fa5f7a416adc7b1a9dee2ff5a0dbc20cd09d6990",
+      "title": "On the Existential Threat of Palestinian Kites to Colonial Power",
+      "one_line": "Reframes kites as existential colonial threat; sharp, original argument on hope as rebellion.",
+      "ingested_date": "2026-09-11",
+      "review_dates": [
+        "2026-09-12",
+        "2026-09-14",
+        "2026-09-18",
+        "2026-09-27",
+        "2026-10-16"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "ee9128d1a1b0f2286232eeaa926c6653f2a1781d",
+      "title": "Is there now a better trend in youth mental health?",
+      "one_line": "Surprising data reversal: youth mental health and substance use improving, against prevailing narrative.",
+      "ingested_date": "2026-09-11",
+      "review_dates": [
+        "2026-09-12",
+        "2026-09-14",
+        "2026-09-18",
+        "2026-09-27",
+        "2026-10-16"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "7a1b9d389b7d7d1c1620c9adedc1e07ddd54f786",
+      "title": "Manufacturing Goodness: What Administrators Really Do and Why",
+      "one_line": "Critical essay on university admin as image-making; niche but has a real argument.",
+      "ingested_date": "2026-09-11",
+      "review_dates": [
+        "2026-09-12",
+        "2026-09-14",
+        "2026-09-18",
+        "2026-09-27",
+        "2026-10-16"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "b90effd904a1bd570f5b0c40f74f56f95064e793",
+      "title": "Congress must not waste the AI policy window",
+      "one_line": "Policy-window analysis, but mostly recap of recent AI news events.",
+      "ingested_date": "2026-09-11",
+      "review_dates": [
+        "2026-09-12",
+        "2026-09-14",
+        "2026-09-18",
+        "2026-09-27",
+        "2026-10-16"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "16dffb1187940d69b812641124b6385fcdde6274",
+      "title": "Why Do These Fossil Shells Flip Their Spirals Every Few Millennia?",
+      "one_line": "Global synchronized evolutionary flip in plankton hints at hidden planetary drivers.",
+      "ingested_date": "2026-09-11",
+      "review_dates": [
+        "2026-09-12",
+        "2026-09-14",
+        "2026-09-18",
+        "2026-09-27",
+        "2026-10-16"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
+    },
+    {
+      "id": "d82e8d825b4a71ea642e1212b68b844e5ca1b5d6",
+      "title": "Do people prefer traditional architecture?",
+      "one_line": "Empirical claim about shared architectural taste challenges assumptions about subjectivity.",
+      "ingested_date": "2026-09-11",
+      "review_dates": [
+        "2026-09-12",
+        "2026-09-14",
+        "2026-09-18",
+        "2026-09-27",
+        "2026-10-16"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Works in Progress"
     }
   ]
 }
