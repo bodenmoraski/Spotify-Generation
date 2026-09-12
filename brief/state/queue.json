@@ -1848,7 +1848,7 @@
         "2026-09-12",
         "2026-10-01"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Transformer"
@@ -1865,7 +1865,7 @@
         "2026-09-12",
         "2026-10-01"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -1899,7 +1899,7 @@
         "2026-09-12",
         "2026-10-01"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Google DeepMind"
@@ -1916,7 +1916,7 @@
         "2026-09-12",
         "2026-10-01"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "OpenAI"
@@ -4164,6 +4164,159 @@
       "retired": false,
       "missed": false,
       "source": "Works in Progress"
+    },
+    {
+      "id": "ca887490cccb34038b5b57eb921376e057198cf3",
+      "title": "Labor reallocation during the Industrial Revolution",
+      "one_line": "Census data shows young entry collapse, not displacement, absorbed mechanization shock.",
+      "ingested_date": "2026-09-12",
+      "review_dates": [
+        "2026-09-13",
+        "2026-09-15",
+        "2026-09-19",
+        "2026-09-28",
+        "2026-10-17"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "872fee5873ef39bb00c473e603bdbb9755a1bb5e",
+      "title": "The War on Terror Through the Eyes of Queer Afghan Refugees",
+      "one_line": "Reframes War on Terror via queer Afghan refugee fiction and 4.5M death toll.",
+      "ingested_date": "2026-09-12",
+      "review_dates": [
+        "2026-09-13",
+        "2026-09-15",
+        "2026-09-19",
+        "2026-09-28",
+        "2026-10-17"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "68c90f2155d62403958d8c98f7d23329552a55ed",
+      "title": "The Arctic Reopens as a Geopolitical Theatre",
+      "one_line": "Arctic geopolitics matters but headline lacks a novel argument or reframing.",
+      "ingested_date": "2026-09-12",
+      "review_dates": [
+        "2026-09-13",
+        "2026-09-15",
+        "2026-09-19",
+        "2026-09-28",
+        "2026-10-17"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "bb370be1c05b5932d1cf25085ea61da63dae072e",
+      "title": "The Hi-Neighbor! Mayor",
+      "one_line": "Local political profile; modest insight, limited reframing for a generalist.",
+      "ingested_date": "2026-09-12",
+      "review_dates": [
+        "2026-09-13",
+        "2026-09-15",
+        "2026-09-19",
+        "2026-09-28",
+        "2026-10-17"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "n+1"
+    },
+    {
+      "id": "12e9dd6851803557bf5ad9fd2920e7fa2e644576",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "one_line": "Vendor case study; no new argument, just a product adoption anecdote.",
+      "ingested_date": "2026-09-12",
+      "review_dates": [
+        "2026-09-13",
+        "2026-09-15",
+        "2026-09-19",
+        "2026-09-28",
+        "2026-10-17"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "OpenAI"
+    },
+    {
+      "id": "b1c8f0004508c0fcb7268cc248537bdc8905dc3e",
+      "title": "Do k-pop à diplomacia: como a cultura impulsiona a parceria Brasil-Coreia do Sul",
+      "one_line": "Generic cultural diplomacy piece; no new argument or reframing.",
+      "ingested_date": "2026-09-12",
+      "review_dates": [
+        "2026-09-13",
+        "2026-09-15",
+        "2026-09-19",
+        "2026-09-28",
+        "2026-10-17"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "ad42ed210eb6afa5add86311cdf283d4e117367b",
+      "title": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
+      "one_line": "MoEs overfit to repeated data far faster than dense models, undercutting sparsity benefits.",
+      "ingested_date": "2026-09-12",
+      "review_dates": [
+        "2026-09-13",
+        "2026-09-15",
+        "2026-09-19",
+        "2026-09-28",
+        "2026-10-17"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "e369763456914d4fc7b1e451bec7ab2d409ce441",
+      "title": "Metamorphosis: Transformations in the Early Modern Flap Book (early 19th century)",
+      "one_line": "Flap books encoding metamorphosis and mortality—charming, unexpected window into early media.",
+      "ingested_date": "2026-09-12",
+      "review_dates": [
+        "2026-09-13",
+        "2026-09-15",
+        "2026-09-19",
+        "2026-09-28",
+        "2026-10-17"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Domain Review"
+    },
+    {
+      "id": "e5bcb60e79c1838ed54d93a395e5037f5e13505e",
+      "title": "Rope, Twine and Thread: Invisible Technologies of the Stone Age",
+      "one_line": "Reframes Stone Age tech around perishable fiber, a genuinely overlooked innovation.",
+      "ingested_date": "2026-09-12",
+      "review_dates": [
+        "2026-09-13",
+        "2026-09-15",
+        "2026-09-19",
+        "2026-09-28",
+        "2026-10-17"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
     }
   ]
 }
