@@ -2001,7 +2001,7 @@
         "2026-09-13",
         "2026-10-02"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "ChinaTalk"
@@ -2018,7 +2018,7 @@
         "2026-09-13",
         "2026-10-02"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -2086,7 +2086,7 @@
         "2026-09-13",
         "2026-10-02"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "arxiv_cs"
@@ -2103,7 +2103,7 @@
         "2026-09-13",
         "2026-10-02"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
@@ -4317,6 +4317,142 @@
       "retired": false,
       "missed": false,
       "source": "Nautilus"
+    },
+    {
+      "id": "beb0f92b377e4cdf848f2c4b06fbfbcf0534d8ea",
+      "title": "Diversity Is Our Strength?",
+      "one_line": "Scoping review finds little evidence diversity boosts scientific output, challenging a core institutional claim.",
+      "ingested_date": "2026-09-13",
+      "review_dates": [
+        "2026-09-14",
+        "2026-09-16",
+        "2026-09-20",
+        "2026-09-29",
+        "2026-10-18"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "428d54a01ef52e4baecaa73def32fbdf0d1d04ed",
+      "title": "Science can be the bridge between India and China that diplomacy could not build",
+      "one_line": "Science-diplomacy thesis is plausible but thin; excerpt offers no argument.",
+      "ingested_date": "2026-09-13",
+      "review_dates": [
+        "2026-09-14",
+        "2026-09-16",
+        "2026-09-20",
+        "2026-09-29",
+        "2026-10-18"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "47a95f287f13ada638cbbd95a2a1837155cd7bf3",
+      "title": "O esporte virou geopolítica. Como críquete, Fórmula 1 e futebol estão mudando o mapa de poder do mundo",
+      "one_line": "Sports-as-geopolitics angle is familiar; headline lacks a novel argument.",
+      "ingested_date": "2026-09-13",
+      "review_dates": [
+        "2026-09-14",
+        "2026-09-16",
+        "2026-09-20",
+        "2026-09-29",
+        "2026-10-18"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "3706d057b8ae57de050d196322c0240fdf606c74",
+      "title": "Lil Durk Acquitted in Murder-for-Hire Trial",
+      "one_line": "Celebrity trial outcome; recency-driven, no reframing argument or portable idea.",
+      "ingested_date": "2026-09-13",
+      "review_dates": [
+        "2026-09-14",
+        "2026-09-16",
+        "2026-09-20",
+        "2026-09-29",
+        "2026-10-18"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Pitchfork"
+    },
+    {
+      "id": "e5a0a454b1dd35180ed1c5d48e638ee13feb15dd",
+      "title": "Lit Hub Weekly: September 7 – 11, 2026",
+      "one_line": "Weekly literary link roundup; no single argument or reframing.",
+      "ingested_date": "2026-09-13",
+      "review_dates": [
+        "2026-09-14",
+        "2026-09-16",
+        "2026-09-20",
+        "2026-09-29",
+        "2026-10-18"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "aba2d0d5634da652afa3412fc6e9554621a0a702",
+      "title": "South Africa: Mkhwanazi committee requests extension for its report",
+      "one_line": "Procedural committee extension request; no new argument or insight.",
+      "ingested_date": "2026-09-13",
+      "review_dates": [
+        "2026-09-14",
+        "2026-09-16",
+        "2026-09-20",
+        "2026-09-29",
+        "2026-10-18"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_ke"
+    },
+    {
+      "id": "dc3f31168a4052fa9884236cf1ad0176e6c36fb9",
+      "title": "Nighttime Light May Change the Shape of Your Heart",
+      "one_line": "Light pollution reshaping heart anatomy is a genuinely surprising physiological claim.",
+      "ingested_date": "2026-09-13",
+      "review_dates": [
+        "2026-09-14",
+        "2026-09-16",
+        "2026-09-20",
+        "2026-09-29",
+        "2026-10-18"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
+    },
+    {
+      "id": "2d93bcaad7e05f3ef3a5b3588111d48db981f370",
+      "title": "The Talker Does Not Control The Doer (in Current AIs)",
+      "one_line": "Yudkowsky argues AI's talker and doer are separate, with safety implications.",
+      "ingested_date": "2026-09-13",
+      "review_dates": [
+        "2026-09-14",
+        "2026-09-16",
+        "2026-09-20",
+        "2026-09-29",
+        "2026-10-18"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
     }
   ]
 }
