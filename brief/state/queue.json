@@ -2137,7 +2137,7 @@
         "2026-09-14",
         "2026-10-03"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Marginal Revolution"
@@ -2154,7 +2154,7 @@
         "2026-09-14",
         "2026-10-03"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "gnews_world_in"
@@ -2239,7 +2239,7 @@
         "2026-09-14",
         "2026-10-03"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "arxiv_cs"
@@ -2273,7 +2273,7 @@
         "2026-09-14",
         "2026-10-03"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Nautilus"
@@ -4453,6 +4453,142 @@
       "retired": false,
       "missed": false,
       "source": "LessWrong"
+    },
+    {
+      "id": "7f8fd7ece9005581dedd517c51dd9682ae6ddd7b",
+      "title": "Current alignment techniques might be ineffective (and actively bad) in the age of RL",
+      "one_line": "Argues alignment techniques may mask, not fix, RL-induced misalignment.",
+      "ingested_date": "2026-09-14",
+      "review_dates": [
+        "2026-09-15",
+        "2026-09-17",
+        "2026-09-21",
+        "2026-09-30",
+        "2026-10-19"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "73fb52be47fd55387d5284bc911308d3d03f74e5",
+      "title": "AI, Redistribution, and the Size of the Pie",
+      "one_line": "Reframes AI labor-share fears: falling share can still mean equal labor income.",
+      "ingested_date": "2026-09-14",
+      "review_dates": [
+        "2026-09-15",
+        "2026-09-17",
+        "2026-09-21",
+        "2026-09-30",
+        "2026-10-19"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "b33c484165c87b358f172d735b6af6a5ccac43f3",
+      "title": "Rachel Cusk’s Diminishing Returns",
+      "one_line": "Critical argument that Cusk's formal invention now outpaces her thinking.",
+      "ingested_date": "2026-09-14",
+      "review_dates": [
+        "2026-09-15",
+        "2026-09-17",
+        "2026-09-21",
+        "2026-09-30",
+        "2026-10-19"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "3601ce843931a8789be8c1b4c5b6108d8107e98c",
+      "title": "A Question of Innocence: On Writing About Real and Imagined Lives In and Outside of Prison",
+      "one_line": "Prison writer on fiction mirroring his life; genuine moral reflection.",
+      "ingested_date": "2026-09-14",
+      "review_dates": [
+        "2026-09-15",
+        "2026-09-17",
+        "2026-09-21",
+        "2026-09-30",
+        "2026-10-19"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "1bc6e0a80dd7bff595d775fe8e22868baf5e5428",
+      "title": "BRICS is built on economic grievance, not geopolitics",
+      "one_line": "Contrarian framing of BRICS as economics-driven, but thin excerpt limits insight.",
+      "ingested_date": "2026-09-14",
+      "review_dates": [
+        "2026-09-15",
+        "2026-09-17",
+        "2026-09-21",
+        "2026-09-30",
+        "2026-10-19"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "2b18fcc9e790266cd2492ad9e0707479fc06d803",
+      "title": "INTERVIEW| Yemen, Horn of Africa, Sahel tensions pose growing challenges for Egypt - Politics - Egypt",
+      "one_line": "Regional security analysis, but thin excerpt and no novel argument.",
+      "ingested_date": "2026-09-14",
+      "review_dates": [
+        "2026-09-15",
+        "2026-09-17",
+        "2026-09-21",
+        "2026-09-30",
+        "2026-10-19"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_ke"
+    },
+    {
+      "id": "d9684e6f99dcc78f6110cd45bb44a685f72b8353",
+      "title": "Black Holes or Black Hole Stars? Astronomers Spar Over Webb Telescope’s ‘Little Red Dots.’",
+      "one_line": "Webb's 'little red dots' may be black hole stars, reframing early galaxy formation.",
+      "ingested_date": "2026-09-14",
+      "review_dates": [
+        "2026-09-15",
+        "2026-09-17",
+        "2026-09-21",
+        "2026-09-30",
+        "2026-10-19"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
+    },
+    {
+      "id": "207102c81e77ed620d84c800cb94a0f3ac10877c",
+      "title": "The bombarding of childhood",
+      "one_line": "Reframes screen-time debate as sensory bombardment, a fresh angle on kids' media.",
+      "ingested_date": "2026-09-14",
+      "review_dates": [
+        "2026-09-15",
+        "2026-09-17",
+        "2026-09-21",
+        "2026-09-30",
+        "2026-10-19"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
     }
   ]
 }
