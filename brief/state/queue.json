@@ -2290,7 +2290,7 @@
         "2026-09-15",
         "2026-10-04"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "LessWrong"
@@ -2307,7 +2307,7 @@
         "2026-09-15",
         "2026-10-04"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Marginal Revolution"
@@ -2324,7 +2324,7 @@
         "2026-09-15",
         "2026-10-04"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "gnews_world_in"
@@ -2375,7 +2375,7 @@
         "2026-09-15",
         "2026-10-04"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Pitchfork"
@@ -4584,6 +4584,142 @@
         "2026-09-21",
         "2026-09-30",
         "2026-10-19"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
+    },
+    {
+      "id": "2258eb631d5d896d78cff240744f7a347a621c1c",
+      "title": "Model Weight Exfiltration Seems Overrated",
+      "one_line": "Reframes AI takeover risk: models may capture firms rather than exfiltrate weights.",
+      "ingested_date": "2026-09-15",
+      "review_dates": [
+        "2026-09-16",
+        "2026-09-18",
+        "2026-09-22",
+        "2026-10-01",
+        "2026-10-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "783f1ba188e5b3b64093c9b9b3c75b3d38548fab",
+      "title": "Did the ACA reduce mortality?",
+      "one_line": "Overturns prior: ACA cut mortality via non-Medicaid channels, not Medicaid expansion.",
+      "ingested_date": "2026-09-15",
+      "review_dates": [
+        "2026-09-16",
+        "2026-09-18",
+        "2026-09-22",
+        "2026-10-01",
+        "2026-10-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "2475985871a98e49c7bc38331d76bbb100947a26",
+      "title": "To bargain with China, the US needs to regulate AI",
+      "one_line": "Reframes AI regulation as a bargaining chip in US-China diplomacy.",
+      "ingested_date": "2026-09-15",
+      "review_dates": [
+        "2026-09-16",
+        "2026-09-18",
+        "2026-09-22",
+        "2026-10-01",
+        "2026-10-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "352ebe089885b4101de6456b95b39cbd3fe25779",
+      "title": "ModelTalk: Pacing the Frontier",
+      "one_line": "Reframes AI 'pacing' vs pause; why HF hack broke through",
+      "ingested_date": "2026-09-15",
+      "review_dates": [
+        "2026-09-16",
+        "2026-09-18",
+        "2026-09-22",
+        "2026-10-01",
+        "2026-10-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "8aa44423a217cbc1dc90edd6ce454a494a167562",
+      "title": "On the Orientalism and Imperial Gaze of Western Horror Films",
+      "one_line": "Sharp critique of how Western horror uses native actors as orientalist props.",
+      "ingested_date": "2026-09-15",
+      "review_dates": [
+        "2026-09-16",
+        "2026-09-18",
+        "2026-09-22",
+        "2026-10-01",
+        "2026-10-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "2d7d8c90e2037828d99f4b877108cb78cd9bdd57",
+      "title": "How Russia’s Jet Drones Are Challenging Ukraine’s Air Defenses",
+      "one_line": "Incremental drone-warfare update; no reframing argument or novel insight.",
+      "ingested_date": "2026-09-15",
+      "review_dates": [
+        "2026-09-16",
+        "2026-09-18",
+        "2026-09-22",
+        "2026-10-01",
+        "2026-10-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "1dfcf70c2d0074e338249604a17769ad1e779302",
+      "title": "DRC’s Ebola Outbreak Has the Potential to Become a Global Pandemic. How to Make Sure It Doesn’t",
+      "one_line": "Expert argues a neglected Ebola strain could go global; reframes outbreak risk.",
+      "ingested_date": "2026-09-15",
+      "review_dates": [
+        "2026-09-16",
+        "2026-09-18",
+        "2026-09-22",
+        "2026-10-01",
+        "2026-10-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
+    },
+    {
+      "id": "d6031cb4afc67ee4afd4ebbd9c67102105495415",
+      "title": "Chasing la dolce vita",
+      "one_line": "Essay on diaspora longing and the myth of return; reflective, not news.",
+      "ingested_date": "2026-09-15",
+      "review_dates": [
+        "2026-09-16",
+        "2026-09-18",
+        "2026-09-22",
+        "2026-10-01",
+        "2026-10-20"
       ],
       "reviews_done": 0,
       "retired": false,
