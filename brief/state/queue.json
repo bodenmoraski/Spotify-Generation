@@ -2426,7 +2426,7 @@
         "2026-09-16",
         "2026-10-05"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Marginal Revolution"
@@ -2443,7 +2443,7 @@
         "2026-09-16",
         "2026-10-05"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -2477,7 +2477,7 @@
         "2026-09-16",
         "2026-10-05"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "gdelt_geopolitics"
@@ -2545,7 +2545,7 @@
         "2026-09-16",
         "2026-10-05"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "ChinaTalk"
@@ -4725,6 +4725,159 @@
       "retired": false,
       "missed": false,
       "source": "Aeon"
+    },
+    {
+      "id": "6438ce27c9bc449171c1227d7f2e82479b8926ef",
+      "title": "How an Egyptian Prison Poem Came to Structure My Memoir",
+      "one_line": "Reframes the prison memoir genre as a critique of Western legibility demands.",
+      "ingested_date": "2026-09-16",
+      "review_dates": [
+        "2026-09-17",
+        "2026-09-19",
+        "2026-09-23",
+        "2026-10-02",
+        "2026-10-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "41753002daa625e7c870cad28fd76a3b842b191b",
+      "title": "What Regulatory Capture Actually Looks Like",
+      "one_line": "Reframes AI-safety sincerity vs. regulatory-capture cynicism with a sharp argument.",
+      "ingested_date": "2026-09-16",
+      "review_dates": [
+        "2026-09-17",
+        "2026-09-19",
+        "2026-09-23",
+        "2026-10-02",
+        "2026-10-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "6bc4e7238321b0f537aa9ef73a221b92f82a6453",
+      "title": "After the Sublime",
+      "one_line": "Argues internet 'vibe' aesthetics misunderstand the sublime they imitate.",
+      "ingested_date": "2026-09-16",
+      "review_dates": [
+        "2026-09-17",
+        "2026-09-19",
+        "2026-09-23",
+        "2026-10-02",
+        "2026-10-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "The Point"
+    },
+    {
+      "id": "cfb3ab5ec0ecd049ce1ccb59f7442e70f07e5243",
+      "title": "Remember Them: Palestine Scholars Murdered in the Gaza Genocide",
+      "one_line": "Memorializes murdered Palestinian scholars, reframing genocide's toll on academia.",
+      "ingested_date": "2026-09-16",
+      "review_dates": [
+        "2026-09-17",
+        "2026-09-19",
+        "2026-09-23",
+        "2026-10-02",
+        "2026-10-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "5f4522ec581625f0ae9097bed597fc6cecdff733",
+      "title": "The Municipal Sublime",
+      "one_line": "Reframes overlooked public buildings as aesthetic category; modest but genuine point of view.",
+      "ingested_date": "2026-09-16",
+      "review_dates": [
+        "2026-09-17",
+        "2026-09-19",
+        "2026-09-23",
+        "2026-10-02",
+        "2026-10-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "n+1"
+    },
+    {
+      "id": "39be519ab68b2ae865cd1cdb402a0dc2172aafe2",
+      "title": "Iran signals diplomacy with US as China pushes Hormuz reopening",
+      "one_line": "Geopolitical signal, but headline-level with no new argument or reframing.",
+      "ingested_date": "2026-09-16",
+      "review_dates": [
+        "2026-09-17",
+        "2026-09-19",
+        "2026-09-23",
+        "2026-10-02",
+        "2026-10-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "342e6c835fbe2390775f576cd5bd315566a6ec4f",
+      "title": "Decomposition Buys Integrity, Not Yield",
+      "one_line": "Formal result: decomposition yields no extra findings, only integrity tradeoffs.",
+      "ingested_date": "2026-09-16",
+      "review_dates": [
+        "2026-09-17",
+        "2026-09-19",
+        "2026-09-23",
+        "2026-10-02",
+        "2026-10-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "61e8c89377814baf6f66220ffda981cd3bd842a1",
+      "title": "Quick notes from teaching technical profiles how to talk in public",
+      "one_line": "Practical public-speaking tips for technical people; useful but not idea-changing.",
+      "ingested_date": "2026-09-16",
+      "review_dates": [
+        "2026-09-17",
+        "2026-09-19",
+        "2026-09-23",
+        "2026-10-02",
+        "2026-10-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "8ec9f099be26d22809b46ae5aee17d310c9a5df4",
+      "title": "Veronese's Dogs",
+      "one_line": "Dogs in Veronese reframed as art history with an Inquisition twist.",
+      "ingested_date": "2026-09-16",
+      "review_dates": [
+        "2026-09-17",
+        "2026-09-19",
+        "2026-09-23",
+        "2026-10-02",
+        "2026-10-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Domain Review"
     }
   ]
 }

@@ -1,78 +1,6 @@
 {
   "items": [
     {
-      "id": "71ce01f58e203e639e656dd2d8b3236f3fba08c5",
-      "title": "Training a Misaligned Reward Seeker",
-      "title_norm": "training a misaligned reward seeker",
-      "url": "https://www.alignmentforum.org/posts/J76LZCC55RdHeqEhz/training-a-misaligned-reward-seeker",
-      "covered_date": "2026-09-01",
-      "one_line": "Empirical demonstration of reward hacking escalating to severe misalignment, overturning assumptions."
-    },
-    {
-      "id": "425e9cbf4c85b9f945533dbdd6a237f389bd304e",
-      "title": "China's Rare Earths Duopoly",
-      "title_norm": "china s rare earths duopoly",
-      "url": "https://www.chinatalk.media/p/chinas-rare-earths-duopoly",
-      "covered_date": "2026-09-01",
-      "one_line": "Reframes rare earths as a duopoly with deep structural analysis, not just a headline."
-    },
-    {
-      "id": "a44dabbf46b19065efe7fdbcb15e97ed11cc9ea3",
-      "title": "The Disappearance Machine",
-      "title_norm": "the disappearance machine",
-      "url": "https://www.nplusonemag.com/issue-54/politics/the-disappearance-machine/",
-      "covered_date": "2026-09-01",
-      "one_line": "Reveals structural incentives behind immigration detention, reframing a familiar issue."
-    },
-    {
-      "id": "b522393fab9256cb553c203dc5ef965076f35ae9",
-      "title": "More optimistic results on AI and job markets",
-      "title_norm": "more optimistic results on ai and job markets",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/more-optimistic-results-on-ai-and-job-markets.html?utm_source=rss&utm_medium=rss&utm_campaign=more-optimistic-results-on-ai-and-job-markets",
-      "covered_date": "2026-09-01",
-      "one_line": "Reframes AI job impact: adoption widespread, disruption not yet visible."
-    },
-    {
-      "id": "516eef77fa1e463c86df3c518e068205d2b13a87",
-      "title": "AI is a worryingly-good persuader. But don\u2019t panic, yet",
-      "title_norm": "ai is a worryingly good persuader but don t panic yet",
-      "url": "https://www.transformernews.ai/p/ai-is-a-worryingly-good-persuader-but-dont-panic-yet",
-      "covered_date": "2026-09-01",
-      "one_line": "Nuanced take on AI persuasion, separating it from manipulation, with evidence."
-    },
-    {
-      "id": "f1e62055caf99ebf9ecd21e032ee0d3bdd841acc",
-      "title": "Isaac Chotiner on Deep Knowledge and Gotcha Interviews",
-      "title_norm": "isaac chotiner on deep knowledge and gotcha interviews",
-      "url": "https://lithub.com/isaac-chotiner-on-deep-knowledge-and-gotcha-interviews/",
-      "covered_date": "2026-09-01",
-      "one_line": "Reframes interview craft as deep knowledge vs gotcha, a useful distinction."
-    },
-    {
-      "id": "6862e0fb0d38553ef73c84ec397f32ab81047a62",
-      "title": "Does On-Policy Distillation Really Distill? From Noisy Teacher to Self-Improvement",
-      "title_norm": "does on policy distillation really distill from noisy teacher to self improvement",
-      "url": "https://arxiv.org/abs/2608.31046v1",
-      "covered_date": "2026-09-01",
-      "one_line": "Overturns assumption that teacher supervision drives distillation; shows self-improvement suffices."
-    },
-    {
-      "id": "88aef5fcfcfadb6bee382a6229f5153898e7d9cc",
-      "title": "Just bury your trash",
-      "title_norm": "just bury your trash",
-      "url": "https://worksinprogress.co/issue/just-bury-your-trash/",
-      "covered_date": "2026-09-01",
-      "one_line": "Challenges core assumptions about recycling with a contrarian, evidence-based argument."
-    },
-    {
-      "id": "01933cac93459966c35a640896496285df7cc84f",
-      "title": "\u2018Stunning\u2019 Percolation Proof Solves Decades-Old Puzzle About Phase Transitions",
-      "title_norm": "stunning percolation proof solves decades old puzzle about phase transitions",
-      "url": "https://www.quantamagazine.org/stunning-percolation-proof-solves-decades-old-puzzle-about-phase-transitions-20260831/",
-      "covered_date": "2026-09-01",
-      "one_line": "A major math proof with broad conceptual implications, elegantly explained."
-    },
-    {
       "id": "77ff0c6aee5df89b79ffa8e95044cb1ae2ba34e8",
       "title": "The College Wage Premium in the Generative AI Era",
       "title_norm": "the college wage premium in the generative ai era",
@@ -1031,6 +959,78 @@
       "url": "https://aeon.co/essays/italianness-is-a-state-of-travelling-in-both-directions",
       "covered_date": "2026-09-15",
       "one_line": "Essay on diaspora longing and the myth of return; reflective, not news."
+    },
+    {
+      "id": "6438ce27c9bc449171c1227d7f2e82479b8926ef",
+      "title": "How an Egyptian Prison Poem Came to Structure My Memoir",
+      "title_norm": "how an egyptian prison poem came to structure my memoir",
+      "url": "https://lithub.com/how-an-egyptian-prison-poem-came-to-structure-my-memoir/",
+      "covered_date": "2026-09-16",
+      "one_line": "Reframes the prison memoir genre as a critique of Western legibility demands."
+    },
+    {
+      "id": "41753002daa625e7c870cad28fd76a3b842b191b",
+      "title": "What Regulatory Capture Actually Looks Like",
+      "title_norm": "what regulatory capture actually looks like",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/what-regulatory-capture-actually-looks-like.html?utm_source=rss&utm_medium=rss&utm_campaign=what-regulatory-capture-actually-looks-like",
+      "covered_date": "2026-09-16",
+      "one_line": "Reframes AI-safety sincerity vs. regulatory-capture cynicism with a sharp argument."
+    },
+    {
+      "id": "6bc4e7238321b0f537aa9ef73a221b92f82a6453",
+      "title": "After the Sublime",
+      "title_norm": "after the sublime",
+      "url": "https://thepointmag.com/criticism/after-the-sublime/",
+      "covered_date": "2026-09-16",
+      "one_line": "Argues internet 'vibe' aesthetics misunderstand the sublime they imitate."
+    },
+    {
+      "id": "cfb3ab5ec0ecd049ce1ccb59f7442e70f07e5243",
+      "title": "Remember Them: Palestine Scholars Murdered in the Gaza Genocide",
+      "title_norm": "remember them palestine scholars murdered in the gaza genocide",
+      "url": "https://www.publicbooks.org/remember-them-palestine-scholars-murdered-in-the-gaza-genocide/",
+      "covered_date": "2026-09-16",
+      "one_line": "Memorializes murdered Palestinian scholars, reframing genocide's toll on academia."
+    },
+    {
+      "id": "5f4522ec581625f0ae9097bed597fc6cecdff733",
+      "title": "The Municipal Sublime",
+      "title_norm": "the municipal sublime",
+      "url": "https://www.nplusonemag.com/online-only/events/the-municipal-sublime/",
+      "covered_date": "2026-09-16",
+      "one_line": "Reframes overlooked public buildings as aesthetic category; modest but genuine point of view."
+    },
+    {
+      "id": "39be519ab68b2ae865cd1cdb402a0dc2172aafe2",
+      "title": "Iran signals diplomacy with US as China pushes Hormuz reopening",
+      "title_norm": "iran signals diplomacy with us as china pushes hormuz reopening",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONGVEZUVIa2dvdVFzSl9hX3MzdHhfQjVPamwtOWg1M09tVlQzTlV0bW5Fd1ZUOHRWM2t4c3VkQzg2OUFtcFFUWXduMks4aWFidUpzVWVDR2tKTzFCTnB3anZLVEhiQVdXdG5qdjItUlN6XzlENHVHSnVRaklzS3ZpaVhhZXpQTFJsbC1RaE0zbXdKaXVpaGtCR3dYeTV1Y3cxZFRnekw2Tko2Q3Y1VEtSMmUxTm5aeGVySGN5M2tVQUV5UHZtM21LUTNxd0RQMVdwRTJONngzZFPSAd4BQVVfeXFMT0dXVlo1dFhjakw0ZHYtXzZrSkw0dnZQNjNuaTNjMk9mNGxxZlRjbl8zc1ViM3BBbzRkcnJCRmlyN3JkdXUtQ1dXVlRydFlQbjZlVmlIanBLUHBVQXIzSnQtMXlfVkdENEI3amtXS04xWE1FTHJ6RFZrOXBzenF6S25jRVZsaEtsZHRSVjQ3TTQ5M29TblVHRk5STmV6bTZfcTZYYTkteDNZUDYyR1JZZjQ4bjh1QjVkYUh3dzBrS0lJU0wxdE56OWNOVEpjTi1hMThzVEhSWUhMdzF6Smpn?oc=5",
+      "covered_date": "2026-09-16",
+      "one_line": "Geopolitical signal, but headline-level with no new argument or reframing."
+    },
+    {
+      "id": "342e6c835fbe2390775f576cd5bd315566a6ec4f",
+      "title": "Decomposition Buys Integrity, Not Yield",
+      "title_norm": "decomposition buys integrity not yield",
+      "url": "https://arxiv.org/abs/2609.17464v1",
+      "covered_date": "2026-09-16",
+      "one_line": "Formal result: decomposition yields no extra findings, only integrity tradeoffs."
+    },
+    {
+      "id": "61e8c89377814baf6f66220ffda981cd3bd842a1",
+      "title": "Quick notes from teaching technical profiles how to talk in public",
+      "title_norm": "quick notes from teaching technical profiles how to talk in public",
+      "url": "https://www.lesswrong.com/posts/nKsyMfNsAuTrxmjmi/quick-notes-from-teaching-technical-profiles-how-to-talk-in",
+      "covered_date": "2026-09-16",
+      "one_line": "Practical public-speaking tips for technical people; useful but not idea-changing."
+    },
+    {
+      "id": "8ec9f099be26d22809b46ae5aee17d310c9a5df4",
+      "title": "Veronese's Dogs",
+      "title_norm": "veronese s dogs",
+      "url": "https://publicdomainreview.org/essay/veroneses-dogs",
+      "covered_date": "2026-09-16",
+      "one_line": "Dogs in Veronese reframed as art history with an Inquisition twist."
     }
   ]
 }
