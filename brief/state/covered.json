@@ -1,150 +1,6 @@
 {
   "items": [
     {
-      "id": "77ff0c6aee5df89b79ffa8e95044cb1ae2ba34e8",
-      "title": "The College Wage Premium in the Generative AI Era",
-      "title_norm": "the college wage premium in the generative ai era",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/the-college-wage-premium-in-the-generative-ai-era.html?utm_source=rss&utm_medium=rss&utm_campaign=the-college-wage-premium-in-the-generative-ai-era",
-      "covered_date": "2026-09-02",
-      "one_line": "First sustained drop in college wage premium since 1914, linked to AI exposure."
-    },
-    {
-      "id": "011e4e92c39296420c01e53f6ee19f122229d1eb",
-      "title": "We should prepare a playbook for the day after a warning shot",
-      "title_norm": "we should prepare a playbook for the day after a warning shot",
-      "url": "https://www.lesswrong.com/posts/P6fjDnyk9ZLQCeFRF/we-should-prepare-a-playbook-for-the-day-after-a-warning",
-      "covered_date": "2026-09-02",
-      "one_line": "Reframes AI safety as actionable policy prep for post-disaster window."
-    },
-    {
-      "id": "358ba56d798e9f23f8da0fea5bf1766ba66d9588",
-      "title": "Cyber Apocalypse, Now?",
-      "title_norm": "cyber apocalypse now",
-      "url": "https://www.chinatalk.media/p/cyber-apocalypse-now",
-      "covered_date": "2026-09-02",
-      "one_line": "First headline-grade AI breakout reframes cyber risk debate with insider detail."
-    },
-    {
-      "id": "06b6d7a6a67107c9ae4f6140f7af13a32ec0a817",
-      "title": "Orange Era",
-      "title_norm": "orange era",
-      "url": "https://www.nplusonemag.com/issue-54/reviews/orange-era/",
-      "covered_date": "2026-09-02",
-      "one_line": "Reframes climate maps as permanent orange, shifting temporal perspective."
-    },
-    {
-      "id": "113adee3ce75905e72c5dbd4bd092be18e730abb",
-      "title": "Visiting Helen Keller\u2019s Birthplace While Deaf: What it Means to Navigate Accessibility",
-      "title_norm": "visiting helen keller s birthplace while deaf what it means to navigate accessibility",
-      "url": "https://lithub.com/visiting-helen-kellers-birthplace-while-deaf-what-it-means-to-navigate-accessibility/",
-      "covered_date": "2026-09-02",
-      "one_line": "Reframes disability iconography and accessibility through personal, critical travel narrative."
-    },
-    {
-      "id": "8d90193a41b7718ec9a5e1edf1cb2f5c7cb54bc9",
-      "title": "Tehran strikes back at US bases in biggest exchange since July",
-      "title_norm": "tehran strikes back at us bases in biggest exchange since july",
-      "url": "https://www.businessday.co.za/world/2026-09-02-tehran-strikes-back-at-us-bases-in-biggest-exchange-since-july/",
-      "covered_date": "2026-09-02",
-      "one_line": "Geopolitical escalation, but no new analytical angle for generalist."
-    },
-    {
-      "id": "1c945c2558d9fdcbe2e3c9bb9596b62002575ca1",
-      "title": "When Guardrails Look Effective: Construct Validity Failures in LLM Agent Commerce Evaluation",
-      "title_norm": "when guardrails look effective construct validity failures in llm agent commerce evaluation",
-      "url": "https://arxiv.org/abs/2609.01519v1",
-      "covered_date": "2026-09-02",
-      "one_line": "Exposes how LLM agent simulations can produce misleading welfare results due to construct validity failures."
-    },
-    {
-      "id": "db85eb031b743341e3212d5d85e5538b0f5112b7",
-      "title": "Genome Duplication Is a Radical Evolutionary Gamble",
-      "title_norm": "genome duplication is a radical evolutionary gamble",
-      "url": "https://www.quantamagazine.org/genome-duplication-is-a-radical-evolutionary-gamble-20260902/",
-      "covered_date": "2026-09-02",
-      "one_line": "Genome duplication as evolutionary gamble reframes adaptation, surprising and thought-provoking."
-    },
-    {
-      "id": "53a39213f0412ad6dc09f309602dddb5f9ed8e71",
-      "title": "More nothing now",
-      "title_norm": "more nothing now",
-      "url": "https://aeon.co/essays/play-is-doing-its-work-even-if-were-not-keeping-score",
-      "covered_date": "2026-09-02",
-      "one_line": "Reframes play as core humanity, warns gamification atrophies it."
-    },
-    {
-      "id": "ea87923feb8cfc4b4bb5b18e54dffa6e7e0f48e6",
-      "title": "How Much Redistribution Will AI Require?",
-      "title_norm": "how much redistribution will ai require",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/how-much-redistribution-will-ai-require.html?utm_source=rss&utm_medium=rss&utm_campaign=how-much-redistribution-will-ai-require",
-      "covered_date": "2026-09-03",
-      "one_line": "Reframes AI redistribution debate with simple arithmetic showing labor can gain despite falling share."
-    },
-    {
-      "id": "e615dd9ddb249fa6e777bfee23f00a8309e630f8",
-      "title": "The Latest Literary Scam: Emailing the Long-Dead Legends of 20th-Century Literature",
-      "title_norm": "the latest literary scam emailing the long dead legends of 20th century literature",
-      "url": "https://lithub.com/the-latest-literary-scam-emailing-the-long-dead-legends-of-20th-century-literature__trashed-2/",
-      "covered_date": "2026-09-03",
-      "one_line": "Reframes AI-era scams as literary critique, exposing writerly vanity and new fraud vectors."
-    },
-    {
-      "id": "2e55aa4514673f16d8d5ddbca5520c42d474f622",
-      "title": "India offers any help for Russia-Ukraine peace during Jaishankar's Kyiv talks",
-      "title_norm": "india offers any help for russia ukraine peace during jaishankar s kyiv talks",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNc1o5TVNnMktJTUxYcTUxNjVQUm01QXZmVkc1V09zMEU2UTF2MzVGSTFrVDlBaVFudnZ0UmNpbE1fMjQxWEY2b3dwd3oxWjFtZmZyaS1xV19FbzRSV3prTDRIV0hYQm1ZUXJ4OTdzOW5FTlBMNlB1QXFYbUpweFdlQjh6aDhveUsweFhBSmZJZFk1SnFsX0JNVExvRGRVdVJ6MjVQdGV4S05JcGZLX1gzNW9ydmRnOFlSRWRvetIBwgFBVV95cUxQVjROWktmSEJldC00M0F6NUpZS1Nkanl6YW9ycG5lbEo0YUpVbVd5Nm95NV9ud0x4TUkyeHZjYVVuTVVLRjVRMnNpYzE4SmR6RjZQZmVUTjNFanNfMlpZVmU4eXMyVDc3d21Oel9mXzA3YkQ4NUJIQTdyWHlmQ2VvWUZYUXgzT2RCUE03azZ5YVNKR2tvRnhNdjhYRVBQZW1KTVA0WHJFYjNxUmtVSFN4Yk5XNXA3cWZKU0ZISUhCTi1KUQ?oc=5",
-      "covered_date": "2026-09-03",
-      "one_line": "India's diplomatic shift on Ukraine peace, but no new argument."
-    },
-    {
-      "id": "9ecaba49ba48c19b94eda14165ebb23fac2aa117",
-      "title": "Andy Stott Returns With First Album in Five Years",
-      "title_norm": "andy stott returns with first album in five years",
-      "url": "https://pitchfork.com/story/andy-stott-returns-with-first-album-in-five-years/",
-      "covered_date": "2026-09-03",
-      "one_line": "Unusual production constraints offer insight into creative process, but niche music news."
-    },
-    {
-      "id": "7a65496a74d006d480b9362ad0916d8dea2c7c3b",
-      "title": "El Ej\u00e9rcito de Israel mata a dos palestinos en otro ataque en Gaza pese al alto el fuego",
-      "title_norm": "el ej\u00e9rcito de israel mata a dos palestinos en otro ataque en gaza pese al alto el fuego",
-      "url": "https://www.diariosigloxxi.com/texto-ep/mostrar/20260903143510/ejercito-israel-mata-palestinos-otro-ataque-gaza-pese-alto-fuego",
-      "covered_date": "2026-09-03",
-      "one_line": "Ongoing conflict detail, no new analytical angle."
-    },
-    {
-      "id": "d75554c78e0fe54a871a452ed74377e3e4786640",
-      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "title_norm": "introducing weathernext 3 our most advanced and accurate global weather ai model",
-      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-      "covered_date": "2026-09-03",
-      "one_line": "Product launch of a weather model; incremental, not thought-changing."
-    },
-    {
-      "id": "0a74bfbc6b6ac51a5175985eb75b046a04b0acc8",
-      "title": "Post-Training Language Models for Gold-Medal Performance in Coding Competitions",
-      "title_norm": "post training language models for gold medal performance in coding competitions",
-      "url": "https://arxiv.org/abs/2609.02849v1",
-      "covered_date": "2026-09-03",
-      "one_line": "First AI to beat top human at IOI; reframes coding competition frontier."
-    },
-    {
-      "id": "436e70873e15408a65b0d5bbb9f783aa29e3a5cf",
-      "title": "Live from ICM 2026: What Is Math For in the Age of AI?",
-      "title_norm": "live from icm 2026 what is math for in the age of ai",
-      "url": "https://www.quantamagazine.org/live-from-icm-2026-what-is-math-for-in-the-age-of-ai-20260903/",
-      "covered_date": "2026-09-03",
-      "one_line": "Reframes math's purpose amid AI, challenging core assumptions."
-    },
-    {
-      "id": "7d19db33d220422493dab70298692f908768212c",
-      "title": "Neuroqueering on the lawn",
-      "title_norm": "neuroqueering on the lawn",
-      "url": "https://aeon.co/essays/neuroqueer-expression-and-the-limits-of-social-tolerance",
-      "covered_date": "2026-09-03",
-      "one_line": "Reframes neurodivergence through historical anecdote, offering fresh perspective on emotional excess."
-    },
-    {
       "id": "2ff941e565e689ae1d1cfa920adbd2628016d606",
       "title": "GPT-6 Astra might be too powerful to understand or control",
       "title_norm": "gpt 6 astra might be too powerful to understand or control",
@@ -1031,6 +887,78 @@
       "url": "https://publicdomainreview.org/essay/veroneses-dogs",
       "covered_date": "2026-09-16",
       "one_line": "Dogs in Veronese reframed as art history with an Inquisition twist."
+    },
+    {
+      "id": "aba7459b896ee2a301ed8acd89444cb106e4a5f8",
+      "title": "Pacing the Frontier: A Framework & Research Agenda",
+      "title_norm": "pacing the frontier a framework research agenda",
+      "url": "https://www.lesswrong.com/posts/E5SmpFsGPNpYjf92c/pacing-the-frontier-a-framework-and-research-agenda",
+      "covered_date": "2026-09-18",
+      "one_line": "Reframes AI pacing as broad intervention class; argues current ad hoc approaches will fail."
+    },
+    {
+      "id": "fffd1c88f87213814125e239a5dea18df0c6a2bd",
+      "title": "The Uninhabitable Front",
+      "title_norm": "the uninhabitable front",
+      "url": "https://www.publicbooks.org/the-uninhabitable-front/",
+      "covered_date": "2026-09-18",
+      "one_line": "Reframes war as slow ecological destruction, not just immediate violence."
+    },
+    {
+      "id": "d850594e08502ae798ada0fdf5f37ae3a9dda69d",
+      "title": "Does Evil Exist (and How Do We Recognize It?)",
+      "title_norm": "does evil exist and how do we recognize it",
+      "url": "https://lithub.com/does-evil-exist-and-how-do-we-recognize-it/",
+      "covered_date": "2026-09-18",
+      "one_line": "Reframes evil as systemic, not lurid, with a real point of view."
+    },
+    {
+      "id": "0c060c233ec71290ee995c5fd97406899604c732",
+      "title": "Trump\u2019s AI stance is politically toxic",
+      "title_norm": "trump s ai stance is politically toxic",
+      "url": "https://www.transformernews.ai/p/trump-ai-stance-is-politically-toxic",
+      "covered_date": "2026-09-18",
+      "one_line": "Polling shows Trump's pro-AI deregulation stance is politically toxic, reframing AI policy debate."
+    },
+    {
+      "id": "3ddd82227ef845ff3d85ec247679945ca8111c04",
+      "title": "The quiet power of papal diplomacy",
+      "title_norm": "the quiet power of papal diplomacy",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xUHg2a1VLTG51YTlhbE5mNkNpNjVhclZDWEdwQm9ObXlEODdKalRvb1hhVUNSdVppaVpRVXZ2QW9veXJ0UHlPUUFhcTVJZ1JvMlFkOURpckpDdTFmdzhJM29sZ1BjNkVRMDRyTUVTV3c?oc=5",
+      "covered_date": "2026-09-18",
+      "one_line": "Papal diplomacy angle is interesting but excerpt gives no argument."
+    },
+    {
+      "id": "682661532ab430502c40fb5f5a6e1ca3fb639d14",
+      "title": "Getting Good",
+      "title_norm": "getting good",
+      "url": "https://thepointmag.com/examined-life/getting-good-effective-altruism/",
+      "covered_date": "2026-09-18",
+      "one_line": "Critical essay on EA movement; potentially reframing but excerpt too thin to judge."
+    },
+    {
+      "id": "c52649df9b02d5ff37db5c322ea4c1a0897e18c9",
+      "title": "Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations",
+      "title_norm": "harm laundering in gpt models evidence that gender discrimination is transformed rather than reduced across safety trained generations",
+      "url": "https://arxiv.org/abs/2609.20779v1",
+      "covered_date": "2026-09-18",
+      "one_line": "Shows safety metrics hide transformed, not reduced, discrimination across GPT generations."
+    },
+    {
+      "id": "4d2d11cecf55f456e4884bd361cc2689958051b5",
+      "title": "Varying Retrieval Practice to Promote Transfer of Learning: A Set of Experiments",
+      "title_norm": "varying retrieval practice to promote transfer of learning a set of experiments",
+      "url": "https://www.learningscientists.org/blog/2026/9/17",
+      "covered_date": "2026-09-18",
+      "one_line": "Clean multi-experiment evidence that varied retrieval examples boost transfer."
+    },
+    {
+      "id": "c757b49a3d76c14f8ad2c51b29464dd213ba6349",
+      "title": "Mathematicians Build Long-Awaited Graph Sandwich",
+      "title_norm": "mathematicians build long awaited graph sandwich",
+      "url": "https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/",
+      "covered_date": "2026-09-18",
+      "one_line": "Long-awaited proof of a graph sandwich conjecture; genuine mathematical progress."
     }
   ]
 }

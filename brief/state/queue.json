@@ -2732,7 +2732,7 @@
         "2026-09-18",
         "2026-10-07"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "LessWrong"
@@ -2766,7 +2766,7 @@
         "2026-09-18",
         "2026-10-07"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "n+1"
@@ -2783,7 +2783,7 @@
         "2026-09-18",
         "2026-10-07"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -2817,7 +2817,7 @@
         "2026-09-18",
         "2026-10-07"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "arxiv_cs"
@@ -4878,6 +4878,159 @@
       "retired": false,
       "missed": false,
       "source": "Public Domain Review"
+    },
+    {
+      "id": "aba7459b896ee2a301ed8acd89444cb106e4a5f8",
+      "title": "Pacing the Frontier: A Framework & Research Agenda",
+      "one_line": "Reframes AI pacing as broad intervention class; argues current ad hoc approaches will fail.",
+      "ingested_date": "2026-09-18",
+      "review_dates": [
+        "2026-09-19",
+        "2026-09-21",
+        "2026-09-25",
+        "2026-10-04",
+        "2026-10-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "fffd1c88f87213814125e239a5dea18df0c6a2bd",
+      "title": "The Uninhabitable Front",
+      "one_line": "Reframes war as slow ecological destruction, not just immediate violence.",
+      "ingested_date": "2026-09-18",
+      "review_dates": [
+        "2026-09-19",
+        "2026-09-21",
+        "2026-09-25",
+        "2026-10-04",
+        "2026-10-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "d850594e08502ae798ada0fdf5f37ae3a9dda69d",
+      "title": "Does Evil Exist (and How Do We Recognize It?)",
+      "one_line": "Reframes evil as systemic, not lurid, with a real point of view.",
+      "ingested_date": "2026-09-18",
+      "review_dates": [
+        "2026-09-19",
+        "2026-09-21",
+        "2026-09-25",
+        "2026-10-04",
+        "2026-10-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "0c060c233ec71290ee995c5fd97406899604c732",
+      "title": "Trump’s AI stance is politically toxic",
+      "one_line": "Polling shows Trump's pro-AI deregulation stance is politically toxic, reframing AI policy debate.",
+      "ingested_date": "2026-09-18",
+      "review_dates": [
+        "2026-09-19",
+        "2026-09-21",
+        "2026-09-25",
+        "2026-10-04",
+        "2026-10-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "3ddd82227ef845ff3d85ec247679945ca8111c04",
+      "title": "The quiet power of papal diplomacy",
+      "one_line": "Papal diplomacy angle is interesting but excerpt gives no argument.",
+      "ingested_date": "2026-09-18",
+      "review_dates": [
+        "2026-09-19",
+        "2026-09-21",
+        "2026-09-25",
+        "2026-10-04",
+        "2026-10-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "682661532ab430502c40fb5f5a6e1ca3fb639d14",
+      "title": "Getting Good",
+      "one_line": "Critical essay on EA movement; potentially reframing but excerpt too thin to judge.",
+      "ingested_date": "2026-09-18",
+      "review_dates": [
+        "2026-09-19",
+        "2026-09-21",
+        "2026-09-25",
+        "2026-10-04",
+        "2026-10-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "The Point"
+    },
+    {
+      "id": "c52649df9b02d5ff37db5c322ea4c1a0897e18c9",
+      "title": "Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations",
+      "one_line": "Shows safety metrics hide transformed, not reduced, discrimination across GPT generations.",
+      "ingested_date": "2026-09-18",
+      "review_dates": [
+        "2026-09-19",
+        "2026-09-21",
+        "2026-09-25",
+        "2026-10-04",
+        "2026-10-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "4d2d11cecf55f456e4884bd361cc2689958051b5",
+      "title": "Varying Retrieval Practice to Promote Transfer of Learning: A Set of Experiments",
+      "one_line": "Clean multi-experiment evidence that varied retrieval examples boost transfer.",
+      "ingested_date": "2026-09-18",
+      "review_dates": [
+        "2026-09-19",
+        "2026-09-21",
+        "2026-09-25",
+        "2026-10-04",
+        "2026-10-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "The Learning Scientists"
+    },
+    {
+      "id": "c757b49a3d76c14f8ad2c51b29464dd213ba6349",
+      "title": "Mathematicians Build Long-Awaited Graph Sandwich",
+      "one_line": "Long-awaited proof of a graph sandwich conjecture; genuine mathematical progress.",
+      "ingested_date": "2026-09-18",
+      "review_dates": [
+        "2026-09-19",
+        "2026-09-21",
+        "2026-09-25",
+        "2026-10-04",
+        "2026-10-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
     }
   ]
 }
