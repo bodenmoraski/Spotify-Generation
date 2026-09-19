@@ -2902,7 +2902,7 @@
         "2026-09-19",
         "2026-10-08"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "gnews_world_in"
@@ -2936,7 +2936,7 @@
         "2026-09-19",
         "2026-10-08"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "gdelt_geopolitics"
@@ -2970,7 +2970,7 @@
         "2026-09-19",
         "2026-10-08"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "arxiv_cs"
@@ -2987,7 +2987,7 @@
         "2026-09-19",
         "2026-10-08"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
@@ -5026,6 +5026,159 @@
         "2026-09-25",
         "2026-10-04",
         "2026-10-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
+    },
+    {
+      "id": "f5e140363a08358f40961001582d197f7e865251",
+      "title": "Internet diffusion and religious decline?",
+      "one_line": "Internet diffusion as robust macro correlate of religious decline; reframes secularization debate.",
+      "ingested_date": "2026-09-19",
+      "review_dates": [
+        "2026-09-20",
+        "2026-09-22",
+        "2026-09-26",
+        "2026-10-05",
+        "2026-10-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "d76208b8fc4d120d92c382deb267bd674cd438fd",
+      "title": "Sally Rooney just defeated a data center.",
+      "one_line": "Novelist's objection overturns data center on climate grounds; reframes tech growth.",
+      "ingested_date": "2026-09-19",
+      "review_dates": [
+        "2026-09-20",
+        "2026-09-22",
+        "2026-09-26",
+        "2026-10-05",
+        "2026-10-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "563f798e9cf0822e740905c96c182cd8277373cd",
+      "title": "As Ilhas Cook têm 17 mil habitantes, mas seu fundo do mar pode mudar a geopolítica",
+      "one_line": "Deep-sea minerals give tiny Cook Islands geopolitical leverage; interesting but thin.",
+      "ingested_date": "2026-09-19",
+      "review_dates": [
+        "2026-09-20",
+        "2026-09-22",
+        "2026-09-26",
+        "2026-10-05",
+        "2026-10-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "82883d0c0247ce6c5aa33f2fef2d791a0c3bae38",
+      "title": "The EU has opened the door for Canada to become its first “associate member.” But can Europe really help Canada reduce its heavy dependence on the U.S.? CNBC-TV18’s Swastika Rajput breaks down 5 key things to know. #Canada #EU #MarkCarney #U",
+      "one_line": "Listicle-style explainer; interesting premise but no argument or analysis.",
+      "ingested_date": "2026-09-19",
+      "review_dates": [
+        "2026-09-20",
+        "2026-09-22",
+        "2026-09-26",
+        "2026-10-05",
+        "2026-10-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "387201571a577de24b206f595809aa069d348b6a",
+      "title": "ECOWAS meets Qatar, Sudan envoys to discuss regional peace, security",
+      "one_line": "Routine diplomatic meeting report; no new argument or reframing.",
+      "ingested_date": "2026-09-19",
+      "review_dates": [
+        "2026-09-20",
+        "2026-09-22",
+        "2026-09-26",
+        "2026-10-05",
+        "2026-10-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_ke"
+    },
+    {
+      "id": "35c6a84253efc86b0b9ddd1c4937bb3f22c7c246",
+      "title": "Bill Callahan Joins Meshell Ndegeocello to Cover Bob Dylan’s “With God on Our Side”",
+      "one_line": "Routine cover-song news; no new argument or reframing.",
+      "ingested_date": "2026-09-19",
+      "review_dates": [
+        "2026-09-20",
+        "2026-09-22",
+        "2026-09-26",
+        "2026-10-05",
+        "2026-10-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Pitchfork"
+    },
+    {
+      "id": "a2b14d35426f2f27951e1c382b3bd805e65053ad",
+      "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+      "one_line": "Quantifies frontier agents falsely claiming task completion, a concrete new failure mode.",
+      "ingested_date": "2026-09-19",
+      "review_dates": [
+        "2026-09-20",
+        "2026-09-22",
+        "2026-09-26",
+        "2026-10-05",
+        "2026-10-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "3920f61e0f9dbb56d5177e2f8da019196f5560d1",
+      "title": "Cosmic amnesia",
+      "one_line": "Black hole 'ringdown' as cosmic forgetting reframes information loss.",
+      "ingested_date": "2026-09-19",
+      "review_dates": [
+        "2026-09-20",
+        "2026-09-22",
+        "2026-09-26",
+        "2026-10-05",
+        "2026-10-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
+    },
+    {
+      "id": "0cc35880014120c8418906988cd94ef84d62bd69",
+      "title": "Where Does the Quantum World End and Ours Begin?",
+      "one_line": "Quantum measurement problem reframed by a physicist who thinks deeply about it.",
+      "ingested_date": "2026-09-19",
+      "review_dates": [
+        "2026-09-20",
+        "2026-09-22",
+        "2026-09-26",
+        "2026-10-05",
+        "2026-10-24"
       ],
       "reviews_done": 0,
       "retired": false,

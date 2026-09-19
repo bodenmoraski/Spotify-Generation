@@ -1,78 +1,6 @@
 {
   "items": [
     {
-      "id": "2ff941e565e689ae1d1cfa920adbd2628016d606",
-      "title": "GPT-6 Astra might be too powerful to understand or control",
-      "title_norm": "gpt 6 astra might be too powerful to understand or control",
-      "url": "https://www.transformernews.ai/p/openai-gpt-6-astra-might-be-too-powerful-to-understand-or-control",
-      "covered_date": "2026-09-04",
-      "one_line": "Challenges alignment claims with evidence of deceptive, uncontrollable AI behavior."
-    },
-    {
-      "id": "b07f80bed4465b6cbccdedb42329ea26430093a3",
-      "title": "Share price numbers for the Hugging Face incident",
-      "title_norm": "share price numbers for the hugging face incident",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/more-numbers-for-the-hugging-face-incident.html?utm_source=rss&utm_medium=rss&utm_campaign=more-numbers-for-the-hugging-face-incident",
-      "covered_date": "2026-09-04",
-      "one_line": "Market data disciplines AI risk debate with concrete numbers."
-    },
-    {
-      "id": "d038249e5d57ae228396f3226643b48ea79721d2",
-      "title": "How Fordism and Fascism Gave Birth to Modern Car Culture",
-      "title_norm": "how fordism and fascism gave birth to modern car culture",
-      "url": "https://lithub.com/how-fordism-and-fascism-gave-birth-to-modern-car-culture/",
-      "covered_date": "2026-09-04",
-      "one_line": "Reframes car culture as rooted in fascist-era labor discipline, offering a fresh historical lens."
-    },
-    {
-      "id": "d48f42cc195778e3cf822a31c58b2e33fb2c6a5a",
-      "title": "How Trump and Xi Can Do AI Safety",
-      "title_norm": "how trump and xi can do ai safety",
-      "url": "https://www.chinatalk.media/p/how-trump-and-xi-can-do-ai-safety",
-      "covered_date": "2026-09-04",
-      "one_line": "Reframes US-China AI safety talks with practical diplomatic insight."
-    },
-    {
-      "id": "88b3a9a6cefae95105064f58b15349784c85322d",
-      "title": "Luckin Coffee killed our lunch spot. Here\u2019s what that says about geopolitics",
-      "title_norm": "luckin coffee killed our lunch spot here s what that says about geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tM3JqSVlUY1NvVmNzdjY0cTFjU2NRYVlPaVpJWVpVZEItQ1JwSHM3QU91NjIzR1hsZnROVmJkRXNLMThVYmFnaXZGS2V3cF83aWNMaGFDVklVTWpKTFJ6dkM3NmZMampQc3pCbHpkQ18?oc=5",
-      "covered_date": "2026-09-04",
-      "one_line": "Local anecdote reframes geopolitics; fresh angle but thin analysis."
-    },
-    {
-      "id": "d45a2bb7e6368dcf3fe8b1aa730be4c58728644f",
-      "title": "Geopol\u00edtica da intelig\u00eancia artificial",
-      "title_norm": "geopol\u00edtica da intelig\u00eancia artificial",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aNGFCNEJJOE5BWTRCdUctZHhhdTFpbG12R2FiUTNvU1RUY1Vzd1N2elJlblJHdmdycHk4OFR5b3Y2a040LUdyN0RoN2xYMWQtcGszSXZlUUNUd1g4ZlJBaHEta3FEYWQ3eGVYZGpjbG5IQUZJTzZTVVNB?oc=5",
-      "covered_date": "2026-09-04",
-      "one_line": "Generic geopolitical AI overview, likely no novel argument."
-    },
-    {
-      "id": "f4397e05cf9c39940cb9251fa8497f8f6a4c48a0",
-      "title": "Clean Engineering, Unstable Measurement: A Preregistered Reliability Failure of Black-Box LLM Observers on Shared Endpoints",
-      "title_norm": "clean engineering unstable measurement a preregistered reliability failure of black box llm observers on shared endpoints",
-      "url": "https://arxiv.org/abs/2609.04198v1",
-      "covered_date": "2026-09-04",
-      "one_line": "Overturns reliability assumption of LLM judges with rigorous preregistered evidence."
-    },
-    {
-      "id": "2eee01e8634324c6bc4cc8ed75a542133bb35b80",
-      "title": "All the microbes you can\u2019t have",
-      "title_norm": "all the microbes you can t have",
-      "url": "https://worksinprogress.co/issue/all-the-microbes-you-cant-have/",
-      "covered_date": "2026-09-04",
-      "one_line": "Reframes biotech regulation as a tragedy of lost potential, not just risk."
-    },
-    {
-      "id": "3ba68f597db019838d5454792c92bf7c9a845ba2",
-      "title": "Upend the trickle-down",
-      "title_norm": "upend the trickle down",
-      "url": "https://aeon.co/essays/why-western-democracy-is-ailing-and-how-to-fix-it",
-      "covered_date": "2026-09-04",
-      "one_line": "Reframes neoliberal critique with structural fix, offering fresh perspective."
-    },
-    {
       "id": "9f7af3c5bfd556dfe0ba29359eaaa6b33dad4745",
       "title": "Is Lichtenstein an actual monarchy?",
       "title_norm": "is lichtenstein an actual monarchy",
@@ -959,6 +887,78 @@
       "url": "https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/",
       "covered_date": "2026-09-18",
       "one_line": "Long-awaited proof of a graph sandwich conjecture; genuine mathematical progress."
+    },
+    {
+      "id": "f5e140363a08358f40961001582d197f7e865251",
+      "title": "Internet diffusion and religious decline?",
+      "title_norm": "internet diffusion and religious decline",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/internet-diffusion-and-religious-decline.html?utm_source=rss&utm_medium=rss&utm_campaign=internet-diffusion-and-religious-decline",
+      "covered_date": "2026-09-19",
+      "one_line": "Internet diffusion as robust macro correlate of religious decline; reframes secularization debate."
+    },
+    {
+      "id": "d76208b8fc4d120d92c382deb267bd674cd438fd",
+      "title": "Sally Rooney just defeated a data center.",
+      "title_norm": "sally rooney just defeated a data center",
+      "url": "https://lithub.com/sally-rooney-just-defeated-a-data-center/",
+      "covered_date": "2026-09-19",
+      "one_line": "Novelist's objection overturns data center on climate grounds; reframes tech growth."
+    },
+    {
+      "id": "563f798e9cf0822e740905c96c182cd8277373cd",
+      "title": "As Ilhas Cook t\u00eam 17 mil habitantes, mas seu fundo do mar pode mudar a geopol\u00edtica",
+      "title_norm": "as ilhas cook t\u00eam 17 mil habitantes mas seu fundo do mar pode mudar a geopol\u00edtica",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTC1WTDhlcDNxSFBPczV2VkQ1enowSjFWeVdZNE1MYjBDLWI3b0pfcVlWaDRGN2JKWXJxbHluWXlTcXJ5SFJobXJ5UHN1ZlR6R2pXVHdWQm5PaHVnMkFYSl9pTFFjVHRlWEFQOHQyRmVfVjZfMld2alZqZEpmb05UaDF3RXJaOUNUbVZ1ZnBUVlc1ZTNhQS1YdWJpVDIyUnFNcTBNX282TnRxSWhPYUlR?oc=5",
+      "covered_date": "2026-09-19",
+      "one_line": "Deep-sea minerals give tiny Cook Islands geopolitical leverage; interesting but thin."
+    },
+    {
+      "id": "82883d0c0247ce6c5aa33f2fef2d791a0c3bae38",
+      "title": "The EU has opened the door for Canada to become its first \u201cassociate member.\u201d But can Europe really help Canada reduce its heavy dependence on the U.S.? CNBC-TV18\u2019s Swastika Rajput breaks down 5 key things to know. #Canada #EU #MarkCarney #U",
+      "title_norm": "the eu has opened the door for canada to become its first associate member but can europe really help canada reduce its heavy dependence on the u s cnbc tv18 s swastika rajput breaks down 5 key things to know canada eu markcarney u",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUXVlS3YtdHg0Y0x1WjJBc09aRG4xMmhNejZEeEQydEwxODRSeG1laGtSeTdIMDZEaVhHN0hFVGo0ZlFlQXhCUnJYZ0xRWEpuM2s1d2FDQXRZamU5SmhOMm5vTGpwM1doX2pkR1lTclEwbjNhd3dNZEg5bUo5ak10NVpQOFF4cDNpS2hHa3dGVjZ0VzVWcEJ5a2NOaw?oc=5",
+      "covered_date": "2026-09-19",
+      "one_line": "Listicle-style explainer; interesting premise but no argument or analysis."
+    },
+    {
+      "id": "387201571a577de24b206f595809aa069d348b6a",
+      "title": "ECOWAS meets Qatar, Sudan envoys to discuss regional peace, security",
+      "title_norm": "ecowas meets qatar sudan envoys to discuss regional peace security",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeFpsQmM2Zm9wMHFNTDE0UmFlcy1POEw2Smw0RzlZYTBORHFJQWtrOXRWS3d2b1RJVGVFVGxlWlF3b193OWFtZEhuRmtnMGdOUVpQV0h3dXY0b2hOd0JlQmM4OU83OUs5bndZME5fTGtaOWdMWkZ6Vl9meDdhT3NTcDMxVzNFdWctV0tIM2tiYzBQM05xZzVncmEyZ2VNZFMzQzBVSzlOVDUzTTFaODcyOWw4TXZ4VmU1NlE?oc=5",
+      "covered_date": "2026-09-19",
+      "one_line": "Routine diplomatic meeting report; no new argument or reframing."
+    },
+    {
+      "id": "35c6a84253efc86b0b9ddd1c4937bb3f22c7c246",
+      "title": "Bill Callahan Joins Meshell Ndegeocello to Cover Bob Dylan\u2019s \u201cWith God on Our Side\u201d",
+      "title_norm": "bill callahan joins meshell ndegeocello to cover bob dylan s with god on our side",
+      "url": "https://pitchfork.com/story/bill-callahan-joins-meshell-ndegeocello-to-cover-bob-dylans-with-god-on-our-side/",
+      "covered_date": "2026-09-19",
+      "one_line": "Routine cover-song news; no new argument or reframing."
+    },
+    {
+      "id": "a2b14d35426f2f27951e1c382b3bd805e65053ad",
+      "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+      "title_norm": "quantifying overclaiming propensity in frontier llm agents",
+      "url": "https://arxiv.org/abs/2609.20812v1",
+      "covered_date": "2026-09-19",
+      "one_line": "Quantifies frontier agents falsely claiming task completion, a concrete new failure mode."
+    },
+    {
+      "id": "3920f61e0f9dbb56d5177e2f8da019196f5560d1",
+      "title": "Cosmic amnesia",
+      "title_norm": "cosmic amnesia",
+      "url": "https://aeon.co/essays/black-holes-ring-like-bells-what-happens-next-is-stranger",
+      "covered_date": "2026-09-19",
+      "one_line": "Black hole 'ringdown' as cosmic forgetting reframes information loss."
+    },
+    {
+      "id": "0cc35880014120c8418906988cd94ef84d62bd69",
+      "title": "Where Does the Quantum World End and Ours Begin?",
+      "title_norm": "where does the quantum world end and ours begin",
+      "url": "https://www.quantamagazine.org/where-does-the-quantum-world-end-and-ours-begin-20260917/",
+      "covered_date": "2026-09-19",
+      "one_line": "Quantum measurement problem reframed by a physicist who thinks deeply about it."
     }
   ]
 }
