@@ -182,8 +182,8 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 3,
-      "retired": false,
+      "reviews_done": 4,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -233,8 +233,8 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 4,
-      "retired": false,
+      "reviews_done": 5,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -267,8 +267,8 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 3,
-      "retired": false,
+      "reviews_done": 4,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -284,8 +284,8 @@
         "2026-09-01",
         "2026-09-20"
       ],
-      "reviews_done": 3,
-      "retired": false,
+      "reviews_done": 4,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -5184,6 +5184,159 @@
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
+    },
+    {
+      "id": "dec5491b38eb54c58b95198ef47d59976867d6b5",
+      "title": "The Anatomy of a Chinese AI Researcher",
+      "one_line": "Reframes Chinese AI researchers' motives via Three-Body lens; novel perspective.",
+      "ingested_date": "2026-09-20",
+      "review_dates": [
+        "2026-09-21",
+        "2026-09-23",
+        "2026-09-27",
+        "2026-10-06",
+        "2026-10-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "a1328614265507a3713701517ffc7420c45a284b",
+      "title": "UK productivity higher than we had thought",
+      "one_line": "Revised data overturn the UK's 'productivity puzzle' narrative, reframing a decade of debate.",
+      "ingested_date": "2026-09-20",
+      "review_dates": [
+        "2026-09-21",
+        "2026-09-23",
+        "2026-09-27",
+        "2026-10-06",
+        "2026-10-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "a796ff260c35da70cd7300d73d86ff44cbc471c4",
+      "title": "I Went to Kyrgyzstan to Find China’s Silent Nomads",
+      "one_line": "On-the-ground geopolitics of Central Asia and China's minority policy, with a real point of view.",
+      "ingested_date": "2026-09-20",
+      "review_dates": [
+        "2026-09-21",
+        "2026-09-23",
+        "2026-09-27",
+        "2026-10-06",
+        "2026-10-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "e0e63bc73f3ff7708dbfd091b504613651b724c0",
+      "title": "'Benjamin Netanyahu has literally sabotaged Israeli diplomacy'",
+      "one_line": "Opinionated op-ed on Netanyahu's diplomacy; argument but little new analysis.",
+      "ingested_date": "2026-09-20",
+      "review_dates": [
+        "2026-09-21",
+        "2026-09-23",
+        "2026-09-27",
+        "2026-10-06",
+        "2026-10-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "e42fff06749f144d2fb23d4a931781cbc4236375",
+      "title": "West African youths demand removal of barriers to politics",
+      "one_line": "Generic advocacy headline with no new argument or analysis.",
+      "ingested_date": "2026-09-20",
+      "review_dates": [
+        "2026-09-21",
+        "2026-09-23",
+        "2026-09-27",
+        "2026-10-06",
+        "2026-10-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_ke"
+    },
+    {
+      "id": "cc6192e9c1da4887ea02500c116c53079ce5fec9",
+      "title": "Ed Sheeran Clarifies Gaza Stance, Again Blames Venues for Kicking Macklemore Off Tour",
+      "one_line": "Celebrity stance clarification; no new argument or reframing.",
+      "ingested_date": "2026-09-20",
+      "review_dates": [
+        "2026-09-21",
+        "2026-09-23",
+        "2026-09-27",
+        "2026-10-06",
+        "2026-10-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Pitchfork"
+    },
+    {
+      "id": "72e17f0eb13772d73989ed7d4057e88056445922",
+      "title": "Unifying Models of Intergroup Hostility in Online Discourse",
+      "one_line": "Unifies six hostility theories against 2.86M posts, revealing temporal ordering of rhetoric.",
+      "ingested_date": "2026-09-20",
+      "review_dates": [
+        "2026-09-21",
+        "2026-09-23",
+        "2026-09-27",
+        "2026-10-06",
+        "2026-10-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "ea5e138f40fa88bf10357cee28e0afac5f4727f4",
+      "title": "Muscle Loss is a Big Warning Sign of Dementia",
+      "one_line": "Skeletal muscle as dementia biomarker reframes a familiar disease.",
+      "ingested_date": "2026-09-20",
+      "review_dates": [
+        "2026-09-21",
+        "2026-09-23",
+        "2026-09-27",
+        "2026-10-06",
+        "2026-10-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
+    },
+    {
+      "id": "172fc02df49f69a4559794685758e85fc71f4ddc",
+      "title": "Why I still haven’t bought into true RSI",
+      "one_line": "Skeptical argument that lab-culture anxiety inflates AI risk timelines",
+      "ingested_date": "2026-09-20",
+      "review_dates": [
+        "2026-09-21",
+        "2026-09-23",
+        "2026-09-27",
+        "2026-10-06",
+        "2026-10-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Interconnects"
     }
   ]
 }
