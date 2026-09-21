@@ -1,70 +1,6 @@
 {
   "items": [
     {
-      "id": "68e4bb10f8b0c33810ca437d3fa225cb6615f001",
-      "title": "Short Videos, Big Self-Control Problems",
-      "title_norm": "short videos big self control problems",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/short-videos-big-self-control-problems.html?utm_source=rss&utm_medium=rss&utm_campaign=short-videos-big-self-control-problems",
-      "covered_date": "2026-09-06",
-      "one_line": "Reframes self-control as unit-size problem; structural estimates and welfare fixes are novel."
-    },
-    {
-      "id": "23e86bc3c54ed3f705d544292b582f26a21faa7e",
-      "title": "Assessing the impact of safety work needs equilibrium analysis (now more than ever)",
-      "title_norm": "assessing the impact of safety work needs equilibrium analysis now more than ever",
-      "url": "https://www.lesswrong.com/posts/kxHiSsNh4MH82nhXD/assessing-the-impact-of-safety-work-needs-equilibrium",
-      "covered_date": "2026-09-06",
-      "one_line": "Equilibrium framing reframes safety work impact; timely after HF incident."
-    },
-    {
-      "id": "7ed7693cc9c68db761e417d1f445fc1bd03e5844",
-      "title": "Open Models are the United Front of AI",
-      "title_norm": "open models are the united front of ai",
-      "url": "https://www.chinatalk.media/p/open-models-are-the-united-front",
-      "covered_date": "2026-09-06",
-      "one_line": "Reframes open-source AI race with Chinese perspective, challenging Western narrative."
-    },
-    {
-      "id": "9218fb05d29ab69270c7d2ed693fcab2a8ce9db1",
-      "title": "The Billboards of Silicon Valley",
-      "title_norm": "the billboards of silicon valley",
-      "url": "https://www.nplusonemag.com/online-only/online-only/the-billboards-of-silicon-valley/",
-      "covered_date": "2026-09-06",
-      "one_line": "Reframes tech hype as cyclical ruin, offering cultural critique beyond news."
-    },
-    {
-      "id": "c14125884e341545e82e99e286f28c7faadd1aab",
-      "title": "Is the U . S . losing its safe - haven status ? Why global central banks are pulling gold out of New York .",
-      "title_norm": "is the u s losing its safe haven status why global central banks are pulling gold out of new york",
-      "url": "https://www.morningstar.com/news/marketwatch/202609064/is-the-us-losing-its-safe-haven-status-why-global-central-banks-are-pulling-gold-out-of-new-york",
-      "covered_date": "2026-09-06",
-      "one_line": "Reframes dollar hegemony via central bank gold repatriation, a concrete shift."
-    },
-    {
-      "id": "0745102a894b484a346654490d7454dc77068702",
-      "title": "Critical Assets: AI, geopolitics and renewables reshape the global subsea cables space",
-      "title_norm": "critical assets ai geopolitics and renewables reshape the global subsea cables space",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcWtYMEdsY2FuaVpoZEdSX3l6SXFKVEVmVmRtTE5zTlJ2ZmtrLVdWamlHYjJyalltTFYyLVVxa3ByZWVjYlg3U0theHFtMVVUUHg1cWFDaDR4LXVkaWUyU1JkbzZmSGFmMzJVSGdLSzZWMlM3NnFUZG8zU2dndE1tN0RyQ3ZMeWRYUFM1T1dPYlA3MWtMcUdlcUpSRlRYTURSVkdBZFpWSWJEelZnSDhPQ1ZhRTdHWkJkcTN3M0d1Mm4?oc=5",
-      "covered_date": "2026-09-06",
-      "one_line": "Reframes subsea cables as geopolitical and AI-driven strategic assets."
-    },
-    {
-      "id": "f4397e05cf9c39940cb9251fa8497f8f6a4c48a0",
-      "title": "Clean Engineering, Unstable Measurement: A Preregistered Reliability Failure of Black-Box LLM Observers on Shared Endpoints",
-      "title_norm": "clean engineering unstable measurement a preregistered reliability failure of black box llm observers on shared endpoints",
-      "url": "https://arxiv.org/abs/2609.04198v1",
-      "covered_date": "2026-09-06",
-      "one_line": "Empirical audit overturns reliability assumption of LLM judges; reframes measurement validity."
-    },
-    {
-      "id": "28177ed84e00d11ae33f18024c49396db0f91472",
-      "title": "Your Boss Is Watching You",
-      "title_norm": "your boss is watching you",
-      "url": "https://nautil.us/your-boss-is-watching-you-1284806/",
-      "covered_date": "2026-09-06",
-      "one_line": "Reframes workplace surveillance debate with evidence on effectiveness."
-    },
-    {
       "id": "8db5ba7ef4732e98cc948dc0ee5504246941555c",
       "title": "Capital gains vs. wealth taxes",
       "title_norm": "capital gains vs wealth taxes",
@@ -959,6 +895,78 @@
       "url": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
       "covered_date": "2026-09-20",
       "one_line": "Skeptical argument that lab-culture anxiety inflates AI risk timelines"
+    },
+    {
+      "id": "5ed4cb20b3652de37f17be746b51ec7b45fafff6",
+      "title": "Obama on agentic AI",
+      "title_norm": "obama on agentic ai",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/obama-on-agentic-ai.html?utm_source=rss&utm_medium=rss&utm_campaign=obama-on-agentic-ai",
+      "covered_date": "2026-09-21",
+      "one_line": "Cowen reframes agentic AI debate around the enforcement impossibility of prohibition."
+    },
+    {
+      "id": "9b44d7e44f1cb7fc83d947f846380b9df3d09359",
+      "title": "The current balance of power in open models",
+      "title_norm": "the current balance of power in open models",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "covered_date": "2026-09-21",
+      "one_line": "Expert synthesis reframing open-model power balance as China-led since 2025."
+    },
+    {
+      "id": "1b754155b326c9610b544dd07d5997fc69d73dbd",
+      "title": "Carlo Rovelli on the Dangers of Getting Trapped Inside Your Own Conceptual Framework",
+      "title_norm": "carlo rovelli on the dangers of getting trapped inside your own conceptual framework",
+      "url": "https://lithub.com/carlo-rovelli-on-the-dangers-of-getting-trapped-inside-your-own-conceptual-framework/",
+      "covered_date": "2026-09-21",
+      "one_line": "Rovelli reframes relativity via Earth-bound cognitive biases; elegant but familiar territory."
+    },
+    {
+      "id": "eafba88f3da1aceb44b718bbbb35ad56bed1946e",
+      "title": "Houthis push for control of Yemen highlands as Trump reported to have called off airstrikes",
+      "title_norm": "houthis push for control of yemen highlands as trump reported to have called off airstrikes",
+      "url": "https://tribune.com.pk/story/2630570/houthis-push-for-control-of-yemen-highlands-as-trump-reported-to-have-called-off-airstrikes",
+      "covered_date": "2026-09-21",
+      "one_line": "Yemen highlands shift plus US strike pause; incremental update, not reframing."
+    },
+    {
+      "id": "217d2b50153f912e6b1f68e31dca570c29c993d4",
+      "title": "Why diplomacy alone won\u2019t work anymore for India-Bangladesh ties",
+      "title_norm": "why diplomacy alone won t work anymore for india bangladesh ties",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQb1N1T0dneVBWdk1FZ0JWYWpNMzF4NFNJcWUtbUlhTzhwd0pFSkt1aHZpYXhVU2lZcWlTOGFaOHFfREtpLWxaY0tqSU1tRjRzMDR4SUJuc05IYlJjT09FUGZnRktnV2dGX0hBNXRFSkkyQUNYb28xVFNXMUNtbnhSSmhFbVhtYmQxVi1WUXNha9IBlAFBVV95cUxOX3NzMjdfWnpWQi1EY1pteWxYYXp3blFaRmdWRUZuc0JlNFZXRnEwd1FsaW1LanR1SnVBV25VUXpUUENVamtEcFhjdDhlM1VpZDJpNGU2T3d6VjEybEU3MHhYWUdyQlZJZUVDQkxlemZpNVZCa3E1RjZlZXVoakgzanpYY3lmNThkdUdacjBuYW1GUVpQ?oc=5",
+      "covered_date": "2026-09-21",
+      "one_line": "Argues diplomacy insufficient for India-Bangladesh ties; modest reframe, thin evidence."
+    },
+    {
+      "id": "4eb30020055f4d0821ca42dddc74fdef33111b85",
+      "title": "Amea\u00e7a \u00e0 soberania brasileira: relat\u00f3rios confidenciais da Abin revelam um plano de press\u00e3o geopol\u00edtica",
+      "title_norm": "amea\u00e7a \u00e0 soberania brasileira relat\u00f3rios confidenciais da abin revelam um plano de press\u00e3o geopol\u00edtica",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1XYkkzcUI2WWVXT2Z3blR5SGNqX3M2czRmRGE5bDcta2dwYXFGWlo4bkl4NzRtSWZXaTRPSjUtbW9fb2wxMVNKM1JPcklodnFELV9hZ0w5d0Z3dHpBczkwNUZKZlg2bU9LUi1LYlhwVUtkM3hYRXBHX3hB?oc=5",
+      "covered_date": "2026-09-21",
+      "one_line": "Vague geopolitical claim from state-linked outlet, no verifiable substance or new argument."
+    },
+    {
+      "id": "752842484d4902e28a374b4e3b6cb8aa6bc98590",
+      "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
+      "title_norm": "designer rsi evolving procedural memory from user traffic for agentic graphic design",
+      "url": "https://arxiv.org/abs/2609.22086v1",
+      "covered_date": "2026-09-21",
+      "one_line": "Frozen model + evolving skill memory beats fine-tuning; strong continual-learning result."
+    },
+    {
+      "id": "30d573ec7045e5f881edeea384651fd574773e36",
+      "title": "How Virus-like \u2018Jumping Genes\u2019 Became Our Partners in Evolution",
+      "title_norm": "how virus like jumping genes became our partners in evolution",
+      "url": "https://www.quantamagazine.org/how-virus-like-jumping-genes-became-our-partners-in-evolution-20260921/",
+      "covered_date": "2026-09-21",
+      "one_line": "Reframes genome as chaotic ecosystem, not stable code; genuinely mind-shifting."
+    },
+    {
+      "id": "ed227fff5881e265c6e0d3598c18752ece9edb09",
+      "title": "Sound guardians",
+      "title_norm": "sound guardians",
+      "url": "https://aeon.co/videos/indonesia-is-building-a-new-capital-city-whats-being-lost",
+      "covered_date": "2026-09-21",
+      "one_line": "Soundscape preservation amid a new capital reframes what 'progress' erases."
     }
   ]
 }

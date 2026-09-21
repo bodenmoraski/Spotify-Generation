@@ -13,7 +13,7 @@
         "2026-09-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -30,7 +30,7 @@
         "2026-09-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -47,7 +47,7 @@
         "2026-09-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -64,7 +64,7 @@
         "2026-09-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -81,7 +81,7 @@
         "2026-09-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -98,7 +98,7 @@
         "2026-09-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -115,7 +115,7 @@
         "2026-09-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -132,7 +132,7 @@
         "2026-09-20"
       ],
       "reviews_done": 1,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -149,7 +149,7 @@
         "2026-09-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -166,7 +166,7 @@
         "2026-09-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -200,7 +200,7 @@
         "2026-09-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -217,7 +217,7 @@
         "2026-09-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -251,7 +251,7 @@
         "2026-09-20"
       ],
       "reviews_done": 1,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -302,7 +302,7 @@
         "2026-09-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -319,7 +319,7 @@
         "2026-09-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -336,7 +336,7 @@
         "2026-09-20"
       ],
       "reviews_done": 1,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -353,7 +353,7 @@
         "2026-09-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -369,8 +369,8 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 4,
-      "retired": false,
+      "reviews_done": 5,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -403,8 +403,8 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 4,
-      "retired": false,
+      "reviews_done": 5,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -437,8 +437,8 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 4,
-      "retired": false,
+      "reviews_done": 5,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -454,8 +454,8 @@
         "2026-09-02",
         "2026-09-21"
       ],
-      "reviews_done": 4,
-      "retired": false,
+      "reviews_done": 5,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -5337,6 +5337,159 @@
       "retired": false,
       "missed": false,
       "source": "Interconnects"
+    },
+    {
+      "id": "5ed4cb20b3652de37f17be746b51ec7b45fafff6",
+      "title": "Obama on agentic AI",
+      "one_line": "Cowen reframes agentic AI debate around the enforcement impossibility of prohibition.",
+      "ingested_date": "2026-09-21",
+      "review_dates": [
+        "2026-09-22",
+        "2026-09-24",
+        "2026-09-28",
+        "2026-10-07",
+        "2026-10-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "9b44d7e44f1cb7fc83d947f846380b9df3d09359",
+      "title": "The current balance of power in open models",
+      "one_line": "Expert synthesis reframing open-model power balance as China-led since 2025.",
+      "ingested_date": "2026-09-21",
+      "review_dates": [
+        "2026-09-22",
+        "2026-09-24",
+        "2026-09-28",
+        "2026-10-07",
+        "2026-10-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Interconnects"
+    },
+    {
+      "id": "1b754155b326c9610b544dd07d5997fc69d73dbd",
+      "title": "Carlo Rovelli on the Dangers of Getting Trapped Inside Your Own Conceptual Framework",
+      "one_line": "Rovelli reframes relativity via Earth-bound cognitive biases; elegant but familiar territory.",
+      "ingested_date": "2026-09-21",
+      "review_dates": [
+        "2026-09-22",
+        "2026-09-24",
+        "2026-09-28",
+        "2026-10-07",
+        "2026-10-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "eafba88f3da1aceb44b718bbbb35ad56bed1946e",
+      "title": "Houthis push for control of Yemen highlands as Trump reported to have called off airstrikes",
+      "one_line": "Yemen highlands shift plus US strike pause; incremental update, not reframing.",
+      "ingested_date": "2026-09-21",
+      "review_dates": [
+        "2026-09-22",
+        "2026-09-24",
+        "2026-09-28",
+        "2026-10-07",
+        "2026-10-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gdelt_geopolitics"
+    },
+    {
+      "id": "217d2b50153f912e6b1f68e31dca570c29c993d4",
+      "title": "Why diplomacy alone won’t work anymore for India-Bangladesh ties",
+      "one_line": "Argues diplomacy insufficient for India-Bangladesh ties; modest reframe, thin evidence.",
+      "ingested_date": "2026-09-21",
+      "review_dates": [
+        "2026-09-22",
+        "2026-09-24",
+        "2026-09-28",
+        "2026-10-07",
+        "2026-10-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "4eb30020055f4d0821ca42dddc74fdef33111b85",
+      "title": "Ameaça à soberania brasileira: relatórios confidenciais da Abin revelam um plano de pressão geopolítica",
+      "one_line": "Vague geopolitical claim from state-linked outlet, no verifiable substance or new argument.",
+      "ingested_date": "2026-09-21",
+      "review_dates": [
+        "2026-09-22",
+        "2026-09-24",
+        "2026-09-28",
+        "2026-10-07",
+        "2026-10-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "752842484d4902e28a374b4e3b6cb8aa6bc98590",
+      "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
+      "one_line": "Frozen model + evolving skill memory beats fine-tuning; strong continual-learning result.",
+      "ingested_date": "2026-09-21",
+      "review_dates": [
+        "2026-09-22",
+        "2026-09-24",
+        "2026-09-28",
+        "2026-10-07",
+        "2026-10-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "30d573ec7045e5f881edeea384651fd574773e36",
+      "title": "How Virus-like ‘Jumping Genes’ Became Our Partners in Evolution",
+      "one_line": "Reframes genome as chaotic ecosystem, not stable code; genuinely mind-shifting.",
+      "ingested_date": "2026-09-21",
+      "review_dates": [
+        "2026-09-22",
+        "2026-09-24",
+        "2026-09-28",
+        "2026-10-07",
+        "2026-10-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
+    },
+    {
+      "id": "ed227fff5881e265c6e0d3598c18752ece9edb09",
+      "title": "Sound guardians",
+      "one_line": "Soundscape preservation amid a new capital reframes what 'progress' erases.",
+      "ingested_date": "2026-09-21",
+      "review_dates": [
+        "2026-09-22",
+        "2026-09-24",
+        "2026-09-28",
+        "2026-10-07",
+        "2026-10-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
     }
   ]
 }
