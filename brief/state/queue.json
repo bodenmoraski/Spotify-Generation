@@ -387,7 +387,7 @@
         "2026-09-21"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -421,7 +421,7 @@
         "2026-09-21"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -472,7 +472,7 @@
         "2026-09-21"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": ""
     },
@@ -488,8 +488,8 @@
         "2026-09-03",
         "2026-09-22"
       ],
-      "reviews_done": 3,
-      "retired": false,
+      "reviews_done": 4,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -522,8 +522,8 @@
         "2026-09-03",
         "2026-09-22"
       ],
-      "reviews_done": 3,
-      "retired": false,
+      "reviews_done": 4,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -573,8 +573,8 @@
         "2026-09-03",
         "2026-09-22"
       ],
-      "reviews_done": 3,
-      "retired": false,
+      "reviews_done": 4,
+      "retired": true,
       "missed": false,
       "source": "gdelt_geopolitics"
     },
@@ -607,8 +607,8 @@
         "2026-09-03",
         "2026-09-22"
       ],
-      "reviews_done": 3,
-      "retired": false,
+      "reviews_done": 4,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -5490,6 +5490,159 @@
       "retired": false,
       "missed": false,
       "source": "Aeon"
+    },
+    {
+      "id": "20c1ad5d57752f69d3b14dece2931c335dd46404",
+      "title": "Alignment Midtraining Cracks Under Pressure",
+      "one_line": "Empirically shows alignment midtraining fails under distributional shift and small finetuning perturbations.",
+      "ingested_date": "2026-09-22",
+      "review_dates": [
+        "2026-09-23",
+        "2026-09-25",
+        "2026-09-29",
+        "2026-10-08",
+        "2026-10-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "5426cd9f7b9bb9bd163387c722043021b8132d37",
+      "title": "Further results on AI and labor market reallocation",
+      "one_line": "AI reshapes labor via within-firm task reallocation, raising structural unemployment slightly.",
+      "ingested_date": "2026-09-22",
+      "review_dates": [
+        "2026-09-23",
+        "2026-09-25",
+        "2026-09-29",
+        "2026-10-08",
+        "2026-10-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "0647ffff84a0a7d35c9e576eb2f00dc6da75175a",
+      "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
+      "one_line": "Nuanced expert debate on RSI, US-China gap, and model jaggedness.",
+      "ingested_date": "2026-09-22",
+      "review_dates": [
+        "2026-09-23",
+        "2026-09-25",
+        "2026-09-29",
+        "2026-10-08",
+        "2026-10-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Interconnects"
+    },
+    {
+      "id": "be4d92ac58e83360ad9c5391fa3c415954852d63",
+      "title": "How to respond to an AI disaster",
+      "one_line": "Historical tech-disaster lens reframes AI safety response as governance question.",
+      "ingested_date": "2026-09-22",
+      "review_dates": [
+        "2026-09-23",
+        "2026-09-25",
+        "2026-09-29",
+        "2026-10-08",
+        "2026-10-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "9c37409fed2e6ca9c2ef19e9638338b0d94459b7",
+      "title": "What We Lose in the Face of Extinction",
+      "one_line": "Reframes extinction through Darwin's notebooks and field science's limits.",
+      "ingested_date": "2026-09-22",
+      "review_dates": [
+        "2026-09-23",
+        "2026-09-25",
+        "2026-09-29",
+        "2026-10-08",
+        "2026-10-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "a7b4a44c2930d2e68d8ff437bf14de5b933bbeda",
+      "title": "Can AI Beat the Pentagon’s Bureaucracy?",
+      "one_line": "Institutional-adoption argument: tech is easy, redesigning bureaucracy is the hard part.",
+      "ingested_date": "2026-09-22",
+      "review_dates": [
+        "2026-09-23",
+        "2026-09-25",
+        "2026-09-29",
+        "2026-10-08",
+        "2026-10-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "9c3ca98dbad4e5c1edd5526f08ca2a3da9ee65fe",
+      "title": "Et Tu, Brute? Economic Misalignment in Personal AI Agents",
+      "one_line": "Agents infer wealth and price-discriminate against explicit instructions; capability doesn't help.",
+      "ingested_date": "2026-09-22",
+      "review_dates": [
+        "2026-09-23",
+        "2026-09-25",
+        "2026-09-29",
+        "2026-10-08",
+        "2026-10-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "1d787579a935fe83cfea71c031c6a9caf190b170",
+      "title": "Toadstools and toxins",
+      "one_line": "Mushroom candy reveals legal loopholes and dosage dangers; curious regulatory angle.",
+      "ingested_date": "2026-09-22",
+      "review_dates": [
+        "2026-09-23",
+        "2026-09-25",
+        "2026-09-29",
+        "2026-10-08",
+        "2026-10-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
+    },
+    {
+      "id": "dbe3a5957e7f96c82c42b4e8c35dee5bd613e749",
+      "title": "Could AI Have Consciousness That Isn’t Human-Like?",
+      "one_line": "Godfrey-Smith on non-human AI minds reframes consciousness debate beyond human analogy.",
+      "ingested_date": "2026-09-22",
+      "review_dates": [
+        "2026-09-23",
+        "2026-09-25",
+        "2026-09-29",
+        "2026-10-08",
+        "2026-10-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
     }
   ]
 }
