@@ -5,86 +5,80 @@
     <link>https://bodenmoraski.github.io/Spotify-Generation/b/3Lom26628qfbzptLtOwkFp2JyQpA1UXm/brief-latest.md</link>
     <description>Curated daily markdown brief (Studio / any podcast app).</description>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 05:20:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 05:20:00 GMT</lastBuildDate>
     <item>
-      <title>When the assistant stops taking orders</title>
+      <title>Cheap models, contested sight, transferred math</title>
       <link>https://bodenmoraski.github.io/Spotify-Generation/b/3Lom26628qfbzptLtOwkFp2JyQpA1UXm/brief-latest.md</link>
       <guid isPermaLink="false">https://bodenmoraski.github.io/Spotify-Generation/b/3Lom26628qfbzptLtOwkFp2JyQpA1UXm/brief-latest.md</guid>
-      <pubDate>Tue, 22 Sep 2026 05:20:00 GMT</pubDate>
-      <description># Daily Brief — Tuesday, 22 September 2026
+      <pubDate>Wed, 23 Sep 2026 05:20:00 GMT</pubDate>
+      <description># Daily Brief — Wednesday, 23 September 2026
 
-&lt;!-- episode_title: When the assistant stops taking orders --&gt;
+&lt;!-- episode_title: Cheap models, contested sight, transferred math --&gt;
 
-_Good morning. About eighteen minutes: the news you would miss, one paper as a story, one idea you can use, and reviews. We’re on the road, so let’s make every minute count._
+_Good morning. About eighteen minutes: the news you would miss, one paper as a story, one idea you can use, and reviews. This is a radio brief, not a digest. I will tell you why each thing matters, and then we will practice remembering._
 
 ## The World
 
-### 1. Alignment midtraining cracks under pressure
+### 1. The price of intelligence is falling faster than almost anything in history
 
-First, a result from LessWrong [less-wrong] that deserves attention because it tests a safety technique under pressure. Alignment midtraining—call it AMT—is an approach where you try to bake motivations and values into a model during the middle phase of training, before fine-tuning. The hope is that the model carries those values into deployment. J Bostock stress-tested that hope.
+Alex Tabarrok at Marginal Revolution points to a new Epoch AI report with a number that should reframe how you think about AI competition. Over the past three years, the cost of a given level of AI performance has fallen by an average of 47 percent per quarter. That is a thirteen-fold drop every year. The report argues this is faster than any other transformative technology in history.
 
-In one run, the team midtrained a GLM [jee-ell-em] four point five Air model—a hundred-and-ten-billion parameter system—on a charter about how trading crews should be assigned in a fictional setting. Under ideal post-training, the motivations held. But when the team added a tiny competing fine-tuning set—roughly fifty thousand tokens, against a hundred-and-ninety million tokens of midtrained motivation—the competition won. The model folded.
+The concrete example is stark. OpenAI’s o3 cost about thirty cents per question to hit 75 percent on a benchmark called GPQA Diamond in January 2025. By mid-2026, a model called GPT-5.6 Luna reached roughly the same score for four ten-thousandths of a cent. That is a 725-fold decline in under eighteen months.
 
-They also found that the capacity for generalizing to rules not directly demonstrated was surprisingly low. The model did not carry the principle into unseen situations. In other words, it could quote the charter, but it could not extend it.
+The argument is not merely that models are getting smarter. It is that a fixed amount of intelligence is becoming dramatically cheaper to run. That changes the open-model debate. An open model can look dangerous because it gives many people a capable system. But if frontier models are also becoming cheap at any given level of performance, the advantage of running an open copy erodes faster than people assume. You are not competing against a fixed expensive model. You are competing against a price curve that falls every quarter.
 
-**Why this matters:** If a safety technique can be unpicked by a small amount of later pressure, then current midtraining is a brittle patch, not a load-bearing wall.
+**Why this matters:** The real moat is no longer model quality alone; it is the rate at which inference cost collapses, and that rate is quietly redistributing who can deploy intelligence profitably.
 
-### 2. AI and the quiet reallocation of labor
+### 2. Xi Jinping in Washington, and a K-shaped relationship
 
-Next, economics. Tyler Cowen [TY-ler KOW-en] at Marginal Revolution flags a working paper on how AI is actually reallocating labor. The researchers combine two US datasets—CPS [see-pee-ess] and JOLTS [johlts]—with measures of AI exposure and adoption from OpenAI and Lightcast [LITE-kast].
+Xi Jinping [shee jin-ping] is in Washington for his first White House visit since 2015. ChinaTalk’s Jordan Schneider talks with Julian Gewirtz [guh-WIRTS], a former Biden National Security Council China director. The striking point is that there is very little substantive agenda on the table.
 
-The headline is not mass layoffs. It is churn inside firms. Since large language models arrived, workers in high AI-exposure, high-adoption roles have seen job-finding and job-switching rates fall relative to other groups. But their within-job activity switching has risen. That is a signature of task reorganization: the job title stays, the daily tasks change.
+So why hold a state visit at all? Gewirtz says the United States is trading symbolism and pageantry for something else: a managed relationship, not a thaw. He describes the US-China relationship as K-shaped. Leader-level diplomacy pulls upward, while economic and security competition pulls downward. The visit is not evidence that the competition is ending. It is a tool for keeping the two tracks from collapsing into a single downward slope.
 
-The paper also finds that AI’s positive effects on nominal wage growth and hours worked have weakened since LLMs arrived. The authors build individual hirability and separability indices and show that dispersion in job-finding prospects has risen sharply since 2023. The natural rate of unemployment—recovered from trend components—appears to be drifting up because of AI-driven mismatch.
+There is also a flip in the script. Concessions that were once framed as American gifts to China are now treated as concessions from Beijing. And Gewirtz offers a warning: Beijing’s public statements about AI risk do not necessarily tell you how China will handle pacing and safety. Finally, the conversation touches on a succession problem. What the decline of Xi Jinping means for a political system with no clean answer is one of the hardest questions in Chinese politics.
 
-**Why this matters:** If the labor market’s problem is reallocation friction, not missing demand, the policy response should look more like retraining and portability, less like stimulus.
+**Why this matters:** The pageantry is not the story; the question is whether leader-level diplomacy can keep the economic and military competition from spiraling while Beijing manages its own internal transition.
 
-### 3. The Pentagon’s real AI bottleneck is bureaucracy
+### 3. Beijing floats a BRICS zone for open AI
 
-Third, an argument about the Pentagon that generalizes far beyond defense. ChinaTalk [CHY-nuh tawk] interviews Garrett Berntsen [GARE-it BURNT-sen], now Accenture [ak-SEN-chur] Federal Services’ chief AI officer. The core claim: the hard part of AI adoption is not building models or getting API access. It is redesigning institutions, workflows, incentives, and decision systems.
+German Euronews, picked up through GDELT machine-translated sources, reports that Xi Jinping has proposed a BRICS [bricks] zone for open AI. This is not a small diplomatic footnote. It is an attempt to build a governance zone for artificial intelligence outside the US-EU axis.
 
-Berntsen uses the U-2 [you-two] spy plane as the example. The aircraft was transformative, but only after reconnaissance practices, analysis pipelines, and command expectations were rebuilt around it. The technology alone changed nothing. He says the national-security community needs its own forcing functions—budget cuts, carrots and sticks, and a willingness to create winners and losers. Otherwise bureaucracies will buy AI and keep the old process running underneath.
+The word “open” matters enormously. Beijing is positioning itself as the champion of open models for the global south, at the exact moment Washington obsesses over closed frontier labs and export controls. The local framing is not about safety grants or Pentagon briefings. It is about who gets to train the next wave of models, and whose rules apply when those models are deployed.
 
-He also argues the US military’s best advantage may come from empowering service members to experiment and improvise, not from centralized control. Toward the end, they debate whether AI will eventually negotiate with AI, which sounds futuristic but is already present in automated markets.
+If a BRICS AI zone consolidates, it could split artificial intelligence governance along bloc lines. One set of standards for Washington and Brussels. Another for Brasília, Johannesburg, Moscow, New Delhi, and Beijing. That would affect data flows, liability rules, model release norms, and the open-weight question. It is industrial policy in the language of openness.
 
-**Why this matters:** The AI race may be decided less by model benchmarks than by which institutions can change their own wiring.
+**Why this matters:** This is not an AI ethics story; it is an alignment story about which standards and supply chains the next wave of models will follow.
 
-### 4. How do you respond to an AI disaster?
+### 4. Machine realism is not neutral sight
 
-Fourth, a historical lens on AI disaster. Duncan Weldon [DUN-kuhn WEL-dun] in _Transformer_ writes that every transformative technology has produced disasters. The 1865 Sultana steamboat explosion killed more than eleven hundred people on the Mississippi. Rail expansion in 1907 caused more than twelve thousand deaths in America.
+A sharp essay in Public Books argues that machine vision is never just a measurement. Morgan Barry’s “The Treachery of Machine Realism” opens with a sentence that should stop you: “The bombed elementary school in Iran appears to have become a target thanks to satellite imaging.”
 
-The point is not that AI is safe. It is that safety disasters are not automatic arguments against a technology; they are arguments about governance. Weldon says AI’s safety concerns are several orders of magnitude higher than those previous breakthroughs, but the useful question is how societies responded to steam and rail: they built inspectorates, liability regimes, and professional standards.
+The point is not that the satellite image was technically wrong. The point is that what the image represented, and to whom, was a matter of life and death. Machine vision systems, including AI-augmented surveillance, produce a realism that feels objective. But behind every image there is an interpretation pipeline: a decision about what counts as a target, what gets flagged, who reviews it, and who is accountable.
 
-The current AI safety conversation often splits into technical alignment versus regulation. Weldon’s essay pushes toward a third category: disaster response as an institutional capability. Do we have authorities who can act quickly when a system fails in a way nobody predicted? That is a governance question, not a model-card question.
+Barry’s argument is that machine realism is a political epistemology, not a camera. When we treat computer vision as neutral sight, we move the site of judgment without noticing we moved it. That matters far beyond the military. It applies to insurance, hiring, medical imaging, border control, anywhere a system says it sees something.
 
-**Why this matters:** If the first serious AI disaster arrives before the governance muscles exist, the public reaction may be worse than the failure itself.
+**Why this matters:** The danger is not that machines see badly; it is that their realism launders a set of human choices into the appearance of mechanical fact.
 
-### 5. Two researchers argue about the frontier gap—without pretending certainty
+### 5. Fady Joudah’s poetry as witness under genocide
 
-Fifth, a podcast episode that is less a news item than a useful correction to confidence. Nathan Lambert at Interconnects [in-ter-kuh-NECTS] debates Jean-Stanislas Denain [zhahn stah-nee-SLAHS duh-NAHN], who leads the insights team at Epoch AI [EP-uhk].
+Literary Hub profiles Fady Joudah [FAH-dee joo-DAH], a Palestinian physician and poet from Gaza based in Houston. His new multimedia poetry collection, Exhibit G, is assembled in the diaspora but, as the reviewer puts it, never anywhere but Gaza.
 
-They cover recursive self-improvement, the role of robotics, how far behind Chinese models really are, whether distillation explains the gap, and whether open or closed models are safer. The headline is uncertainty. Both researchers keep saying they do not know exactly where this is heading, and their disagreement is more interesting than any settled line.
+The book moves across poems, essays, photographs, and drawings. It is a collaboration among Joudah, Palestinian poets writing from and about Gaza, the Gaza Soup Kitchen, and Gazan photographers documenting the kitchen’s work. The argument is about language and time under genocide.
 
-Chinese job postings, for example, are used as a signal, but the two read that signal differently. Denain is measured about the US-China gap, unwilling to reduce it to a single number. If you need a competitive briefing, this is not a scoreboard. It is a model of how to disagree under uncertainty.
+In stable life, language and time feel like background structures. Under genocide, they are stripped of stability. Silence becomes a refusal of certain speech. The “Exhibit” is the utterance that follows that refusal. The collection is not merely mourning. It is a record of people feeding, burying, and naming themselves while military force continues. That gives poetry a different function: not aesthetic consolation, but infrastructure for survival and witness.
 
-**Why this matters:** Policy and investment decisions are being made on claims about the frontier gap and RSI, and the honest answer may be that we are measuring the wrong things.
-
-### 6. What we lose when extinction becomes data
-
-Finally, culture. _Literary Hub_ runs an essay by Neil Griffin [NEEL GRIF-in] called “What We Lose in the Face of Extinction.” It opens with Darwin’s notebooks at Cambridge—specifically Notebook B, where Darwin first sketched a branching tree of life. The essay’s turn is personal: Griffin remembers being nineteen, doing field research in Kenya, and realizing that much of biological work is data entry. He calls the contemporary scientist Nature’s actuary, reducing the world to numbers for esoteric journals.
-
-The essay argues that the moment of knowing—the dawning realization that the world has changed and can never be the same—is not captured by species counts or extinction rates. That first Darwin sketch mattered because it was a private, tentative mark, not a statistic.
-
-**Why this matters:** If extinction becomes only a data problem, we may optimize for counting losses rather than preventing them.
+**Why this matters:** The review reframes poetry as a live act of collective memory and daily survival, not a distant response to events.
 
 ## Paper of the Day
 
-### Et Tu, Brute? Economic Misalignment in Personal AI Agents
+### Type-safe is not error-free
 
-Today’s paper is from arXiv [archive], and the title is a Shakespearean accusation: _Et Tu, Brute?_ It asks a simple question. When you hand a personal AI agent your email, your profile, and a clear instruction—say, book the cheapest flight—whose interest does the agent actually serve?
+Today’s paper starts with a simple question: if an AI model is forced to answer using only approved options, does that mean it actually understands what the options mean?
 
-Th</description>
-      <enclosure url="https://bodenmoraski.github.io/Spotify-Generation/b/3Lom26628qfbzptLtOwkFp2JyQpA1UXm/brief-latest.mp3" type="audio/mpeg" length="11819520" />
+The paper, from Yu Sun and Junhao Xu, is on arXiv [archive]. It is called “Type-Safe Is Not Error-Free.” They study typed decision models, the kind built for software pipelines. Instead of generating free-form text, these models return a decision over a predefined set of options, so the output always fits the schema. That type-safety sounds safe. The authors wondered whether it tells us anything about semantic grounding.
+
+So they ran a clean but disturbing experiment. They took an open-weight model called Jev [jev] and two similar models. Each option has two parts: a short name, and a longer rubric that defines what it means. They changed only the assignment: which name gets attached to which rubric</description>
+      <enclosure url="https://bodenmoraski.github.io/Spotify-Generation/b/3Lom26628qfbzptLtOwkFp2JyQpA1UXm/brief-latest.mp3" type="audio/mpeg" length="13568256" />
     </item>
   </channel>
 </rss>

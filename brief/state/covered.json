@@ -1,70 +1,6 @@
 {
   "items": [
     {
-      "id": "9b2d095586772788248b79e907f8ad6bcb9d6f30",
-      "title": "No Doing, No Learning",
-      "title_norm": "no doing no learning",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/no-doing-no-learning.html?utm_source=rss&utm_medium=rss&utm_campaign=no-doing-no-learning",
-      "covered_date": "2026-09-08",
-      "one_line": "Reframes regulation's hidden costs with nuclear power counterfactual and millions of deaths."
-    },
-    {
-      "id": "26ef01f74afac7cbef6864ec400d6d1678812105",
-      "title": "The Scramble: getting in position to pace the frontier",
-      "title_norm": "the scramble getting in position to pace the frontier",
-      "url": "https://www.lesswrong.com/posts/S7e7swkWDyKdtvRqM/the-scramble-getting-in-position-to-pace-the-frontier",
-      "covered_date": "2026-09-08",
-      "one_line": "Reframes AI governance as crisis management, not treaty negotiation."
-    },
-    {
-      "id": "70616b0643724d8f20383259f3b1110e0f27bf74",
-      "title": "My Job Is to Fulfill Your Infantile Desire",
-      "title_norm": "my job is to fulfill your infantile desire",
-      "url": "https://www.publicbooks.org/my-job-is-to-fulfill-your-infantile-desire/",
-      "covered_date": "2026-09-08",
-      "one_line": "Reframes consumer labor relations via Chinese couriers' experiences, challenging Western assumptions."
-    },
-    {
-      "id": "083d4736108c8a6f19ed8d861a600f46d181d888",
-      "title": "How\u2014and Why\u2014We Find Ourselves Trapped By Our Jobs",
-      "title_norm": "how and why we find ourselves trapped by our jobs",
-      "url": "https://lithub.com/how-and-why-we-find-ourselves-trapped-by-our-jobs/",
-      "covered_date": "2026-09-08",
-      "one_line": "Reframes career identity through Tolstoy's crisis, challenging assumptions about success."
-    },
-    {
-      "id": "030f3565662b0b1f27c45cb84192341c5f414dda",
-      "title": "US-China Biorisk Cooperation: Yes, It\u2019s Possible",
-      "title_norm": "us china biorisk cooperation yes it s possible",
-      "url": "https://www.chinatalk.media/p/us-china-biorisk-cooperation-yes",
-      "covered_date": "2026-09-08",
-      "one_line": "Argues for a concrete, bipartisan chokepoint to reduce AI-bio risk, reframing cooperation."
-    },
-    {
-      "id": "0b82f3a3b822f138437c8e95be2a304779577162",
-      "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
-      "title_norm": "latest open artifacts 24 motif 3 glm 5 3 hy4 preview and open model licenses",
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
-      "covered_date": "2026-09-08",
-      "one_line": "License shift signals strategic divergence in open model ecosystem."
-    },
-    {
-      "id": "9e8083dab480e2ad92eb21f0d4c182bffff24b6d",
-      "title": "The Elegance of a Stupid Question",
-      "title_norm": "the elegance of a stupid question",
-      "url": "https://nautil.us/the-elegance-of-a-stupid-question-1284839/",
-      "covered_date": "2026-09-08",
-      "one_line": "Reframes mathematical inquiry and AI's role in defining intelligence."
-    },
-    {
-      "id": "8daec57205f24ac236fad77612aa879121a120d1",
-      "title": "Our eloquent hands",
-      "title_norm": "our eloquent hands",
-      "url": "https://aeon.co/essays/what-palmistry-and-medicine-have-always-had-in-common",
-      "covered_date": "2026-09-08",
-      "one_line": "Reframes medical diagnosis as a form of palmistry, challenging scientific certainty."
-    },
-    {
       "id": "038957f94bccdb7dd4f443c4fd637eb4394e4f48",
       "title": "How good are slop-vestigators?",
       "title_norm": "how good are slop vestigators",
@@ -967,6 +903,78 @@
       "url": "https://nautil.us/could-ai-have-consciousness-that-isnt-human-like-1285156/",
       "covered_date": "2026-09-22",
       "one_line": "Godfrey-Smith on non-human AI minds reframes consciousness debate beyond human analogy."
+    },
+    {
+      "id": "53b64e9e55aa8c1d7951207da31d22edceb6e9e7",
+      "title": "The Price of Intelligence is Falling Rapidly",
+      "title_norm": "the price of intelligence is falling rapidly",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/the-price-of-intelligence-is-falling.html?utm_source=rss&utm_medium=rss&utm_campaign=the-price-of-intelligence-is-falling",
+      "covered_date": "2026-09-23",
+      "one_line": "47%/quarter cost decline reframes AI economics and open-model competition."
+    },
+    {
+      "id": "4f58f20d49b7c54de0ef5ef36a1568cc9380707c",
+      "title": "The Treachery of Machine Realism",
+      "title_norm": "the treachery of machine realism",
+      "url": "https://www.publicbooks.org/the-treachery-of-machine-realism/",
+      "covered_date": "2026-09-23",
+      "one_line": "Reframes machine vision as political epistemology, not just technical accuracy."
+    },
+    {
+      "id": "fbd719c253313028af3c5affa297c83486d358d4",
+      "title": "Fady Joudah\u2019s Meditation on Language and Time Under Genocide",
+      "title_norm": "fady joudah s meditation on language and time under genocide",
+      "url": "https://lithub.com/fady-joudahs-meditation-on-language-and-time-under-genocide/",
+      "covered_date": "2026-09-23",
+      "one_line": "Reframes poetry as witness under genocide; a real argument about language and time."
+    },
+    {
+      "id": "56b392268044c2d315481c31b423eded8e537391",
+      "title": "Xi Descends on DC",
+      "title_norm": "xi descends on dc",
+      "url": "https://www.chinatalk.media/p/the-xi-state-visit",
+      "covered_date": "2026-09-23",
+      "one_line": "Expert reframes US-China diplomacy as K-shaped, with novel succession analysis."
+    },
+    {
+      "id": "3613c37f32ae1cca77f58e9a051d173376d8a54c",
+      "title": "The Freedom of the Weasel",
+      "title_norm": "the freedom of the weasel",
+      "url": "https://www.nplusonemag.com/online-only/online-only/the-freedom-of-the-weasel/",
+      "covered_date": "2026-09-23",
+      "one_line": "Literary essay with a real argument about a writer's philosophical vision."
+    },
+    {
+      "id": "749b8bb2b9215d9c71553eee9035b2b5d9ee5f35",
+      "title": "Chinas Staatschef Xi Jinping schl\u00e4gt BRICS - Zone f\u00fcr offene KI vor",
+      "title_norm": "chinas staatschef xi jinping schl\u00e4gt brics zone f\u00fcr offene ki vor",
+      "url": "https://de.euronews.com/2026/09/14/chinas-staatschef-xi-jinping-schlagt-brics-zone-fur-offene-ki-vor",
+      "covered_date": "2026-09-23",
+      "one_line": "Xi proposing a BRICS AI governance zone signals geopolitical tech fragmentation."
+    },
+    {
+      "id": "ce2eea612a17c75c717206ff495e22f06c972baf",
+      "title": "Type-Safe Is Not Error-Free: A Constrained Decision Head Follows the Option Name, Not the Rubric Bound to It",
+      "title_norm": "type safe is not error free a constrained decision head follows the option name not the rubric bound to it",
+      "url": "https://arxiv.org/abs/2609.26758v1",
+      "covered_date": "2026-09-23",
+      "one_line": "Renaming options flips typed model decisions, exposing schema validity without semantic grounding."
+    },
+    {
+      "id": "1b95e66155e8fd32148fac6e01e5cd7913405ad8",
+      "title": "Biology Might Not Be Quantum, but Its Math Is Quantumlike",
+      "title_norm": "biology might not be quantum but its math is quantumlike",
+      "url": "https://www.quantamagazine.org/biology-might-not-be-quantum-but-its-math-is-quantumlike-20260923/",
+      "covered_date": "2026-09-23",
+      "one_line": "Reframes quantum biology as a math-transfer story, not a physics claim."
+    },
+    {
+      "id": "ff019e8c19e24b059d2322132527c64a505e8208",
+      "title": "Weapons of mass decentralization",
+      "title_norm": "weapons of mass decentralization",
+      "url": "https://worksinprogress.co/issue/weapons-of-mass-decentralization/",
+      "covered_date": "2026-09-23",
+      "one_line": "Historical analogy reframes military tech as decentralizing force against empires."
     }
   ]
 }
