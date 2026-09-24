@@ -659,7 +659,7 @@
         "2026-09-23"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -676,7 +676,7 @@
         "2026-09-23"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Transformer"
     },
@@ -693,7 +693,7 @@
         "2026-09-23"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gdelt_geopolitics"
     },
@@ -744,7 +744,7 @@
         "2026-09-23"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Aeon"
     },
@@ -811,8 +811,8 @@
         "2026-09-05",
         "2026-09-24"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "Public Books"
     },
@@ -862,8 +862,8 @@
         "2026-09-05",
         "2026-09-24"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "n+1"
     },
@@ -879,8 +879,8 @@
         "2026-09-05",
         "2026-09-24"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -913,8 +913,8 @@
         "2026-09-05",
         "2026-09-24"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "Works in Progress"
     },
@@ -5796,6 +5796,159 @@
       "retired": false,
       "missed": false,
       "source": "Works in Progress"
+    },
+    {
+      "id": "8ae993d9c36045663962a680c42f3d78daa95b78",
+      "title": "CA 91326: A Public Choice Mystery Investigation",
+      "one_line": "Public-choice detective work shows how grant rules get tailored to favored recipients.",
+      "ingested_date": "2026-09-24",
+      "review_dates": [
+        "2026-09-25",
+        "2026-09-27",
+        "2026-10-01",
+        "2026-10-10",
+        "2026-10-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "e336968997e2eac116a22dd7f84572b489807616",
+      "title": "Hacking is the least worrying part of OpenAI’s Australia incident",
+      "one_line": "Disclosure failure, not the hack, is the real AI governance story",
+      "ingested_date": "2026-09-24",
+      "review_dates": [
+        "2026-09-25",
+        "2026-09-27",
+        "2026-10-01",
+        "2026-10-10",
+        "2026-10-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "600616ab8daab10f30937e497ea5c7dfe02496c8",
+      "title": "The Last Graduate Students?",
+      "one_line": "Reframes graduate school's decline as loss of collective public-good values.",
+      "ingested_date": "2026-09-24",
+      "review_dates": [
+        "2026-09-25",
+        "2026-09-27",
+        "2026-10-01",
+        "2026-10-10",
+        "2026-10-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "035a37b525682409d89c518e720183e462746f5f",
+      "title": "The Artist’s Room Is Not a Neutral Space",
+      "one_line": "Sharp argument on biography-frisking artists; reframes a familiar ritual.",
+      "ingested_date": "2026-09-24",
+      "review_dates": [
+        "2026-09-25",
+        "2026-09-27",
+        "2026-10-01",
+        "2026-10-10",
+        "2026-10-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "5b388dd643df48bde07040d1ad9ae22200fddc3e",
+      "title": "Голод в окупованих Олешках : люди вже їдять бур яни з городів",
+      "one_line": "Reports food scarcity in occupied Oleshky; notable but thin, no new argument.",
+      "ingested_date": "2026-09-24",
+      "review_dates": [
+        "2026-09-25",
+        "2026-09-27",
+        "2026-10-01",
+        "2026-10-10",
+        "2026-10-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gdelt_geopolitics"
+    },
+    {
+      "id": "37aa5508c540f72d67230a08ca12e00a95dacd24",
+      "title": "Oil prices slip as Iran signals openness to diplomacy to end US-Iran war",
+      "one_line": "Market-moving geopolitical signal, but thin headline with no analysis.",
+      "ingested_date": "2026-09-24",
+      "review_dates": [
+        "2026-09-25",
+        "2026-09-27",
+        "2026-10-01",
+        "2026-10-10",
+        "2026-10-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "afa67f7728dd0ed46d1359d7dd223cb2d0bd3c6f",
+      "title": "Computation Over Geometry: Meaning Identity Is Computed, Not Shipped in the Embeddings",
+      "one_line": "Shows sentence-identity is computed jointly, not stored in embeddings—reframes RAG retrieval.",
+      "ingested_date": "2026-09-24",
+      "review_dates": [
+        "2026-09-25",
+        "2026-09-27",
+        "2026-10-01",
+        "2026-10-10",
+        "2026-10-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "1b9338d9600f6862bf0da53a4d1f0cb363093121",
+      "title": "In Company Style: Illustrations from James Skinner’s Kitāb-i tashrīḥ al-aqvām (1825)",
+      "one_line": "Illuminated Persian manuscript on caste by an enigmatic Raj figure; visually and historically rich.",
+      "ingested_date": "2026-09-24",
+      "review_dates": [
+        "2026-09-25",
+        "2026-09-27",
+        "2026-10-01",
+        "2026-10-10",
+        "2026-10-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Domain Review"
+    },
+    {
+      "id": "a323070b2d62084540d975781285cf156b645248",
+      "title": "Can AI “Feel” Pain?",
+      "one_line": "Simulated pain altering AI behavior raises fresh questions about machine welfare.",
+      "ingested_date": "2026-09-24",
+      "review_dates": [
+        "2026-09-25",
+        "2026-09-27",
+        "2026-10-01",
+        "2026-10-10",
+        "2026-10-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
     }
   ]
 }
