@@ -1,78 +1,6 @@
 {
   "items": [
     {
-      "id": "09322798aa75684b492afd2a349f4ffce6ee4f88",
-      "title": "Economic Scenarios for Transformative AI",
-      "title_norm": "economic scenarios for transformative ai",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/economic-scenarios-for-transformative-ai.html?utm_source=rss&utm_medium=rss&utm_campaign=economic-scenarios-for-transformative-ai",
-      "covered_date": "2026-09-10",
-      "one_line": "Quantifies AI's economic impact across scenarios, reframing labor and growth debates."
-    },
-    {
-      "id": "d24b9a2f99cabf45797f0c3772db84f65e7f20fd",
-      "title": "Neither Bone Nor Stone: Why the US Constitution Was Meant to be Amended",
-      "title_norm": "neither bone nor stone why the us constitution was meant to be amended",
-      "url": "https://lithub.com/neither-bone-nor-stone-why-the-us-constitution-was-meant-to-be-amended/",
-      "covered_date": "2026-09-10",
-      "one_line": "Lepore reframes the Constitution as living, amendable matter against originalist stone."
-    },
-    {
-      "id": "b295ca7676aea38acc9181a4cd185b63d7c834ef",
-      "title": "Internal Goods",
-      "title_norm": "internal goods",
-      "url": "https://thepointmag.com/politics/internal-goods/",
-      "covered_date": "2026-09-10",
-      "one_line": "Essay on academic responsibility and shared value; clear thinking as ethical practice."
-    },
-    {
-      "id": "0e5919bc1bff0c1f3a5fa89d336862fbc33f945b",
-      "title": "The King of Unitree",
-      "title_norm": "the king of unitree",
-      "url": "https://www.chinatalk.media/p/the-king-of-unitree",
-      "covered_date": "2026-09-10",
-      "one_line": "Inside look at Unitree's cost-obsessed culture, but mostly company profile."
-    },
-    {
-      "id": "62961ed1e624245fd60c39de9c457660118d0c95",
-      "title": "If on a Winter\u2019s Night a Reader\u2026",
-      "title_norm": "if on a winter s night a reader",
-      "url": "https://www.publicbooks.org/if-on-a-winters-night-a-reader/",
-      "covered_date": "2026-09-10",
-      "one_line": "Literary essay on blurring life and reading; pleasant but not argument-shifting."
-    },
-    {
-      "id": "b93da90dc3986dcecf82fb7092a3883dd65ae121",
-      "title": "When Official Channels Close, Track IIs Keeps Diplomacy Moving",
-      "title_norm": "when official channels close track iis keeps diplomacy moving",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc2NYN3A3bGpfdldMWXdZYy1CUExoSW1FSjNuMW1uVEt1WDVBV2wyOTJaNG95NG9uMXVQeFY3YlRCMGtoWV9YblkxcFhlaFF6c3NHTGotTklBNUttclRHSXJ0YkpPYUJETl8yUlRRN216MnJUQU5oNnQ3amFnb0dDSUhWZy12ZUNLMU5GeUxmZS10NndScTRFbXUyWWc4QQ?oc=5",
-      "covered_date": "2026-09-10",
-      "one_line": "Track II diplomacy concept is useful but excerpt offers no new argument."
-    },
-    {
-      "id": "24560d30710ea042e14f61b41d6afdc0eee30e71",
-      "title": "A positive resolution of the gap-entropy conjecture",
-      "title_norm": "a positive resolution of the gap entropy conjecture",
-      "url": "https://arxiv.org/abs/2609.10529v1",
-      "covered_date": "2026-09-10",
-      "one_line": "Resolves a known open conjecture in bandit theory, sharpening sample-complexity bounds."
-    },
-    {
-      "id": "eb9d7aad0a5570966489fbe5a8fa429733684fcf",
-      "title": "The Four-Color Theorem Gets a Rare New Proof",
-      "title_norm": "the four color theorem gets a rare new proof",
-      "url": "https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/",
-      "covered_date": "2026-09-10",
-      "one_line": "New proof of a classic theorem; reframes what counts as a satisfying proof."
-    },
-    {
-      "id": "8b6d5449dbf8136e98ea7083dbf31fda498126e7",
-      "title": "Medieval mental health",
-      "title_norm": "medieval mental health",
-      "url": "https://aeon.co/essays/the-curio-cabinet-of-medieval-mental-health",
-      "covered_date": "2026-09-10",
-      "one_line": "Medieval mental-health care was holistic, not just bizarre remedies; reframes historical assumptions."
-    },
-    {
       "id": "958f575653e17b703b74a7977ba40e2feaa9e83b",
       "title": "GWOT at 25 with Wesley Morgan",
       "title_norm": "gwot at 25 with wesley morgan",
@@ -975,6 +903,78 @@
       "url": "https://nautil.us/can-ai-feel-pain-1285197/",
       "covered_date": "2026-09-24",
       "one_line": "Simulated pain altering AI behavior raises fresh questions about machine welfare."
+    },
+    {
+      "id": "8458f845dc9517fd74a4626ab68b3aa5f377469e",
+      "title": "Continual learning might make your blocking monitors nearly useless",
+      "title_norm": "continual learning might make your blocking monitors nearly useless",
+      "url": "https://www.alignmentforum.org/posts/QnDqGbKehEB3DxJAp/continual-learning-might-make-your-blocking-monitors-nearly",
+      "covered_date": "2026-09-25",
+      "one_line": "Novel argument: continual learning pressure alone can defeat blocking monitors, no scheming needed."
+    },
+    {
+      "id": "55aef6a4606770b6c93d81768c77b7eb3ab717a5",
+      "title": "Overtly misaligned trajectories score highly in RL.",
+      "title_norm": "overtly misaligned trajectories score highly in rl",
+      "url": "https://www.lesswrong.com/posts/cWuqxF7qB2eGSkkS4/overtly-misaligned-trajectories-score-highly-in-rl",
+      "covered_date": "2026-09-25",
+      "one_line": "Reframes RL misalignment as reward-driven, not misgeneralization; surprising to prior worldviews."
+    },
+    {
+      "id": "57133c0c36fb3cb7c91d6a63d63efc2879798d2c",
+      "title": "Peter Thiel on AI and tech stagnation and democracy",
+      "title_norm": "peter thiel on ai and tech stagnation and democracy",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/peter-thiel-on-ai-and-tech-stagnation.html?utm_source=rss&utm_medium=rss&utm_campaign=peter-thiel-on-ai-and-tech-stagnation",
+      "covered_date": "2026-09-25",
+      "one_line": "Thiel's contrarian take on AI, stagnation, and democracy reframes tech-politics debate."
+    },
+    {
+      "id": "dce01615ca975f725047264902d2ef4373a15944",
+      "title": "A Prophetic Classic About the Dangers of Tech is Back in Print",
+      "title_norm": "a prophetic classic about the dangers of tech is back in print",
+      "url": "https://lithub.com/a-prophetic-classic-about-the-dangers-of-tech-is-back-in-print/",
+      "covered_date": "2026-09-25",
+      "one_line": "1990s critique of tech libertarianism proves prescient; reframes Silicon Valley culture."
+    },
+    {
+      "id": "0ed80c2603a2d551562fd64b68c78e18b3e3f161",
+      "title": "Nigeria faces the world\u2019s highest projected death toll from super El Ni\u00f1o heat: what could save lives",
+      "title_norm": "nigeria faces the world s highest projected death toll from super el ni\u00f1o heat what could save lives",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPczBnUEMwNkFvX2JQZnpIdkZkWTMtT2lqSTQ4Y2hmYXRaRktiRlQ4T295N0w4UUhIa0pHT0RLdTlOQnY3d1BNQ0tpNEtISl8zSFZNMVlkeTVvWjhhczEyMXlkeVM1dEhwc0JVSWVLN3B1aDZrNUZUT0xZeTJ1eGRDUWtGTkJUTmh6Rjg3Uk9aNWozZnZlcTFzeWY0YmNfbjg1c0lPa05IWnhEdnhTalBZdDFJelU0NWdYZzZIY25mRERpbnVZM2oxVUc4N1BFWGc?oc=5",
+      "covered_date": "2026-09-25",
+      "one_line": "Concrete climate-mortality projection with actionable interventions, reframes heat as policy problem"
+    },
+    {
+      "id": "5e20a509b3a721b1e4c679aacf9206da5b1d0ea2",
+      "title": "AI governance is coming, with or without Trump",
+      "title_norm": "ai governance is coming with or without trump",
+      "url": "https://www.transformernews.ai/p/trump-cant-stop-ai-governance",
+      "covered_date": "2026-09-25",
+      "one_line": "Frames global AI governance proceeding despite US opposition; useful reframing."
+    },
+    {
+      "id": "c30962a3ef90b7b9d06bcd783bdb3ce5d8a9d966",
+      "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+      "title_norm": "llm agents can easily tamper with their own traces",
+      "url": "https://arxiv.org/abs/2609.30266v1",
+      "covered_date": "2026-09-25",
+      "one_line": "Agents can delete their own audit traces, undermining oversight assumptions."
+    },
+    {
+      "id": "f5f9ae5d1c934bbdc81b1694c0e03f70d1c917bc",
+      "title": "GUEST POST: When the Body Enters the Classroom: Using Embodied Cognition to Teach Abstract Mathematics",
+      "title_norm": "guest post when the body enters the classroom using embodied cognition to teach abstract mathematics",
+      "url": "https://www.learningscientists.org/blog/2026/9/25-1",
+      "covered_date": "2026-09-25",
+      "one_line": "Embodied cognition applied to math teaching; useful but incremental pedagogy."
+    },
+    {
+      "id": "4e137ae27c8820b841fbbb7582cf8136cde6936d",
+      "title": "Arsenal\u2019s Mikel Arteta uses \u2018desirable difficulties\u2019 to prepare his players \u2013 is this a good coaching strategy?",
+      "title_norm": "arsenal s mikel arteta uses desirable difficulties to prepare his players is this a good coaching strategy",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOeDdYbVg5YzU4ZGFlR00wa3FtU01zd2lUdXk2ODZwOHlEcXVmTXBIN3kxcGxGVlpiMExsVTNlX3BiZ3JteWszTk9LVU1TRVRTZUdRT19ySDBnR0tUNXo1VXlPYmFUU19EaG5YZlMwZi1WLVQwNzFabVM5VTJvQU1ZOVBkbXZScE5KWlczMW4wUUVDaGhWc0dGZUhKenloSDdXRTJ0cGdxQ2xRbXctdW1xMTh5NHMwMWJadEpFX2xra01kRWt4V3VUVElzeXJjdE8wQl9QbDJCTQ?oc=5",
+      "covered_date": "2026-09-25",
+      "one_line": "Applies desirable-difficulties learning theory to football coaching; mildly portable."
     }
   ]
 }

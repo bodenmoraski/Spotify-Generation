@@ -778,7 +778,7 @@
         "2026-09-24"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -795,7 +795,7 @@
         "2026-09-24"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -829,7 +829,7 @@
         "2026-09-24"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -846,7 +846,7 @@
         "2026-09-24"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_br"
     },
@@ -897,7 +897,7 @@
         "2026-09-24"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Aeon"
     },
@@ -930,8 +930,8 @@
         "2026-09-06",
         "2026-09-25"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -947,8 +947,8 @@
         "2026-09-06",
         "2026-09-25"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -964,8 +964,8 @@
         "2026-09-06",
         "2026-09-25"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "Public Books"
     },
@@ -981,8 +981,8 @@
         "2026-09-06",
         "2026-09-25"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "Transformer"
     },
@@ -5949,6 +5949,159 @@
       "retired": false,
       "missed": false,
       "source": "Nautilus"
+    },
+    {
+      "id": "8458f845dc9517fd74a4626ab68b3aa5f377469e",
+      "title": "Continual learning might make your blocking monitors nearly useless",
+      "one_line": "Novel argument: continual learning pressure alone can defeat blocking monitors, no scheming needed.",
+      "ingested_date": "2026-09-25",
+      "review_dates": [
+        "2026-09-26",
+        "2026-09-28",
+        "2026-10-02",
+        "2026-10-11",
+        "2026-10-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Alignment Forum"
+    },
+    {
+      "id": "55aef6a4606770b6c93d81768c77b7eb3ab717a5",
+      "title": "Overtly misaligned trajectories score highly in RL.",
+      "one_line": "Reframes RL misalignment as reward-driven, not misgeneralization; surprising to prior worldviews.",
+      "ingested_date": "2026-09-25",
+      "review_dates": [
+        "2026-09-26",
+        "2026-09-28",
+        "2026-10-02",
+        "2026-10-11",
+        "2026-10-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "57133c0c36fb3cb7c91d6a63d63efc2879798d2c",
+      "title": "Peter Thiel on AI and tech stagnation and democracy",
+      "one_line": "Thiel's contrarian take on AI, stagnation, and democracy reframes tech-politics debate.",
+      "ingested_date": "2026-09-25",
+      "review_dates": [
+        "2026-09-26",
+        "2026-09-28",
+        "2026-10-02",
+        "2026-10-11",
+        "2026-10-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "dce01615ca975f725047264902d2ef4373a15944",
+      "title": "A Prophetic Classic About the Dangers of Tech is Back in Print",
+      "one_line": "1990s critique of tech libertarianism proves prescient; reframes Silicon Valley culture.",
+      "ingested_date": "2026-09-25",
+      "review_dates": [
+        "2026-09-26",
+        "2026-09-28",
+        "2026-10-02",
+        "2026-10-11",
+        "2026-10-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "0ed80c2603a2d551562fd64b68c78e18b3e3f161",
+      "title": "Nigeria faces the world’s highest projected death toll from super El Niño heat: what could save lives",
+      "one_line": "Concrete climate-mortality projection with actionable interventions, reframes heat as policy problem",
+      "ingested_date": "2026-09-25",
+      "review_dates": [
+        "2026-09-26",
+        "2026-09-28",
+        "2026-10-02",
+        "2026-10-11",
+        "2026-10-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_ke"
+    },
+    {
+      "id": "5e20a509b3a721b1e4c679aacf9206da5b1d0ea2",
+      "title": "AI governance is coming, with or without Trump",
+      "one_line": "Frames global AI governance proceeding despite US opposition; useful reframing.",
+      "ingested_date": "2026-09-25",
+      "review_dates": [
+        "2026-09-26",
+        "2026-09-28",
+        "2026-10-02",
+        "2026-10-11",
+        "2026-10-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "c30962a3ef90b7b9d06bcd783bdb3ce5d8a9d966",
+      "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+      "one_line": "Agents can delete their own audit traces, undermining oversight assumptions.",
+      "ingested_date": "2026-09-25",
+      "review_dates": [
+        "2026-09-26",
+        "2026-09-28",
+        "2026-10-02",
+        "2026-10-11",
+        "2026-10-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "f5f9ae5d1c934bbdc81b1694c0e03f70d1c917bc",
+      "title": "GUEST POST: When the Body Enters the Classroom: Using Embodied Cognition to Teach Abstract Mathematics",
+      "one_line": "Embodied cognition applied to math teaching; useful but incremental pedagogy.",
+      "ingested_date": "2026-09-25",
+      "review_dates": [
+        "2026-09-26",
+        "2026-09-28",
+        "2026-10-02",
+        "2026-10-11",
+        "2026-10-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "The Learning Scientists"
+    },
+    {
+      "id": "4e137ae27c8820b841fbbb7582cf8136cde6936d",
+      "title": "Arsenal’s Mikel Arteta uses ‘desirable difficulties’ to prepare his players – is this a good coaching strategy?",
+      "one_line": "Applies desirable-difficulties learning theory to football coaching; mildly portable.",
+      "ingested_date": "2026-09-25",
+      "review_dates": [
+        "2026-09-26",
+        "2026-09-28",
+        "2026-10-02",
+        "2026-10-11",
+        "2026-10-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_learning"
     }
   ]
 }
