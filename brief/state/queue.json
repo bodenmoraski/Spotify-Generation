@@ -999,7 +999,7 @@
         "2026-09-25"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -1016,7 +1016,7 @@
         "2026-09-25"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gdelt_geopolitics"
     },
@@ -1033,7 +1033,7 @@
         "2026-09-25"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -1050,7 +1050,7 @@
         "2026-09-25"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Aeon"
     },
@@ -1067,7 +1067,7 @@
         "2026-09-25"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -1083,8 +1083,8 @@
         "2026-09-07",
         "2026-09-26"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "Transformer"
     },
@@ -1117,8 +1117,8 @@
         "2026-09-07",
         "2026-09-26"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -1134,8 +1134,8 @@
         "2026-09-07",
         "2026-09-26"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_br"
     },
@@ -1219,8 +1219,8 @@
         "2026-09-07",
         "2026-09-26"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -6102,6 +6102,159 @@
       "retired": false,
       "missed": false,
       "source": "gnews_learning"
+    },
+    {
+      "id": "2b64b3b7af86dc14f4b93c5e0b554a38d1c42b75",
+      "title": "Good points from James Gilliland",
+      "one_line": "Reframes deindustrialization as capital-accumulation prelude to AGI boom.",
+      "ingested_date": "2026-09-26",
+      "review_dates": [
+        "2026-09-27",
+        "2026-09-29",
+        "2026-10-03",
+        "2026-10-12",
+        "2026-10-31"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "edc9fa7af25f2820ddb6a4d852a783fc09e9d6e1",
+      "title": "Booksellers are sounding the alarm over Trump’s anti-antifascist presidential memo.",
+      "one_line": "Booksellers warn NSPM-7 could criminalize anti-fascist literature; real but niche alarm.",
+      "ingested_date": "2026-09-26",
+      "review_dates": [
+        "2026-09-27",
+        "2026-09-29",
+        "2026-10-03",
+        "2026-10-12",
+        "2026-10-31"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "90820086beda6d164c24261dd1dd1117db9a4aca",
+      "title": "Walkouts, threats, memes—why the UNGA now feels more like theatre than diplomacy",
+      "one_line": "Frames UNGA's decline into spectacle, but thin excerpt offers no new argument.",
+      "ingested_date": "2026-09-26",
+      "review_dates": [
+        "2026-09-27",
+        "2026-09-29",
+        "2026-10-03",
+        "2026-10-12",
+        "2026-10-31"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "0176ec0fd9ca2035b36d07099712a9293c8785c8",
+      "title": "How the Founder of Lady Gaga’s Biggest Fan Site Ended Up in Prison",
+      "one_line": "Unusual fan-site-to-prison narrative, but narrow celebrity-adjacent interest.",
+      "ingested_date": "2026-09-26",
+      "review_dates": [
+        "2026-09-27",
+        "2026-09-29",
+        "2026-10-03",
+        "2026-10-12",
+        "2026-10-31"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Pitchfork"
+    },
+    {
+      "id": "d7733c4c2311d42528647244442fe16b9f47b497",
+      "title": "Cúpula com Xi expõe limites da diplomacia de Trump em meio à guerra com o Irã",
+      "one_line": "Thin headline, no new argument or reframing; horse-race diplomacy coverage.",
+      "ingested_date": "2026-09-26",
+      "review_dates": [
+        "2026-09-27",
+        "2026-09-29",
+        "2026-10-03",
+        "2026-10-12",
+        "2026-10-31"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "e9e60dac27e21b7e5223b5884d54e6868267ecf4",
+      "title": "BAMEX 2026: Turning Mali Into Sahel’s Defence Hub says Chairman",
+      "one_line": "Trade expo promotion, no new argument or analysis.",
+      "ingested_date": "2026-09-26",
+      "review_dates": [
+        "2026-09-27",
+        "2026-09-29",
+        "2026-10-03",
+        "2026-10-12",
+        "2026-10-31"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_ke"
+    },
+    {
+      "id": "f746f7115f4eb403a2eab8319e07962314f47e9d",
+      "title": "Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure",
+      "one_line": "Shows ordinary task pressure alone drives adaptive monitor evasion, not adversarial intent.",
+      "ingested_date": "2026-09-26",
+      "review_dates": [
+        "2026-09-27",
+        "2026-09-29",
+        "2026-10-03",
+        "2026-10-12",
+        "2026-10-31"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "c7448f179ae1bbfae161f538af80187b4465fb0c",
+      "title": "Gravity Seems Holographic. What Does That Mean for Reality?",
+      "one_line": "Accessible reframing of holography's implications for the nature of reality.",
+      "ingested_date": "2026-09-26",
+      "review_dates": [
+        "2026-09-27",
+        "2026-09-29",
+        "2026-10-03",
+        "2026-10-12",
+        "2026-10-31"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
+    },
+    {
+      "id": "3ac9344b544ed6d722f0fe80bcf2fadf212c31b6",
+      "title": "Reasoning together",
+      "one_line": "Habermas as a model of changing one's mind through reasoned dialogue.",
+      "ingested_date": "2026-09-26",
+      "review_dates": [
+        "2026-09-27",
+        "2026-09-29",
+        "2026-10-03",
+        "2026-10-12",
+        "2026-10-31"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
     }
   ]
 }
