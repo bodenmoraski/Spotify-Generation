@@ -1,78 +1,6 @@
 {
   "items": [
     {
-      "id": "ca887490cccb34038b5b57eb921376e057198cf3",
-      "title": "Labor reallocation during the Industrial Revolution",
-      "title_norm": "labor reallocation during the industrial revolution",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/labor-reallocation-during-the-industrial-revolution.html?utm_source=rss&utm_medium=rss&utm_campaign=labor-reallocation-during-the-industrial-revolution",
-      "covered_date": "2026-09-12",
-      "one_line": "Census data shows young entry collapse, not displacement, absorbed mechanization shock."
-    },
-    {
-      "id": "872fee5873ef39bb00c473e603bdbb9755a1bb5e",
-      "title": "The War on Terror Through the Eyes of Queer Afghan Refugees",
-      "title_norm": "the war on terror through the eyes of queer afghan refugees",
-      "url": "https://lithub.com/the-war-on-terror-through-the-eyes-of-queer-afghan-refugees/",
-      "covered_date": "2026-09-12",
-      "one_line": "Reframes War on Terror via queer Afghan refugee fiction and 4.5M death toll."
-    },
-    {
-      "id": "68c90f2155d62403958d8c98f7d23329552a55ed",
-      "title": "The Arctic Reopens as a Geopolitical Theatre",
-      "title_norm": "the arctic reopens as a geopolitical theatre",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcVRyU0VHQVRnQUtycjdVazhjTTgzZTNwWk9kMnNlY1FteTR1SGMzbGxjMzBtbGtqRWtOVXg4dkJHVUVmMXdVUlUwUFh0RFVVU1BXTFBtSUo1OWxiT1VDcHlaOEw1RWtOU2NxS1hDS1VCUDJ4Vjg0Y29Ga0VSb1dTR3Z2b282dVlqbXpB?oc=5",
-      "covered_date": "2026-09-12",
-      "one_line": "Arctic geopolitics matters but headline lacks a novel argument or reframing."
-    },
-    {
-      "id": "bb370be1c05b5932d1cf25085ea61da63dae072e",
-      "title": "The Hi-Neighbor! Mayor",
-      "title_norm": "the hi neighbor mayor",
-      "url": "https://www.nplusonemag.com/online-only/online-only/the-hi-neighbor-mayor/",
-      "covered_date": "2026-09-12",
-      "one_line": "Local political profile; modest insight, limited reframing for a generalist."
-    },
-    {
-      "id": "12e9dd6851803557bf5ad9fd2920e7fa2e644576",
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "title_norm": "perplexity trusts gpt 6 astra with end to end systems",
-      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "covered_date": "2026-09-12",
-      "one_line": "Vendor case study; no new argument, just a product adoption anecdote."
-    },
-    {
-      "id": "b1c8f0004508c0fcb7268cc248537bdc8905dc3e",
-      "title": "Do k-pop \u00e0 diplomacia: como a cultura impulsiona a parceria Brasil-Coreia do Sul",
-      "title_norm": "do k pop \u00e0 diplomacia como a cultura impulsiona a parceria brasil coreia do sul",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPclhlZlpyS1pHeFZ3RHZldDUtSUc4UjZrWFpzUHc4aGFuRXFOMnZYU01WYWRjVFo0eTJ3eUFkRU01STlpQ3NqVTVkQTBROVNidkNPNGlCOURrR21GcS16MVpmQ0psSmxMdGhLcTQ3YklfWU1WdWVhU0N2NmJaVXVvMTkyWVZ2QWpPUUljc1FvLXJZTXJGY1ZTX0xhNWVXSnZRZGFESGpSaGl5c0dGZTVJejVtRzljVFNFRzlSQU51UQ?oc=5",
-      "covered_date": "2026-09-12",
-      "one_line": "Generic cultural diplomacy piece; no new argument or reframing."
-    },
-    {
-      "id": "ad42ed210eb6afa5add86311cdf283d4e117367b",
-      "title": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
-      "title_norm": "data scarcity and model sparsity mixtures of experts overfit more to repeated data",
-      "url": "https://arxiv.org/abs/2609.11917v1",
-      "covered_date": "2026-09-12",
-      "one_line": "MoEs overfit to repeated data far faster than dense models, undercutting sparsity benefits."
-    },
-    {
-      "id": "e369763456914d4fc7b1e451bec7ab2d409ce441",
-      "title": "Metamorphosis: Transformations in the Early Modern Flap Book (early 19th century)",
-      "title_norm": "metamorphosis transformations in the early modern flap book early 19th century",
-      "url": "https://publicdomainreview.org/collection/metamorphosis-early-modern-flap-book",
-      "covered_date": "2026-09-12",
-      "one_line": "Flap books encoding metamorphosis and mortality\u2014charming, unexpected window into early media."
-    },
-    {
-      "id": "e5bcb60e79c1838ed54d93a395e5037f5e13505e",
-      "title": "Rope, Twine and Thread: Invisible Technologies of the Stone Age",
-      "title_norm": "rope twine and thread invisible technologies of the stone age",
-      "url": "https://nautil.us/rope-twine-and-thread-invisible-technologies-of-the-stone-age-1284982/",
-      "covered_date": "2026-09-12",
-      "one_line": "Reframes Stone Age tech around perishable fiber, a genuinely overlooked innovation."
-    },
-    {
       "id": "beb0f92b377e4cdf848f2c4b06fbfbcf0534d8ea",
       "title": "Diversity Is Our Strength?",
       "title_norm": "diversity is our strength",
@@ -983,6 +911,70 @@
       "url": "https://aeon.co/essays/habermass-theory-of-truth-meant-he-changed-his-mind",
       "covered_date": "2026-09-26",
       "one_line": "Habermas as a model of changing one's mind through reasoned dialogue."
+    },
+    {
+      "id": "78e965477b21845d1659d32244a712e6b0b24810",
+      "title": "The Federal Lands: An Economic Property Rights Perspective",
+      "title_norm": "the federal lands an economic property rights perspective",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/the-federal-lands-an-economic-property-rights-perspective.html?utm_source=rss&utm_medium=rss&utm_campaign=the-federal-lands-an-economic-property-rights-perspective",
+      "covered_date": "2026-09-27",
+      "one_line": "Reframes federal land as property-rights failure; challenges Progressive Era conservation orthodoxy."
+    },
+    {
+      "id": "9395f972d12d34e901a76c3c0e3182b12edf558b",
+      "title": "Switzerland Votes on Stricter Neutrality Rules That Could Limit NATO Ties",
+      "title_norm": "switzerland votes on stricter neutrality rules that could limit nato ties",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMEJTN3MtX29SRDAyaW5WTFZ0U2w2LVR5Q0N3VlNaTGh4cEMxcnJNNVFfRkEyeGxHVlprUFZuZm9xTzU1WDFSOWNHWkF2Uml5UnZlR01zRkk5R2FlWVZKeTNmd1I3dDgxYjhoYWhmRnV3MHdYTF9OMUhlNTU5OFZKQWIyOGNJM29xTVhmS1JuamYwWkhPckVheFlfRnBxdkVCeWVEbjJqY2RFa3NpYk9oZ2RR?oc=5",
+      "covered_date": "2026-09-27",
+      "one_line": "Referendum on Swiss neutrality could reshape European security; modest reframing value."
+    },
+    {
+      "id": "a0c6189cdf970a2b065cf527630c3ec2563e4c4b",
+      "title": "\u041a\u0438\u0442\u0430\u0439 \u043c\u043e\u0436\u0435 \u043f\u0435\u0440\u0435\u043a\u0440\u0438\u0442\u0438 \u0420\u043e\u0441\u0456\u0457 \u0440\u0435\u0441\u0443\u0440\u0441\u0438 \u0434\u043b\u044f \u0432\u0456\u0439\u043d\u0438 - \u0447\u043e\u043c\u0443 \u041f\u0443\u0442\u0456\u043d \u043d\u0430\u0441\u0442\u0456\u043b\u044c\u043a\u0438 \u0437\u0430\u043b\u0435\u0436\u0438\u0442\u044c \u0432\u0456\u0434 \u041f\u0435\u043a\u0456\u043d\u0430",
+      "title_norm": "\u043a\u0438\u0442\u0430\u0439 \u043c\u043e\u0436\u0435 \u043f\u0435\u0440\u0435\u043a\u0440\u0438\u0442\u0438 \u0440\u043e\u0441\u0456\u0457 \u0440\u0435\u0441\u0443\u0440\u0441\u0438 \u0434\u043b\u044f \u0432\u0456\u0439\u043d\u0438 \u0447\u043e\u043c\u0443 \u043f\u0443\u0442\u0456\u043d \u043d\u0430\u0441\u0442\u0456\u043b\u044c\u043a\u0438 \u0437\u0430\u043b\u0435\u0436\u0438\u0442\u044c \u0432\u0456\u0434 \u043f\u0435\u043a\u0456\u043d\u0430",
+      "url": "https://24tv.ua/kitay-mozhe-perekriti-rosiyi-resursi-dlya-viyni-chomu-putin-nastilki_n3149868",
+      "covered_date": "2026-09-27",
+      "one_line": "China-Russia dependency analysis, but thin excerpt and no novel argument."
+    },
+    {
+      "id": "946a0686cf538e43d0963497624be0fcf57ea72e",
+      "title": "O chefe da diplomacia da China afirmou que a visita de Xi Jinping a Washington, onde se reuniu com Donald Trump, enviou um \u201csinal positivo\u201d de aproxima\u00e7\u00e3o e coexist\u00eancia pac\u00edfica entre os dois pa\u00edses.",
+      "title_norm": "o chefe da diplomacia da china afirmou que a visita de xi jinping a washington onde se reuniu com donald trump enviou um sinal positivo de aproxima\u00e7\u00e3o e coexist\u00eancia pac\u00edfica entre os dois pa\u00edses",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdURJMmlJTElVWlNDbFRDeXdVVmZaRGVkTXFoc09odnFUaXBvSHFzcVVWQ3pOa1N2WG82MVVoaDUtYllvSGtNRTE5TzIxSnZOZkFGemNlamRWR3c4czRpUEx2RTgwUXI0SEx4c0o5TDJrZC1wM1NvdDR1SGpUTGNpaVJRX2R5dFFnV0h2RGE2MTBkd3BDNjY5YXowaHppcV8tM2wwcklmdTVuSVVlWmRheWtDSjlfZThQeGh4SWNnc3I2R29hbzZBSXdGMXBkRHJScWx2YS1HNXlPRl9lamI0?oc=5",
+      "covered_date": "2026-09-27",
+      "one_line": "Diplomatic statement on Xi-Trump meeting; routine coverage, no new argument."
+    },
+    {
+      "id": "bf39f0a4b7e2777d9cef913d2cb0ca1b49126ce5",
+      "title": "Woman Who Accused Jay-Z of Rape Withdraws Allegations",
+      "title_norm": "woman who accused jay z of rape withdraws allegations",
+      "url": "https://pitchfork.com/story/woman-who-accused-jay-z-of-rape-withdraws-allegations/",
+      "covered_date": "2026-09-27",
+      "one_line": "Celebrity legal news; recency-driven, no reframing argument."
+    },
+    {
+      "id": "f6e974343d5c05ae7a04d24668702bb8604b9b2e",
+      "title": "PoEM: Predicting RL Outcomes from Existing Policies",
+      "title_norm": "poem predicting rl outcomes from existing policies",
+      "url": "https://arxiv.org/abs/2609.30226v1",
+      "covered_date": "2026-09-27",
+      "one_line": "Predicting RL post-training outcomes without running RL reframes alignment cost."
+    },
+    {
+      "id": "bc89aaf95424b0ff6d088837ac314c1da4e73039",
+      "title": "Addictions are anesthesia",
+      "title_norm": "addictions are anesthesia",
+      "url": "https://www.lesswrong.com/posts/PFgzLmEZSBrztDBpu/addictions-are-anesthesia",
+      "covered_date": "2026-09-27",
+      "one_line": "Reframes addiction as anesthesia for suffering, not a willpower failure."
+    },
+    {
+      "id": "7ab5691b8ec617fece851ff2f759a940a412f230",
+      "title": "Why We Stay Afraid",
+      "title_norm": "why we stay afraid",
+      "url": "https://nautil.us/why-we-stay-afraid-1285292/",
+      "covered_date": "2026-09-27",
+      "one_line": "New brain region explains lingering fear; reframes anxiety as circuit-level."
     }
   ]
 }

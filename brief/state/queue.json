@@ -1101,7 +1101,7 @@
         "2026-09-26"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Public Books"
     },
@@ -1152,7 +1152,7 @@
         "2026-09-26"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Google DeepMind"
     },
@@ -1169,7 +1169,7 @@
         "2026-09-26"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -1186,7 +1186,7 @@
         "2026-09-26"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -1203,7 +1203,7 @@
         "2026-09-26"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "The Learning Scientists"
     },
@@ -1270,8 +1270,8 @@
         "2026-09-08",
         "2026-09-27"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -1287,8 +1287,8 @@
         "2026-09-08",
         "2026-09-27"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -1338,8 +1338,8 @@
         "2026-09-08",
         "2026-09-27"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -1355,8 +1355,8 @@
         "2026-09-08",
         "2026-09-27"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -6255,6 +6255,142 @@
       "retired": false,
       "missed": false,
       "source": "Aeon"
+    },
+    {
+      "id": "78e965477b21845d1659d32244a712e6b0b24810",
+      "title": "The Federal Lands: An Economic Property Rights Perspective",
+      "one_line": "Reframes federal land as property-rights failure; challenges Progressive Era conservation orthodoxy.",
+      "ingested_date": "2026-09-27",
+      "review_dates": [
+        "2026-09-28",
+        "2026-09-30",
+        "2026-10-04",
+        "2026-10-13",
+        "2026-11-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "9395f972d12d34e901a76c3c0e3182b12edf558b",
+      "title": "Switzerland Votes on Stricter Neutrality Rules That Could Limit NATO Ties",
+      "one_line": "Referendum on Swiss neutrality could reshape European security; modest reframing value.",
+      "ingested_date": "2026-09-27",
+      "review_dates": [
+        "2026-09-28",
+        "2026-09-30",
+        "2026-10-04",
+        "2026-10-13",
+        "2026-11-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "a0c6189cdf970a2b065cf527630c3ec2563e4c4b",
+      "title": "Китай може перекрити Росії ресурси для війни - чому Путін настільки залежить від Пекіна",
+      "one_line": "China-Russia dependency analysis, but thin excerpt and no novel argument.",
+      "ingested_date": "2026-09-27",
+      "review_dates": [
+        "2026-09-28",
+        "2026-09-30",
+        "2026-10-04",
+        "2026-10-13",
+        "2026-11-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gdelt_geopolitics"
+    },
+    {
+      "id": "946a0686cf538e43d0963497624be0fcf57ea72e",
+      "title": "O chefe da diplomacia da China afirmou que a visita de Xi Jinping a Washington, onde se reuniu com Donald Trump, enviou um “sinal positivo” de aproximação e coexistência pacífica entre os dois países.",
+      "one_line": "Diplomatic statement on Xi-Trump meeting; routine coverage, no new argument.",
+      "ingested_date": "2026-09-27",
+      "review_dates": [
+        "2026-09-28",
+        "2026-09-30",
+        "2026-10-04",
+        "2026-10-13",
+        "2026-11-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "bf39f0a4b7e2777d9cef913d2cb0ca1b49126ce5",
+      "title": "Woman Who Accused Jay-Z of Rape Withdraws Allegations",
+      "one_line": "Celebrity legal news; recency-driven, no reframing argument.",
+      "ingested_date": "2026-09-27",
+      "review_dates": [
+        "2026-09-28",
+        "2026-09-30",
+        "2026-10-04",
+        "2026-10-13",
+        "2026-11-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Pitchfork"
+    },
+    {
+      "id": "f6e974343d5c05ae7a04d24668702bb8604b9b2e",
+      "title": "PoEM: Predicting RL Outcomes from Existing Policies",
+      "one_line": "Predicting RL post-training outcomes without running RL reframes alignment cost.",
+      "ingested_date": "2026-09-27",
+      "review_dates": [
+        "2026-09-28",
+        "2026-09-30",
+        "2026-10-04",
+        "2026-10-13",
+        "2026-11-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "bc89aaf95424b0ff6d088837ac314c1da4e73039",
+      "title": "Addictions are anesthesia",
+      "one_line": "Reframes addiction as anesthesia for suffering, not a willpower failure.",
+      "ingested_date": "2026-09-27",
+      "review_dates": [
+        "2026-09-28",
+        "2026-09-30",
+        "2026-10-04",
+        "2026-10-13",
+        "2026-11-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "7ab5691b8ec617fece851ff2f759a940a412f230",
+      "title": "Why We Stay Afraid",
+      "one_line": "New brain region explains lingering fear; reframes anxiety as circuit-level.",
+      "ingested_date": "2026-09-27",
+      "review_dates": [
+        "2026-09-28",
+        "2026-09-30",
+        "2026-10-04",
+        "2026-10-13",
+        "2026-11-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
     }
   ]
 }
