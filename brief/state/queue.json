@@ -1237,7 +1237,7 @@
         "2026-09-27"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -1254,7 +1254,7 @@
         "2026-09-27"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gdelt_geopolitics"
     },
@@ -1305,7 +1305,7 @@
         "2026-09-27"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_br"
     },
@@ -1322,7 +1322,7 @@
         "2026-09-27"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Pitchfork"
     },
@@ -1373,7 +1373,7 @@
         "2026-09-27"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -1389,8 +1389,8 @@
         "2026-09-09",
         "2026-09-28"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -1423,8 +1423,8 @@
         "2026-09-09",
         "2026-09-28"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -1457,8 +1457,8 @@
         "2026-09-09",
         "2026-09-28"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_br"
     },
@@ -1508,8 +1508,8 @@
         "2026-09-09",
         "2026-09-28"
       ],
-      "reviews_done": 2,
-      "retired": false,
+      "reviews_done": 3,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -6391,6 +6391,142 @@
       "retired": false,
       "missed": false,
       "source": "Nautilus"
+    },
+    {
+      "id": "1d8c9b5ad3f298c828ec4acd47c528700b16b0e5",
+      "title": "AI in science",
+      "one_line": "Data shows AI shifts science bottlenecks downstream, not just speeds it up",
+      "ingested_date": "2026-09-28",
+      "review_dates": [
+        "2026-09-29",
+        "2026-10-01",
+        "2026-10-05",
+        "2026-10-14",
+        "2026-11-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "af5a2414744d83d146ce723606c50966dd69edff",
+      "title": "If We Rot, You Rot with Us",
+      "one_line": "Reframes literary nonsense as a weapon of the powerless, not child's play.",
+      "ingested_date": "2026-09-28",
+      "review_dates": [
+        "2026-09-29",
+        "2026-10-01",
+        "2026-10-05",
+        "2026-10-14",
+        "2026-11-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "1242c49b30d5422738f756b2385023bb6ff78ebf",
+      "title": "Qatar, Pakistan and Egypt Are the New Mediators, and None of Them Is Neutral",
+      "one_line": "Reframes mediation as self-interested, not neutral; a real analytical angle.",
+      "ingested_date": "2026-09-28",
+      "review_dates": [
+        "2026-09-29",
+        "2026-10-01",
+        "2026-10-05",
+        "2026-10-14",
+        "2026-11-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "a69b6792bcf50f28a5b9139fa50c2d951f775c28",
+      "title": "Iran agrees to halt uranium enrichment in exchange for sanctions relief , frozen assets : Report",
+      "one_line": "Major geopolitical shift, but report lacks detail and is unverified.",
+      "ingested_date": "2026-09-28",
+      "review_dates": [
+        "2026-09-29",
+        "2026-10-01",
+        "2026-10-05",
+        "2026-10-14",
+        "2026-11-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gdelt_geopolitics"
+    },
+    {
+      "id": "34c04e7e129f66d8d353027e17943606d3bb6971",
+      "title": "William T. Vollmann on Trying to Excavate American Foreign Policy From the Cold War to the War on Terror",
+      "one_line": "Vollmann's self-commentary on novel form and civic duty; interesting but not reframing.",
+      "ingested_date": "2026-09-28",
+      "review_dates": [
+        "2026-09-29",
+        "2026-10-01",
+        "2026-10-05",
+        "2026-10-14",
+        "2026-11-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "0e89b9bbf0f9ce52251c2e342a77b488508855fe",
+      "title": "Resposta global negligente ao ebola é marca da desigualdade geopolítica na saúde",
+      "one_line": "Critique of unequal global health response; familiar argument, thin excerpt.",
+      "ingested_date": "2026-09-28",
+      "review_dates": [
+        "2026-09-29",
+        "2026-10-01",
+        "2026-10-05",
+        "2026-10-14",
+        "2026-11-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "7dc4848ae56c9c69f4a29d3364c6cdacc7c4f328",
+      "title": "Fire in the Brain: How Psychosis May Arise When the Body Attacks Itself",
+      "one_line": "Autoimmune psychosis reframes mental illness as treatable body-brain disorder.",
+      "ingested_date": "2026-09-28",
+      "review_dates": [
+        "2026-09-29",
+        "2026-10-01",
+        "2026-10-05",
+        "2026-10-14",
+        "2026-11-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
+    },
+    {
+      "id": "9bebf38f9930a3125203dca81732f5b277ab592b",
+      "title": "Mathematicians Harness Randomness To Crack a 55-Year-Old Conjecture",
+      "one_line": "Randomness cracking a 55-year-old conjecture is a genuinely intriguing math result.",
+      "ingested_date": "2026-09-28",
+      "review_dates": [
+        "2026-09-29",
+        "2026-10-01",
+        "2026-10-05",
+        "2026-10-14",
+        "2026-11-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
     }
   ]
 }
