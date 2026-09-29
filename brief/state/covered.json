@@ -1,70 +1,6 @@
 {
   "items": [
     {
-      "id": "7f8fd7ece9005581dedd517c51dd9682ae6ddd7b",
-      "title": "Current alignment techniques might be ineffective (and actively bad) in the age of RL",
-      "title_norm": "current alignment techniques might be ineffective and actively bad in the age of rl",
-      "url": "https://www.lesswrong.com/posts/nLaQmJf4KgXimQpoM/current-alignment-techniques-might-be-ineffective-and",
-      "covered_date": "2026-09-14",
-      "one_line": "Argues alignment techniques may mask, not fix, RL-induced misalignment."
-    },
-    {
-      "id": "73fb52be47fd55387d5284bc911308d3d03f74e5",
-      "title": "AI, Redistribution, and the Size of the Pie",
-      "title_norm": "ai redistribution and the size of the pie",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/ai-redistribution-and-the-size-of-the-pie.html?utm_source=rss&utm_medium=rss&utm_campaign=ai-redistribution-and-the-size-of-the-pie",
-      "covered_date": "2026-09-14",
-      "one_line": "Reframes AI labor-share fears: falling share can still mean equal labor income."
-    },
-    {
-      "id": "b33c484165c87b358f172d735b6af6a5ccac43f3",
-      "title": "Rachel Cusk\u2019s Diminishing Returns",
-      "title_norm": "rachel cusk s diminishing returns",
-      "url": "https://www.publicbooks.org/rachel-cusksdiminishing-returns/",
-      "covered_date": "2026-09-14",
-      "one_line": "Critical argument that Cusk's formal invention now outpaces her thinking."
-    },
-    {
-      "id": "3601ce843931a8789be8c1b4c5b6108d8107e98c",
-      "title": "A Question of Innocence: On Writing About Real and Imagined Lives In and Outside of Prison",
-      "title_norm": "a question of innocence on writing about real and imagined lives in and outside of prison",
-      "url": "https://lithub.com/a-question-of-innocence-on-writing-about-real-and-imagined-lives-in-and-outside-of-prison/",
-      "covered_date": "2026-09-14",
-      "one_line": "Prison writer on fiction mirroring his life; genuine moral reflection."
-    },
-    {
-      "id": "1bc6e0a80dd7bff595d775fe8e22868baf5e5428",
-      "title": "BRICS is built on economic grievance, not geopolitics",
-      "title_norm": "brics is built on economic grievance not geopolitics",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNM0xHZ3hwdVhjOEFFRF9HNGpnNUNZdmZHSmdHUEJSSVR6dzdrM2gzZTBEbU5BWjN4Z0JvY0EzeHMxS2RCbVJkc01VV1pDSEIwYWNqX1VIUndGdmpLZjd0SWlzeUN6NXE3b1VCRTNKeW1uY0d0RG5HQ29SZnNvVm16WEdHVlNSQTBB?oc=5",
-      "covered_date": "2026-09-14",
-      "one_line": "Contrarian framing of BRICS as economics-driven, but thin excerpt limits insight."
-    },
-    {
-      "id": "2b18fcc9e790266cd2492ad9e0707479fc06d803",
-      "title": "INTERVIEW| Yemen, Horn of Africa, Sahel tensions pose growing challenges for Egypt - Politics - Egypt",
-      "title_norm": "interview yemen horn of africa sahel tensions pose growing challenges for egypt politics egypt",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZUEZLOENzeWRvYXAtQXFlTHNpSzVyVnNZR2M4dXJBeGdzeURkaFRyeFZKT25WWnJZR0hHWDN3SEo4allCOXNacjBNaldHSDNwc2x4TFh1RjY?oc=5",
-      "covered_date": "2026-09-14",
-      "one_line": "Regional security analysis, but thin excerpt and no novel argument."
-    },
-    {
-      "id": "d9684e6f99dcc78f6110cd45bb44a685f72b8353",
-      "title": "Black Holes or Black Hole Stars? Astronomers Spar Over Webb Telescope\u2019s \u2018Little Red Dots.\u2019",
-      "title_norm": "black holes or black hole stars astronomers spar over webb telescope s little red dots",
-      "url": "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/",
-      "covered_date": "2026-09-14",
-      "one_line": "Webb's 'little red dots' may be black hole stars, reframing early galaxy formation."
-    },
-    {
-      "id": "207102c81e77ed620d84c800cb94a0f3ac10877c",
-      "title": "The bombarding of childhood",
-      "title_norm": "the bombarding of childhood",
-      "url": "https://aeon.co/essays/its-not-just-screen-time-kids-are-bombarded-by-hectic-media",
-      "covered_date": "2026-09-14",
-      "one_line": "Reframes screen-time debate as sensory bombardment, a fresh angle on kids' media."
-    },
-    {
       "id": "2258eb631d5d896d78cff240744f7a347a621c1c",
       "title": "Model Weight Exfiltration Seems Overrated",
       "title_norm": "model weight exfiltration seems overrated",
@@ -975,6 +911,78 @@
       "url": "https://www.quantamagazine.org/mathematicians-harness-randomness-to-crack-a-55-year-old-conjecture-20260928/",
       "covered_date": "2026-09-28",
       "one_line": "Randomness cracking a 55-year-old conjecture is a genuinely intriguing math result."
+    },
+    {
+      "id": "f54724e502da10d4bc16c4334d29063506f28cf0",
+      "title": "The Macroeconomic Effect of AI through software engineering",
+      "title_norm": "the macroeconomic effect of ai through software engineering",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/the-macroeconomic-effect-of-ai-through-software-engineering.html?utm_source=rss&utm_medium=rss&utm_campaign=the-macroeconomic-effect-of-ai-through-software-engineering",
+      "covered_date": "2026-09-29",
+      "one_line": "Market-implied AI productivity gains: 3.6-6.5% GDP, a concrete macro reframing."
+    },
+    {
+      "id": "88fd0bfbb9abf31a5c4775b6bf975a9b317f8aaf",
+      "title": "Scrapping Astra 6.1 looks like a good call. OpenAI shouldn\u2019t be the one to make it.",
+      "title_norm": "scrapping astra 6 1 looks like a good call openai shouldn t be the one to make it",
+      "url": "https://www.transformernews.ai/p/astra-61-scrap-shouldnt-be-openai-decision",
+      "covered_date": "2026-09-29",
+      "one_line": "Argues private labs shouldn't unilaterally decide model release safety."
+    },
+    {
+      "id": "2e15f6f352563dcff01f51b8497bd0ea86c2752d",
+      "title": "Personal Yet Systemic: On Antiblackness as a Social, Historical and Cultural Phenomenon",
+      "title_norm": "personal yet systemic on antiblackness as a social historical and cultural phenomenon",
+      "url": "https://lithub.com/personal-yet-systemic-on-antiblackness-as-a-social-historical-and-cultural-phenomenon/",
+      "covered_date": "2026-09-29",
+      "one_line": "Reframes antiblackness as a systemic analytic, challenging liberal progress narratives."
+    },
+    {
+      "id": "cf468ec39dd67f092816e8f2d846aee26f3a6e5e",
+      "title": "Towards safety cases for frontier AI training",
+      "title_norm": "towards safety cases for frontier ai training",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "covered_date": "2026-09-29",
+      "one_line": "Framing frontier training as a safety-case problem is a substantive governance idea."
+    },
+    {
+      "id": "ddd8e304dd690f706d64a31e6cd054a3d2994dfc",
+      "title": "US Exit From Iraq Opens a New Battle for Influence",
+      "title_norm": "us exit from iraq opens a new battle for influence",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTHpHWEtnME9VOHU5a0R1RF82Qmh2T2xRcDhlclUzYWFDaEViNTc0eHVoVldSNlAybEtKMUZXY0VadnZIeTZDTGhNbGhSSGdMd3Y3Uk1TUFM5ejlGZVhaVmQ0MjlkbHBUM1BsRENzcXNjTVg1QnNMWjk5aW4wLTVxRXNfQnpGWnJ0Ni1lLWRBbWdnNnE3TXRTUUxHYjRCSlYyaEpiQ2VjQ1pHdDRZZHFFTDBR?oc=5",
+      "covered_date": "2026-09-29",
+      "one_line": "Geopolitical analysis of post-US Iraq power vacuum; modest reframing."
+    },
+    {
+      "id": "ff302f9ffcfac56e0f466808cbf58cf1703171cf",
+      "title": "Minerais cr\u00edticos: quando a geologia vira geopol\u00edtica",
+      "title_norm": "minerais cr\u00edticos quando a geologia vira geopol\u00edtica",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU0lPSTlZRF9XalZPUlAzajhfSV91SllDMGRhRUQ2RE4tMWJMXzVkYlFha1FwaG5OS1FhUlhETUlvazRxanh0LTlzVzRsS0NjbW8zbXVrVHBvR2c5dk81VEJUQXZXeEVwNVV4cDFxZHlaTU5iSW9wUmc0R3VFb1ZvcktjYlZsNWQtYS13bHk5dkRyWFVBd1NTcU0zeC1EZw?oc=5",
+      "covered_date": "2026-09-29",
+      "one_line": "Geopolitics of critical minerals; relevant but headline-level, no new argument."
+    },
+    {
+      "id": "fb5d7c3b970bda25777ef274d125c8e19b39ee2a",
+      "title": "AI Agent Swarms as Researchers: Progress, Challenges, and Open Questions",
+      "title_norm": "ai agent swarms as researchers progress challenges and open questions",
+      "url": "https://arxiv.org/abs/2609.35719v1",
+      "covered_date": "2026-09-29",
+      "one_line": "Agent swarms produced real proofs; review, not production, now the bottleneck."
+    },
+    {
+      "id": "88c6964b7534360fda06e059554569c2274d960f",
+      "title": "Mosquitoes are a choice",
+      "title_norm": "mosquitoes are a choice",
+      "url": "https://worksinprogress.co/issue/mosquitoes-are-a-choice/",
+      "covered_date": "2026-09-29",
+      "one_line": "Argues malaria eradication is a solvable choice, not inevitability."
+    },
+    {
+      "id": "594aa6b92cc86f7a186a0e6f30481458b3425dc1",
+      "title": "Don\u2019t use the \u2018C-word\u2019",
+      "title_norm": "don t use the c word",
+      "url": "https://aeon.co/essays/we-need-a-better-way-to-describe-what-is-often-called-cancer",
+      "covered_date": "2026-09-29",
+      "one_line": "Argues cancer label itself harms; reframes diagnosis as a choice."
     }
   ]
 }

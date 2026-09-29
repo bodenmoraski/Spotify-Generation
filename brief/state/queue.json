@@ -1407,7 +1407,7 @@
         "2026-09-28"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -1441,7 +1441,7 @@
         "2026-09-28"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -1475,7 +1475,7 @@
         "2026-09-28"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_ke"
     },
@@ -1492,7 +1492,7 @@
         "2026-09-28"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -1542,8 +1542,8 @@
         "2026-09-10",
         "2026-09-29"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -1559,8 +1559,8 @@
         "2026-09-10",
         "2026-09-29"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "gdelt_geopolitics"
     },
@@ -1576,8 +1576,8 @@
         "2026-09-10",
         "2026-09-29"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -1661,8 +1661,8 @@
         "2026-09-10",
         "2026-09-29"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -6527,6 +6527,159 @@
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
+    },
+    {
+      "id": "f54724e502da10d4bc16c4334d29063506f28cf0",
+      "title": "The Macroeconomic Effect of AI through software engineering",
+      "one_line": "Market-implied AI productivity gains: 3.6-6.5% GDP, a concrete macro reframing.",
+      "ingested_date": "2026-09-29",
+      "review_dates": [
+        "2026-09-30",
+        "2026-10-02",
+        "2026-10-06",
+        "2026-10-15",
+        "2026-11-03"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "88fd0bfbb9abf31a5c4775b6bf975a9b317f8aaf",
+      "title": "Scrapping Astra 6.1 looks like a good call. OpenAI shouldn’t be the one to make it.",
+      "one_line": "Argues private labs shouldn't unilaterally decide model release safety.",
+      "ingested_date": "2026-09-29",
+      "review_dates": [
+        "2026-09-30",
+        "2026-10-02",
+        "2026-10-06",
+        "2026-10-15",
+        "2026-11-03"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "2e15f6f352563dcff01f51b8497bd0ea86c2752d",
+      "title": "Personal Yet Systemic: On Antiblackness as a Social, Historical and Cultural Phenomenon",
+      "one_line": "Reframes antiblackness as a systemic analytic, challenging liberal progress narratives.",
+      "ingested_date": "2026-09-29",
+      "review_dates": [
+        "2026-09-30",
+        "2026-10-02",
+        "2026-10-06",
+        "2026-10-15",
+        "2026-11-03"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "cf468ec39dd67f092816e8f2d846aee26f3a6e5e",
+      "title": "Towards safety cases for frontier AI training",
+      "one_line": "Framing frontier training as a safety-case problem is a substantive governance idea.",
+      "ingested_date": "2026-09-29",
+      "review_dates": [
+        "2026-09-30",
+        "2026-10-02",
+        "2026-10-06",
+        "2026-10-15",
+        "2026-11-03"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "OpenAI"
+    },
+    {
+      "id": "ddd8e304dd690f706d64a31e6cd054a3d2994dfc",
+      "title": "US Exit From Iraq Opens a New Battle for Influence",
+      "one_line": "Geopolitical analysis of post-US Iraq power vacuum; modest reframing.",
+      "ingested_date": "2026-09-29",
+      "review_dates": [
+        "2026-09-30",
+        "2026-10-02",
+        "2026-10-06",
+        "2026-10-15",
+        "2026-11-03"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "ff302f9ffcfac56e0f466808cbf58cf1703171cf",
+      "title": "Minerais críticos: quando a geologia vira geopolítica",
+      "one_line": "Geopolitics of critical minerals; relevant but headline-level, no new argument.",
+      "ingested_date": "2026-09-29",
+      "review_dates": [
+        "2026-09-30",
+        "2026-10-02",
+        "2026-10-06",
+        "2026-10-15",
+        "2026-11-03"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "fb5d7c3b970bda25777ef274d125c8e19b39ee2a",
+      "title": "AI Agent Swarms as Researchers: Progress, Challenges, and Open Questions",
+      "one_line": "Agent swarms produced real proofs; review, not production, now the bottleneck.",
+      "ingested_date": "2026-09-29",
+      "review_dates": [
+        "2026-09-30",
+        "2026-10-02",
+        "2026-10-06",
+        "2026-10-15",
+        "2026-11-03"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "88c6964b7534360fda06e059554569c2274d960f",
+      "title": "Mosquitoes are a choice",
+      "one_line": "Argues malaria eradication is a solvable choice, not inevitability.",
+      "ingested_date": "2026-09-29",
+      "review_dates": [
+        "2026-09-30",
+        "2026-10-02",
+        "2026-10-06",
+        "2026-10-15",
+        "2026-11-03"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Works in Progress"
+    },
+    {
+      "id": "594aa6b92cc86f7a186a0e6f30481458b3425dc1",
+      "title": "Don’t use the ‘C-word’",
+      "one_line": "Argues cancer label itself harms; reframes diagnosis as a choice.",
+      "ingested_date": "2026-09-29",
+      "review_dates": [
+        "2026-09-30",
+        "2026-10-02",
+        "2026-10-06",
+        "2026-10-15",
+        "2026-11-03"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
     }
   ]
 }
