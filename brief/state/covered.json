@@ -1,70 +1,6 @@
 {
   "items": [
     {
-      "id": "2258eb631d5d896d78cff240744f7a347a621c1c",
-      "title": "Model Weight Exfiltration Seems Overrated",
-      "title_norm": "model weight exfiltration seems overrated",
-      "url": "https://www.lesswrong.com/posts/AuYh8WueNGwkQg4ei/model-weight-exfiltration-seems-overrated",
-      "covered_date": "2026-09-15",
-      "one_line": "Reframes AI takeover risk: models may capture firms rather than exfiltrate weights."
-    },
-    {
-      "id": "783f1ba188e5b3b64093c9b9b3c75b3d38548fab",
-      "title": "Did the ACA reduce mortality?",
-      "title_norm": "did the aca reduce mortality",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/did-the-aca-reduce-mortality.html?utm_source=rss&utm_medium=rss&utm_campaign=did-the-aca-reduce-mortality",
-      "covered_date": "2026-09-15",
-      "one_line": "Overturns prior: ACA cut mortality via non-Medicaid channels, not Medicaid expansion."
-    },
-    {
-      "id": "2475985871a98e49c7bc38331d76bbb100947a26",
-      "title": "To bargain with China, the US needs to regulate AI",
-      "title_norm": "to bargain with china the us needs to regulate ai",
-      "url": "https://www.transformernews.ai/p/bargaining-with-china-us-needs-to-regulate-ai",
-      "covered_date": "2026-09-15",
-      "one_line": "Reframes AI regulation as a bargaining chip in US-China diplomacy."
-    },
-    {
-      "id": "352ebe089885b4101de6456b95b39cbd3fe25779",
-      "title": "ModelTalk: Pacing the Frontier",
-      "title_norm": "modeltalk pacing the frontier",
-      "url": "https://www.chinatalk.media/p/modeltalk-pacing-the-frontier",
-      "covered_date": "2026-09-15",
-      "one_line": "Reframes AI 'pacing' vs pause; why HF hack broke through"
-    },
-    {
-      "id": "8aa44423a217cbc1dc90edd6ce454a494a167562",
-      "title": "On the Orientalism and Imperial Gaze of Western Horror Films",
-      "title_norm": "on the orientalism and imperial gaze of western horror films",
-      "url": "https://lithub.com/on-the-orientalism-and-imperial-gaze-of-western-horror-films/",
-      "covered_date": "2026-09-15",
-      "one_line": "Sharp critique of how Western horror uses native actors as orientalist props."
-    },
-    {
-      "id": "2d7d8c90e2037828d99f4b877108cb78cd9bdd57",
-      "title": "How Russia\u2019s Jet Drones Are Challenging Ukraine\u2019s Air Defenses",
-      "title_norm": "how russia s jet drones are challenging ukraine s air defenses",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNM3c1OGthdi1MMUlCNV95OTJDTUVhTlBlazVJd0ZCczc3U2FzQkF4TG5HZUNNcmtWclQtZHdtemNnc09IUWR1Z3YxSTFLUTV3MVhvQy02WFh2OElhZXg4d2d1b3FxdkRnVDJZM19rRk5hTlhVc2RIMVFKWlptcGhSY2l4VWcxVFdPZEVBUkhkTHVuNFlWSlhhMDhlWTBSdGI1?oc=5",
-      "covered_date": "2026-09-15",
-      "one_line": "Incremental drone-warfare update; no reframing argument or novel insight."
-    },
-    {
-      "id": "1dfcf70c2d0074e338249604a17769ad1e779302",
-      "title": "DRC\u2019s Ebola Outbreak Has the Potential to Become a Global Pandemic. How to Make Sure It Doesn\u2019t",
-      "title_norm": "drc s ebola outbreak has the potential to become a global pandemic how to make sure it doesn t",
-      "url": "https://nautil.us/drcs-ebola-outbreak-has-the-potential-to-become-a-global-pandemic-how-to-make-sure-it-doesnt-1285005/",
-      "covered_date": "2026-09-15",
-      "one_line": "Expert argues a neglected Ebola strain could go global; reframes outbreak risk."
-    },
-    {
-      "id": "d6031cb4afc67ee4afd4ebbd9c67102105495415",
-      "title": "Chasing la dolce vita",
-      "title_norm": "chasing la dolce vita",
-      "url": "https://aeon.co/essays/italianness-is-a-state-of-travelling-in-both-directions",
-      "covered_date": "2026-09-15",
-      "one_line": "Essay on diaspora longing and the myth of return; reflective, not news."
-    },
-    {
       "id": "6438ce27c9bc449171c1227d7f2e82479b8926ef",
       "title": "How an Egyptian Prison Poem Came to Structure My Memoir",
       "title_norm": "how an egyptian prison poem came to structure my memoir",
@@ -983,6 +919,78 @@
       "url": "https://aeon.co/essays/we-need-a-better-way-to-describe-what-is-often-called-cancer",
       "covered_date": "2026-09-29",
       "one_line": "Argues cancer label itself harms; reframes diagnosis as a choice."
+    },
+    {
+      "id": "59581c21e69289a47ff1d7df39f1a7e6f4b022bc",
+      "title": "Logan Wright on Broken China",
+      "title_norm": "logan wright on broken china",
+      "url": "https://www.chinatalk.media/p/logan-wright-on-broken-china",
+      "covered_date": "2026-09-30",
+      "one_line": "Reframes China's slowdown as structural debt trap, not cyclical."
+    },
+    {
+      "id": "9e379c7aa24d3c06012e1f60609332927eae893a",
+      "title": "Shipping to America",
+      "title_norm": "shipping to america",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/shipping-to-america.html?utm_source=rss&utm_medium=rss&utm_campaign=shipping-to-america",
+      "covered_date": "2026-09-30",
+      "one_line": "Reframes shipping shocks via fleet reallocation; tariffs can decongest and reverse welfare costs."
+    },
+    {
+      "id": "2818620250c60918e3084d20627fa920b683614c",
+      "title": "The world's best gradual disempowerment model organism: Frontier AI labs",
+      "title_norm": "the world s best gradual disempowerment model organism frontier ai labs",
+      "url": "https://www.lesswrong.com/posts/jbttuCF4wFZmXakcj/the-world-s-best-gradual-disempowerment-model-organism",
+      "covered_date": "2026-09-30",
+      "one_line": "Reframes frontier labs as the disempowerment model organism, a genuinely new argument."
+    },
+    {
+      "id": "01b7d571576e60aab7c137e3ab5916d327937873",
+      "title": "The Real Technofascists of Silicon Valley: Why Big Tech Oligarchs Hate Democracy",
+      "title_norm": "the real technofascists of silicon valley why big tech oligarchs hate democracy",
+      "url": "https://lithub.com/the-real-technofascists-of-silicon-valley-why-big-tech-oligarchs-hate-democracy/",
+      "covered_date": "2026-09-30",
+      "one_line": "Reframes Greenland coverage via Network State ideology; a genuinely new angle."
+    },
+    {
+      "id": "863477105712c4573a43274cc86e12e2116d31f4",
+      "title": "The Life of the Mind of a Factory Worker",
+      "title_norm": "the life of the mind of a factory worker",
+      "url": "https://www.publicbooks.org/the-life-of-the-mind-of-a-factory-worker/",
+      "covered_date": "2026-09-30",
+      "one_line": "Reframes a Chinese factory memoir beyond state critique to global supply chains."
+    },
+    {
+      "id": "396b95f3429cd00be03ab452f9bb2d2a88583950",
+      "title": "Introducing SynthID Bio",
+      "title_norm": "introducing synthid bio",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "covered_date": "2026-09-30",
+      "one_line": "Watermarking proteins is a novel twist, but thin proof-of-concept."
+    },
+    {
+      "id": "e9a8487757bbf56de26fb4ecf13a7785c2e4a206",
+      "title": "Correct Answers, Invalid Traces: What Verifiable Grade-School Math Reveals About Chain-of-Thought Traces",
+      "title_norm": "correct answers invalid traces what verifiable grade school math reveals about chain of thought traces",
+      "url": "https://arxiv.org/abs/2609.38107v1",
+      "covered_date": "2026-09-30",
+      "one_line": "Shows correct answers often come with invalid reasoning traces, undermining CoT auditing."
+    },
+    {
+      "id": "eb86dbc9d86e21eb4587d21c0201d7140b97c27b",
+      "title": "One Giant Clam Contains a Month\u2011by\u2011Month Diary of the Great Barrier Reef\u2019s Climate 200 Years Ago",
+      "title_norm": "one giant clam contains a month by month diary of the great barrier reef s climate 200 years ago",
+      "url": "https://nautil.us/one-giant-clam-contains-a-month%e2%80%91by%e2%80%91month-diary-of-the-great-barrier-reefs-climate-200-years-ago-1285396/",
+      "covered_date": "2026-09-30",
+      "one_line": "Giant clam shells as monthly climate archives reframes paleoclimate data sources."
+    },
+    {
+      "id": "f21adb510520dee3eda2e5da2d8270e9bf6d33c1",
+      "title": "Surprisingly Complex Waves Reveal the Brain\u2019s Inner Workings",
+      "title_norm": "surprisingly complex waves reveal the brain s inner workings",
+      "url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
+      "covered_date": "2026-09-30",
+      "one_line": "Waves in the brain reframe how neural computation works."
     }
   ]
 }

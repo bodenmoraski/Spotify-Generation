@@ -1526,7 +1526,7 @@
         "2026-09-29"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -1594,7 +1594,7 @@
         "2026-09-29"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "OpenAI"
     },
@@ -1611,7 +1611,7 @@
         "2026-09-29"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Pitchfork"
     },
@@ -1628,7 +1628,7 @@
         "2026-09-29"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -1645,7 +1645,7 @@
         "2026-09-29"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -1695,8 +1695,8 @@
         "2026-09-11",
         "2026-09-30"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "Transformer"
     },
@@ -1712,8 +1712,8 @@
         "2026-09-11",
         "2026-09-30"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -1746,8 +1746,8 @@
         "2026-09-11",
         "2026-09-30"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "The Point"
     },
@@ -1814,8 +1814,8 @@
         "2026-09-11",
         "2026-09-30"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -6680,6 +6680,159 @@
       "retired": false,
       "missed": false,
       "source": "Aeon"
+    },
+    {
+      "id": "59581c21e69289a47ff1d7df39f1a7e6f4b022bc",
+      "title": "Logan Wright on Broken China",
+      "one_line": "Reframes China's slowdown as structural debt trap, not cyclical.",
+      "ingested_date": "2026-09-30",
+      "review_dates": [
+        "2026-10-01",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-16",
+        "2026-11-04"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "9e379c7aa24d3c06012e1f60609332927eae893a",
+      "title": "Shipping to America",
+      "one_line": "Reframes shipping shocks via fleet reallocation; tariffs can decongest and reverse welfare costs.",
+      "ingested_date": "2026-09-30",
+      "review_dates": [
+        "2026-10-01",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-16",
+        "2026-11-04"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "2818620250c60918e3084d20627fa920b683614c",
+      "title": "The world's best gradual disempowerment model organism: Frontier AI labs",
+      "one_line": "Reframes frontier labs as the disempowerment model organism, a genuinely new argument.",
+      "ingested_date": "2026-09-30",
+      "review_dates": [
+        "2026-10-01",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-16",
+        "2026-11-04"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "01b7d571576e60aab7c137e3ab5916d327937873",
+      "title": "The Real Technofascists of Silicon Valley: Why Big Tech Oligarchs Hate Democracy",
+      "one_line": "Reframes Greenland coverage via Network State ideology; a genuinely new angle.",
+      "ingested_date": "2026-09-30",
+      "review_dates": [
+        "2026-10-01",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-16",
+        "2026-11-04"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "863477105712c4573a43274cc86e12e2116d31f4",
+      "title": "The Life of the Mind of a Factory Worker",
+      "one_line": "Reframes a Chinese factory memoir beyond state critique to global supply chains.",
+      "ingested_date": "2026-09-30",
+      "review_dates": [
+        "2026-10-01",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-16",
+        "2026-11-04"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "396b95f3429cd00be03ab452f9bb2d2a88583950",
+      "title": "Introducing SynthID Bio",
+      "one_line": "Watermarking proteins is a novel twist, but thin proof-of-concept.",
+      "ingested_date": "2026-09-30",
+      "review_dates": [
+        "2026-10-01",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-16",
+        "2026-11-04"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Google DeepMind"
+    },
+    {
+      "id": "e9a8487757bbf56de26fb4ecf13a7785c2e4a206",
+      "title": "Correct Answers, Invalid Traces: What Verifiable Grade-School Math Reveals About Chain-of-Thought Traces",
+      "one_line": "Shows correct answers often come with invalid reasoning traces, undermining CoT auditing.",
+      "ingested_date": "2026-09-30",
+      "review_dates": [
+        "2026-10-01",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-16",
+        "2026-11-04"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "eb86dbc9d86e21eb4587d21c0201d7140b97c27b",
+      "title": "One Giant Clam Contains a Month‑by‑Month Diary of the Great Barrier Reef’s Climate 200 Years Ago",
+      "one_line": "Giant clam shells as monthly climate archives reframes paleoclimate data sources.",
+      "ingested_date": "2026-09-30",
+      "review_dates": [
+        "2026-10-01",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-16",
+        "2026-11-04"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
+    },
+    {
+      "id": "f21adb510520dee3eda2e5da2d8270e9bf6d33c1",
+      "title": "Surprisingly Complex Waves Reveal the Brain’s Inner Workings",
+      "one_line": "Waves in the brain reframe how neural computation works.",
+      "ingested_date": "2026-09-30",
+      "review_dates": [
+        "2026-10-01",
+        "2026-10-03",
+        "2026-10-07",
+        "2026-10-16",
+        "2026-11-04"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
     }
   ]
 }
