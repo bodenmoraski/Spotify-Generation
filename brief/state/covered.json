@@ -1,78 +1,6 @@
 {
   "items": [
     {
-      "id": "6438ce27c9bc449171c1227d7f2e82479b8926ef",
-      "title": "How an Egyptian Prison Poem Came to Structure My Memoir",
-      "title_norm": "how an egyptian prison poem came to structure my memoir",
-      "url": "https://lithub.com/how-an-egyptian-prison-poem-came-to-structure-my-memoir/",
-      "covered_date": "2026-09-16",
-      "one_line": "Reframes the prison memoir genre as a critique of Western legibility demands."
-    },
-    {
-      "id": "41753002daa625e7c870cad28fd76a3b842b191b",
-      "title": "What Regulatory Capture Actually Looks Like",
-      "title_norm": "what regulatory capture actually looks like",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/what-regulatory-capture-actually-looks-like.html?utm_source=rss&utm_medium=rss&utm_campaign=what-regulatory-capture-actually-looks-like",
-      "covered_date": "2026-09-16",
-      "one_line": "Reframes AI-safety sincerity vs. regulatory-capture cynicism with a sharp argument."
-    },
-    {
-      "id": "6bc4e7238321b0f537aa9ef73a221b92f82a6453",
-      "title": "After the Sublime",
-      "title_norm": "after the sublime",
-      "url": "https://thepointmag.com/criticism/after-the-sublime/",
-      "covered_date": "2026-09-16",
-      "one_line": "Argues internet 'vibe' aesthetics misunderstand the sublime they imitate."
-    },
-    {
-      "id": "cfb3ab5ec0ecd049ce1ccb59f7442e70f07e5243",
-      "title": "Remember Them: Palestine Scholars Murdered in the Gaza Genocide",
-      "title_norm": "remember them palestine scholars murdered in the gaza genocide",
-      "url": "https://www.publicbooks.org/remember-them-palestine-scholars-murdered-in-the-gaza-genocide/",
-      "covered_date": "2026-09-16",
-      "one_line": "Memorializes murdered Palestinian scholars, reframing genocide's toll on academia."
-    },
-    {
-      "id": "5f4522ec581625f0ae9097bed597fc6cecdff733",
-      "title": "The Municipal Sublime",
-      "title_norm": "the municipal sublime",
-      "url": "https://www.nplusonemag.com/online-only/events/the-municipal-sublime/",
-      "covered_date": "2026-09-16",
-      "one_line": "Reframes overlooked public buildings as aesthetic category; modest but genuine point of view."
-    },
-    {
-      "id": "39be519ab68b2ae865cd1cdb402a0dc2172aafe2",
-      "title": "Iran signals diplomacy with US as China pushes Hormuz reopening",
-      "title_norm": "iran signals diplomacy with us as china pushes hormuz reopening",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONGVEZUVIa2dvdVFzSl9hX3MzdHhfQjVPamwtOWg1M09tVlQzTlV0bW5Fd1ZUOHRWM2t4c3VkQzg2OUFtcFFUWXduMks4aWFidUpzVWVDR2tKTzFCTnB3anZLVEhiQVdXdG5qdjItUlN6XzlENHVHSnVRaklzS3ZpaVhhZXpQTFJsbC1RaE0zbXdKaXVpaGtCR3dYeTV1Y3cxZFRnekw2Tko2Q3Y1VEtSMmUxTm5aeGVySGN5M2tVQUV5UHZtM21LUTNxd0RQMVdwRTJONngzZFPSAd4BQVVfeXFMT0dXVlo1dFhjakw0ZHYtXzZrSkw0dnZQNjNuaTNjMk9mNGxxZlRjbl8zc1ViM3BBbzRkcnJCRmlyN3JkdXUtQ1dXVlRydFlQbjZlVmlIanBLUHBVQXIzSnQtMXlfVkdENEI3amtXS04xWE1FTHJ6RFZrOXBzenF6S25jRVZsaEtsZHRSVjQ3TTQ5M29TblVHRk5STmV6bTZfcTZYYTkteDNZUDYyR1JZZjQ4bjh1QjVkYUh3dzBrS0lJU0wxdE56OWNOVEpjTi1hMThzVEhSWUhMdzF6Smpn?oc=5",
-      "covered_date": "2026-09-16",
-      "one_line": "Geopolitical signal, but headline-level with no new argument or reframing."
-    },
-    {
-      "id": "342e6c835fbe2390775f576cd5bd315566a6ec4f",
-      "title": "Decomposition Buys Integrity, Not Yield",
-      "title_norm": "decomposition buys integrity not yield",
-      "url": "https://arxiv.org/abs/2609.17464v1",
-      "covered_date": "2026-09-16",
-      "one_line": "Formal result: decomposition yields no extra findings, only integrity tradeoffs."
-    },
-    {
-      "id": "61e8c89377814baf6f66220ffda981cd3bd842a1",
-      "title": "Quick notes from teaching technical profiles how to talk in public",
-      "title_norm": "quick notes from teaching technical profiles how to talk in public",
-      "url": "https://www.lesswrong.com/posts/nKsyMfNsAuTrxmjmi/quick-notes-from-teaching-technical-profiles-how-to-talk-in",
-      "covered_date": "2026-09-16",
-      "one_line": "Practical public-speaking tips for technical people; useful but not idea-changing."
-    },
-    {
-      "id": "8ec9f099be26d22809b46ae5aee17d310c9a5df4",
-      "title": "Veronese's Dogs",
-      "title_norm": "veronese s dogs",
-      "url": "https://publicdomainreview.org/essay/veroneses-dogs",
-      "covered_date": "2026-09-16",
-      "one_line": "Dogs in Veronese reframed as art history with an Inquisition twist."
-    },
-    {
       "id": "aba7459b896ee2a301ed8acd89444cb106e4a5f8",
       "title": "Pacing the Frontier: A Framework & Research Agenda",
       "title_norm": "pacing the frontier a framework research agenda",
@@ -991,6 +919,70 @@
       "url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
       "covered_date": "2026-09-30",
       "one_line": "Waves in the brain reframe how neural computation works."
+    },
+    {
+      "id": "52fe11ee3d836b14b52e296cc369603fda53d148",
+      "title": "Merging LLMs and economics research",
+      "title_norm": "merging llms and economics research",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/merging-llms-and-economics-research.html?utm_source=rss&utm_medium=rss&utm_campaign=merging-llms-and-economics-research",
+      "covered_date": "2026-10-01",
+      "one_line": "LLM workflow flags replication discrepancies in 3,460 of 4,452 econ papers"
+    },
+    {
+      "id": "62ca3a177c890f0bfc1d8030a980ba99fed868f8",
+      "title": "China's Starlink Response",
+      "title_norm": "china s starlink response",
+      "url": "https://www.chinatalk.media/p/china-responds-to-starlink",
+      "covered_date": "2026-10-01",
+      "one_line": "China's reusable rockets and Starlink challengers reframe space competition."
+    },
+    {
+      "id": "8546308f2a8a6ef72703be53210c3da6c862e5b9",
+      "title": "The Hyphen Unites: Avi Shlaim on Arab-Jewish Life",
+      "title_norm": "the hyphen unites avi shlaim on arab jewish life",
+      "url": "https://www.publicbooks.org/the-hyphen-unites-avi-shlaim-on-arab-jewish-life/",
+      "covered_date": "2026-10-01",
+      "one_line": "Shlaim's Arab-Jewish identity reframes Israel's history beyond ethno-nationalist narratives."
+    },
+    {
+      "id": "ed0fee0c1e2bfc20510a2f879a4268e124f58531",
+      "title": "Beyond MLK: On the Women Who Made the March on Washington",
+      "title_norm": "beyond mlk on the women who made the march on washington",
+      "url": "https://lithub.com/beyond-mlk-on-the-women-who-made-the-march-on-washington/",
+      "covered_date": "2026-10-01",
+      "one_line": "Reframes a familiar history through overlooked women reporters, but incremental."
+    },
+    {
+      "id": "f7df1eb52c175f2df1a8c6f350855e39f3e012db",
+      "title": "What Hostage Diplomacy Can Teach Us About Everyday Negotiation",
+      "title_norm": "what hostage diplomacy can teach us about everyday negotiation",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPck9fMVBUTktzenhOZlM2OEFkTHRZUW9UbHhpSHhWRkFjMnc0Q2pFblhyY1JETzY0Y2h4bkRKV1hJS18tcnVmV2NtMUNMUDNUWlN1SWY5cTctN2czdFBhdUhubXFVU3ZnYjQyZXhDU1p1aUNDQng2dXdyeENaRFVhRjZRYVhDTXNhOGh2U203dGNYT3ZaTG96bzd6UV9COUdTV2l3NHFTOFFIX1RoOWJHTw?oc=5",
+      "covered_date": "2026-10-01",
+      "one_line": "Negotiation lessons from hostage diplomacy; portable but thin on specifics."
+    },
+    {
+      "id": "e5e8234fbda8f5c1c3ac854de65ce0387956c548",
+      "title": "Ecowas Court and women\u2019s rights in west Africa: what\u2019s working \u2013 and what isn\u2019t",
+      "title_norm": "ecowas court and women s rights in west africa what s working and what isn t",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNnU4cXRrb1NSLWVaZDhTZ1FZRlNKeFQwOG9tamcyd2lXci1QTzJ3RldqVmg0T1FHdWZ5eVRpNWxTcThDZDdjR19wdXZSSmhoaThxd0x3MHFFX3dTWTJ6RUxZX3dwNzFjd0hlMnA4eV9MT3ZLTmxLczJGQk5FYWwxQ25iOGNaSEdRVTJFb2JZV05xejdlUkZKb1puSXZDVjNkTzVVbm10NU82VHVr?oc=5",
+      "covered_date": "2026-10-01",
+      "one_line": "Regional rights court analysis; useful but not paradigm-shifting for a generalist."
+    },
+    {
+      "id": "2d92987060fca07e6e78303b658c06a230a3425d",
+      "title": "Reason is more than a tool",
+      "title_norm": "reason is more than a tool",
+      "url": "https://aeon.co/essays/why-real-intelligence-is-something-more-than-optimisation",
+      "covered_date": "2026-10-01",
+      "one_line": "Kantian argument that reason transcends optimization, reframing AI-vs-human debate."
+    },
+    {
+      "id": "456f92971bbe9cb5b3df2f2e13867ea6fbc56f57",
+      "title": "Who Is Claude Trying to Kid?",
+      "title_norm": "who is claude trying to kid",
+      "url": "https://nautil.us/who-is-claude-trying-to-kid-1285411/",
+      "covered_date": "2026-10-01",
+      "one_line": "Philosophical take on AI confession as a mechanical trick; reframes authenticity."
     }
   ]
 }

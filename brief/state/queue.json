@@ -1679,7 +1679,7 @@
         "2026-09-30"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -1730,7 +1730,7 @@
         "2026-09-30"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gdelt_geopolitics"
     },
@@ -1764,7 +1764,7 @@
         "2026-09-30"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -1781,7 +1781,7 @@
         "2026-09-30"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -1798,7 +1798,7 @@
         "2026-09-30"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -1848,8 +1848,8 @@
         "2026-09-12",
         "2026-10-01"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "Transformer"
     },
@@ -1865,8 +1865,8 @@
         "2026-09-12",
         "2026-10-01"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -1899,8 +1899,8 @@
         "2026-09-12",
         "2026-10-01"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "Google DeepMind"
     },
@@ -1916,8 +1916,8 @@
         "2026-09-12",
         "2026-10-01"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "OpenAI"
     },
@@ -6833,6 +6833,142 @@
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
+    },
+    {
+      "id": "52fe11ee3d836b14b52e296cc369603fda53d148",
+      "title": "Merging LLMs and economics research",
+      "one_line": "LLM workflow flags replication discrepancies in 3,460 of 4,452 econ papers",
+      "ingested_date": "2026-10-01",
+      "review_dates": [
+        "2026-10-02",
+        "2026-10-04",
+        "2026-10-08",
+        "2026-10-17",
+        "2026-11-05"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "62ca3a177c890f0bfc1d8030a980ba99fed868f8",
+      "title": "China's Starlink Response",
+      "one_line": "China's reusable rockets and Starlink challengers reframe space competition.",
+      "ingested_date": "2026-10-01",
+      "review_dates": [
+        "2026-10-02",
+        "2026-10-04",
+        "2026-10-08",
+        "2026-10-17",
+        "2026-11-05"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "8546308f2a8a6ef72703be53210c3da6c862e5b9",
+      "title": "The Hyphen Unites: Avi Shlaim on Arab-Jewish Life",
+      "one_line": "Shlaim's Arab-Jewish identity reframes Israel's history beyond ethno-nationalist narratives.",
+      "ingested_date": "2026-10-01",
+      "review_dates": [
+        "2026-10-02",
+        "2026-10-04",
+        "2026-10-08",
+        "2026-10-17",
+        "2026-11-05"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "ed0fee0c1e2bfc20510a2f879a4268e124f58531",
+      "title": "Beyond MLK: On the Women Who Made the March on Washington",
+      "one_line": "Reframes a familiar history through overlooked women reporters, but incremental.",
+      "ingested_date": "2026-10-01",
+      "review_dates": [
+        "2026-10-02",
+        "2026-10-04",
+        "2026-10-08",
+        "2026-10-17",
+        "2026-11-05"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "f7df1eb52c175f2df1a8c6f350855e39f3e012db",
+      "title": "What Hostage Diplomacy Can Teach Us About Everyday Negotiation",
+      "one_line": "Negotiation lessons from hostage diplomacy; portable but thin on specifics.",
+      "ingested_date": "2026-10-01",
+      "review_dates": [
+        "2026-10-02",
+        "2026-10-04",
+        "2026-10-08",
+        "2026-10-17",
+        "2026-11-05"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "e5e8234fbda8f5c1c3ac854de65ce0387956c548",
+      "title": "Ecowas Court and women’s rights in west Africa: what’s working – and what isn’t",
+      "one_line": "Regional rights court analysis; useful but not paradigm-shifting for a generalist.",
+      "ingested_date": "2026-10-01",
+      "review_dates": [
+        "2026-10-02",
+        "2026-10-04",
+        "2026-10-08",
+        "2026-10-17",
+        "2026-11-05"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_ke"
+    },
+    {
+      "id": "2d92987060fca07e6e78303b658c06a230a3425d",
+      "title": "Reason is more than a tool",
+      "one_line": "Kantian argument that reason transcends optimization, reframing AI-vs-human debate.",
+      "ingested_date": "2026-10-01",
+      "review_dates": [
+        "2026-10-02",
+        "2026-10-04",
+        "2026-10-08",
+        "2026-10-17",
+        "2026-11-05"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
+    },
+    {
+      "id": "456f92971bbe9cb5b3df2f2e13867ea6fbc56f57",
+      "title": "Who Is Claude Trying to Kid?",
+      "one_line": "Philosophical take on AI confession as a mechanical trick; reframes authenticity.",
+      "ingested_date": "2026-10-01",
+      "review_dates": [
+        "2026-10-02",
+        "2026-10-04",
+        "2026-10-08",
+        "2026-10-17",
+        "2026-11-05"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
     }
   ]
 }
