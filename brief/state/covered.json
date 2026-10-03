@@ -1,78 +1,6 @@
 {
   "items": [
     {
-      "id": "aba7459b896ee2a301ed8acd89444cb106e4a5f8",
-      "title": "Pacing the Frontier: A Framework & Research Agenda",
-      "title_norm": "pacing the frontier a framework research agenda",
-      "url": "https://www.lesswrong.com/posts/E5SmpFsGPNpYjf92c/pacing-the-frontier-a-framework-and-research-agenda",
-      "covered_date": "2026-09-18",
-      "one_line": "Reframes AI pacing as broad intervention class; argues current ad hoc approaches will fail."
-    },
-    {
-      "id": "fffd1c88f87213814125e239a5dea18df0c6a2bd",
-      "title": "The Uninhabitable Front",
-      "title_norm": "the uninhabitable front",
-      "url": "https://www.publicbooks.org/the-uninhabitable-front/",
-      "covered_date": "2026-09-18",
-      "one_line": "Reframes war as slow ecological destruction, not just immediate violence."
-    },
-    {
-      "id": "d850594e08502ae798ada0fdf5f37ae3a9dda69d",
-      "title": "Does Evil Exist (and How Do We Recognize It?)",
-      "title_norm": "does evil exist and how do we recognize it",
-      "url": "https://lithub.com/does-evil-exist-and-how-do-we-recognize-it/",
-      "covered_date": "2026-09-18",
-      "one_line": "Reframes evil as systemic, not lurid, with a real point of view."
-    },
-    {
-      "id": "0c060c233ec71290ee995c5fd97406899604c732",
-      "title": "Trump\u2019s AI stance is politically toxic",
-      "title_norm": "trump s ai stance is politically toxic",
-      "url": "https://www.transformernews.ai/p/trump-ai-stance-is-politically-toxic",
-      "covered_date": "2026-09-18",
-      "one_line": "Polling shows Trump's pro-AI deregulation stance is politically toxic, reframing AI policy debate."
-    },
-    {
-      "id": "3ddd82227ef845ff3d85ec247679945ca8111c04",
-      "title": "The quiet power of papal diplomacy",
-      "title_norm": "the quiet power of papal diplomacy",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xUHg2a1VLTG51YTlhbE5mNkNpNjVhclZDWEdwQm9ObXlEODdKalRvb1hhVUNSdVppaVpRVXZ2QW9veXJ0UHlPUUFhcTVJZ1JvMlFkOURpckpDdTFmdzhJM29sZ1BjNkVRMDRyTUVTV3c?oc=5",
-      "covered_date": "2026-09-18",
-      "one_line": "Papal diplomacy angle is interesting but excerpt gives no argument."
-    },
-    {
-      "id": "682661532ab430502c40fb5f5a6e1ca3fb639d14",
-      "title": "Getting Good",
-      "title_norm": "getting good",
-      "url": "https://thepointmag.com/examined-life/getting-good-effective-altruism/",
-      "covered_date": "2026-09-18",
-      "one_line": "Critical essay on EA movement; potentially reframing but excerpt too thin to judge."
-    },
-    {
-      "id": "c52649df9b02d5ff37db5c322ea4c1a0897e18c9",
-      "title": "Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations",
-      "title_norm": "harm laundering in gpt models evidence that gender discrimination is transformed rather than reduced across safety trained generations",
-      "url": "https://arxiv.org/abs/2609.20779v1",
-      "covered_date": "2026-09-18",
-      "one_line": "Shows safety metrics hide transformed, not reduced, discrimination across GPT generations."
-    },
-    {
-      "id": "4d2d11cecf55f456e4884bd361cc2689958051b5",
-      "title": "Varying Retrieval Practice to Promote Transfer of Learning: A Set of Experiments",
-      "title_norm": "varying retrieval practice to promote transfer of learning a set of experiments",
-      "url": "https://www.learningscientists.org/blog/2026/9/17",
-      "covered_date": "2026-09-18",
-      "one_line": "Clean multi-experiment evidence that varied retrieval examples boost transfer."
-    },
-    {
-      "id": "c757b49a3d76c14f8ad2c51b29464dd213ba6349",
-      "title": "Mathematicians Build Long-Awaited Graph Sandwich",
-      "title_norm": "mathematicians build long awaited graph sandwich",
-      "url": "https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/",
-      "covered_date": "2026-09-18",
-      "one_line": "Long-awaited proof of a graph sandwich conjecture; genuine mathematical progress."
-    },
-    {
       "id": "f5e140363a08358f40961001582d197f7e865251",
       "title": "Internet diffusion and religious decline?",
       "title_norm": "internet diffusion and religious decline",
@@ -983,6 +911,78 @@
       "url": "https://nautil.us/who-is-claude-trying-to-kid-1285411/",
       "covered_date": "2026-10-01",
       "one_line": "Philosophical take on AI confession as a mechanical trick; reframes authenticity."
+    },
+    {
+      "id": "cdc4d02bcb230cc7efd69d7d1ffad5d6ed3eb8df",
+      "title": "New issue of Econ Journal Watch",
+      "title_norm": "new issue of econ journal watch",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/new-issue-of-econ-journal-watch-17.html?utm_source=rss&utm_medium=rss&utm_campaign=new-issue-of-econ-journal-watch-17",
+      "covered_date": "2026-10-03",
+      "one_line": "Replication failures challenge China shock and affirmative action forecasts."
+    },
+    {
+      "id": "3d558a80d1fe8db3f00eb33edb04f88c4bb2f07d",
+      "title": "Capabilities research expands the safety-usefulness Pareto frontier too",
+      "title_norm": "capabilities research expands the safety usefulness pareto frontier too",
+      "url": "https://www.lesswrong.com/posts/nwrx9DHpZfW2Q6zLW/capabilities-research-expands-the-safety-usefulness-pareto",
+      "covered_date": "2026-10-03",
+      "one_line": "Reframes what counts as safety research via Pareto frontier incentives."
+    },
+    {
+      "id": "9c41c58b050bba35b3eda3365c11854d96aa4da4",
+      "title": "Do Smartphones Belong in Fiction?",
+      "title_norm": "do smartphones belong in fiction",
+      "url": "https://lithub.com/do-smartphones-belong-in-fiction/",
+      "covered_date": "2026-10-03",
+      "one_line": "Novelist's craft argument on representing digital media in fiction, not just headlines."
+    },
+    {
+      "id": "0a414390ef1b051a6f6d145ef50b3d8600d86e0f",
+      "title": "In Case You Missed It...",
+      "title_norm": "in case you missed it",
+      "url": "https://www.chinatalk.media/p/in-case-you-missed-it",
+      "covered_date": "2026-10-03",
+      "one_line": "Expert debate on China's economy, but roundup format dilutes any single argument."
+    },
+    {
+      "id": "8336d52df4f9ee5126c94f686638b0d7f7f1522c",
+      "title": "Germany Faces Risk of \u2018Weimar-Style\u2019 Divisions, Steinmeier Warns",
+      "title_norm": "germany faces risk of weimar style divisions steinmeier warns",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQTd3UmdIcVcyVVpQdWZIUWIzWnZBN3ZFSHBINmtBRmczUkxhOXhFX0R4a0dZdS1LQTNWUmtwZ1FTXzFVUnlQSXRrd1RUaEptb3BwMy1KUEc0Rnp0cmpVaUpvZnJHbnJQZzZKSlgyMkgxSWFYRjF1S2pWd0hBU1pnbmY2b2I3X3E2UFRzaWNZOGJsYmdPamp0QXNubG9RSTJQT0E?oc=5",
+      "covered_date": "2026-10-03",
+      "one_line": "Presidential warning on polarization; notable but familiar framing, little new analysis."
+    },
+    {
+      "id": "916167d68670559443f6299872bf9c1f33704315",
+      "title": "Flowers for Frank",
+      "title_norm": "flowers for frank",
+      "url": "https://thepointmag.com/criticism/flowers-for-frank/",
+      "covered_date": "2026-10-03",
+      "one_line": "Personal essay on reading Fukuyama; modest reflection, no strong new argument."
+    },
+    {
+      "id": "a967f7c6be0bad6181e92aa5323f814bef6a4604",
+      "title": "VISTA: A Visual Harness for Reasoning in an Interactive World",
+      "title_norm": "vista a visual harness for reasoning in an interactive world",
+      "url": "https://arxiv.org/abs/2610.02200v1",
+      "covered_date": "2026-10-03",
+      "one_line": "Harness unlocks multimodal reasoning; ARC-AGI-3 jumps 40 to 100."
+    },
+    {
+      "id": "ba92132a2fa4cc06c12d62ba29a97ac7b8a593cb",
+      "title": "Sea Monkeys Show Scientists How To Rewrite a Rule of Turbulence",
+      "title_norm": "sea monkeys show scientists how to rewrite a rule of turbulence",
+      "url": "https://www.quantamagazine.org/sea-monkeys-show-scientists-how-to-rewrite-a-rule-of-turbulence-20261002/",
+      "covered_date": "2026-10-03",
+      "one_line": "Brine shrimp overturn a turbulence scaling rule, a genuinely surprising physics result."
+    },
+    {
+      "id": "4660863b50eca8a583e774ed9d85942f82927a92",
+      "title": "Life on a hair trigger",
+      "title_norm": "life on a hair trigger",
+      "url": "https://aeon.co/essays/early-violence-is-a-bad-teacher-but-the-mind-can-learn-anew",
+      "covered_date": "2026-10-03",
+      "one_line": "Argues violence is sustained by minds it creates, not just circumstances"
     }
   ]
 }

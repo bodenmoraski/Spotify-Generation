@@ -1832,7 +1832,7 @@
         "2026-10-01"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -1883,7 +1883,7 @@
         "2026-10-01"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -1934,7 +1934,7 @@
         "2026-10-01"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -1951,7 +1951,7 @@
         "2026-10-01"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -1968,7 +1968,7 @@
         "2026-10-01"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -1985,7 +1985,7 @@
         "2026-10-02"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -2002,7 +2002,7 @@
         "2026-10-02"
       ],
       "reviews_done": 1,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -2019,7 +2019,7 @@
         "2026-10-02"
       ],
       "reviews_done": 1,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -2036,7 +2036,7 @@
         "2026-10-02"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Transformer"
     },
@@ -2053,7 +2053,7 @@
         "2026-10-02"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -2070,7 +2070,7 @@
         "2026-10-02"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_br"
     },
@@ -2087,7 +2087,7 @@
         "2026-10-02"
       ],
       "reviews_done": 1,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -2104,7 +2104,7 @@
         "2026-10-02"
       ],
       "reviews_done": 1,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -2121,7 +2121,7 @@
         "2026-10-02"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Works in Progress"
     },
@@ -2137,8 +2137,8 @@
         "2026-09-14",
         "2026-10-03"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -2154,8 +2154,8 @@
         "2026-09-14",
         "2026-10-03"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -2239,8 +2239,8 @@
         "2026-09-14",
         "2026-10-03"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -2273,8 +2273,8 @@
         "2026-09-14",
         "2026-10-03"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -6969,6 +6969,159 @@
       "retired": false,
       "missed": false,
       "source": "Nautilus"
+    },
+    {
+      "id": "cdc4d02bcb230cc7efd69d7d1ffad5d6ed3eb8df",
+      "title": "New issue of Econ Journal Watch",
+      "one_line": "Replication failures challenge China shock and affirmative action forecasts.",
+      "ingested_date": "2026-10-03",
+      "review_dates": [
+        "2026-10-04",
+        "2026-10-06",
+        "2026-10-10",
+        "2026-10-19",
+        "2026-11-07"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "3d558a80d1fe8db3f00eb33edb04f88c4bb2f07d",
+      "title": "Capabilities research expands the safety-usefulness Pareto frontier too",
+      "one_line": "Reframes what counts as safety research via Pareto frontier incentives.",
+      "ingested_date": "2026-10-03",
+      "review_dates": [
+        "2026-10-04",
+        "2026-10-06",
+        "2026-10-10",
+        "2026-10-19",
+        "2026-11-07"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "9c41c58b050bba35b3eda3365c11854d96aa4da4",
+      "title": "Do Smartphones Belong in Fiction?",
+      "one_line": "Novelist's craft argument on representing digital media in fiction, not just headlines.",
+      "ingested_date": "2026-10-03",
+      "review_dates": [
+        "2026-10-04",
+        "2026-10-06",
+        "2026-10-10",
+        "2026-10-19",
+        "2026-11-07"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "0a414390ef1b051a6f6d145ef50b3d8600d86e0f",
+      "title": "In Case You Missed It...",
+      "one_line": "Expert debate on China's economy, but roundup format dilutes any single argument.",
+      "ingested_date": "2026-10-03",
+      "review_dates": [
+        "2026-10-04",
+        "2026-10-06",
+        "2026-10-10",
+        "2026-10-19",
+        "2026-11-07"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "8336d52df4f9ee5126c94f686638b0d7f7f1522c",
+      "title": "Germany Faces Risk of ‘Weimar-Style’ Divisions, Steinmeier Warns",
+      "one_line": "Presidential warning on polarization; notable but familiar framing, little new analysis.",
+      "ingested_date": "2026-10-03",
+      "review_dates": [
+        "2026-10-04",
+        "2026-10-06",
+        "2026-10-10",
+        "2026-10-19",
+        "2026-11-07"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "916167d68670559443f6299872bf9c1f33704315",
+      "title": "Flowers for Frank",
+      "one_line": "Personal essay on reading Fukuyama; modest reflection, no strong new argument.",
+      "ingested_date": "2026-10-03",
+      "review_dates": [
+        "2026-10-04",
+        "2026-10-06",
+        "2026-10-10",
+        "2026-10-19",
+        "2026-11-07"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "The Point"
+    },
+    {
+      "id": "a967f7c6be0bad6181e92aa5323f814bef6a4604",
+      "title": "VISTA: A Visual Harness for Reasoning in an Interactive World",
+      "one_line": "Harness unlocks multimodal reasoning; ARC-AGI-3 jumps 40 to 100.",
+      "ingested_date": "2026-10-03",
+      "review_dates": [
+        "2026-10-04",
+        "2026-10-06",
+        "2026-10-10",
+        "2026-10-19",
+        "2026-11-07"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "ba92132a2fa4cc06c12d62ba29a97ac7b8a593cb",
+      "title": "Sea Monkeys Show Scientists How To Rewrite a Rule of Turbulence",
+      "one_line": "Brine shrimp overturn a turbulence scaling rule, a genuinely surprising physics result.",
+      "ingested_date": "2026-10-03",
+      "review_dates": [
+        "2026-10-04",
+        "2026-10-06",
+        "2026-10-10",
+        "2026-10-19",
+        "2026-11-07"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
+    },
+    {
+      "id": "4660863b50eca8a583e774ed9d85942f82927a92",
+      "title": "Life on a hair trigger",
+      "one_line": "Argues violence is sustained by minds it creates, not just circumstances",
+      "ingested_date": "2026-10-03",
+      "review_dates": [
+        "2026-10-04",
+        "2026-10-06",
+        "2026-10-10",
+        "2026-10-19",
+        "2026-11-07"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
     }
   ]
 }
