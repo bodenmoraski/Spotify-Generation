@@ -2172,7 +2172,7 @@
         "2026-10-03"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gdelt_geopolitics"
     },
@@ -2189,7 +2189,7 @@
         "2026-10-03"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -2206,7 +2206,7 @@
         "2026-10-03"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_br"
     },
@@ -2223,7 +2223,7 @@
         "2026-10-03"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Pitchfork"
     },
@@ -2257,7 +2257,7 @@
         "2026-10-03"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -2291,7 +2291,7 @@
         "2026-10-04"
       ],
       "reviews_done": 1,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -2308,7 +2308,7 @@
         "2026-10-04"
       ],
       "reviews_done": 1,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -2325,7 +2325,7 @@
         "2026-10-04"
       ],
       "reviews_done": 1,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -2342,7 +2342,7 @@
         "2026-10-04"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_br"
     },
@@ -2359,7 +2359,7 @@
         "2026-10-04"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -2376,7 +2376,7 @@
         "2026-10-04"
       ],
       "reviews_done": 1,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Pitchfork"
     },
@@ -2393,7 +2393,7 @@
         "2026-10-04"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -2410,7 +2410,7 @@
         "2026-10-04"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -2426,8 +2426,8 @@
         "2026-09-16",
         "2026-10-05"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -2443,8 +2443,8 @@
         "2026-09-16",
         "2026-10-05"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -2477,8 +2477,8 @@
         "2026-09-16",
         "2026-10-05"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "gdelt_geopolitics"
     },
@@ -2545,8 +2545,8 @@
         "2026-09-16",
         "2026-10-05"
       ],
-      "reviews_done": 1,
-      "retired": false,
+      "reviews_done": 2,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -7122,6 +7122,142 @@
       "retired": false,
       "missed": false,
       "source": "Aeon"
+    },
+    {
+      "id": "6eefcd1edcee989f53b7483397414b67ed909d9b",
+      "title": "China’s AI Safety Money Problem",
+      "one_line": "Reframes China AI safety as a funding problem, not ideology.",
+      "ingested_date": "2026-10-05",
+      "review_dates": [
+        "2026-10-06",
+        "2026-10-08",
+        "2026-10-12",
+        "2026-10-21",
+        "2026-11-09"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "9689db84486e949a71163015a6db110ab34c2788",
+      "title": "“Authenticity is exactly the same as phoniness.”",
+      "one_line": "Provocative reframing: authenticity as marketing for mediocrity, self as unknowable.",
+      "ingested_date": "2026-10-05",
+      "review_dates": [
+        "2026-10-06",
+        "2026-10-08",
+        "2026-10-12",
+        "2026-10-21",
+        "2026-11-09"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "46da1a58c6b0de056b769d4ea1de0f9381c79534",
+      "title": "Pied Noir Homesick Blues",
+      "one_line": "Reframes Camus adaptation through colonial history, a fresh critical angle.",
+      "ingested_date": "2026-10-05",
+      "review_dates": [
+        "2026-10-06",
+        "2026-10-08",
+        "2026-10-12",
+        "2026-10-21",
+        "2026-11-09"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "b9612d5ac167f298a5c69f6087b302b23673ddd2",
+      "title": "EV Listening",
+      "one_line": "Reframes EV sound design as aesthetic experience, not engineering spec.",
+      "ingested_date": "2026-10-05",
+      "review_dates": [
+        "2026-10-06",
+        "2026-10-08",
+        "2026-10-12",
+        "2026-10-21",
+        "2026-11-09"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "n+1"
+    },
+    {
+      "id": "473ffdfa576bc082ab7248bcd6d4290dc40a0f40",
+      "title": "How Feminist Activist Robin Morgan Helped Preserve the Legacy of Sylvia Plath",
+      "one_line": "Reframes a famous literary legacy through an overlooked feminist activist's role.",
+      "ingested_date": "2026-10-05",
+      "review_dates": [
+        "2026-10-06",
+        "2026-10-08",
+        "2026-10-12",
+        "2026-10-21",
+        "2026-11-09"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "8493768becf83f8eb6e7cacdddba18111567952d",
+      "title": "McKinsey Global Energy Perspective 2026: Geopolitics is becoming an energy cost",
+      "one_line": "Consultancy report framing geopolitics as energy cost; plausible but thin on new argument.",
+      "ingested_date": "2026-10-05",
+      "review_dates": [
+        "2026-10-06",
+        "2026-10-08",
+        "2026-10-12",
+        "2026-10-21",
+        "2026-11-09"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "c83a71d32465dc55ed23dc3069f93f58ec2dd007",
+      "title": "Notes on Paying Attention",
+      "one_line": "Reframes attention as personal and socially shaped, with a portable argument.",
+      "ingested_date": "2026-10-05",
+      "review_dates": [
+        "2026-10-06",
+        "2026-10-08",
+        "2026-10-12",
+        "2026-10-21",
+        "2026-11-09"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "aa49b3d34b9dab0be388251ecadacf86abea8cc5",
+      "title": "Is AI the End of Math As We Know It?",
+      "one_line": "Reframes AI's impact on mathematics as a genuine epistemic rupture.",
+      "ingested_date": "2026-10-05",
+      "review_dates": [
+        "2026-10-06",
+        "2026-10-08",
+        "2026-10-12",
+        "2026-10-21",
+        "2026-11-09"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
     }
   ]
 }
