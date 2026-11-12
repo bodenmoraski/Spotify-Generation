@@ -2461,7 +2461,7 @@
         "2026-10-05"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -2495,7 +2495,7 @@
         "2026-10-05"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_ke"
     },
@@ -2512,7 +2512,7 @@
         "2026-10-05"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_br"
     },
@@ -2529,7 +2529,7 @@
         "2026-10-05"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -2563,7 +2563,7 @@
         "2026-10-06"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Alignment Forum"
     },
@@ -2580,7 +2580,7 @@
         "2026-10-06"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -2597,7 +2597,7 @@
         "2026-10-06"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "n+1"
     },
@@ -2614,7 +2614,7 @@
         "2026-10-06"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -2631,7 +2631,7 @@
         "2026-10-06"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Transformer"
     },
@@ -2648,7 +2648,7 @@
         "2026-10-06"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -2665,7 +2665,7 @@
         "2026-10-06"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -2682,7 +2682,7 @@
         "2026-10-06"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Works in Progress"
     },
@@ -2699,7 +2699,7 @@
         "2026-10-06"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -2716,7 +2716,7 @@
         "2026-10-07"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -2733,7 +2733,7 @@
         "2026-10-07"
       ],
       "reviews_done": 1,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -2750,7 +2750,7 @@
         "2026-10-07"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -2767,7 +2767,7 @@
         "2026-10-07"
       ],
       "reviews_done": 1,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "n+1"
     },
@@ -2784,7 +2784,7 @@
         "2026-10-07"
       ],
       "reviews_done": 1,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -2801,7 +2801,7 @@
         "2026-10-07"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gdelt_geopolitics"
     },
@@ -2818,7 +2818,7 @@
         "2026-10-07"
       ],
       "reviews_done": 1,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -2835,7 +2835,7 @@
         "2026-10-07"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -2852,7 +2852,7 @@
         "2026-10-07"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Aeon"
     },
@@ -2869,7 +2869,7 @@
         "2026-10-08"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -2886,7 +2886,7 @@
         "2026-10-08"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -2903,7 +2903,7 @@
         "2026-10-08"
       ],
       "reviews_done": 1,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -2920,7 +2920,7 @@
         "2026-10-08"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Pitchfork"
     },
@@ -2937,7 +2937,7 @@
         "2026-10-08"
       ],
       "reviews_done": 1,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gdelt_geopolitics"
     },
@@ -2954,7 +2954,7 @@
         "2026-10-08"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Google DeepMind"
     },
@@ -2971,7 +2971,7 @@
         "2026-10-08"
       ],
       "reviews_done": 1,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -2988,7 +2988,7 @@
         "2026-10-08"
       ],
       "reviews_done": 1,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -3005,7 +3005,7 @@
         "2026-10-08"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Aeon"
     },
@@ -3022,7 +3022,7 @@
         "2026-10-09"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Transformer"
     },
@@ -3039,7 +3039,7 @@
         "2026-10-09"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -3056,7 +3056,7 @@
         "2026-10-09"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -3073,7 +3073,7 @@
         "2026-10-09"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -3090,7 +3090,7 @@
         "2026-10-09"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -3107,7 +3107,7 @@
         "2026-10-09"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_br"
     },
@@ -3124,7 +3124,7 @@
         "2026-10-09"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -3141,7 +3141,7 @@
         "2026-10-09"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Works in Progress"
     },
@@ -3158,7 +3158,7 @@
         "2026-10-09"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Aeon"
     },
@@ -3175,7 +3175,7 @@
         "2026-10-10"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -3192,7 +3192,7 @@
         "2026-10-10"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gdelt_geopolitics"
     },
@@ -3209,7 +3209,7 @@
         "2026-10-10"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Transformer"
     },
@@ -3226,7 +3226,7 @@
         "2026-10-10"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -3243,7 +3243,7 @@
         "2026-10-10"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -3260,7 +3260,7 @@
         "2026-10-10"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_ke"
     },
@@ -3277,7 +3277,7 @@
         "2026-10-10"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -3294,7 +3294,7 @@
         "2026-10-10"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -3311,7 +3311,7 @@
         "2026-10-10"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -3328,7 +3328,7 @@
         "2026-10-11"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -3345,7 +3345,7 @@
         "2026-10-11"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -3362,7 +3362,7 @@
         "2026-10-11"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -3379,7 +3379,7 @@
         "2026-10-11"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "n+1"
     },
@@ -3396,7 +3396,7 @@
         "2026-10-11"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gdelt_geopolitics"
     },
@@ -3413,7 +3413,7 @@
         "2026-10-11"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -3430,7 +3430,7 @@
         "2026-10-11"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -3447,7 +3447,7 @@
         "2026-10-12"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -3464,7 +3464,7 @@
         "2026-10-12"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -3481,7 +3481,7 @@
         "2026-10-12"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_br"
     },
@@ -3498,7 +3498,7 @@
         "2026-10-12"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_ke"
     },
@@ -3515,7 +3515,7 @@
         "2026-10-12"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Pitchfork"
     },
@@ -3532,7 +3532,7 @@
         "2026-10-12"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "OpenAI"
     },
@@ -3549,7 +3549,7 @@
         "2026-10-12"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -3566,7 +3566,7 @@
         "2026-10-12"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -3583,7 +3583,7 @@
         "2026-10-12"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -3600,7 +3600,7 @@
         "2026-10-13"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -3617,7 +3617,7 @@
         "2026-10-13"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -3634,7 +3634,7 @@
         "2026-10-13"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Public Books"
     },
@@ -3651,7 +3651,7 @@
         "2026-10-13"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -3668,7 +3668,7 @@
         "2026-10-13"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -3685,7 +3685,7 @@
         "2026-10-13"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Interconnects"
     },
@@ -3702,7 +3702,7 @@
         "2026-10-13"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -3719,7 +3719,7 @@
         "2026-10-13"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Aeon"
     },
@@ -3736,7 +3736,7 @@
         "2026-10-14"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -3753,7 +3753,7 @@
         "2026-10-14"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -3770,7 +3770,7 @@
         "2026-10-14"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -3787,7 +3787,7 @@
         "2026-10-14"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Public Books"
     },
@@ -3804,7 +3804,7 @@
         "2026-10-14"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -3821,7 +3821,7 @@
         "2026-10-14"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Transformer"
     },
@@ -3838,7 +3838,7 @@
         "2026-10-14"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -3855,7 +3855,7 @@
         "2026-10-14"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -3872,7 +3872,7 @@
         "2026-10-14"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -3889,7 +3889,7 @@
         "2026-10-15"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -3906,7 +3906,7 @@
         "2026-10-15"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -3923,7 +3923,7 @@
         "2026-10-15"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "The Point"
     },
@@ -3940,7 +3940,7 @@
         "2026-10-15"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -3957,7 +3957,7 @@
         "2026-10-15"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Public Books"
     },
@@ -3974,7 +3974,7 @@
         "2026-10-15"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -3991,7 +3991,7 @@
         "2026-10-15"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -4008,7 +4008,7 @@
         "2026-10-15"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -4025,7 +4025,7 @@
         "2026-10-15"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Aeon"
     },
@@ -4042,7 +4042,7 @@
         "2026-10-16"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -4059,7 +4059,7 @@
         "2026-10-16"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Interconnects"
     },
@@ -4076,7 +4076,7 @@
         "2026-10-16"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -4093,7 +4093,7 @@
         "2026-10-16"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -4110,7 +4110,7 @@
         "2026-10-16"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Public Books"
     },
@@ -4127,7 +4127,7 @@
         "2026-10-16"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Transformer"
     },
@@ -4144,7 +4144,7 @@
         "2026-10-16"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -4161,7 +4161,7 @@
         "2026-10-16"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Works in Progress"
     },
@@ -4178,7 +4178,7 @@
         "2026-10-17"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -4195,7 +4195,7 @@
         "2026-10-17"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -4212,7 +4212,7 @@
         "2026-10-17"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -4229,7 +4229,7 @@
         "2026-10-17"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "n+1"
     },
@@ -4246,7 +4246,7 @@
         "2026-10-17"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "OpenAI"
     },
@@ -4263,7 +4263,7 @@
         "2026-10-17"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_br"
     },
@@ -4280,7 +4280,7 @@
         "2026-10-17"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -4297,7 +4297,7 @@
         "2026-10-17"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Public Domain Review"
     },
@@ -4314,7 +4314,7 @@
         "2026-10-17"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -4331,7 +4331,7 @@
         "2026-10-18"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -4348,7 +4348,7 @@
         "2026-10-18"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -4365,7 +4365,7 @@
         "2026-10-18"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_br"
     },
@@ -4382,7 +4382,7 @@
         "2026-10-18"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Pitchfork"
     },
@@ -4399,7 +4399,7 @@
         "2026-10-18"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -4416,7 +4416,7 @@
         "2026-10-18"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_ke"
     },
@@ -4433,7 +4433,7 @@
         "2026-10-18"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -4450,7 +4450,7 @@
         "2026-10-18"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -4467,7 +4467,7 @@
         "2026-10-19"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -4484,7 +4484,7 @@
         "2026-10-19"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -4501,7 +4501,7 @@
         "2026-10-19"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Public Books"
     },
@@ -4518,7 +4518,7 @@
         "2026-10-19"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -4535,7 +4535,7 @@
         "2026-10-19"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -4552,7 +4552,7 @@
         "2026-10-19"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_ke"
     },
@@ -4569,7 +4569,7 @@
         "2026-10-19"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -4586,7 +4586,7 @@
         "2026-10-19"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Aeon"
     },
@@ -4603,7 +4603,7 @@
         "2026-10-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -4620,7 +4620,7 @@
         "2026-10-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -4637,7 +4637,7 @@
         "2026-10-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Transformer"
     },
@@ -4654,7 +4654,7 @@
         "2026-10-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -4671,7 +4671,7 @@
         "2026-10-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -4688,7 +4688,7 @@
         "2026-10-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -4705,7 +4705,7 @@
         "2026-10-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -4722,7 +4722,7 @@
         "2026-10-20"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Aeon"
     },
@@ -4739,7 +4739,7 @@
         "2026-10-21"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -4756,7 +4756,7 @@
         "2026-10-21"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -4773,7 +4773,7 @@
         "2026-10-21"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "The Point"
     },
@@ -4790,7 +4790,7 @@
         "2026-10-21"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Public Books"
     },
@@ -4807,7 +4807,7 @@
         "2026-10-21"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "n+1"
     },
@@ -4824,7 +4824,7 @@
         "2026-10-21"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -4841,7 +4841,7 @@
         "2026-10-21"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -4858,7 +4858,7 @@
         "2026-10-21"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -4875,7 +4875,7 @@
         "2026-10-21"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Public Domain Review"
     },
@@ -4892,7 +4892,7 @@
         "2026-10-23"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -4909,7 +4909,7 @@
         "2026-10-23"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Public Books"
     },
@@ -4926,7 +4926,7 @@
         "2026-10-23"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -4943,7 +4943,7 @@
         "2026-10-23"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Transformer"
     },
@@ -4960,7 +4960,7 @@
         "2026-10-23"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -4977,7 +4977,7 @@
         "2026-10-23"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "The Point"
     },
@@ -4994,7 +4994,7 @@
         "2026-10-23"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -5011,7 +5011,7 @@
         "2026-10-23"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "The Learning Scientists"
     },
@@ -5028,7 +5028,7 @@
         "2026-10-23"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -5045,7 +5045,7 @@
         "2026-10-24"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -5062,7 +5062,7 @@
         "2026-10-24"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -5079,7 +5079,7 @@
         "2026-10-24"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_br"
     },
@@ -5096,7 +5096,7 @@
         "2026-10-24"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -5113,7 +5113,7 @@
         "2026-10-24"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_ke"
     },
@@ -5130,7 +5130,7 @@
         "2026-10-24"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Pitchfork"
     },
@@ -5147,7 +5147,7 @@
         "2026-10-24"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -5164,7 +5164,7 @@
         "2026-10-24"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Aeon"
     },
@@ -5181,7 +5181,7 @@
         "2026-10-24"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -5198,7 +5198,7 @@
         "2026-10-25"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -5215,7 +5215,7 @@
         "2026-10-25"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -5232,7 +5232,7 @@
         "2026-10-25"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -5249,7 +5249,7 @@
         "2026-10-25"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -5266,7 +5266,7 @@
         "2026-10-25"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_ke"
     },
@@ -5283,7 +5283,7 @@
         "2026-10-25"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Pitchfork"
     },
@@ -5300,7 +5300,7 @@
         "2026-10-25"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -5317,7 +5317,7 @@
         "2026-10-25"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -5334,7 +5334,7 @@
         "2026-10-25"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Interconnects"
     },
@@ -5351,7 +5351,7 @@
         "2026-10-26"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -5368,7 +5368,7 @@
         "2026-10-26"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Interconnects"
     },
@@ -5385,7 +5385,7 @@
         "2026-10-26"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -5402,7 +5402,7 @@
         "2026-10-26"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gdelt_geopolitics"
     },
@@ -5419,7 +5419,7 @@
         "2026-10-26"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -5436,7 +5436,7 @@
         "2026-10-26"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_br"
     },
@@ -5453,7 +5453,7 @@
         "2026-10-26"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -5470,7 +5470,7 @@
         "2026-10-26"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -5487,7 +5487,7 @@
         "2026-10-26"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Aeon"
     },
@@ -5504,7 +5504,7 @@
         "2026-10-27"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -5521,7 +5521,7 @@
         "2026-10-27"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -5538,7 +5538,7 @@
         "2026-10-27"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Interconnects"
     },
@@ -5555,7 +5555,7 @@
         "2026-10-27"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Transformer"
     },
@@ -5572,7 +5572,7 @@
         "2026-10-27"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -5589,7 +5589,7 @@
         "2026-10-27"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -5606,7 +5606,7 @@
         "2026-10-27"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -5623,7 +5623,7 @@
         "2026-10-27"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Aeon"
     },
@@ -5640,7 +5640,7 @@
         "2026-10-27"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -5657,7 +5657,7 @@
         "2026-10-28"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -5674,7 +5674,7 @@
         "2026-10-28"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Public Books"
     },
@@ -5691,7 +5691,7 @@
         "2026-10-28"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -5708,7 +5708,7 @@
         "2026-10-28"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -5725,7 +5725,7 @@
         "2026-10-28"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "n+1"
     },
@@ -5742,7 +5742,7 @@
         "2026-10-28"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gdelt_geopolitics"
     },
@@ -5759,7 +5759,7 @@
         "2026-10-28"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -5776,7 +5776,7 @@
         "2026-10-28"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -5793,7 +5793,7 @@
         "2026-10-28"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Works in Progress"
     },
@@ -5810,7 +5810,7 @@
         "2026-10-29"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -5827,7 +5827,7 @@
         "2026-10-29"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Transformer"
     },
@@ -5844,7 +5844,7 @@
         "2026-10-29"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Public Books"
     },
@@ -5861,7 +5861,7 @@
         "2026-10-29"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -5878,7 +5878,7 @@
         "2026-10-29"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gdelt_geopolitics"
     },
@@ -5895,7 +5895,7 @@
         "2026-10-29"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -5912,7 +5912,7 @@
         "2026-10-29"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -5929,7 +5929,7 @@
         "2026-10-29"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Public Domain Review"
     },
@@ -5946,7 +5946,7 @@
         "2026-10-29"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -5963,7 +5963,7 @@
         "2026-10-30"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Alignment Forum"
     },
@@ -5980,7 +5980,7 @@
         "2026-10-30"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -5997,7 +5997,7 @@
         "2026-10-30"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -6014,7 +6014,7 @@
         "2026-10-30"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -6031,7 +6031,7 @@
         "2026-10-30"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_ke"
     },
@@ -6048,7 +6048,7 @@
         "2026-10-30"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Transformer"
     },
@@ -6065,7 +6065,7 @@
         "2026-10-30"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -6082,7 +6082,7 @@
         "2026-10-30"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "The Learning Scientists"
     },
@@ -6099,7 +6099,7 @@
         "2026-10-30"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_learning"
     },
@@ -6116,7 +6116,7 @@
         "2026-10-31"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -6133,7 +6133,7 @@
         "2026-10-31"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -6150,7 +6150,7 @@
         "2026-10-31"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -6167,7 +6167,7 @@
         "2026-10-31"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Pitchfork"
     },
@@ -6184,7 +6184,7 @@
         "2026-10-31"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_br"
     },
@@ -6201,7 +6201,7 @@
         "2026-10-31"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_ke"
     },
@@ -6218,7 +6218,7 @@
         "2026-10-31"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -6235,7 +6235,7 @@
         "2026-10-31"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -6252,7 +6252,7 @@
         "2026-10-31"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Aeon"
     },
@@ -6269,7 +6269,7 @@
         "2026-11-01"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -6286,7 +6286,7 @@
         "2026-11-01"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -6303,7 +6303,7 @@
         "2026-11-01"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gdelt_geopolitics"
     },
@@ -6320,7 +6320,7 @@
         "2026-11-01"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_br"
     },
@@ -6337,7 +6337,7 @@
         "2026-11-01"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Pitchfork"
     },
@@ -6354,7 +6354,7 @@
         "2026-11-01"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -6371,7 +6371,7 @@
         "2026-11-01"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -6388,7 +6388,7 @@
         "2026-11-01"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -6405,7 +6405,7 @@
         "2026-11-02"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -6422,7 +6422,7 @@
         "2026-11-02"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Public Books"
     },
@@ -6439,7 +6439,7 @@
         "2026-11-02"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -6456,7 +6456,7 @@
         "2026-11-02"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gdelt_geopolitics"
     },
@@ -6473,7 +6473,7 @@
         "2026-11-02"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -6490,7 +6490,7 @@
         "2026-11-02"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_br"
     },
@@ -6507,7 +6507,7 @@
         "2026-11-02"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -6524,7 +6524,7 @@
         "2026-11-02"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -6541,7 +6541,7 @@
         "2026-11-03"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -6558,7 +6558,7 @@
         "2026-11-03"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Transformer"
     },
@@ -6575,7 +6575,7 @@
         "2026-11-03"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -6592,7 +6592,7 @@
         "2026-11-03"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "OpenAI"
     },
@@ -6609,7 +6609,7 @@
         "2026-11-03"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -6626,7 +6626,7 @@
         "2026-11-03"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_br"
     },
@@ -6643,7 +6643,7 @@
         "2026-11-03"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -6660,7 +6660,7 @@
         "2026-11-03"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Works in Progress"
     },
@@ -6677,7 +6677,7 @@
         "2026-11-03"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Aeon"
     },
@@ -6694,7 +6694,7 @@
         "2026-11-04"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -6711,7 +6711,7 @@
         "2026-11-04"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -6728,7 +6728,7 @@
         "2026-11-04"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -6745,7 +6745,7 @@
         "2026-11-04"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -6762,7 +6762,7 @@
         "2026-11-04"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Public Books"
     },
@@ -6779,7 +6779,7 @@
         "2026-11-04"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Google DeepMind"
     },
@@ -6796,7 +6796,7 @@
         "2026-11-04"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -6813,7 +6813,7 @@
         "2026-11-04"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -6830,7 +6830,7 @@
         "2026-11-04"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -6847,7 +6847,7 @@
         "2026-11-05"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -6864,7 +6864,7 @@
         "2026-11-05"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -6881,7 +6881,7 @@
         "2026-11-05"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Public Books"
     },
@@ -6898,7 +6898,7 @@
         "2026-11-05"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -6915,7 +6915,7 @@
         "2026-11-05"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -6932,7 +6932,7 @@
         "2026-11-05"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_ke"
     },
@@ -6949,7 +6949,7 @@
         "2026-11-05"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Aeon"
     },
@@ -6966,7 +6966,7 @@
         "2026-11-05"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Nautilus"
     },
@@ -6983,7 +6983,7 @@
         "2026-11-07"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -7000,7 +7000,7 @@
         "2026-11-07"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -7017,7 +7017,7 @@
         "2026-11-07"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -7034,7 +7034,7 @@
         "2026-11-07"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -7051,7 +7051,7 @@
         "2026-11-07"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -7068,7 +7068,7 @@
         "2026-11-07"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "The Point"
     },
@@ -7085,7 +7085,7 @@
         "2026-11-07"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "arxiv_cs"
     },
@@ -7102,7 +7102,7 @@
         "2026-11-07"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Quanta Magazine"
     },
@@ -7119,7 +7119,7 @@
         "2026-11-07"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Aeon"
     },
@@ -7136,7 +7136,7 @@
         "2026-11-09"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "ChinaTalk"
     },
@@ -7153,7 +7153,7 @@
         "2026-11-09"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Marginal Revolution"
     },
@@ -7170,7 +7170,7 @@
         "2026-11-09"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Public Books"
     },
@@ -7187,7 +7187,7 @@
         "2026-11-09"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "n+1"
     },
@@ -7204,7 +7204,7 @@
         "2026-11-09"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "Literary Hub"
     },
@@ -7221,7 +7221,7 @@
         "2026-11-09"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "gnews_world_in"
     },
@@ -7238,7 +7238,7 @@
         "2026-11-09"
       ],
       "reviews_done": 0,
-      "retired": false,
+      "retired": true,
       "missed": false,
       "source": "LessWrong"
     },
@@ -7253,6 +7253,159 @@
         "2026-10-12",
         "2026-10-21",
         "2026-11-09"
+      ],
+      "reviews_done": 0,
+      "retired": true,
+      "missed": false,
+      "source": "Quanta Magazine"
+    },
+    {
+      "id": "4de91735e535c92d05fb767f0bdf9c93feaf23d9",
+      "title": "Experimentally validated digital twins",
+      "one_line": "ML on admin data matches RCTs, potentially reshaping how policy evidence is produced.",
+      "ingested_date": "2026-11-12",
+      "review_dates": [
+        "2026-11-13",
+        "2026-11-15",
+        "2026-11-19",
+        "2026-11-28",
+        "2026-12-17"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "60309a00b667858d67793e16e71c74a5cde927fb",
+      "title": "An Ode to the Lost Generation: Adam Gopnik on The Sun Also Rises at 100",
+      "one_line": "Gopnik reframes a canonical novel's dated prejudices as essential to its enduring power.",
+      "ingested_date": "2026-11-12",
+      "review_dates": [
+        "2026-11-13",
+        "2026-11-15",
+        "2026-11-19",
+        "2026-11-28",
+        "2026-12-17"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "e7a56d90bd1b17fe236413778c072d4dc53191c2",
+      "title": "B-sides: Fyodor Dostoevsky’s “The Adolescent”",
+      "one_line": "Argues a maligned Dostoevsky novel is newly relevant; a real point of view.",
+      "ingested_date": "2026-11-12",
+      "review_dates": [
+        "2026-11-13",
+        "2026-11-15",
+        "2026-11-19",
+        "2026-11-28",
+        "2026-12-17"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "3cd0a758d99018f85a4f26ea55698f23acb807a8",
+      "title": "Fragile progress: how COP31 can advance climate security",
+      "one_line": "Generic COP31 commentary; no new argument or reframing evident.",
+      "ingested_date": "2026-11-12",
+      "review_dates": [
+        "2026-11-13",
+        "2026-11-15",
+        "2026-11-19",
+        "2026-11-28",
+        "2026-12-17"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "cf484cf9f8714b1ac9c619447d123ec331c83d6e",
+      "title": "“O debate climático desembocou na geopolítica. Isso abre oportunidade para o Brasil desempenhar um papel importante”",
+      "one_line": "Generic framing of climate as geopolitics; no new argument or evidence.",
+      "ingested_date": "2026-11-12",
+      "review_dates": [
+        "2026-11-13",
+        "2026-11-15",
+        "2026-11-19",
+        "2026-11-28",
+        "2026-12-17"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "3ad2d2a832dab189f5a5bcc9f22e7cf2616fcc9d",
+      "title": "South Africa elections: The small parties that pulled off big surprises",
+      "one_line": "Horse-race election coverage; little reframing or new argument for a generalist.",
+      "ingested_date": "2026-11-12",
+      "review_dates": [
+        "2026-11-13",
+        "2026-11-15",
+        "2026-11-19",
+        "2026-11-28",
+        "2026-12-17"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_ke"
+    },
+    {
+      "id": "75434176feb8746a537a1c2a4a5d31aed56a27b3",
+      "title": "A Theory of Policy Optimization in Post-Training: Coverage Collapse and Reference Resets",
+      "one_line": "Theory showing REINFORCE/PPO can collapse coverage of optimal responses; reference resets fix it.",
+      "ingested_date": "2026-11-12",
+      "review_dates": [
+        "2026-11-13",
+        "2026-11-15",
+        "2026-11-19",
+        "2026-11-28",
+        "2026-12-17"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "fe4519f69a09b33b89aa7ee0634a8eb919c13605",
+      "title": "Why anything exists",
+      "one_line": "Fresh philosophical argument on the deepest question; worth a curious generalist's time.",
+      "ingested_date": "2026-11-12",
+      "review_dates": [
+        "2026-11-13",
+        "2026-11-15",
+        "2026-11-19",
+        "2026-11-28",
+        "2026-12-17"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
+    },
+    {
+      "id": "ff14c1f7ed8f99ab2c9d77cf05525eacd0459a17",
+      "title": "The Evolving Story of How Chemistry Became Biology",
+      "one_line": "Origin-of-life chemistry-to-biology narrative reframes how complexity emerges from simple rules.",
+      "ingested_date": "2026-11-12",
+      "review_dates": [
+        "2026-11-13",
+        "2026-11-15",
+        "2026-11-19",
+        "2026-11-28",
+        "2026-12-17"
       ],
       "reviews_done": 0,
       "retired": false,
