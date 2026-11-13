@@ -7271,7 +7271,7 @@
         "2026-11-28",
         "2026-12-17"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Marginal Revolution"
@@ -7288,7 +7288,7 @@
         "2026-11-28",
         "2026-12-17"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -7322,7 +7322,7 @@
         "2026-11-28",
         "2026-12-17"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "gnews_world_in"
@@ -7356,7 +7356,7 @@
         "2026-11-28",
         "2026-12-17"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "gnews_world_ke"
@@ -7411,6 +7411,159 @@
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
+    },
+    {
+      "id": "bf00178b892669ebf43c0a636e8f2b0bae0de8dc",
+      "title": "Do not overrate zero-sum status-seeking",
+      "one_line": "Cowen's migration argument sharply undercuts the fashionable status-seeking thesis.",
+      "ingested_date": "2026-11-13",
+      "review_dates": [
+        "2026-11-14",
+        "2026-11-16",
+        "2026-11-20",
+        "2026-11-29",
+        "2026-12-18"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "dbd63263bd8d36b341a1fd89eb5b8947ba6ee412",
+      "title": "Independent AI auditors have a recruitment problem",
+      "one_line": "Concrete bottleneck: auditor talent shortage could quietly undermine AI oversight regimes.",
+      "ingested_date": "2026-11-13",
+      "review_dates": [
+        "2026-11-14",
+        "2026-11-16",
+        "2026-11-20",
+        "2026-11-29",
+        "2026-12-18"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "d167609c2b1c64d4f66f74cd8826b0e7773538a6",
+      "title": "Kaveh Akbar, Sally Rooney, and Political Paralysis in Contemporary Fiction",
+      "one_line": "Reframes political paralysis through fiction, linking grief to geopolitical helplessness.",
+      "ingested_date": "2026-11-13",
+      "review_dates": [
+        "2026-11-14",
+        "2026-11-16",
+        "2026-11-20",
+        "2026-11-29",
+        "2026-12-18"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "0230d7607330eb62b252e4489064aaf30a0bf3e7",
+      "title": "UK defence minister favours backchannels with Russia – a diplomacy expert explains why that would be fraught with danger",
+      "one_line": "Explains risks of backchannel diplomacy with Russia; modest reframing, not novel.",
+      "ingested_date": "2026-11-13",
+      "review_dates": [
+        "2026-11-14",
+        "2026-11-16",
+        "2026-11-20",
+        "2026-11-29",
+        "2026-12-18"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "1ebfee6e8b253530c4f12d8ada741aef926d75e4",
+      "title": "South Africa: After suffering its worst election, what's next for the ANC?",
+      "one_line": "Real political shift but headline-level horse-race framing, little analytical depth.",
+      "ingested_date": "2026-11-13",
+      "review_dates": [
+        "2026-11-14",
+        "2026-11-16",
+        "2026-11-20",
+        "2026-11-29",
+        "2026-12-18"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_ke"
+    },
+    {
+      "id": "6bad92079e6216260da716c3935c3f08fc6ebcf8",
+      "title": "SADC debate preparação para desastres diante da previsão de El Niño intenso na África Austral",
+      "one_line": "Regional disaster prep for strong El Niño; real but routine forecast coverage.",
+      "ingested_date": "2026-11-13",
+      "review_dates": [
+        "2026-11-14",
+        "2026-11-16",
+        "2026-11-20",
+        "2026-11-29",
+        "2026-12-18"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "4a3b8a11bc05a58c07f09bfed57fe52caf04f892",
+      "title": "Goal Encoding in LLMs",
+      "one_line": "Localizes causal, transplantable goal representations in LLMs; reframes recurrence via re-reading.",
+      "ingested_date": "2026-11-13",
+      "review_dates": [
+        "2026-11-14",
+        "2026-11-16",
+        "2026-11-20",
+        "2026-11-29",
+        "2026-12-18"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "539eec109cd6fa8d7f54e55a3b936fbc6d772e2f",
+      "title": "How To Get A Friend To Leave An Abusive Relationship",
+      "one_line": "Counterintuitive, portable advice on influence that resists propagation; reframes persuasion.",
+      "ingested_date": "2026-11-13",
+      "review_dates": [
+        "2026-11-14",
+        "2026-11-16",
+        "2026-11-20",
+        "2026-11-29",
+        "2026-12-18"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "35762008b332249b21d611b3b992b9c57701ecb8",
+      "title": "Benefits of Exercise for Cognition",
+      "one_line": "Large meta-meta-analysis confirms exercise aids cognition, but conclusion is unsurprising.",
+      "ingested_date": "2026-11-13",
+      "review_dates": [
+        "2026-11-14",
+        "2026-11-16",
+        "2026-11-20",
+        "2026-11-29",
+        "2026-12-18"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "The Learning Scientists"
     }
   ]
 }
