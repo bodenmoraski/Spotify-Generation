@@ -7475,7 +7475,7 @@
         "2026-11-29",
         "2026-12-18"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "gnews_world_in"
@@ -7492,7 +7492,7 @@
         "2026-11-29",
         "2026-12-18"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "gnews_world_ke"
@@ -7526,7 +7526,7 @@
         "2026-11-29",
         "2026-12-18"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "arxiv_cs"
@@ -7560,10 +7560,163 @@
         "2026-11-29",
         "2026-12-18"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "The Learning Scientists"
+    },
+    {
+      "id": "60db1e04550962b12d98b5cc88a4e150b6770ed6",
+      "title": "WOKE feminist EXPOSES left-wing anti-meme (NOT CLICKBAIT)",
+      "one_line": "Anti-memetic ideas framing: why some true ideas self-censor and fail to spread.",
+      "ingested_date": "2026-11-14",
+      "review_dates": [
+        "2026-11-15",
+        "2026-11-17",
+        "2026-11-21",
+        "2026-11-30",
+        "2026-12-19"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "a4459ec876dabfbedab6573987860c74b2b7c4bb",
+      "title": "Privatize Air Traffic Control, Redux",
+      "one_line": "Incentive-alignment argument for privatizing ATC, tied to recurring failures",
+      "ingested_date": "2026-11-14",
+      "review_dates": [
+        "2026-11-15",
+        "2026-11-17",
+        "2026-11-21",
+        "2026-11-30",
+        "2026-12-19"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "812c54fee2cda9f14786a8d747756ae56b111af0",
+      "title": "Open-source AI without Jensen",
+      "one_line": "Argues Nvidia's open-model funding hinges on Jensen, a real reframing of ecosystem risk.",
+      "ingested_date": "2026-11-14",
+      "review_dates": [
+        "2026-11-15",
+        "2026-11-17",
+        "2026-11-21",
+        "2026-11-30",
+        "2026-12-19"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Interconnects"
+    },
+    {
+      "id": "e35004f539685d7e6ca32d66050aee3c783399a7",
+      "title": "What We Lose When We Don’t Archive Black Motherhood",
+      "one_line": "Personal essay on an archival gap in Black motherhood narratives; genuine but narrow.",
+      "ingested_date": "2026-11-14",
+      "review_dates": [
+        "2026-11-15",
+        "2026-11-17",
+        "2026-11-21",
+        "2026-11-30",
+        "2026-12-19"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "8d1830e24586a04c25bbb7f125e4093acfb8db53",
+      "title": "Talks Between Russia and Ukraine: UAE Diplomacy Brings Rivals to the Same Table",
+      "one_line": "Mediation venue shift hints at Gulf diplomacy role, but thin on substance.",
+      "ingested_date": "2026-11-14",
+      "review_dates": [
+        "2026-11-15",
+        "2026-11-17",
+        "2026-11-21",
+        "2026-11-30",
+        "2026-12-19"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "28639d66f90b5fa433834050bb828f7767b24a70",
+      "title": "November Bookmarks: A Single Woman in a Dust-Proof Room",
+      "one_line": "Bookmarks roundup of excerpts; pleasant but no argument or reframing.",
+      "ingested_date": "2026-11-14",
+      "review_dates": [
+        "2026-11-15",
+        "2026-11-17",
+        "2026-11-21",
+        "2026-11-30",
+        "2026-12-19"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "The Paris Review"
+    },
+    {
+      "id": "a9aea5c1c9cce7e67baeb6a23755c4fd690ded80",
+      "title": "Target What? The Foundations of Poverty Targeting -- by Rema Hanna, Emily Breza, Benjamin A. Olken, Abhijit Banerjee, Arun G. Chandrasekhar, Gideon Moore",
+      "one_line": "Shows standard poverty targeting misses most high-marginal-value households; reframes targeting as normative.",
+      "ingested_date": "2026-11-14",
+      "review_dates": [
+        "2026-11-15",
+        "2026-11-17",
+        "2026-11-21",
+        "2026-11-30",
+        "2026-12-19"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "NBER"
+    },
+    {
+      "id": "082436a7b9cdd31db662de0fb5951f47b38346a0",
+      "title": "Fugitive imagination",
+      "one_line": "Reframes fugitivity as a source of knowledge, not just escape.",
+      "ingested_date": "2026-11-14",
+      "review_dates": [
+        "2026-11-15",
+        "2026-11-17",
+        "2026-11-21",
+        "2026-11-30",
+        "2026-12-19"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
+    },
+    {
+      "id": "bc5493c5b1c028e994a0ce2250994c71991d7167",
+      "title": "A Chemical Fingerprint in Ancient Rocks Suggests Plate Tectonics Began 2.5 Billion Years Ago",
+      "one_line": "Deep-time reframing of when Earth's geology became modern; genuinely mind-expanding.",
+      "ingested_date": "2026-11-14",
+      "review_dates": [
+        "2026-11-15",
+        "2026-11-17",
+        "2026-11-21",
+        "2026-11-30",
+        "2026-12-19"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
     }
   ]
 }
