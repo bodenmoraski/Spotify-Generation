@@ -7271,7 +7271,7 @@
         "2026-11-28",
         "2026-12-17"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Marginal Revolution"
@@ -7288,7 +7288,7 @@
         "2026-11-28",
         "2026-12-17"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -7322,7 +7322,7 @@
         "2026-11-28",
         "2026-12-17"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "gnews_world_in"
@@ -7356,7 +7356,7 @@
         "2026-11-28",
         "2026-12-17"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "gnews_world_ke"
@@ -7717,6 +7717,142 @@
       "retired": false,
       "missed": false,
       "source": "Nautilus"
+    },
+    {
+      "id": "7d9157cb2b9c4dad4274665cf563eee97d509c16",
+      "title": "China’s Grip on Critical Minerals Holds as Trump Pushes Ahead of Xi Talks",
+      "one_line": "Horse-race diplomacy coverage; no new argument or reframing.",
+      "ingested_date": "2026-11-15",
+      "review_dates": [
+        "2026-11-16",
+        "2026-11-18",
+        "2026-11-22",
+        "2026-12-01",
+        "2026-12-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "4b30f6982f558aec24fe260dc6f46af3ef605340",
+      "title": "Tyler Cowen’s strongest musical recommendations, 2003–2026",
+      "one_line": "Aggregated music listicle; mildly fun but no new argument or reframing.",
+      "ingested_date": "2026-11-15",
+      "review_dates": [
+        "2026-11-16",
+        "2026-11-18",
+        "2026-11-22",
+        "2026-12-01",
+        "2026-12-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "d8c7a3630a5bee672ec52a51e56fecef9b30524a",
+      "title": "Lit Hub Weekly: November 9 – 13, 2026",
+      "one_line": "Weekly link roundup; no single argument or reframing to engage with.",
+      "ingested_date": "2026-11-15",
+      "review_dates": [
+        "2026-11-16",
+        "2026-11-18",
+        "2026-11-22",
+        "2026-12-01",
+        "2026-12-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "58016f0819ea1b8db85b3f74259a183219df0949",
+      "title": "Lula critica big techs e tarifas em cúpula na Ásia",
+      "one_line": "Routine diplomatic speech criticism; no new argument or reframing.",
+      "ingested_date": "2026-11-15",
+      "review_dates": [
+        "2026-11-16",
+        "2026-11-18",
+        "2026-11-22",
+        "2026-12-01",
+        "2026-12-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "21bf112b665d7156c9ad152cc925762e4009c990",
+      "title": "Panda Bear Remixes Grace Ives’ “Stupid Bitches”",
+      "one_line": "Routine remix announcement; no argument or reframing, pure release news.",
+      "ingested_date": "2026-11-15",
+      "review_dates": [
+        "2026-11-16",
+        "2026-11-18",
+        "2026-11-22",
+        "2026-12-01",
+        "2026-12-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Pitchfork"
+    },
+    {
+      "id": "a6b46d1d7337d2c83051f8c0331a290e7277bd45",
+      "title": "Debiasing Law Enforcement Officers: Evidence from an Expressive Arts Intervention in India -- by Sofia Amaral, Girija Borker, Nishith Prakash, María Micaela Sviatschi",
+      "one_line": "RCT shows arts intervention durably changes police behavior and diffuses via transfers",
+      "ingested_date": "2026-11-15",
+      "review_dates": [
+        "2026-11-16",
+        "2026-11-18",
+        "2026-11-22",
+        "2026-12-01",
+        "2026-12-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "NBER"
+    },
+    {
+      "id": "25effb1707eff900b43045b877b3ff15aacc6ee2",
+      "title": "A Dead Star Is Flashing Radio Waves Every 8 Minutes",
+      "one_line": "Genuinely strange astrophysical object; a real puzzle that reframes stellar evolution.",
+      "ingested_date": "2026-11-15",
+      "review_dates": [
+        "2026-11-16",
+        "2026-11-18",
+        "2026-11-22",
+        "2026-12-01",
+        "2026-12-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
+    },
+    {
+      "id": "30c68e344d701d8ecf54afe6335206d408621b6e",
+      "title": "Outer space is not consistently big",
+      "one_line": "Playful reframing of cosmic scale, mildly interesting but not argument-shifting.",
+      "ingested_date": "2026-11-15",
+      "review_dates": [
+        "2026-11-16",
+        "2026-11-18",
+        "2026-11-22",
+        "2026-12-01",
+        "2026-12-20"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
     }
   ]
 }
