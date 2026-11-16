@@ -279,6 +279,78 @@
       "url": "https://www.lesswrong.com/posts/2zyskdas6TsL9dqNg/outer-space-is-not-consistently-big",
       "covered_date": "2026-11-15",
       "one_line": "Playful reframing of cosmic scale, mildly interesting but not argument-shifting."
+    },
+    {
+      "id": "0abb917ede7ad05879d23cf41a8b2d3fa571bd24",
+      "title": "Coffeehouses and the Scientific Revolution",
+      "title_norm": "coffeehouses and the scientific revolution",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/11/coffeehouses-and-the-scientific-revolution.html?utm_source=rss&utm_medium=rss&utm_campaign=coffeehouses-and-the-scientific-revolution",
+      "covered_date": "2026-11-16",
+      "one_line": "Causal evidence that coffeehouses drove applied science reframes how knowledge production works."
+    },
+    {
+      "id": "410923f6c3e27ca0733004b57ec4dc75a3835549",
+      "title": "The Siren Song of the Inside Game",
+      "title_norm": "the siren song of the inside game",
+      "url": "https://www.lesswrong.com/posts/GSseMxyeJmqQgKQi4/the-siren-song-of-the-inside-game",
+      "covered_date": "2026-11-16",
+      "one_line": "Structural argument that AI safety overinvests in insider access vs. outside pressure."
+    },
+    {
+      "id": "3931090c3c84195baeac9aa874a58e0605ff6eb4",
+      "title": "MOFCOM's New Rules: Digging For Leverage",
+      "title_norm": "mofcom s new rules digging for leverage",
+      "url": "https://www.chinatalk.media/p/mofcoms-new-weapons-of-mass-construction",
+      "covered_date": "2026-11-16",
+      "one_line": "Reframes China's export controls as a broad leverage playbook beyond rare earths."
+    },
+    {
+      "id": "87d7014c15ee68a3a258e4931bcaef4b31534b44",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "title_norm": "a step toward defining the standard model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "covered_date": "2026-11-16",
+      "one_line": "Lattice SM definition is a real physics idea; AI-assisted proof angle adds interest."
+    },
+    {
+      "id": "ce05fa4d7169f6dc6206059bcb663b6e5330071e",
+      "title": "The Gatekeepers: Dispatch from an Israeli Jail",
+      "title_norm": "the gatekeepers dispatch from an israeli jail",
+      "url": "https://www.theparisreview.org/blog/2026/11/16/gatekeepers-israeli-detention-palestine-jasper-nathaniel/",
+      "covered_date": "2026-11-16",
+      "one_line": "On-the-ground reportage reframes occupation through the mundane violence of a gate."
+    },
+    {
+      "id": "ab673588a450576c7db17ad08327233394cce973",
+      "title": "Ocean Vuong on \u00c1gota Krist\u00f3f\u2019s The Notebook Trilogy",
+      "title_norm": "ocean vuong on \u00e1gota krist\u00f3f s the notebook trilogy",
+      "url": "https://lithub.com/ocean-vuong-on-agota-kristofs-the-notebook-trilogy/",
+      "covered_date": "2026-11-16",
+      "one_line": "Vuong's Benjamin-inflected reading of Krist\u00f3f offers a genuine reframing of her spare prose."
+    },
+    {
+      "id": "ee9a743020c0f0509c8f793d76b6b5e14e39fe65",
+      "title": "Monetary policy in a Phelps\u2013Winter Economy -- by Bruce C. Greenwald, Joseph E. Stiglitz",
+      "title_norm": "monetary policy in a phelps winter economy by bruce c greenwald joseph e stiglitz",
+      "url": "https://www.nber.org/papers/w36008#fromrss",
+      "covered_date": "2026-11-16",
+      "one_line": "Reframes rate hikes as potentially inflationary via customer markets, challenging core policy prior."
+    },
+    {
+      "id": "34893789ad9da21dde9aad993cdf2bae196c5164",
+      "title": "The horse made the state",
+      "title_norm": "the horse made the state",
+      "url": "https://aeon.co/essays/the-origins-of-the-state-are-not-agrarian-but-pastoralist",
+      "covered_date": "2026-11-16",
+      "one_line": "Reframes state formation around mobility and conquest, not grain surpluses."
+    },
+    {
+      "id": "1b136b0240f95267c7500a65613b8b624f11b71b",
+      "title": "What Makes Up the Cosmos? A 20-Year Survey Hints That Something Is Missing.",
+      "title_norm": "what makes up the cosmos a 20 year survey hints that something is missing",
+      "url": "https://www.quantamagazine.org/what-makes-up-the-cosmos-a-20-year-survey-hints-that-something-is-missing-20261116/",
+      "covered_date": "2026-11-16",
+      "one_line": "Dark energy survey hints at missing cosmic component, reframing cosmology's standard model."
     }
   ]
 }

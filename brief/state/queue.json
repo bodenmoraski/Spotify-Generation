@@ -7475,7 +7475,7 @@
         "2026-11-29",
         "2026-12-18"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "gnews_world_in"
@@ -7492,7 +7492,7 @@
         "2026-11-29",
         "2026-12-18"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "gnews_world_ke"
@@ -7526,7 +7526,7 @@
         "2026-11-29",
         "2026-12-18"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "arxiv_cs"
@@ -7560,7 +7560,7 @@
         "2026-11-29",
         "2026-12-18"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "The Learning Scientists"
@@ -7853,6 +7853,159 @@
       "retired": false,
       "missed": false,
       "source": "LessWrong"
+    },
+    {
+      "id": "0abb917ede7ad05879d23cf41a8b2d3fa571bd24",
+      "title": "Coffeehouses and the Scientific Revolution",
+      "one_line": "Causal evidence that coffeehouses drove applied science reframes how knowledge production works.",
+      "ingested_date": "2026-11-16",
+      "review_dates": [
+        "2026-11-17",
+        "2026-11-19",
+        "2026-11-23",
+        "2026-12-02",
+        "2026-12-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "410923f6c3e27ca0733004b57ec4dc75a3835549",
+      "title": "The Siren Song of the Inside Game",
+      "one_line": "Structural argument that AI safety overinvests in insider access vs. outside pressure.",
+      "ingested_date": "2026-11-16",
+      "review_dates": [
+        "2026-11-17",
+        "2026-11-19",
+        "2026-11-23",
+        "2026-12-02",
+        "2026-12-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "3931090c3c84195baeac9aa874a58e0605ff6eb4",
+      "title": "MOFCOM's New Rules: Digging For Leverage",
+      "one_line": "Reframes China's export controls as a broad leverage playbook beyond rare earths.",
+      "ingested_date": "2026-11-16",
+      "review_dates": [
+        "2026-11-17",
+        "2026-11-19",
+        "2026-11-23",
+        "2026-12-02",
+        "2026-12-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "87d7014c15ee68a3a258e4931bcaef4b31534b44",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "one_line": "Lattice SM definition is a real physics idea; AI-assisted proof angle adds interest.",
+      "ingested_date": "2026-11-16",
+      "review_dates": [
+        "2026-11-17",
+        "2026-11-19",
+        "2026-11-23",
+        "2026-12-02",
+        "2026-12-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "OpenAI"
+    },
+    {
+      "id": "ce05fa4d7169f6dc6206059bcb663b6e5330071e",
+      "title": "The Gatekeepers: Dispatch from an Israeli Jail",
+      "one_line": "On-the-ground reportage reframes occupation through the mundane violence of a gate.",
+      "ingested_date": "2026-11-16",
+      "review_dates": [
+        "2026-11-17",
+        "2026-11-19",
+        "2026-11-23",
+        "2026-12-02",
+        "2026-12-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "The Paris Review"
+    },
+    {
+      "id": "ab673588a450576c7db17ad08327233394cce973",
+      "title": "Ocean Vuong on Ágota Kristóf’s The Notebook Trilogy",
+      "one_line": "Vuong's Benjamin-inflected reading of Kristóf offers a genuine reframing of her spare prose.",
+      "ingested_date": "2026-11-16",
+      "review_dates": [
+        "2026-11-17",
+        "2026-11-19",
+        "2026-11-23",
+        "2026-12-02",
+        "2026-12-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "ee9a743020c0f0509c8f793d76b6b5e14e39fe65",
+      "title": "Monetary policy in a Phelps–Winter Economy -- by Bruce C. Greenwald, Joseph E. Stiglitz",
+      "one_line": "Reframes rate hikes as potentially inflationary via customer markets, challenging core policy prior.",
+      "ingested_date": "2026-11-16",
+      "review_dates": [
+        "2026-11-17",
+        "2026-11-19",
+        "2026-11-23",
+        "2026-12-02",
+        "2026-12-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "NBER"
+    },
+    {
+      "id": "34893789ad9da21dde9aad993cdf2bae196c5164",
+      "title": "The horse made the state",
+      "one_line": "Reframes state formation around mobility and conquest, not grain surpluses.",
+      "ingested_date": "2026-11-16",
+      "review_dates": [
+        "2026-11-17",
+        "2026-11-19",
+        "2026-11-23",
+        "2026-12-02",
+        "2026-12-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
+    },
+    {
+      "id": "1b136b0240f95267c7500a65613b8b624f11b71b",
+      "title": "What Makes Up the Cosmos? A 20-Year Survey Hints That Something Is Missing.",
+      "one_line": "Dark energy survey hints at missing cosmic component, reframing cosmology's standard model.",
+      "ingested_date": "2026-11-16",
+      "review_dates": [
+        "2026-11-17",
+        "2026-11-19",
+        "2026-11-23",
+        "2026-12-02",
+        "2026-12-21"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
     }
   ]
 }
