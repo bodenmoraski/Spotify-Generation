@@ -7577,7 +7577,7 @@
         "2026-11-30",
         "2026-12-19"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "LessWrong"
@@ -7611,7 +7611,7 @@
         "2026-11-30",
         "2026-12-19"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Interconnects"
@@ -7662,7 +7662,7 @@
         "2026-11-30",
         "2026-12-19"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "The Paris Review"
@@ -7696,7 +7696,7 @@
         "2026-11-30",
         "2026-12-19"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Aeon"
@@ -8006,6 +8006,159 @@
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
+    },
+    {
+      "id": "d6c710a2bbed24874240fd3294686eecebc5f8ec",
+      "title": "BIS Takes on Compute Leakage",
+      "one_line": "Export-control rule closing cloud compute loophole; real analysis of enforcement gaps and escalation.",
+      "ingested_date": "2026-11-17",
+      "review_dates": [
+        "2026-11-18",
+        "2026-11-20",
+        "2026-11-24",
+        "2026-12-03",
+        "2026-12-22"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "90a5d83ca80d8f20c1220967e6ce0286974ffd61",
+      "title": "Emancipatory Taxation",
+      "one_line": "Argues taxation as emancipatory political project, reframing fiscal policy beyond revenue.",
+      "ingested_date": "2026-11-17",
+      "review_dates": [
+        "2026-11-18",
+        "2026-11-20",
+        "2026-11-24",
+        "2026-12-03",
+        "2026-12-22"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "n+1"
+    },
+    {
+      "id": "d8a26a098b046340952d2f951284ab27c9e2c3ef",
+      "title": "The economics of Jensen Huang",
+      "one_line": "Reframes CEO success: indispensable leaders signal organizational failure, not just triumph.",
+      "ingested_date": "2026-11-17",
+      "review_dates": [
+        "2026-11-18",
+        "2026-11-20",
+        "2026-11-24",
+        "2026-12-03",
+        "2026-12-22"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "32a543cd063ef4a93fb820cd522cba247cfa957f",
+      "title": "Slaves and Other “Artificial Intelligences”: What the Classics Warn Us About AI",
+      "one_line": "Classics lens reframes AI as tool-and-slave lineage, a genuinely fresh argument.",
+      "ingested_date": "2026-11-17",
+      "review_dates": [
+        "2026-11-18",
+        "2026-11-20",
+        "2026-11-24",
+        "2026-12-03",
+        "2026-12-22"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "51a02e0daa40069d6e733a7e28f6dfca6d77ee7e",
+      "title": "What should AI be to us?",
+      "one_line": "Reframes AI consciousness debate around belief and consequences, not just metaphysics.",
+      "ingested_date": "2026-11-17",
+      "review_dates": [
+        "2026-11-18",
+        "2026-11-20",
+        "2026-11-24",
+        "2026-12-03",
+        "2026-12-22"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "9b69f04fe68c1fc09e2ea880db74697d844e6019",
+      "title": "Why I Had to Write My Memoir Under a Pseudonym",
+      "one_line": "Sharp first-person argument on pseudonyms, stigma, and academic conservatism; reframes identity cost.",
+      "ingested_date": "2026-11-17",
+      "review_dates": [
+        "2026-11-18",
+        "2026-11-20",
+        "2026-11-24",
+        "2026-12-03",
+        "2026-12-22"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "89f74e80377b91956d47bc4d2c0ca376649f9c9c",
+      "title": "Embedding Cosine Measures Text Length Before It Measures Homogenization",
+      "one_line": "Methodological takedown: a popular homogenization metric mostly measures text length, invalidating prior claims.",
+      "ingested_date": "2026-11-17",
+      "review_dates": [
+        "2026-11-18",
+        "2026-11-20",
+        "2026-11-24",
+        "2026-12-03",
+        "2026-12-22"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "35e52c2f72f1f0b2d77126de1a2cc39106ddfd13",
+      "title": "Read More Facts and Fewer Theories",
+      "one_line": "Argues facts beat grand theories; a portable epistemic corrective worth hearing.",
+      "ingested_date": "2026-11-17",
+      "review_dates": [
+        "2026-11-18",
+        "2026-11-20",
+        "2026-11-24",
+        "2026-12-03",
+        "2026-12-22"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "78c2a2ff32f4c0c81317ebd12e3b1f2a660fabcc",
+      "title": "Catwalks and crackdowns",
+      "one_line": "Reframes Iranian women's dress as mass civil disobedience, not victimhood.",
+      "ingested_date": "2026-11-17",
+      "review_dates": [
+        "2026-11-18",
+        "2026-11-20",
+        "2026-11-24",
+        "2026-12-03",
+        "2026-12-22"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
     }
   ]
 }
