@@ -7747,7 +7747,7 @@
         "2026-12-01",
         "2026-12-20"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Marginal Revolution"
@@ -7798,7 +7798,7 @@
         "2026-12-01",
         "2026-12-20"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Pitchfork"
@@ -7832,7 +7832,7 @@
         "2026-12-01",
         "2026-12-20"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Nautilus"
@@ -7849,7 +7849,7 @@
         "2026-12-01",
         "2026-12-20"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "LessWrong"
@@ -8159,6 +8159,159 @@
       "retired": false,
       "missed": false,
       "source": "Aeon"
+    },
+    {
+      "id": "d63f314df40d11b6a45bd9cc6fec2f351bdadef2",
+      "title": "A lab employee's guide to raising concerns",
+      "one_line": "Reframes individual lab employees as uniquely powerful whistleblowers, a concrete new argument.",
+      "ingested_date": "2026-11-18",
+      "review_dates": [
+        "2026-11-19",
+        "2026-11-21",
+        "2026-11-25",
+        "2026-12-04",
+        "2026-12-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "64c2fbdbd00eeea7163b5f9a9308136c4fbe634d",
+      "title": "UK productivity update",
+      "one_line": "Strongest UK productivity growth since 2018 reframes the stagnation and immigration debates.",
+      "ingested_date": "2026-11-18",
+      "review_dates": [
+        "2026-11-19",
+        "2026-11-21",
+        "2026-11-25",
+        "2026-12-04",
+        "2026-12-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "72b71dd25a9acb097e4ea5519257883692725c52",
+      "title": "Five Essential Books for Understanding the History of the U.S. Supreme Court",
+      "one_line": "Reframes judicial supremacy as a modern invention, not founding intent.",
+      "ingested_date": "2026-11-18",
+      "review_dates": [
+        "2026-11-19",
+        "2026-11-21",
+        "2026-11-25",
+        "2026-12-04",
+        "2026-12-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "2ed6612a734b63d1bb9bf94cfff54c4d8a148153",
+      "title": "The Simplest Way to Win Life-Changing Piles of Cash Every Week",
+      "one_line": "Argues gambling harms stem from corporate extraction, not vice—reframes a moralized debate.",
+      "ingested_date": "2026-11-18",
+      "review_dates": [
+        "2026-11-19",
+        "2026-11-21",
+        "2026-11-25",
+        "2026-12-04",
+        "2026-12-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "n+1"
+    },
+    {
+      "id": "d778f29bb014bf9668c3a39e7f93b3f6b729c6e4",
+      "title": "Draw Your Way Home: Nigeria’s Unruly Women Artists",
+      "one_line": "Reframes diaspora 'home' as relational, not geographic—a portable, thought-provoking idea.",
+      "ingested_date": "2026-11-18",
+      "review_dates": [
+        "2026-11-19",
+        "2026-11-21",
+        "2026-11-25",
+        "2026-12-04",
+        "2026-12-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "1913ddecca0d03f62767d74bcdd0ddfbc06b125f",
+      "title": "Good Alienation",
+      "one_line": "Part of an art-criticism symposium; niche but may reframe alienation as productive.",
+      "ingested_date": "2026-11-18",
+      "review_dates": [
+        "2026-11-19",
+        "2026-11-21",
+        "2026-11-25",
+        "2026-12-04",
+        "2026-12-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "The Point"
+    },
+    {
+      "id": "165f256efba8bf46e75125ae737a090b283641d8",
+      "title": "Inference after coding agents",
+      "one_line": "Coding agents inflate false-positive rates to 54-98%; proposes a replay-based correction.",
+      "ingested_date": "2026-11-18",
+      "review_dates": [
+        "2026-11-19",
+        "2026-11-21",
+        "2026-11-25",
+        "2026-12-04",
+        "2026-12-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "b88ef9a8d7a4f6d4d67c995889cbca5c6b56d9bc",
+      "title": "The Speech Patterns of Psychoses",
+      "one_line": "Linguistic markers of psychosis offer a genuinely fresh lens on mind and language.",
+      "ingested_date": "2026-11-18",
+      "review_dates": [
+        "2026-11-19",
+        "2026-11-21",
+        "2026-11-25",
+        "2026-12-04",
+        "2026-12-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
+    },
+    {
+      "id": "d9c5cc586ddda437418a505db806e247b1b544d0",
+      "title": "How M.C. Escher’s Art Creates Bizarre Mathematical Worlds",
+      "one_line": "Escher's intuitive math offers a fresh angle on how artists discover structure.",
+      "ingested_date": "2026-11-18",
+      "review_dates": [
+        "2026-11-19",
+        "2026-11-21",
+        "2026-11-25",
+        "2026-12-04",
+        "2026-12-23"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
     }
   ]
 }
