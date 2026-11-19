@@ -7271,7 +7271,7 @@
         "2026-11-28",
         "2026-12-17"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": "Marginal Revolution"
@@ -7288,7 +7288,7 @@
         "2026-11-28",
         "2026-12-17"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -7322,7 +7322,7 @@
         "2026-11-28",
         "2026-12-17"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": "gnews_world_in"
@@ -7356,7 +7356,7 @@
         "2026-11-28",
         "2026-12-17"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": "gnews_world_ke"
@@ -8312,6 +8312,159 @@
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
+    },
+    {
+      "id": "fea47fc0302153c811462aa1e88648b0fdbb5eed",
+      "title": "The Anthropic IPO",
+      "one_line": "IPO as revealed-preference signal against imminent superintelligence; a genuinely reframing argument.",
+      "ingested_date": "2026-11-19",
+      "review_dates": [
+        "2026-11-20",
+        "2026-11-22",
+        "2026-11-26",
+        "2026-12-05",
+        "2026-12-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "a7c30a9d05514d8e8d276773acf826c3cabecd0f",
+      "title": "The last great revolution",
+      "one_line": "Provocative reframe: crime's decline as a loss of counterpower and state-limit proof.",
+      "ingested_date": "2026-11-19",
+      "review_dates": [
+        "2026-11-20",
+        "2026-11-22",
+        "2026-11-26",
+        "2026-12-05",
+        "2026-12-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "a4c1e2fc818b2ada735eee8152ee2cca347c2426",
+      "title": "The Rise and Fall of the Union Steward",
+      "one_line": "Argues strikes now turn on staffing and dignity, not wages—reframes labor.",
+      "ingested_date": "2026-11-19",
+      "review_dates": [
+        "2026-11-20",
+        "2026-11-22",
+        "2026-11-26",
+        "2026-12-05",
+        "2026-12-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "n+1"
+    },
+    {
+      "id": "f89a891a06f5e6c706048007fb7b9643e1918b41",
+      "title": "Diplomacy, humour and avoidance – what we found when we investigated friendships across class divides",
+      "one_line": "Research on cross-class friendship dynamics offers a reframing of everyday social friction.",
+      "ingested_date": "2026-11-19",
+      "review_dates": [
+        "2026-11-20",
+        "2026-11-22",
+        "2026-11-26",
+        "2026-12-05",
+        "2026-12-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "20fdfa5293a1ed02792f1ae42fa17b8683265d08",
+      "title": "‘Página na história da diplomacia’, diz Putin sobre reunião trilateral com Xi e Trump em Shenzhen",
+      "one_line": "Rare trilateral Putin-Xi-Trump summit could reshape geopolitics; needs verification.",
+      "ingested_date": "2026-11-19",
+      "review_dates": [
+        "2026-11-20",
+        "2026-11-22",
+        "2026-11-26",
+        "2026-12-05",
+        "2026-12-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "81d2543a5e1cad5dc9e94334302d4311a0a90e86",
+      "title": "New Congress, New Rare Earths Policy?",
+      "one_line": "Rare-earth supply-chain leverage analysis; useful reframing but partly news-pegged and truncated.",
+      "ingested_date": "2026-11-19",
+      "review_dates": [
+        "2026-11-20",
+        "2026-11-22",
+        "2026-11-26",
+        "2026-12-05",
+        "2026-12-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "d66a09c1f48bcf7d8a60296ee60d4d32f4cc6341",
+      "title": "Irregular Demand: The Anti-Compromise Effect in the Field -- by Nicola Gennaioli, John A. List, Matthias Rodemeier, Gregory K. Sun",
+      "one_line": "Field experiment overturns a core demand axiom with a memory-cue mechanism.",
+      "ingested_date": "2026-11-19",
+      "review_dates": [
+        "2026-11-20",
+        "2026-11-22",
+        "2026-11-26",
+        "2026-12-05",
+        "2026-12-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "NBER"
+    },
+    {
+      "id": "2658b8bd4aa81ea0ad7a45bd0a48359c197b8e70",
+      "title": "Science After Super Intelligence",
+      "one_line": "Reframes AI's role in science as expanding, not ending, human inquiry.",
+      "ingested_date": "2026-11-19",
+      "review_dates": [
+        "2026-11-20",
+        "2026-11-22",
+        "2026-11-26",
+        "2026-12-05",
+        "2026-12-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
+    },
+    {
+      "id": "963b8bc40fce85ccaa6ac86e4f7d632b4059f538",
+      "title": "How do biotech hedge funds make money?",
+      "one_line": "Reveals how biotech investing runs on information networks, not just science.",
+      "ingested_date": "2026-11-19",
+      "review_dates": [
+        "2026-11-20",
+        "2026-11-22",
+        "2026-11-26",
+        "2026-12-05",
+        "2026-12-24"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Works in Progress"
     }
   ]
 }
