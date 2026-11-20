@@ -567,6 +567,78 @@
       "url": "https://worksinprogress.co/issue/how-do-biotech-hedge-funds-make-money/",
       "covered_date": "2026-11-19",
       "one_line": "Reveals how biotech investing runs on information networks, not just science."
+    },
+    {
+      "id": "c4fca29dd6674b8641e91103f088bf7e7aadc6f0",
+      "title": "Towards embedded evaluations for AI monitoring",
+      "title_norm": "towards embedded evaluations for ai monitoring",
+      "url": "https://www.lesswrong.com/posts/pXnwQ3ESp3wXhLzNa/towards-embedded-evaluations-for-ai-monitoring",
+      "covered_date": "2026-11-20",
+      "one_line": "Concrete framework for independent evaluation of AI monitors; reframes oversight as testable claims."
+    },
+    {
+      "id": "6b7c48427fb0bf37d2c90b6213699e01fe4cd69d",
+      "title": "Phonics-based Instruction and Student Achievement",
+      "title_norm": "phonics based instruction and student achievement",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/11/phonics-based-instruction-and-student-achievement.html?utm_source=rss&utm_medium=rss&utm_campaign=phonics-based-instruction-and-student-achievement",
+      "covered_date": "2026-11-20",
+      "one_line": "Rigorous evidence overturning Reading First's abandoned-ineffective prior, with adult earnings gains"
+    },
+    {
+      "id": "e85c0cab7756e7691c7fe75cee861c3da1cde5c9",
+      "title": "Policy can still work on short timelines",
+      "title_norm": "policy can still work on short timelines",
+      "url": "https://www.transformernews.ai/p/policy-can-still-work-on-short-timelines-california-states-ai",
+      "covered_date": "2026-11-20",
+      "one_line": "Argues policy can still act on short AI timelines, countering safety-community fatalism."
+    },
+    {
+      "id": "827bf38e7b6363730ba8bb72b83a3764192af969",
+      "title": "\u201cBlank\u201d",
+      "title_norm": "blank",
+      "url": "https://lithub.com/blank/",
+      "covered_date": "2026-11-20",
+      "one_line": "Inventive fiction narrated by a blank cartridge; a fresh, strange voice worth meeting."
+    },
+    {
+      "id": "d4c7371115d94f145aa3892a4254cc90dada81e3",
+      "title": "Decency and Tradition: Colm T\u00f3ib\u00edn on Thomas Mann and Fatherland",
+      "title_norm": "decency and tradition colm t\u00f3ib\u00edn on thomas mann and fatherland",
+      "url": "https://www.theparisreview.org/blog/2026/11/20/fatherland-colm-toibin-on-thomas-mann/",
+      "covered_date": "2026-11-20",
+      "one_line": "T\u00f3ib\u00edn on Mann offers a substantive literary lens on exile and decency."
+    },
+    {
+      "id": "4a07afa2269ec3cc61be88a987cc3572c1063901",
+      "title": "Criticism and the Literary Ecosystem: Becca Rothfeld and Joanna Biggs",
+      "title_norm": "criticism and the literary ecosystem becca rothfeld and joanna biggs",
+      "url": "https://www.publicbooks.org/criticism-and-the-literary-ecosystem-becca-rothfeld-and-joanna-biggs/",
+      "covered_date": "2026-11-20",
+      "one_line": "Defends difficulty in criticism against accessibility-driven flattening; a real argument worth hearing."
+    },
+    {
+      "id": "18030cf50d9822e1c430c776c6be69b993991990",
+      "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+      "title_norm": "rl post training in diffusion transformers is activation steering",
+      "url": "https://arxiv.org/abs/2611.26627v1",
+      "covered_date": "2026-11-20",
+      "one_line": "Shows most RL post-training gains are a constant activation shift, not learned input-dependent behavior."
+    },
+    {
+      "id": "78104f8e740049849df990c71acc154dd36cb379",
+      "title": "The Everlasting Life of Maxwell\u2019s Demon",
+      "title_norm": "the everlasting life of maxwell s demon",
+      "url": "https://nautil.us/the-everlasting-life-of-maxwells-demon-1286802/",
+      "covered_date": "2026-11-20",
+      "one_line": "Philip Ball on how a 19th-century thought experiment still shapes physics and information theory."
+    },
+    {
+      "id": "536d170c6c7f8f3a1884761aa7c98e29a623a115",
+      "title": "Network Researchers Nail Down Theory of \u2018Perfect Resilience\u2019",
+      "title_norm": "network researchers nail down theory of perfect resilience",
+      "url": "https://www.quantamagazine.org/network-researchers-nail-down-theory-of-perfect-resilience-20261120/",
+      "covered_date": "2026-11-20",
+      "one_line": "New theory of network resilience reframes how we think about failure-proof systems."
     }
   ]
 }

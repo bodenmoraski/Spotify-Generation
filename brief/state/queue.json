@@ -7475,7 +7475,7 @@
         "2026-11-29",
         "2026-12-18"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": "gnews_world_in"
@@ -7492,7 +7492,7 @@
         "2026-11-29",
         "2026-12-18"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": "gnews_world_ke"
@@ -7526,7 +7526,7 @@
         "2026-11-29",
         "2026-12-18"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": "arxiv_cs"
@@ -7560,7 +7560,7 @@
         "2026-11-29",
         "2026-12-18"
       ],
-      "reviews_done": 2,
+      "reviews_done": 3,
       "retired": false,
       "missed": false,
       "source": "The Learning Scientists"
@@ -8465,6 +8465,159 @@
       "retired": false,
       "missed": false,
       "source": "Works in Progress"
+    },
+    {
+      "id": "c4fca29dd6674b8641e91103f088bf7e7aadc6f0",
+      "title": "Towards embedded evaluations for AI monitoring",
+      "one_line": "Concrete framework for independent evaluation of AI monitors; reframes oversight as testable claims.",
+      "ingested_date": "2026-11-20",
+      "review_dates": [
+        "2026-11-21",
+        "2026-11-23",
+        "2026-11-27",
+        "2026-12-06",
+        "2026-12-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "6b7c48427fb0bf37d2c90b6213699e01fe4cd69d",
+      "title": "Phonics-based Instruction and Student Achievement",
+      "one_line": "Rigorous evidence overturning Reading First's abandoned-ineffective prior, with adult earnings gains",
+      "ingested_date": "2026-11-20",
+      "review_dates": [
+        "2026-11-21",
+        "2026-11-23",
+        "2026-11-27",
+        "2026-12-06",
+        "2026-12-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "e85c0cab7756e7691c7fe75cee861c3da1cde5c9",
+      "title": "Policy can still work on short timelines",
+      "one_line": "Argues policy can still act on short AI timelines, countering safety-community fatalism.",
+      "ingested_date": "2026-11-20",
+      "review_dates": [
+        "2026-11-21",
+        "2026-11-23",
+        "2026-11-27",
+        "2026-12-06",
+        "2026-12-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "827bf38e7b6363730ba8bb72b83a3764192af969",
+      "title": "“Blank”",
+      "one_line": "Inventive fiction narrated by a blank cartridge; a fresh, strange voice worth meeting.",
+      "ingested_date": "2026-11-20",
+      "review_dates": [
+        "2026-11-21",
+        "2026-11-23",
+        "2026-11-27",
+        "2026-12-06",
+        "2026-12-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "d4c7371115d94f145aa3892a4254cc90dada81e3",
+      "title": "Decency and Tradition: Colm Tóibín on Thomas Mann and Fatherland",
+      "one_line": "Tóibín on Mann offers a substantive literary lens on exile and decency.",
+      "ingested_date": "2026-11-20",
+      "review_dates": [
+        "2026-11-21",
+        "2026-11-23",
+        "2026-11-27",
+        "2026-12-06",
+        "2026-12-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "The Paris Review"
+    },
+    {
+      "id": "4a07afa2269ec3cc61be88a987cc3572c1063901",
+      "title": "Criticism and the Literary Ecosystem: Becca Rothfeld and Joanna Biggs",
+      "one_line": "Defends difficulty in criticism against accessibility-driven flattening; a real argument worth hearing.",
+      "ingested_date": "2026-11-20",
+      "review_dates": [
+        "2026-11-21",
+        "2026-11-23",
+        "2026-11-27",
+        "2026-12-06",
+        "2026-12-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "18030cf50d9822e1c430c776c6be69b993991990",
+      "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+      "one_line": "Shows most RL post-training gains are a constant activation shift, not learned input-dependent behavior.",
+      "ingested_date": "2026-11-20",
+      "review_dates": [
+        "2026-11-21",
+        "2026-11-23",
+        "2026-11-27",
+        "2026-12-06",
+        "2026-12-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "78104f8e740049849df990c71acc154dd36cb379",
+      "title": "The Everlasting Life of Maxwell’s Demon",
+      "one_line": "Philip Ball on how a 19th-century thought experiment still shapes physics and information theory.",
+      "ingested_date": "2026-11-20",
+      "review_dates": [
+        "2026-11-21",
+        "2026-11-23",
+        "2026-11-27",
+        "2026-12-06",
+        "2026-12-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
+    },
+    {
+      "id": "536d170c6c7f8f3a1884761aa7c98e29a623a115",
+      "title": "Network Researchers Nail Down Theory of ‘Perfect Resilience’",
+      "one_line": "New theory of network resilience reframes how we think about failure-proof systems.",
+      "ingested_date": "2026-11-20",
+      "review_dates": [
+        "2026-11-21",
+        "2026-11-23",
+        "2026-11-27",
+        "2026-12-06",
+        "2026-12-25"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
     }
   ]
 }
