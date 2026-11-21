@@ -7577,7 +7577,7 @@
         "2026-11-30",
         "2026-12-19"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "LessWrong"
@@ -7611,7 +7611,7 @@
         "2026-11-30",
         "2026-12-19"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Interconnects"
@@ -7662,7 +7662,7 @@
         "2026-11-30",
         "2026-12-19"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "The Paris Review"
@@ -7696,7 +7696,7 @@
         "2026-11-30",
         "2026-12-19"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Aeon"
@@ -8618,6 +8618,159 @@
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
+    },
+    {
+      "id": "1f1eff0c6b79b74a6906fee1ae63ab857d0f5f06",
+      "title": "*The Great Enrichment*",
+      "one_line": "Reframes Gilded Age inequality as history's fastest gain for the poorest 90%.",
+      "ingested_date": "2026-11-21",
+      "review_dates": [
+        "2026-11-22",
+        "2026-11-24",
+        "2026-11-28",
+        "2026-12-07",
+        "2026-12-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "78726fbe67b522fee67182ce196956cefec6cc51",
+      "title": "Narratives That Kill: On ICE, Emergency Rooms, and Medical Racism",
+      "one_line": "Reframes medical racism and immigration enforcement as intertwined narratives with real stakes.",
+      "ingested_date": "2026-11-21",
+      "review_dates": [
+        "2026-11-22",
+        "2026-11-24",
+        "2026-11-28",
+        "2026-12-07",
+        "2026-12-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "930664346109fe4cac60ab3569b9a9f1c89de5b5",
+      "title": "Patrick Collison you are WRONG about street furniture!!!",
+      "one_line": "Reframes why public spaces got ugly, pushing past nostalgia to root causes.",
+      "ingested_date": "2026-11-21",
+      "review_dates": [
+        "2026-11-22",
+        "2026-11-24",
+        "2026-11-28",
+        "2026-12-07",
+        "2026-12-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "8d83264947cf24ccab8e11cbb0a3d219cc378f51",
+      "title": "Guerre en Ukraine : pour le diplomate français Jean de Gliniasty : LEurope na pas dobjectif diplomatique et les Russes ne veulent pas vraiment négocier",
+      "one_line": "Diplomat's contrarian take on EU/Russia negotiation stances; modest reframing.",
+      "ingested_date": "2026-11-21",
+      "review_dates": [
+        "2026-11-22",
+        "2026-11-24",
+        "2026-11-28",
+        "2026-12-07",
+        "2026-12-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gdelt_geopolitics"
+    },
+    {
+      "id": "76cd0683480dd5c65e04831fa6feaaeccc821dd1",
+      "title": "Tigray’s Women and Girls Bear the Brunt of Violence, Famine and Fragility",
+      "one_line": "Important but generic conflict-reporting framing; little new argument or reframing.",
+      "ingested_date": "2026-11-21",
+      "review_dates": [
+        "2026-11-22",
+        "2026-11-24",
+        "2026-11-28",
+        "2026-12-07",
+        "2026-12-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "58bcd505fab1abaf654770b02dc5d798a15a11d7",
+      "title": "260 mln children in Africa lived near armed conflict in 2025 - Politics - African Media Digest",
+      "one_line": "Stark statistic but thin headline, no new argument or reframing.",
+      "ingested_date": "2026-11-21",
+      "review_dates": [
+        "2026-11-22",
+        "2026-11-24",
+        "2026-11-28",
+        "2026-12-07",
+        "2026-12-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_ke"
+    },
+    {
+      "id": "54d8aaa5b1c9b0ee1d35f152a2b859a9d768024b",
+      "title": "Clouds of Credit: Mapping the Financial Web Behind AI Compute -- by Stijn Van Nieuwerburgh, Zijin Su",
+      "one_line": "Maps AI buildout's debt-financed financial network, flags systemic weak links and $16.8T tail losses.",
+      "ingested_date": "2026-11-21",
+      "review_dates": [
+        "2026-11-22",
+        "2026-11-24",
+        "2026-11-28",
+        "2026-12-07",
+        "2026-12-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "NBER"
+    },
+    {
+      "id": "b894d8c59d05821831af463aaa75886b46d6da56",
+      "title": "My grandmother was a seal",
+      "one_line": "Reframes folklore as real grief over human-nature kinship and loss.",
+      "ingested_date": "2026-11-21",
+      "review_dates": [
+        "2026-11-22",
+        "2026-11-24",
+        "2026-11-28",
+        "2026-12-07",
+        "2026-12-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
+    },
+    {
+      "id": "d646c4608acd7e75e95ec81bf3eb1ba5738e5e69",
+      "title": "Why Are These Polar Bears Thriving?",
+      "one_line": "Environmental paradox with real field reporting; challenges assumptions about climate impacts.",
+      "ingested_date": "2026-11-21",
+      "review_dates": [
+        "2026-11-22",
+        "2026-11-24",
+        "2026-11-28",
+        "2026-12-07",
+        "2026-12-26"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
     }
   ]
 }
