@@ -711,6 +711,78 @@
       "url": "https://nautil.us/why-are-these-polar-bears-thriving-1286870/",
       "covered_date": "2026-11-21",
       "one_line": "Environmental paradox with real field reporting; challenges assumptions about climate impacts."
+    },
+    {
+      "id": "0e564520482fa6c9c12e3c1a88af07e8337cad2b",
+      "title": "Why models believe in skepticism",
+      "title_norm": "why models believe in skepticism",
+      "url": "https://www.lesswrong.com/posts/r2aAGgfFcFfRikEdb/why-models-believe-in-skepticism",
+      "covered_date": "2026-11-22",
+      "one_line": "Novel claim: RL trains models to rationalize cheating via 'simulation' beliefs, with concrete CoT evidence."
+    },
+    {
+      "id": "0a0d00004ff40bf8aa7e191680938ee872672a26",
+      "title": "Danish daughters",
+      "title_norm": "danish daughters",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/11/danish-daughters.html?utm_source=rss&utm_medium=rss&utm_campaign=danish-daughters",
+      "covered_date": "2026-11-22",
+      "one_line": "Daughters extend parents' survival by boosting formal rehab use, reframing informal/formal care as complements."
+    },
+    {
+      "id": "00bf60c1a96df17eb99322d3f736dd139695ff02",
+      "title": "AI and The Ethnic Unity Law",
+      "title_norm": "ai and the ethnic unity law",
+      "url": "https://www.chinatalk.media/p/the-role-of-ai-in-enforcing-chinas",
+      "covered_date": "2026-11-22",
+      "one_line": "Rare analysis linking China's ethnic unity law to AI enforcement infrastructure."
+    },
+    {
+      "id": "de5cd1a6d51dc917ab910942b7b9fe70d73cd78c",
+      "title": "Perplexity and Intelligence",
+      "title_norm": "perplexity and intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "covered_date": "2026-11-22",
+      "one_line": "Explainer on perplexity as an eval metric; useful but not a new argument."
+    },
+    {
+      "id": "0e624ab40542e971266611249eb9a865bf59dba6",
+      "title": "Putin\u2019s Third Rome and the Geopolitical Doctrine of Russian Orthodoxy",
+      "title_norm": "putin s third rome and the geopolitical doctrine of russian orthodoxy",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcERlVS1UanhLQjcweTdDYjNINXRMZnBWVVE5MUJVUVJ5Z2RKOHh6X0NZTDBiQTZtLV85UHFDMmJhZXZFSk1oTnFJUnlpSmF1cngyTjhsTmxXUGZtU1VkOGI5dWd5NWQwT3NHSnYzMDduUVZtUXlnSERZOUdKbU1IZnd1M08tTjM4NkE5NmlqNUxORGl1djNVNGozMjlKcHRZcjh0SGkydUVwX2s?oc=5",
+      "covered_date": "2026-11-22",
+      "one_line": "Ideological framing of Russian foreign policy; interesting but thin, no clear new argument."
+    },
+    {
+      "id": "1614435b188041310e100470ae4be2dba3ba3f7a",
+      "title": "Vit\u00f3ria: a mulher negra que atuou na \u201cdiplomacia colonial\u201d de MT",
+      "title_norm": "vit\u00f3ria a mulher negra que atuou na diplomacia colonial de mt",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaUh6Ujl6ZlA5TWZuWUwxbnlzZkFoOE9ndzhVcENkUjBNcGpiajl0bk92S2RFb2kwQ0V1TURXM21pRXQySVd0SXV2YmFxcDcxRC14aTJVc191Wmc2UzhfQm1rai01SG9ad2pxb2VhMVhZUGktVUVBdzdEdXhYSEp0UTJLZDhOYl8zSjM5aC1uR3I4UmhXWXMwYWRHZ2hfbWxXMWxmQ3AwdUwyTVE?oc=5",
+      "covered_date": "2026-11-22",
+      "one_line": "Local historical profile; interesting but thin excerpt, limited reframing value."
+    },
+    {
+      "id": "56e41f57cecab98666eeb59243355a340c8fbdb0",
+      "title": "The Labor Market Impact of Temporary High-Skill Immigration Programs -- by George J. Borjas",
+      "title_norm": "the labor market impact of temporary high skill immigration programs by george j borjas",
+      "url": "https://www.nber.org/papers/w36014#fromrss",
+      "covered_date": "2026-11-22",
+      "one_line": "Novel stayer-multiplier method finds large wage losses for native STEM grads."
+    },
+    {
+      "id": "07424ac387326367849059721139b7acedd7242a",
+      "title": "The Fortunes of a Dim Sun",
+      "title_norm": "the fortunes of a dim sun",
+      "url": "https://nautil.us/the-fortunes-of-a-dim-sun-1286898/",
+      "covered_date": "2026-11-22",
+      "one_line": "Reframes habitability as a fragile ocean-making-and-keeping problem, not just distance."
+    },
+    {
+      "id": "52b511a88180f2a5cfb5f08be69a17374326cf07",
+      "title": "Comparative Genomics Unveils Evolutionary Lineages and Stress Genes Across Four Vigna Legumes",
+      "title_norm": "comparative genomics unveils evolutionary lineages and stress genes across four vigna legumes",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQzZ0YnYyUFktWVlWVk1Tc3RIZWFEdUhLMVZXOXVpR04wSjNrZ3BDN0pmelJYTDEtYklqdTRWa0pyOVBqS2FGbGtrcGZLWFNnakJaVGJwVDhEYVhoSUM3MEtGMzR0eU9rNW5VQWhGU1VRN3ptcTlqTzBSYmxJM0E3UnZlNDlXa093TmhuM1dzckQ5OU0yNEN6elJ4d2ZaT3YxbFYxY3AwMUlnSzVVMTNUeElaQnVhM3M0a3c?oc=5",
+      "covered_date": "2026-11-22",
+      "one_line": "Routine comparative genomics of four legumes; incremental, no reframing insight."
     }
   ]
 }

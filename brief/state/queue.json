@@ -7747,7 +7747,7 @@
         "2026-12-01",
         "2026-12-20"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Marginal Revolution"
@@ -7798,7 +7798,7 @@
         "2026-12-01",
         "2026-12-20"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Pitchfork"
@@ -7832,7 +7832,7 @@
         "2026-12-01",
         "2026-12-20"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "Nautilus"
@@ -7849,7 +7849,7 @@
         "2026-12-01",
         "2026-12-20"
       ],
-      "reviews_done": 1,
+      "reviews_done": 2,
       "retired": false,
       "missed": false,
       "source": "LessWrong"
@@ -8771,6 +8771,159 @@
       "retired": false,
       "missed": false,
       "source": "Nautilus"
+    },
+    {
+      "id": "0e564520482fa6c9c12e3c1a88af07e8337cad2b",
+      "title": "Why models believe in skepticism",
+      "one_line": "Novel claim: RL trains models to rationalize cheating via 'simulation' beliefs, with concrete CoT evidence.",
+      "ingested_date": "2026-11-22",
+      "review_dates": [
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-29",
+        "2026-12-08",
+        "2026-12-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "0a0d00004ff40bf8aa7e191680938ee872672a26",
+      "title": "Danish daughters",
+      "one_line": "Daughters extend parents' survival by boosting formal rehab use, reframing informal/formal care as complements.",
+      "ingested_date": "2026-11-22",
+      "review_dates": [
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-29",
+        "2026-12-08",
+        "2026-12-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "00bf60c1a96df17eb99322d3f736dd139695ff02",
+      "title": "AI and The Ethnic Unity Law",
+      "one_line": "Rare analysis linking China's ethnic unity law to AI enforcement infrastructure.",
+      "ingested_date": "2026-11-22",
+      "review_dates": [
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-29",
+        "2026-12-08",
+        "2026-12-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "de5cd1a6d51dc917ab910942b7b9fe70d73cd78c",
+      "title": "Perplexity and Intelligence",
+      "one_line": "Explainer on perplexity as an eval metric; useful but not a new argument.",
+      "ingested_date": "2026-11-22",
+      "review_dates": [
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-29",
+        "2026-12-08",
+        "2026-12-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "OpenAI"
+    },
+    {
+      "id": "0e624ab40542e971266611249eb9a865bf59dba6",
+      "title": "Putin’s Third Rome and the Geopolitical Doctrine of Russian Orthodoxy",
+      "one_line": "Ideological framing of Russian foreign policy; interesting but thin, no clear new argument.",
+      "ingested_date": "2026-11-22",
+      "review_dates": [
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-29",
+        "2026-12-08",
+        "2026-12-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "1614435b188041310e100470ae4be2dba3ba3f7a",
+      "title": "Vitória: a mulher negra que atuou na “diplomacia colonial” de MT",
+      "one_line": "Local historical profile; interesting but thin excerpt, limited reframing value.",
+      "ingested_date": "2026-11-22",
+      "review_dates": [
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-29",
+        "2026-12-08",
+        "2026-12-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "56e41f57cecab98666eeb59243355a340c8fbdb0",
+      "title": "The Labor Market Impact of Temporary High-Skill Immigration Programs -- by George J. Borjas",
+      "one_line": "Novel stayer-multiplier method finds large wage losses for native STEM grads.",
+      "ingested_date": "2026-11-22",
+      "review_dates": [
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-29",
+        "2026-12-08",
+        "2026-12-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "NBER"
+    },
+    {
+      "id": "07424ac387326367849059721139b7acedd7242a",
+      "title": "The Fortunes of a Dim Sun",
+      "one_line": "Reframes habitability as a fragile ocean-making-and-keeping problem, not just distance.",
+      "ingested_date": "2026-11-22",
+      "review_dates": [
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-29",
+        "2026-12-08",
+        "2026-12-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
+    },
+    {
+      "id": "52b511a88180f2a5cfb5f08be69a17374326cf07",
+      "title": "Comparative Genomics Unveils Evolutionary Lineages and Stress Genes Across Four Vigna Legumes",
+      "one_line": "Routine comparative genomics of four legumes; incremental, no reframing insight.",
+      "ingested_date": "2026-11-22",
+      "review_dates": [
+        "2026-11-23",
+        "2026-11-25",
+        "2026-11-29",
+        "2026-12-08",
+        "2026-12-27"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_biology"
     }
   ]
 }
