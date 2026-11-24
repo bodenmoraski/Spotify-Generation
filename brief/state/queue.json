@@ -8070,7 +8070,7 @@
         "2026-12-03",
         "2026-12-22"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Public Books"
@@ -8087,7 +8087,7 @@
         "2026-12-03",
         "2026-12-22"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Transformer"
@@ -8138,7 +8138,7 @@
         "2026-12-03",
         "2026-12-22"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "LessWrong"
@@ -8155,7 +8155,7 @@
         "2026-12-03",
         "2026-12-22"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Aeon"
@@ -8924,6 +8924,159 @@
       "retired": false,
       "missed": false,
       "source": "gnews_biology"
+    },
+    {
+      "id": "862ae4b89a9c5c52883e0eff44f83942f6c1c1d8",
+      "title": "Gambling for Goals",
+      "one_line": "Links youth pessimism to gambling via Friedman-Savage; novel causal evidence on crypto risk-taking.",
+      "ingested_date": "2026-11-24",
+      "review_dates": [
+        "2026-11-25",
+        "2026-11-27",
+        "2026-12-01",
+        "2026-12-10",
+        "2026-12-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "dd532355cc1e721fa385d3b89580b5416b3909ef",
+      "title": "Comparing AI R&D compute caps and deployment lags",
+      "one_line": "Rigorous comparison of two AI-pacing policies, reframing a live safety debate.",
+      "ingested_date": "2026-11-24",
+      "review_dates": [
+        "2026-11-25",
+        "2026-11-27",
+        "2026-12-01",
+        "2026-12-10",
+        "2026-12-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Alignment Forum"
+    },
+    {
+      "id": "9d0115728fe67e3b5662edead8f2e1ee29ff1507",
+      "title": "The Remote Access Rule Buys Six Months of Compute Lead",
+      "one_line": "Concrete analysis of a landmark export rule and its enforcement uncertainty.",
+      "ingested_date": "2026-11-24",
+      "review_dates": [
+        "2026-11-25",
+        "2026-11-27",
+        "2026-12-01",
+        "2026-12-10",
+        "2026-12-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "ChinaTalk"
+    },
+    {
+      "id": "1419bcbbc8d0a1fdb4098e41e6020ba86669c2ee",
+      "title": "To stop AI cheating, we need to fix shoddy training environments",
+      "one_line": "Reframes AI cheating as a symptom of poorly designed RL environments, not model malice.",
+      "ingested_date": "2026-11-24",
+      "review_dates": [
+        "2026-11-25",
+        "2026-11-27",
+        "2026-12-01",
+        "2026-12-10",
+        "2026-12-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "4e62e543d1b8aff1ac539a4bb28e9c1191309cfc",
+      "title": "Kylie Cheung on the Fake Victimhood of Abusers, From Johnny Depp to Israel",
+      "one_line": "Reframes DARVO from intimate abuse to imperial power; a real, contestable thesis.",
+      "ingested_date": "2026-11-24",
+      "review_dates": [
+        "2026-11-25",
+        "2026-11-27",
+        "2026-12-01",
+        "2026-12-10",
+        "2026-12-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "a828eca91eb05df7efd6825b81960b7d3be8f428",
+      "title": "My Whale Poem",
+      "one_line": "Wry artifact on scale, repetition, and editors' absurd literalism; mildly charming, not mind-changing.",
+      "ingested_date": "2026-11-24",
+      "review_dates": [
+        "2026-11-25",
+        "2026-11-27",
+        "2026-12-01",
+        "2026-12-10",
+        "2026-12-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "The Paris Review"
+    },
+    {
+      "id": "449b9aad6f225bae6be251feb76a44ab2ed9d541",
+      "title": "Mortality Effects of the 2025 US Aid Freeze: Evidence from Zambia -- by Torsten Figueiredo Walter, Dean Karlan, Niclas Moneke, Ana Radu, Khozya Zyambo",
+      "one_line": "Rare causal evidence that aid freezes cause measurable excess deaths, reframing aid volatility stakes.",
+      "ingested_date": "2026-11-24",
+      "review_dates": [
+        "2026-11-25",
+        "2026-11-27",
+        "2026-12-01",
+        "2026-12-10",
+        "2026-12-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "NBER"
+    },
+    {
+      "id": "6b1bbd52e7cca112b83081dd3d95e7eda897c7d2",
+      "title": "The Pythagorean Theorem as a “whole,” with its own character",
+      "one_line": "Reframes what 'understanding' a proof means; portable epistemic idea, modest novelty.",
+      "ingested_date": "2026-11-24",
+      "review_dates": [
+        "2026-11-25",
+        "2026-11-27",
+        "2026-12-01",
+        "2026-12-10",
+        "2026-12-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "4bf9ed4cb47aa481ae1d3829df977f8dbb41b561",
+      "title": "The Incredible, Elegant DNA Repair System Makes Gene Editing Work",
+      "one_line": "Reframes DNA repair as the hidden machinery behind gene editing.",
+      "ingested_date": "2026-11-24",
+      "review_dates": [
+        "2026-11-25",
+        "2026-11-27",
+        "2026-12-01",
+        "2026-12-10",
+        "2026-12-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
     }
   ]
 }
