@@ -8189,7 +8189,7 @@
         "2026-12-04",
         "2026-12-23"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Marginal Revolution"
@@ -8223,7 +8223,7 @@
         "2026-12-04",
         "2026-12-23"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "n+1"
@@ -8257,7 +8257,7 @@
         "2026-12-04",
         "2026-12-23"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "The Point"
@@ -8274,7 +8274,7 @@
         "2026-12-04",
         "2026-12-23"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "arxiv_cs"
@@ -9072,6 +9072,159 @@
         "2026-12-01",
         "2026-12-10",
         "2026-12-29"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Quanta Magazine"
+    },
+    {
+      "id": "d3607ab8f639d520775c0e808fe5dd738b2812ea",
+      "title": "How did the United States become a lawyerly society?",
+      "one_line": "Explains a major US legal-cost shift via legislation and fee-shifting, a fresh causal story.",
+      "ingested_date": "2026-11-25",
+      "review_dates": [
+        "2026-11-26",
+        "2026-11-28",
+        "2026-12-02",
+        "2026-12-11",
+        "2026-12-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "83e15ef927387fe2c2558e1455fe31f992df3dac",
+      "title": "“Rewrite this as a new ordinance”: Inside the ChatGPT transcripts of a city manager",
+      "one_line": "Concrete case of AI drafting real municipal law, reframing governance and accountability questions.",
+      "ingested_date": "2026-11-25",
+      "review_dates": [
+        "2026-11-26",
+        "2026-11-28",
+        "2026-12-02",
+        "2026-12-11",
+        "2026-12-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Transformer"
+    },
+    {
+      "id": "a9a9bc686e98b1b21f780a7565843521ab0a5b7e",
+      "title": "The Missing Data in Himalayan Diplomacy: Why Hydrological Information Is Becoming a Strategic Asset in South Asia",
+      "one_line": "Reframes water data as strategic leverage in South Asia, a genuinely useful lens.",
+      "ingested_date": "2026-11-25",
+      "review_dates": [
+        "2026-11-26",
+        "2026-11-28",
+        "2026-12-02",
+        "2026-12-11",
+        "2026-12-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "4d37543d203a8eab737388defcd25d1a0ef05d0a",
+      "title": "The Radicalization of Eugene V. Debs and the Country He Radicalized in Return",
+      "one_line": "Historical narrative on Debs's radicalization; interesting but not a new argument.",
+      "ingested_date": "2026-11-25",
+      "review_dates": [
+        "2026-11-26",
+        "2026-11-28",
+        "2026-12-02",
+        "2026-12-11",
+        "2026-12-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "360f4418c8756a8b0714988e69dbcfa86cb8e889",
+      "title": "Mommy Magic Show",
+      "one_line": "Literary essay on Theranos myth-making; intriguing but not clearly reframing.",
+      "ingested_date": "2026-11-25",
+      "review_dates": [
+        "2026-11-26",
+        "2026-11-28",
+        "2026-12-02",
+        "2026-12-11",
+        "2026-12-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "The Point"
+    },
+    {
+      "id": "2e01c0aafe785a9087737b256c69be189ed5618c",
+      "title": "The Fire-Hose Style of Journalism: A Dirge for Salon",
+      "one_line": "Memoir of early digital journalism; nostalgic but limited reframing power.",
+      "ingested_date": "2026-11-25",
+      "review_dates": [
+        "2026-11-26",
+        "2026-11-28",
+        "2026-12-02",
+        "2026-12-11",
+        "2026-12-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "The Paris Review"
+    },
+    {
+      "id": "50babc5cd10177cd0db79e3d267c89a2b9a083db",
+      "title": "How AI Impacts the Quest for Knowledge: Evidence from AlphaFold2 -- by Myra Mohnen, Joshua S. Gans",
+      "one_line": "Empirical evidence AI shifts science from frontier exploration to deepening existing knowledge.",
+      "ingested_date": "2026-11-25",
+      "review_dates": [
+        "2026-11-26",
+        "2026-11-28",
+        "2026-12-02",
+        "2026-12-11",
+        "2026-12-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "NBER"
+    },
+    {
+      "id": "75a39ce8c3688a1183e9348e4a7cdccc81af8970",
+      "title": "I Never Understood Levers",
+      "one_line": "Playful physics intuition-building on levers; mildly interesting but not novel.",
+      "ingested_date": "2026-11-25",
+      "review_dates": [
+        "2026-11-26",
+        "2026-11-28",
+        "2026-12-02",
+        "2026-12-11",
+        "2026-12-30"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "94b5466c358d0e5445708797622208c6eb27936f",
+      "title": "Novel Experiments Expand the Hunt for ‘Ultralight’ Dark Matter",
+      "one_line": "Ultralight dark matter experiments offer a genuinely fresh physics angle for a curious generalist.",
+      "ingested_date": "2026-11-25",
+      "review_dates": [
+        "2026-11-26",
+        "2026-11-28",
+        "2026-12-02",
+        "2026-12-11",
+        "2026-12-30"
       ],
       "reviews_done": 0,
       "retired": false,
