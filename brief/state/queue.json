@@ -8393,7 +8393,7 @@
         "2026-12-05",
         "2026-12-24"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "gnews_world_br"
@@ -8410,7 +8410,7 @@
         "2026-12-05",
         "2026-12-24"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "ChinaTalk"
@@ -8444,7 +8444,7 @@
         "2026-12-05",
         "2026-12-24"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Nautilus"
@@ -8461,7 +8461,7 @@
         "2026-12-05",
         "2026-12-24"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Works in Progress"
@@ -9230,6 +9230,159 @@
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
+    },
+    {
+      "id": "0f25ea3006fb43f87deb090f7d9571e5707f4548",
+      "title": "Five Facts About Stablecoins",
+      "one_line": "Wallet-level data reframes stablecoins as real transaction money, not speculation",
+      "ingested_date": "2026-11-26",
+      "review_dates": [
+        "2026-11-27",
+        "2026-11-29",
+        "2026-12-03",
+        "2026-12-12",
+        "2026-12-31"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "7bb4b6d2505fed48e6f403ab325edb55e93be85c",
+      "title": "Dunks",
+      "one_line": "Reframes fabricated 'dunks' as pareto-optimal misinformation, not selection bias.",
+      "ingested_date": "2026-11-26",
+      "review_dates": [
+        "2026-11-27",
+        "2026-11-29",
+        "2026-12-03",
+        "2026-12-12",
+        "2026-12-31"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "d44c2b408b6171496a41b756334856edf9ec541b",
+      "title": "The Radical Project of Sleep Stories",
+      "one_line": "Provocative thesis on sleep stories as self-rescue, but thin excerpt limits assessment.",
+      "ingested_date": "2026-11-26",
+      "review_dates": [
+        "2026-11-27",
+        "2026-11-29",
+        "2026-12-03",
+        "2026-12-12",
+        "2026-12-31"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Public Books"
+    },
+    {
+      "id": "c910c8dabe78fc271588889293d619111fe87c55",
+      "title": "Israel intensifies assassinations in Gaza as US urges Netanyahu to proceed with ceasefire plan",
+      "one_line": "Ceasefire tension is notable but this is incremental conflict coverage, not reframing.",
+      "ingested_date": "2026-11-26",
+      "review_dates": [
+        "2026-11-27",
+        "2026-11-29",
+        "2026-12-03",
+        "2026-12-12",
+        "2026-12-31"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gdelt_geopolitics"
+    },
+    {
+      "id": "af8b1d19838f3afa02236a735c4c53ba9a39a112",
+      "title": "1918 or 2014? On Russia’s Cyclical Aggression Against Ukraine",
+      "one_line": "Atmospheric historical narrative linking 1918 Kruty to current war; evocative but not argument-driven.",
+      "ingested_date": "2026-11-26",
+      "review_dates": [
+        "2026-11-27",
+        "2026-11-29",
+        "2026-12-03",
+        "2026-12-12",
+        "2026-12-31"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Literary Hub"
+    },
+    {
+      "id": "a3bd1e1d95db20de34bb26be402a80a9e602f21b",
+      "title": "The geopolitics of open-access AI models: Technology, influence and the lobbying battle in Washington",
+      "one_line": "Lobbying horse-race framing; thin on new argument or reframing.",
+      "ingested_date": "2026-11-26",
+      "review_dates": [
+        "2026-11-27",
+        "2026-11-29",
+        "2026-12-03",
+        "2026-12-12",
+        "2026-12-31"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "c58d11e1ae41d98daed3a4585a5ea7a04658f7c6",
+      "title": "Guidance as Variance Matching",
+      "one_line": "Reframes diffusion guidance as variance matching, overturning the posterior-mean story with a predictive closed-form rule.",
+      "ingested_date": "2026-11-26",
+      "review_dates": [
+        "2026-11-27",
+        "2026-11-29",
+        "2026-12-03",
+        "2026-12-12",
+        "2026-12-31"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "arxiv_cs"
+    },
+    {
+      "id": "0500e6c76de81008e6f09f97eb45d98cfd4aaf30",
+      "title": "This Thanksgiving, Be Thankful for Forgetting",
+      "one_line": "Reframes forgetting as functional, but spaced-practice point is well-worn.",
+      "ingested_date": "2026-11-26",
+      "review_dates": [
+        "2026-11-27",
+        "2026-11-29",
+        "2026-12-03",
+        "2026-12-12",
+        "2026-12-31"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "The Learning Scientists"
+    },
+    {
+      "id": "f4e4840a9f083705c17de4fb9b851d67237336bd",
+      "title": "The pretendian wars",
+      "one_line": "Reframes ethnic fraud as grave theft with rising stakes, a real point of view.",
+      "ingested_date": "2026-11-26",
+      "review_dates": [
+        "2026-11-27",
+        "2026-11-29",
+        "2026-12-03",
+        "2026-12-12",
+        "2026-12-31"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
     }
   ]
 }
