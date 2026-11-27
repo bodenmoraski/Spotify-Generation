@@ -1,78 +1,6 @@
 {
   "items": [
     {
-      "id": "4de91735e535c92d05fb767f0bdf9c93feaf23d9",
-      "title": "Experimentally validated digital twins",
-      "title_norm": "experimentally validated digital twins",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/11/experimentally-validated-digital-twins.html?utm_source=rss&utm_medium=rss&utm_campaign=experimentally-validated-digital-twins",
-      "covered_date": "2026-11-12",
-      "one_line": "ML on admin data matches RCTs, potentially reshaping how policy evidence is produced."
-    },
-    {
-      "id": "60309a00b667858d67793e16e71c74a5cde927fb",
-      "title": "An Ode to the Lost Generation: Adam Gopnik on The Sun Also Rises at 100",
-      "title_norm": "an ode to the lost generation adam gopnik on the sun also rises at 100",
-      "url": "https://lithub.com/an-ode-to-the-lost-generation-adam-gopnik-on-the-sun-also-rises-at-100/",
-      "covered_date": "2026-11-12",
-      "one_line": "Gopnik reframes a canonical novel's dated prejudices as essential to its enduring power."
-    },
-    {
-      "id": "e7a56d90bd1b17fe236413778c072d4dc53191c2",
-      "title": "B-sides: Fyodor Dostoevsky\u2019s \u201cThe Adolescent\u201d",
-      "title_norm": "b sides fyodor dostoevsky s the adolescent",
-      "url": "https://www.publicbooks.org/b-sides-fyodor-dostoevsky-the-adolescent/",
-      "covered_date": "2026-11-12",
-      "one_line": "Argues a maligned Dostoevsky novel is newly relevant; a real point of view."
-    },
-    {
-      "id": "3cd0a758d99018f85a4f26ea55698f23acb807a8",
-      "title": "Fragile progress: how COP31 can advance climate security",
-      "title_norm": "fragile progress how cop31 can advance climate security",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTUFJcm9aTnpUMkRvU0VLb3BLMWZadnhFS2ZRdGNQV2pEMmMzR1R3aG5lcXQtRFhGUUpEWUswTnVYTkp1aDNyNWFHbXlzWGk0UHlDUDFIbDJibUpNVThybTJCSHlrMnZoX2U5bkVSbHdGU0JZLXJlQjJsdFJaNjdRckdwajVrYWRBdmcxclhjQ2Zma1NzQ1pfRjRBYzRpSk44Vk1PTGZ2SWJQZw?oc=5",
-      "covered_date": "2026-11-12",
-      "one_line": "Generic COP31 commentary; no new argument or reframing evident."
-    },
-    {
-      "id": "cf484cf9f8714b1ac9c619447d123ec331c83d6e",
-      "title": "\u201cO debate clim\u00e1tico desembocou na geopol\u00edtica. Isso abre oportunidade para o Brasil desempenhar um papel importante\u201d",
-      "title_norm": "o debate clim\u00e1tico desembocou na geopol\u00edtica isso abre oportunidade para o brasil desempenhar um papel importante",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWjJZSkxwa0FJOEdNUGtlNkFsUzdGdGc3eWhRVXY3cUtkLWJKVkpwSWt5b0lXMVJNSlF0Uk9sQzlwQWxtaDJxbjBFMjFNczN4aEpvNDlNcmdtdFZ5VTR1VWIyaGFKTG8zSWIyVnlnN2xGUXRZb0Z2VkMzQlBJd1BtWDBSeTU1d1J4?oc=5",
-      "covered_date": "2026-11-12",
-      "one_line": "Generic framing of climate as geopolitics; no new argument or evidence."
-    },
-    {
-      "id": "3ad2d2a832dab189f5a5bcc9f22e7cf2616fcc9d",
-      "title": "South Africa elections: The small parties that pulled off big surprises",
-      "title_norm": "south africa elections the small parties that pulled off big surprises",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONThaa2ExeFRvYng2YjI4cllyZ3N2dERCNEV5WW1xajVUVlZJX1BraC1reGhTQkI0SGxqYlRWZXBubFg3UUVSeGVtY3JoSlhqbVlPUEUxUmd1VV93b01ScGFzcm1HY1hCTmctdy1uU0ZGdUp4YWY1UG00MDI3U3g2a2tjZ2dhM2hmZFZ4UC0zYUdUTjBkNGZHRENsYWhrLVVOMi02SnJFTHZiVmxObV9Z?oc=5",
-      "covered_date": "2026-11-12",
-      "one_line": "Horse-race election coverage; little reframing or new argument for a generalist."
-    },
-    {
-      "id": "75434176feb8746a537a1c2a4a5d31aed56a27b3",
-      "title": "A Theory of Policy Optimization in Post-Training: Coverage Collapse and Reference Resets",
-      "title_norm": "a theory of policy optimization in post training coverage collapse and reference resets",
-      "url": "https://arxiv.org/abs/2611.14467v1",
-      "covered_date": "2026-11-12",
-      "one_line": "Theory showing REINFORCE/PPO can collapse coverage of optimal responses; reference resets fix it."
-    },
-    {
-      "id": "fe4519f69a09b33b89aa7ee0634a8eb919c13605",
-      "title": "Why anything exists",
-      "title_norm": "why anything exists",
-      "url": "https://aeon.co/essays/a-new-answer-to-why-there-is-something-rather-than-nothing",
-      "covered_date": "2026-11-12",
-      "one_line": "Fresh philosophical argument on the deepest question; worth a curious generalist's time."
-    },
-    {
-      "id": "ff14c1f7ed8f99ab2c9d77cf05525eacd0459a17",
-      "title": "The Evolving Story of How Chemistry Became Biology",
-      "title_norm": "the evolving story of how chemistry became biology",
-      "url": "https://www.quantamagazine.org/the-evolving-story-of-how-chemistry-became-biology-20261112/",
-      "covered_date": "2026-11-12",
-      "one_line": "Origin-of-life chemistry-to-biology narrative reframes how complexity emerges from simple rules."
-    },
-    {
       "id": "bf00178b892669ebf43c0a636e8f2b0bae0de8dc",
       "title": "Do not overrate zero-sum status-seeking",
       "title_norm": "do not overrate zero sum status seeking",
@@ -999,6 +927,70 @@
       "url": "https://aeon.co/essays/falsely-claiming-indigenous-identity-is-a-grave-form-of-theft",
       "covered_date": "2026-11-26",
       "one_line": "Reframes ethnic fraud as grave theft with rising stakes, a real point of view."
+    },
+    {
+      "id": "ffe7bf49fee2b5436c78a3728c1cc389a1e17890",
+      "title": "India is on the Move",
+      "title_norm": "india is on the move",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/11/india-is-on-the-move.html?utm_source=rss&utm_medium=rss&utm_campaign=india-is-on-the-move",
+      "covered_date": "2026-11-27",
+      "one_line": "Reframes India's economy as a historic success, not a China failure, with striking numbers."
+    },
+    {
+      "id": "b05e79ba2648dc1972150faf7f36ecd64688726b",
+      "title": "Why China is turning Tiangong into a global space diplomacy platform",
+      "title_norm": "why china is turning tiangong into a global space diplomacy platform",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNakliUWI3UmROeExPb3RrVjhVTkNObU1SRy1jMWp4LS0zMzQwcjRmQnIzSS1WZ2hiWlA4X2ZJQ1I4Y1dsQWR2SHdBYVZvOXZlYXpELWctUjFHa1U3OXFRUldENWZ3NEdDdmFjRWN6cjRWZ3RiVmZBbnRGbkcyOXNSbzkxMmhla1U0LWF3Yg?oc=5",
+      "covered_date": "2026-11-27",
+      "one_line": "Space diplomacy angle is mildly fresh but thin, headline-driven analysis."
+    },
+    {
+      "id": "42ed09c19a26c6e0317fce258b3e2b8493bd7999",
+      "title": "The Sahel must not become a battleground for Europe\u2019s proxy wars",
+      "title_norm": "the sahel must not become a battleground for europe s proxy wars",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBoVFdmUDVHZ21faXFvSUtmUlQwckhrcUc4QS1oMUcwaThvRmYzamdpbDI5dldUcjE5SGJMNE9Yc2xYd0REQVRBSG1CemdFa0hpbUQ3eHFHOTQyd2VwWUVZYV9OenY?oc=5",
+      "covered_date": "2026-11-27",
+      "one_line": "Opinion piece with a clear stance but thin on new argument or evidence."
+    },
+    {
+      "id": "51bbe752ebb13c25fe0cf1fed1400d68d61dce5d",
+      "title": "A geopol\u00edtica da Black Friday : quando uma tradi\u00e7\u00e3o cultural alheia se torna soft power internacional",
+      "title_norm": "a geopol\u00edtica da black friday quando uma tradi\u00e7\u00e3o cultural alheia se torna soft power internacional",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaXg2dVFnX1VLWTRDU2N4VVg2bVA5N0NJS04yMDZHYjZla1pUWnZHczl5ZlZ2LXJlR283TmFuVkhKUEc5cE9lWkJKaFJhV01rUlEwWmxZU2NGWU1ZM3FadzYwVVY5SmFwVkdhS2RkUTllRTFleVlFNFVOR0lKOXhTcndjSlRKZGFwdHRxX3JoeFlHM1J5c3FFa3g3Xzl6TmNMaWhPcXJBdi1zaHhad1JNc2xUTHhZWVNEajV6MmxxM0MtbnRwbDQwSEZzUklSbW8?oc=5",
+      "covered_date": "2026-11-27",
+      "one_line": "Soft-power framing of Black Friday is mildly interesting but thin on argument."
+    },
+    {
+      "id": "766db9cdb5cfec1fe8ae3e25a922235deb1ca3b1",
+      "title": "King Crimson Co-Founder Michael Giles Dies at 84",
+      "title_norm": "king crimson co founder michael giles dies at 84",
+      "url": "https://pitchfork.com/story/king-crimson-co-founder-michael-giles-dies-at-84/",
+      "covered_date": "2026-11-27",
+      "one_line": "Obituary of a notable drummer; recency/celebrity, no reframing argument."
+    },
+    {
+      "id": "50babc5cd10177cd0db79e3d267c89a2b9a083db",
+      "title": "How AI Impacts the Quest for Knowledge: Evidence from AlphaFold2 -- by Myra Mohnen, Joshua S. Gans",
+      "title_norm": "how ai impacts the quest for knowledge evidence from alphafold2 by myra mohnen joshua s gans",
+      "url": "https://www.nber.org/papers/w36045#fromrss",
+      "covered_date": "2026-11-27",
+      "one_line": "Evidence AI shifts science from exploration to exploitation, deepening known proteins over new ones."
+    },
+    {
+      "id": "776966bca383b6fb4341946a5b3dc1e1bddb1554",
+      "title": "Understanding why 1 + 2 + 3 + 4 + 5 + ... = -1/12 (rather than \u221e)",
+      "title_norm": "understanding why 1 2 3 4 5 1 12 rather than",
+      "url": "https://www.lesswrong.com/posts/F7DNBdoADqktjn2Hk/understanding-why-1-2-3-4-5-1-12-rather-than-infinity",
+      "covered_date": "2026-11-27",
+      "one_line": "Careful derivation of a famous result, but mostly pedagogical rather than reframing."
+    },
+    {
+      "id": "50965b19145756e08a01a4e595fa7589ff94fa1e",
+      "title": "The energy of thought",
+      "title_norm": "the energy of thought",
+      "url": "https://aeon.co/essays/all-our-models-of-how-the-mind-functions-are-missing-something",
+      "covered_date": "2026-11-27",
+      "one_line": "Essay arguing all mind models miss something essential; reframing potential."
     }
   ]
 }

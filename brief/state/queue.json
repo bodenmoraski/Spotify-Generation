@@ -8495,7 +8495,7 @@
         "2026-12-06",
         "2026-12-25"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Marginal Revolution"
@@ -8563,7 +8563,7 @@
         "2026-12-06",
         "2026-12-25"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Public Books"
@@ -8580,7 +8580,7 @@
         "2026-12-06",
         "2026-12-25"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "arxiv_cs"
@@ -8614,7 +8614,7 @@
         "2026-12-06",
         "2026-12-25"
       ],
-      "reviews_done": 0,
+      "reviews_done": 1,
       "retired": false,
       "missed": false,
       "source": "Quanta Magazine"
@@ -9378,6 +9378,125 @@
         "2026-12-03",
         "2026-12-12",
         "2026-12-31"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Aeon"
+    },
+    {
+      "id": "ffe7bf49fee2b5436c78a3728c1cc389a1e17890",
+      "title": "India is on the Move",
+      "one_line": "Reframes India's economy as a historic success, not a China failure, with striking numbers.",
+      "ingested_date": "2026-11-27",
+      "review_dates": [
+        "2026-11-28",
+        "2026-11-30",
+        "2026-12-04",
+        "2026-12-13",
+        "2027-01-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "b05e79ba2648dc1972150faf7f36ecd64688726b",
+      "title": "Why China is turning Tiangong into a global space diplomacy platform",
+      "one_line": "Space diplomacy angle is mildly fresh but thin, headline-driven analysis.",
+      "ingested_date": "2026-11-27",
+      "review_dates": [
+        "2026-11-28",
+        "2026-11-30",
+        "2026-12-04",
+        "2026-12-13",
+        "2027-01-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "42ed09c19a26c6e0317fce258b3e2b8493bd7999",
+      "title": "The Sahel must not become a battleground for Europe’s proxy wars",
+      "one_line": "Opinion piece with a clear stance but thin on new argument or evidence.",
+      "ingested_date": "2026-11-27",
+      "review_dates": [
+        "2026-11-28",
+        "2026-11-30",
+        "2026-12-04",
+        "2026-12-13",
+        "2027-01-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_ke"
+    },
+    {
+      "id": "51bbe752ebb13c25fe0cf1fed1400d68d61dce5d",
+      "title": "A geopolítica da Black Friday : quando uma tradição cultural alheia se torna soft power internacional",
+      "one_line": "Soft-power framing of Black Friday is mildly interesting but thin on argument.",
+      "ingested_date": "2026-11-27",
+      "review_dates": [
+        "2026-11-28",
+        "2026-11-30",
+        "2026-12-04",
+        "2026-12-13",
+        "2027-01-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "766db9cdb5cfec1fe8ae3e25a922235deb1ca3b1",
+      "title": "King Crimson Co-Founder Michael Giles Dies at 84",
+      "one_line": "Obituary of a notable drummer; recency/celebrity, no reframing argument.",
+      "ingested_date": "2026-11-27",
+      "review_dates": [
+        "2026-11-28",
+        "2026-11-30",
+        "2026-12-04",
+        "2026-12-13",
+        "2027-01-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Pitchfork"
+    },
+    {
+      "id": "776966bca383b6fb4341946a5b3dc1e1bddb1554",
+      "title": "Understanding why 1 + 2 + 3 + 4 + 5 + ... = -1/12 (rather than ∞)",
+      "one_line": "Careful derivation of a famous result, but mostly pedagogical rather than reframing.",
+      "ingested_date": "2026-11-27",
+      "review_dates": [
+        "2026-11-28",
+        "2026-11-30",
+        "2026-12-04",
+        "2026-12-13",
+        "2027-01-01"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
+    },
+    {
+      "id": "50965b19145756e08a01a4e595fa7589ff94fa1e",
+      "title": "The energy of thought",
+      "one_line": "Essay arguing all mind models miss something essential; reframing potential.",
+      "ingested_date": "2026-11-27",
+      "review_dates": [
+        "2026-11-28",
+        "2026-11-30",
+        "2026-12-04",
+        "2026-12-13",
+        "2027-01-01"
       ],
       "reviews_done": 0,
       "retired": false,
