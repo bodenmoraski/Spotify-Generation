@@ -7271,7 +7271,7 @@
         "2026-11-28",
         "2026-12-17"
       ],
-      "reviews_done": 3,
+      "reviews_done": 4,
       "retired": false,
       "missed": false,
       "source": "Marginal Revolution"
@@ -7288,7 +7288,7 @@
         "2026-11-28",
         "2026-12-17"
       ],
-      "reviews_done": 3,
+      "reviews_done": 4,
       "retired": false,
       "missed": false,
       "source": "Literary Hub"
@@ -7322,7 +7322,7 @@
         "2026-11-28",
         "2026-12-17"
       ],
-      "reviews_done": 3,
+      "reviews_done": 4,
       "retired": false,
       "missed": false,
       "source": "gnews_world_in"
@@ -7356,7 +7356,7 @@
         "2026-11-28",
         "2026-12-17"
       ],
-      "reviews_done": 3,
+      "reviews_done": 4,
       "retired": false,
       "missed": false,
       "source": "gnews_world_ke"
@@ -9502,6 +9502,142 @@
       "retired": false,
       "missed": false,
       "source": "Aeon"
+    },
+    {
+      "id": "d5bff9d39d4888b9ee4bb5d23d26ab4f37f43a82",
+      "title": "Türkiye Libya strategy : From military rivalry to regional power brokerage",
+      "one_line": "Analytical reframing of Türkiye's Libya role, but thin sourcing and unclear novelty.",
+      "ingested_date": "2026-11-28",
+      "review_dates": [
+        "2026-11-29",
+        "2026-12-01",
+        "2026-12-05",
+        "2026-12-14",
+        "2027-01-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gdelt_geopolitics"
+    },
+    {
+      "id": "9987e0f71f1ddce4d4acff716b3e86f802acfbab",
+      "title": "Ganges treaty: Prudent diplomacy needed as expiry looms",
+      "one_line": "Water-sharing treaty expiry matters geopolitically but excerpt offers no new argument.",
+      "ingested_date": "2026-11-28",
+      "review_dates": [
+        "2026-11-29",
+        "2026-12-01",
+        "2026-12-05",
+        "2026-12-14",
+        "2027-01-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_in"
+    },
+    {
+      "id": "9640fb7f8e1d0e0c5b9682ea88d63bdb8044f2bb",
+      "title": "Brasil vê pressão geopolítica em novas tarifas anunciadas pelos EUA",
+      "one_line": "Routine tariff headline; no new argument or reframing beyond standard geopolitical framing.",
+      "ingested_date": "2026-11-28",
+      "review_dates": [
+        "2026-11-29",
+        "2026-12-01",
+        "2026-12-05",
+        "2026-12-14",
+        "2027-01-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_br"
+    },
+    {
+      "id": "6173317589039f89c869d85916ca4ad84c30a2ef",
+      "title": "Saturday assorted links",
+      "one_line": "Link roundup with no single argument; low signal for a brief.",
+      "ingested_date": "2026-11-28",
+      "review_dates": [
+        "2026-11-29",
+        "2026-12-01",
+        "2026-12-05",
+        "2026-12-14",
+        "2027-01-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Marginal Revolution"
+    },
+    {
+      "id": "794d5b9b02e6649311169ff955204aba3183bb4d",
+      "title": "ECOWAS, IPU Demand Urgent Action Against Child Trafficking",
+      "one_line": "Routine institutional call to action; no new argument or reframing.",
+      "ingested_date": "2026-11-28",
+      "review_dates": [
+        "2026-11-29",
+        "2026-12-01",
+        "2026-12-05",
+        "2026-12-14",
+        "2027-01-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "gnews_world_ke"
+    },
+    {
+      "id": "9fd90f32ba56b74827ce2cd63180e70c3ab89b26",
+      "title": "Olivia Rodrigo Delivers Another Christmas Song",
+      "one_line": "Routine new holiday single; no argument or reframing, pure release coverage.",
+      "ingested_date": "2026-11-28",
+      "review_dates": [
+        "2026-11-29",
+        "2026-12-01",
+        "2026-12-05",
+        "2026-12-14",
+        "2027-01-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Pitchfork"
+    },
+    {
+      "id": "bb263101376edd307f0a8d3f32e8ef05d4503bca",
+      "title": "How Nuclear Bomb Testing Led to the Discovery of a 100-Year-Old Fish",
+      "one_line": "Radiocarbon from bomb tests as a clever age-validation tool for long-lived fish.",
+      "ingested_date": "2026-11-28",
+      "review_dates": [
+        "2026-11-29",
+        "2026-12-01",
+        "2026-12-05",
+        "2026-12-14",
+        "2027-01-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "Nautilus"
+    },
+    {
+      "id": "89466ac7dbb13408ecb5f891e0de74d06e2bf02e",
+      "title": "How should we split focus between aligning AI vs. slowing it down?",
+      "one_line": "Rare adversarial dialogue that genuinely shifts both authors on alignment-vs-slowdown allocation.",
+      "ingested_date": "2026-11-28",
+      "review_dates": [
+        "2026-11-29",
+        "2026-12-01",
+        "2026-12-05",
+        "2026-12-14",
+        "2027-01-02"
+      ],
+      "reviews_done": 0,
+      "retired": false,
+      "missed": false,
+      "source": "LessWrong"
     }
   ]
 }
